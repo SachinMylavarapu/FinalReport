@@ -1,24 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  5 MAR 2014 16:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.5)  5 MAR 2014 16:37
 entering extended mode
-**E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
-dex.tex
-
-("E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/in
-dex.tex"
+**C:/Users/Sophie/Dropbox/FinalReport/index.tex
+(C:/Users/Sophie/Dropbox/FinalReport/index.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,31 +30,31 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -65,20 +62,13 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.aux"
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-troduction.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
-dicalInfo.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
-tionale.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
-p.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
-sign.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.aux"))
+(C:\Users\Sophie\Dropbox\FinalReport\index.aux
+(C:\Users\Sophie\Dropbox\FinalReport\introduction.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\medicalInfo.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\rationale.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\app.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\design.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\conclusion.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -92,7 +82,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count88
 \scratchdimen=\dimen105
@@ -120,64 +110,52 @@ Overfull \hbox (12.38394pt too wide) in paragraph at lines 9--9
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-troduction.tex") [2
+(C:\Users\Sophie\Dropbox\FinalReport\introduction.tex) [2
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
-dicalInfo.tex") [3
+(C:\Users\Sophie\Dropbox\FinalReport\medicalInfo.tex) [3
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
-tionale.tex") [4
+(C:\Users\Sophie\Dropbox\FinalReport\rationale.tex) [4
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
-p.tex") [5
+(C:\Users\Sophie\Dropbox\FinalReport\app.tex) [5
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
-sign.tex") [6
+(C:\Users\Sophie\Dropbox\FinalReport\design.tex) [6
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.tex") [7
+(C:\Users\Sophie\Dropbox\FinalReport\conclusion.tex) [7
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.aux"
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-troduction.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
-dicalInfo.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
-tionale.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
-p.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
-sign.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.aux")) ) 
+(C:\Users\Sophie\Dropbox\FinalReport\index.aux
+(C:\Users\Sophie\Dropbox\FinalReport\introduction.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\medicalInfo.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\rationale.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\app.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\design.aux)
+(C:\Users\Sophie\Dropbox\FinalReport\conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
  1176 strings out of 493921
- 18444 string characters out of 3144885
+ 16611 string characters out of 3147280
  65360 words of memory out of 3000000
  4470 multiletter control sequences out of 15000+200000
  8194 words of font info for 29 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,19p,557b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on index.pdf (7 pages, 82579 bytes).
+ 27i,6n,19p,518b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
+>
+Output written on index.pdf (7 pages, 82589 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
