@@ -4,8 +4,11 @@
 	Machine learning, a branch of artificial intelligence, concerns the construction and study of systems that can learn from data \cite{wiki:machineLearning}. The supervised classification problem in machine learning concerns finding the unknown target function that classifies certain input data into classes based on some set of training examples containing labelled input data.
 	
 \paragraph{}
-	blablabla
-
+	In our case, given a sampled sound signal of a sleeper, we want to identify apnoea periods. In particular, we represent our input (sampled sound signal) as $\left\{ s_i \right\}_{i = 1}^{T}$, and we want to output the classifiers for every $K$ samples, $\left\{ y_i \right\}_{i = 1}^{T^\ast}$, where the classifier $y_i \in \left\{0, 1\right\}$ corresponds to samples $\left\{ s_j \right\}_{j = \left(i - 1\right)K + 1}^{iK}$ of the signal (we note that $T^\ast = \left\lfloor\frac{T}{K}\right\rfloor$).
+	
+\paragraph{}
+	We have researched three models for our problem which we will discuss in this section. Firstly, we will discuss Support Vector Machines which are one of the most widely used algorithms in Machine Learning today, then we will discuss the State-Space and Hidden Markov Models, which might be more well-suited to our problem due to their temporal nature.
+	
 \input{svm-ta}
 \input{ssm-ta}
 \input{hmm-ta}
