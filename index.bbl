@@ -1,9 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{rabiner89}
-Lawrence Rabiner.
-\newblock A tutorial on hidden markov models and selected applications in
-  speech recognition.
-\newblock {\em Proceedings of the IEEE}, 77(2):257--286, 1989.
+\bibitem{wiki:machineLearning}
+Wikipedia.
+\newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 18-March-2014].
 
 \end{thebibliography}
