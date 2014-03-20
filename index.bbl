@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{ng13}
+Andrew Ng.
+\newblock Cs229 - lecture notes.
+\newblock Course website, 2013.
+
 \bibitem{wiki:machineLearning}
 Wikipedia.
 \newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
