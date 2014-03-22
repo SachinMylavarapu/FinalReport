@@ -3,7 +3,12 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{url}
-\renewcommand{\vec}[1]{\mathbf{#1}}
+\usepackage{bm}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\renewcommand{\vec}[1]{\boldsymbol{\mathbf{#1}}}
+
 
 \begin{document}
 

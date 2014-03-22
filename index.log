@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  20 MAR 2014 15:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  23 MAR 2014 00:17
 entering extended mode
 **E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -137,30 +137,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 dex.aux"
-No file introduction.aux.
-No file medicalInfo.aux.
-No file rationale.aux.
-
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+troduction.aux")
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+dicalInfo.aux")
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+tionale.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
 sign.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -176,16 +186,16 @@ LaTeX Font Info:    ... okay on input line 8.
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks21
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (12.38394pt too wide) in paragraph at lines 13--13
+Overfull \hbox (12.38394pt too wide) in paragraph at lines 18--18
  [][] 
  []
 
@@ -224,30 +234,39 @@ mple-sachin.tex") [8]
 theory-ta.tex"
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
 m-ta.tex"
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+
+[9] [10]
+Overfull \hbox (2.04274pt too wide) in paragraph at lines 70--70
+[] 
+ []
+
+[11]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 )
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
 m-ta.tex")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
 m-ta.tex")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
-mensionality-ta.tex" [9])) [10]
+mensionality-ta.tex")) [12]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-experiments.tex") [11]
+experiments.tex") [13]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
-droid-george.tex")) [12]
+droid-george.tex")) [14]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.tex") [13
+nclusion.tex") [15
 
 
 ]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.bbl") [14
+dex.bbl") [16
 
 ]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
@@ -265,32 +284,37 @@ sign.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux")) ) 
 Here is how much of TeX's memory you used:
- 2191 strings out of 493921
- 31183 string characters out of 3144885
- 79716 words of memory out of 3000000
- 5414 multiletter control sequences out of 15000+200000
- 12729 words of font info for 49 fonts, out of 3000000 for 9000
+ 2309 strings out of 493921
+ 32997 string characters out of 3144885
+ 86715 words of memory out of 3000000
+ 5509 multiletter control sequences out of 15000+200000
+ 17189 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,26p,644b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,17n,26p,1102b,200s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on index.pdf (14 pages, 183891 bytes).
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on index.pdf (16 pages, 246740 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
