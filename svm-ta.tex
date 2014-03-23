@@ -1,4 +1,4 @@
-\subsubsection{Support Vector Machines}
+\subsubsection*{Support Vector Machines}
 
 \paragraph{}
 	Here, we present the theory for Support Vector Machines (SVMs) based on the lecture notes from Prof. Andrew Ng \cite{ng13}. SVMs are one of the most widely used and many argue among the best "off-the-shelf" supervised learning algorithms. This is mainly due to the sound theoretical framework, efficiency and good generalisation guarantees even for high-dimensional and linearly non-separable data.
@@ -37,7 +37,7 @@ which is equivalent to
 The solution to the optimisation problem \eqref{eqn:svm}, which can be found using off-the-shelf Quadratic Programming (QP) packages, gives us the parameters required to do classification.
 
 \paragraph{Lagrange duality.}
-	While solving the optimisation problem \eqref{eqn:svm} using QP solves the problem, we move on to derive the dual form of the problem using the principle of Lagrange duality, which will help us to solve the problem using a more efficient algorithm. More importantly, it will also allow us to efficiently transform the data points to high-dimensional spaces using the ``kernel trick'', capturing the non-linear nature of the decision boundary without losing the generalisation guarantees. The Lagrangian of our minimisation problem \eqref{eqn:svm} (with parameters $\vec{\alpha} \in \mathbb{R}^m$) can be formed as
+	While solving the optimisation problem \eqref{eqn:svm} using QP solves the problem, we move on to derive the dual form of the problem using the principle of Lagrange duality, which will help us to solve the problem using a more efficient algorithm. More importantly, it will also allow us to efficiently transform the data points to high-dimensional spaces using the ``kernel trick'', capturing the non-linear nature of the decision boundary without losing the generalisation guarantees. The Lagrangian of our primal minimisation problem \eqref{eqn:svm} (with parameters $\vec{\alpha} \in \mathbb{R}^m$) can be formed as
 	\begin{equation}
 		\mathcal{L}(\vec{w}, b, \vec{\alpha}) = \frac{1}{2} \left\| \vec{w} \right\|^2 - \sum_{i=1}^{m} \alpha_i \left[ y^{(i)}\left( \vec{w}^T \vec{x}^{(i)} + b \right) - 1 \right]
 	\label{eqn:lagrangian}
@@ -55,7 +55,7 @@ Substituting \eqref{eqn:dual1} and \eqref{eqn:dual2} back to \eqref{eqn:lagrangi
 Thus, under certain conditions which are in this case fulfilled, our original optimisation problem \eqref{eqn:svm} becomes equivalent to the dual optimisation problem
 	\begin{equation}
 	\begin{aligned}
-		& \min_{\vec\alpha}
+		& \max_{\vec\alpha}
 		& & W(\vec{\alpha}) \\
 		& \text{s.t.}
 		& & \alpha_i \geq 0, & &  i = 1, \dotsc, m \\
@@ -73,7 +73,7 @@ Thus the classification of a test point $\vec x$ can be done by evaluating the a
 		{\vec w^\ast}^T \vec x + b^\ast = \sum_{i = 1}^{m} \alpha_i^\ast y^{(i)} \left\langle \vec{x}^{(i)}, \vec{x} \right\rangle + b^\ast
 		\label{eqn:svmClassifier}
 	\end{equation}
-We note that due to certain conditions (Karush-Kuhn-Tucker conditions) the $\alpha^\ast_i$'s that are non-zero correspond to the points $\vec x ^{(i)}$ that lie on the margin which we call the Support Vectors (SVs). 
+We note that due to certain conditions (Karush-Kuhn-Tucker conditions) the $\alpha^\ast_i$'s that are non-zero correspond to the points $\vec x ^{(i)}$ that lie on the margin. We call these points the Support Vectors (SVs). 
 
 \paragraph{Kernel trick.}
 	Note that according to \eqref{eqn:svmClassifier} (and \eqref{eqn:bStar}), we only need to evaluate the inner products of $\vec x$ and the support vectors in order to classify the point $\vec x$. This fact is used in the ``kernel trick'', in which a kernel function $K(\vec x, \vec z)$ is used as a proxy for the inner product $\langle \vec x, \vec z \rangle$. This effectively simulates transforming the data points to another, possibly unknown, space via a transformation function $\vec\phi (\cdot): \mathbb{R}^d \to \mathcal{Z}$ as long as there exists such $\mathcal{Z}$, i.e. $\vec\phi (\cdot)$ such that $K(\vec x, \vec z) = \vec\phi (\vec x)^T \vec\phi (\vec z)$. It is shown that a kernel $K(\cdot, \cdot)$ is valid if and only if it satisfies Mercer's condtitions. This allows us to transform our input domain into much higher dimensional domains without actually doing so which turns out to improve the time complexity significantly.
