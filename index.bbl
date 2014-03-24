@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{mlBook}
+Kevin~P Murphy.
+\newblock {\em Machine learning: a probabilistic perspective}.
+\newblock Cambridge, MA, 2012.
+
 \bibitem{ng13}
 Andrew Ng.
 \newblock Cs229 - lecture notes.
