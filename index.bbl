@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{ghahramani2000variational}
+Zoubin Ghahramani and Geoffrey~E Hinton.
+\newblock Variational learning for switching state-space models.
+\newblock {\em Neural computation}, 12(4):831--864, 2000.
+
 \bibitem{mlBook}
 Kevin~P Murphy.
 \newblock {\em Machine learning: a probabilistic perspective}.

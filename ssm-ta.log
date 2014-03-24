@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  18 MAR 2014 17:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  24 MAR 2014 17:26
 entering extended mode
 **E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/ss
 m-ta.tex
@@ -18,11 +18,11 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 ! Undefined control sequence.
 l.1 \subsubsection
-                  {State-Space Models}
+                  *{State-Space Models}
 ? 
 ! Emergency stop.
 l.1 \subsubsection
-                  {State-Space Models}
+                  *{State-Space Models}
 End of file on the terminal!
 
  
@@ -33,5 +33,5 @@ Here is how much of TeX's memory you used:
  3400 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 5i,0n,1p,123b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,1p,124b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
