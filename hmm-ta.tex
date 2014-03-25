@@ -1,1 +1,19 @@
-\subsubsection*{Hidden Markov Models}
+\subsection{Hidden Markov Models}
+
+\paragraph{}
+	Here, we present the Hidden Markov Models (HMMs), one of the most popular statistical models in machine learning with applications in many fields including but not limited to Crytanalysis, Speech recognition and Bioinformatics \cite{wiki:HMM}. The material is based on \cite{rabiner1989tutorial}, \cite{ramage07} and \cite{mlBook}. We will first present HMMs with discrete observations, then we extend this to include models with continuous observations.
+	
+\subsubsection{Discrete observations case}
+\paragraph{}
+	Similarly to SSMs, we have two sets of random variables. Observed variables $\{ y_t \}_{t = 1}^T$ which are drawn from the observation alphabet $V = \{v_1, \dotsc, v_M\}$, and hidden states $\{ x_t \}_{t = 1}^T$ which are drawn from the hidden state alphabet $S = \{ s_1, \dotsc, s_N \}$. The probabilistic graphical model of the HMM is identical to the one in Figure \ref{fig:pgm}. The hidden states obey Markov assumptions, i.e. $P( x_t | x_{t - 1}, \dotsc, x_1) = P(x_t | x_{t - 1}) = \text{const.}, t = 2, \dotsc, T$. Moreover, the observed variables are only dependent on the corresponding hidden state, i.e. $P( y_t | x_t, \dotsc, x_1, y_{t - 1}, \dotsc, y_1) = P(y_t | x_t), t = 1, \dotsc, T$.
+	
+\paragraph{}
+	We parameterise a HMM using the transition matrix $\vec A$, emission matrix $\vec B$, and the initial state distribution $\vec \pi$. The transition matrix $\vec A \in \mathbb{R}^{N \times N}$ describes the transitions between hidden states, $A_{ij} = P(x_{t + 1} = S_j | x_t = S_i)$. The emission matrix $\vec B \in \mathbb{R}^{N \times M}$ describes the probability of an observation conditioned on a hidden state, $B_{jk} = P(y_t = v_k | x_t = S_j)$. The initial state distribution $\vec \pi \in [0, 1]^N$ simply describes the initial probabilities of the hidden state, $\pi_i = P(x_1 = S_i)$. The model is fully described if we know these parameters, which we group into what is called a parameter set of the model $\lambda = (\vec A, \vec B, \vec \pi)$.
+	
+\paragraph{}
+	The three main questions of a HMM are
+	\begin{enumerate}
+		\item Find the probability of observations given the model, $P\left(\{y_t\}_1^T; \lambda\right)$.
+		\item Find the most likely series of hidden states $\{x_t\}_1^T$ to have generated the observations $\{y_t\}_1^T$, $\widehat{\{x_t\}_1^T} = \argmax_{\{x_t\}_1^T} P\left(\{y_t\}_1^T | \{x_t\}_1^T; \lambda\right)$.
+		\item Find the parameters $\lambda$ to maximise $P\left(\{y_t\}_1^T; \lambda\right)$.
+	\end{enumerate}

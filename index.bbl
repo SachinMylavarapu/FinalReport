@@ -15,6 +15,22 @@ Andrew Ng.
 \newblock Cs229 - lecture notes.
 \newblock Course website, 2013.
 
+\bibitem{rabiner1989tutorial}
+Lawrence Rabiner.
+\newblock A tutorial on hidden markov models and selected applications in
+  speech recognition.
+\newblock {\em Proceedings of the IEEE}, 77(2):257--286, 1989.
+
+\bibitem{ramage07}
+Daniel Ramage.
+\newblock Cs229 - section notes.
+\newblock Course website, 2007.
+
+\bibitem{wiki:HMM}
+Wikipedia.
+\newblock Hidden markov model --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 24-March-2014].
+
 \bibitem{wiki:machineLearning}
 Wikipedia.
 \newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
