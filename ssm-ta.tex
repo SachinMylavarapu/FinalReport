@@ -1,4 +1,4 @@
-\subsubsection*{State-Space Models}
+\subsection{State-Space Models}
 
 	Here, we present the State-Space Models (SSMs) (also known as Linear Dynamical Systems) based on Kevin Murphy's book \cite[Chapter 18]{mlBook} and Prof. Zoubin Ghahramani's paper \cite{ghahramani2000variational}. SSMs allow us to model systems that are dynamic. Unlike the SVMs, SSMs will model dependencies of the current state on the previous ones.
 	
@@ -28,4 +28,5 @@ Since we assume that $\pi = p(\vec x_1)$ is also Gaussian, all our conditional p
 	\end{enumerate}
 We are mainly interested in filtering and smoothing.
 
-\paragraph{Our problem.} Although SSMs are well-suited for time-series data, they are not very well suited for our problem because the hidden state $\vec x_t$ in this model is continuous, whereas in our problem, the sleeper's state is binary. While there are techniques to map from a continuous domain to a discrete one, we move on to discuss a more promising model.
+\subsubsection{Our problem}
+	Although SSMs are well-suited for time-series data, they are not very well suited for our problem because the hidden state $\vec x_t$ in this model is continuous, whereas in our problem, the sleeper's state is binary. While there are techniques to map from a continuous domain to a discrete one, we move on to discuss a more promising model.
