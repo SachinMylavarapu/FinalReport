@@ -160,4 +160,27 @@ Now, we are in a position to present the \textsc{Forward-Backward Algorithm} by 
 where $1(\cdot)$ is an indicator function ($1$ if the boolean argument is true, $0$ otherwise).
 
 \subsubsection{Continuous observations}
-	We now discuss the case in which the observations $\{y_t\}_1^T$ are not drawn from a finite set $V$, but are real-valued vectors $\{\vec y_t\}_1^T$, drawn from $\mathbb{R}^d$, i.e. $\vec y_t \in \mathbb{R}^d, 1 \leq t \leq T$ (Note: hidden states $\{x_t\}_1^T$ are still drawn from a finite set $S$).
+
+\paragraph{}
+	We now discuss the case in which the observations $\{y_t\}_1^T$ are not drawn from a finite set $V$, but are real-valued vectors $\{\vec y_t\}_1^T$, drawn from $\mathbb{R}^d$, i.e. $\vec y_t \in \mathbb{R}^d, 1 \leq t \leq T$ (Note: hidden states $\{x_t\}_1^T$ are still drawn from a finite set $S$). In this case, we cannot describe the observations using an emission matrix anymore. Since the observation random variables are now continuous, they must be drawn from some probability distribution function. This function can be arbitrary, however in order to learn anything useful, we parameterise it. We assume a simple case and let it be a Gaussian, parameterised by its mean, and covariance. In particular, $B_j(\cdot)$ becomes a probability distribution function:
+	\begin{align}
+		B_j(\vec y_t) 	& = P\left( \vec y_t | x_t = s_j\right) \nonumber\\
+					& = \mathcal{N}(\vec y_t; \vec\mu_j, \vec U_j), \label{eqn:gaussian}&
+		\begin{array}{lr}
+			1 \leq t \leq T\\
+			1 \leq j \leq N
+		\end{array}
+	\end{align}
+This means that instead of the original emission matrix $\vec B$, we are now parameterising the emissions using the means $\vec\mu = \{\vec\mu_j \in \mathbb{R}^d\}_1^N$ and the covariances $\vec U = \{\vec U_j \in \mathbb{R}^{d\times d}\}_1^N$. Thus, our parameters set becomes $\lambda = \left\{ \vec A, \vec \mu, \vec U, \vec \pi\right\}$.
+
+\paragraph{Changes to the algorithms.}
+	While the three main questions for the HMM remain, we must change the algorithms used in the discrete observations case. It turns out that in the \textsc{Forward Procedure} (Algorithm \ref{alg:forward}), \textsc{Backward Procedure} (Algorithm \ref{alg:backward}), and the \textsc{Viterbi Algorithm} (Algorithm \ref{alg:viterbi}), we don't need to change anything except the interpretation of $B_j(\cdot)$. Whereas before, we had a single value for this quantity, now we must evaluate it using the parameters of the pdf (in this case mean and covariance) in \eqref{eqn:gaussian}. The problem of estimating parameters, given the observations becomes slightly more different and will be left untouched in our report. However, we discuss parameters estimation, given both the observations and the hidden states, which simply becomes fitting a Gaussian, i.e.
+	\begin{align}
+		\vec\mu_j & = \frac{\sum_{t = 1}^T 1\{x_t = s_j\} \vec y_t}{\sum_{t = 1}^T 1\{x_t = s_j\}} \\
+		\vec U_j & = \frac{\sum_{t = 1}^T 1\{x_t = s_j\} (\vec y_t - \vec\mu_j)(\vec y_t - \vec\mu_j)^T}{\sum_{t = 1}^T 1\{x_t = s_j\}}
+	\end{align}
+
+\paragraph{Different probability density functions.}
+	We have assumed that the conditional distribution of the observations is Gaussian. One disadvantage of this method is that it may be too simple to capture the real pdf the observations are drawn from. One of the alternatives is the Gaussian Mixture Model (GMM), however fine-tuning the number of modes can be difficult. It turns out that finding the optimal MLE for a GMM is intractable \cite{mlBook}.
+	
+\subsubsection{Our problem}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  25 MAR 2014 16:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  25 MAR 2014 19:43
 entering extended mode
 **E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -416,15 +416,15 @@ Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 7
  [12 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/pgm-eps-converted-to.pdf>])
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
-m-ta.tex" [13] [14] [15] [16] [17])
+m-ta.tex" [13] [14] [15] [16] [17] [18])
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
-mensionality-ta.tex")) [18]
+mensionality-ta.tex")) [19]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-experiments.tex") [19]
+experiments.tex") [20]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
-droid-george.tex")) [20]
+droid-george.tex")) [21]
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.tex") [21
+nclusion.tex") [22
 
 
 ]
@@ -433,7 +433,7 @@ dex.bbl"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-) [22
+) [23
 
 
 ]
@@ -452,10 +452,10 @@ sign.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux")) ) 
 Here is how much of TeX's memory you used:
- 3642 strings out of 493921
- 53526 string characters out of 3144885
- 121353 words of memory out of 3000000
- 6779 multiletter control sequences out of 15000+200000
+ 3643 strings out of 493921
+ 53540 string characters out of 3144885
+ 121365 words of memory out of 3000000
+ 6780 multiletter control sequences out of 15000+200000
  17110 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,17n,34p,1102b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -482,9 +482,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on index.pdf (24 pages, 309212 bytes).
+Output written on index.pdf (25 pages, 313266 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
