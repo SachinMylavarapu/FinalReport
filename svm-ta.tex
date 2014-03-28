@@ -36,6 +36,13 @@ which is equivalent to
 	\end{equation}
 The solution to the optimisation problem \eqref{eqn:svm}, which can be found using off-the-shelf Quadratic Programming (QP) packages, gives us the parameters required to do classification.
 
+\begin{figure}[h!]
+	\centering
+		\includegraphics{drawings/svm.eps}
+	\caption{Illustration of the optimal margin classifier.}
+	\label{fig:svm}
+\end{figure}
+
 \subsubsection{Lagrange duality}
 	While solving the optimisation problem \eqref{eqn:svm} using QP solves the problem, we move on to derive the dual form of the problem using the principle of Lagrange duality, which will help us to solve the problem using a more efficient algorithm. More importantly, it will also allow us to efficiently transform the data points to high-dimensional spaces using the ``kernel trick'', capturing the non-linear nature of the decision boundary without losing the generalisation guarantees. The Lagrangian of our primal minimisation problem \eqref{eqn:svm} (with parameters $\vec{\alpha} \in \mathbb{R}^m$) can be formed as
 	\begin{equation}

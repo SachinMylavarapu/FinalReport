@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  25 MAR 2014 23:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  27 MAR 2014 22:36
 entering extended mode
 **E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -390,12 +390,35 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 
-[8] [9] [10] [11]
+[8]
+Package epstopdf Info: Source file: <drawings/svm.eps>
+(epstopdf)                    date: 2014-03-27 00:04:38
+(epstopdf)                    size: 50291 bytes
+(epstopdf)             Output file: <drawings/svm-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-03-27 00:04:41
+(epstopdf)                    size: 6259 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm-eps-converted-
+to.pdf drawings/svm.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+ <drawings/svm-eps-converted-to.pdf, id=46, 272.01625pt x 262.9825pt>
+File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/svm-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 4
+1.
+(pdftex.def)             Requested size: 272.01558pt x 262.98184pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRe
+port/drawings/svm-eps-converted-to.pdf>] [11]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
 )
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
-m-ta.tex"
+m-ta.tex" [12]
 Package epstopdf Info: Source file: <drawings/pgm.eps>
 (epstopdf)                    date: 2014-03-24 16:55:48
 (epstopdf)                    size: 64674 bytes
@@ -406,25 +429,26 @@ Package epstopdf Info: Source file: <drawings/pgm.eps>
 to.pdf drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pgm-eps-converted-to.pdf, id=61, 226.8475pt x 98.3675pt>
+
+<drawings/pgm-eps-converted-to.pdf, id=80, 226.8475pt x 98.3675pt>
 File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pgm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 7
 .
 (pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
- [12 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+ [13 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/pgm-eps-converted-to.pdf>])
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
-m-ta.tex" [13] [14] [15] [16] [17] [18])
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
-mensionality-ta.tex")) [19]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-experiments.tex") [20]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
-droid-george.tex")) [21]
+m-ta.tex" [14] [15] [16] [17] [18])
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.tex") [22
+nditioning-ta.tex" [19])) [20]
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+experiments.tex") [21]
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
+droid-george.tex")) [22]
+("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nclusion.tex") [23
 
 
 ]
@@ -433,7 +457,7 @@ dex.bbl"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-) [23
+) [24
 
 
 ]
@@ -452,10 +476,10 @@ sign.aux")
 ("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux")) ) 
 Here is how much of TeX's memory you used:
- 3643 strings out of 493921
- 53540 string characters out of 3144885
- 121365 words of memory out of 3000000
- 6780 multiletter control sequences out of 15000+200000
+ 3649 strings out of 493921
+ 53701 string characters out of 3144885
+ 119376 words of memory out of 3000000
+ 6785 multiletter control sequences out of 15000+200000
  17110 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,17n,34p,1332b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -482,9 +506,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on index.pdf (25 pages, 320156 bytes).
+Output written on index.pdf (26 pages, 328552 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
