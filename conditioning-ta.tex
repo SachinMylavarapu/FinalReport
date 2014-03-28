@@ -1,10 +1,44 @@
 \subsection{Conditioning input data}
 \paragraph{}
-	Working in the time domain, the data is usually transformed to the frequency domain to analyse where the pattern is found more easily. Also, whichever model we choose to use, we will work in high dimensions which means we need a lot of input data in order to find the pattern. In the case of SVMs, it will be high-dimensional training points $\{\vec x^{(i)}\}_1^m$, in case of SSMs and HMMs, it will be the high-dimensional observed variables $\{\vec y_t\}_1^T$. Thus, we will present two ways to condition the input data, before analysing it using the Machine Learning algorithms above. We use spectrograms to do the frequency analysis and Principal Components Analysis to reduce the dimensionality of the data.
-\subsubsection{Spectrograms}
-\paragraph{}
-	
+	Working in the time domain, the data is usually transformed to the frequency domain to analyse where the pattern is found more easily. Also, whichever model we choose to use, we will work in high dimensions which means we need a lot of input data in order to find the pattern. In the case of SVMs, it will be high-dimensional training points $\{\vec x^{(i)}\}_1^m$, in case of SSMs and HMMs, it will be the high-dimensional observed variables $\{\vec y_t\}_1^T$. Thus, we will present two ways to condition the input data, before analysing it using the Machine Learning algorithms above. In practice, we use Principal Components Analysis to reduce the dimensionality of the spectrograms.
+\subsubsection{Spectrograms for Frequency-domain analysis}
+\paragraph{Discrete Fourier Transform}
+	Discrete Fourier Transform (DFT) is used to transform a finite list of equally spaced samples of a function into the list of coefficients of a finite combination of complex sinusoids \cite{wiki:DFT}. It can be said to convert the sampled function from its original domain to the frequency domain \cite{wiki:DFT}. The DFT, $\mathcal{F}$ can be defined to transform $\vec x = \{x_0, x_1, \dotsc, x_{N - 1}\}$ to $\vec X = \{X_0, X_1, \dotsc, X_{N - 1}\}$ as
+\begin{equation}
+	X_k = \sum_{n = 0}^{N - 1} x_n \exp{(-i2\pi k n / N)}, 0 \leq k \leq N - 1
+\end{equation}
+and can be performed using the Fast Fourier Transform (FFT) algorithm.
+
+\paragraph{Spectrogram}
+	To create a spectrogram of a signal $\vec x = \{x_0, x_1, \dotsc, x_T\}$ (we are overloading the notation), we must choose a window size $T_w$ and an offset $T_o$. Then, we keep shifting the window by $T_o$ and each time, we transform and store the window's content (in time domain) to the frequency domain using the DFT. This way, we will have a frequency domain data of the size $T_w$ every $T_o$ (roughly), which we will call $\vec X_1, \vec X_2, \dotsc, \vec X_\tau$. We usually represent this frequency domain data using colour intensities and plot them as $\tau$ columns of colour intensities over time on the horizontal axis and frequency on the vertical axis. Figure \ref{fig:spec} illustrates the creation of a spectrogram.
+
+\begin{figure}[h!]
+	\centering
+		\includegraphics{drawings/spec.eps}
+	\caption{Creating a spectrogram.}
+	\label{fig:spec}
+\end{figure}
 
 \subsubsection{Principal Components Analysis}
 \paragraph{}
-	
+	Here we present the theory for Principal Components Analysis (PCA) based on Andrew Ng's lecture notes \cite{ng13} and Kevin Murphy's book \cite{mlBook}. The objective is to take $m$ $n$-dimensional input data points $\{\vec x^{(i)} \in \mathbb{R}^n\}_1^m$ and transform them into $m$ $k$-dimensional data points ($k<n$) $\{\vec y^{(i)} \in \mathbb{R}^m\}_1^m$, where $\vec y^{(i)}$'s are projections of $\vec x^{(i)}$'s onto $k$ orthonormal basis vectors $\{\vec u_i\}_1^k$ while ``preserving the most variance''. We assume that over all $m$ points, $\text{mean}\left[\{x^{(i)}_j\}_{i = 1}^m\right] = 0$ and $\text{var}\left[\{x^{(i)}_j\}_{i = 1}^m\right] = 1$ for all features of the input points $1 \leq j \leq n$. We normalise the data first if this is not the case. For $n = 2$, $k = 1$, Figure \ref{fig:pca} shows the projections to the new axis.
+\begin{figure}[h!]
+	\centering
+		\includegraphics{drawings/pca.eps}
+	\caption{Illustration of PCA.}
+	\label{fig:pca}
+\end{figure}
+
+We can see that the transformed points can be expressed as in \eqref{eqn:pca}.
+\begin{equation}
+ 	\vec y^{(i)} =
+ 		\begin{bmatrix}
+ 			\vec u_1^T \vec x^{(i)} \\
+ 			\vec u_2^T \vec x^{(i)} \\
+ 			\vdots \\
+ 			\vec u_k^T \vec x^{(i)} \\
+ 		\end{bmatrix}
+ 		, 1 \leq i \leq m
+	\label{eqn:pca}
+\end{equation}
+It can be shown that in order to maximise $\sum_{i = 1}^m \left\| \vec y^{(i)} \right\|^2$, conditioned on orthonormality of the bases, we must choose normalised eigenvectors corresponding to the $k$ largest eigenvalues of the variance matrix $\vec \Sigma = \frac{1}{m} \sum_{i = 1}^m \vec x^{(i)} {\vec x^{(i)}}^T$ as the bases. These bases are also called the \emph{principal components}. The eigenvalues are proportional to the actual variances of data in the new bases. As such, we can compare the relative ``importance'' of the bases and using this fact decide how many principal components to use.
