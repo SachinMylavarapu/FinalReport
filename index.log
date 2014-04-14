@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.21)  28 MAR 2014 21:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  14 APR 2014 17:24
 entering extended mode
-**E:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
+**C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
 
-("E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/in
+("C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/in
 dex.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
@@ -134,9 +134,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
@@ -250,19 +250,19 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks24
 \c@algorithm=\count105
 )
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 dex.aux"
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 troduction.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
 dicalInfo.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
 tionale.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
 sign.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -336,14 +336,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 troduction.tex"
 Chapter 1.
 ) [1
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
 dicalInfo.tex"
 Chapter 2.
 ) [2
@@ -351,7 +351,7 @@ Chapter 2.
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
 tionale.tex"
 Chapter 3.
 ) [3
@@ -359,7 +359,7 @@ Chapter 3.
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.tex"
 Chapter 4.
 ) [4
@@ -367,7 +367,7 @@ Chapter 4.
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
 sign.tex"
 Chapter 5.
 [5
@@ -375,13 +375,13 @@ Chapter 5.
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\qu
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\qu
 estionnaire-sophie.tex") [6]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
 mple-sachin.tex") [7]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
 theory-ta.tex"
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
 m-ta.tex"
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -392,10 +392,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 [8]
 Package epstopdf Info: Source file: <drawings/svm.eps>
-(epstopdf)                    date: 2014-03-27 00:04:38
-(epstopdf)                    size: 50291 bytes
+(epstopdf)                    date: 2014-04-02 00:40:13
+(epstopdf)                    size: 51358 bytes
 (epstopdf)             Output file: <drawings/svm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-27 00:04:41
+(epstopdf)                    date: 2014-04-14 16:24:04
 (epstopdf)                    size: 6259 bytes
 (epstopdf)             Command: <epstopdf --outfile=drawings/svm-eps-converted-
 to.pdf drawings/svm.eps>
@@ -408,23 +408,19 @@ File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 4
 1.
 (pdftex.def)             Requested size: 272.01558pt x 262.98184pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] [10 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRe
-port/drawings/svm-eps-converted-to.pdf>] [11]
+ [9] [10 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalR
+eport/drawings/svm-eps-converted-to.pdf>] [11]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
 )
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
 m-ta.tex" [12]
 Package epstopdf Info: Source file: <drawings/pgm.eps>
-(epstopdf)                    date: 2014-03-24 16:55:48
-(epstopdf)                    size: 64674 bytes
+(epstopdf)                    date: 2014-04-02 00:40:12
+(epstopdf)                    size: 65991 bytes
 (epstopdf)             Output file: <drawings/pgm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-24 16:55:52
-(epstopdf)                    size: 7078 bytes
+(epstopdf)                    date: 2014-04-14 16:24:05
+(epstopdf)                    size: 7086 bytes
 (epstopdf)             Command: <epstopdf --outfile=drawings/pgm-eps-converted-
 to.pdf drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 7.
@@ -437,17 +433,17 @@ File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 7
 .
 (pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
- [13 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+ [13 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/pgm-eps-converted-to.pdf>])
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
 m-ta.tex" [14] [15] [16] [17] [18])
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nditioning-ta.tex" [19]
 Package epstopdf Info: Source file: <drawings/spec.eps>
-(epstopdf)                    date: 2014-03-28 21:19:04
-(epstopdf)                    size: 93328 bytes
+(epstopdf)                    date: 2014-04-02 00:40:13
+(epstopdf)                    size: 95499 bytes
 (epstopdf)             Output file: <drawings/spec-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-28 21:19:07
+(epstopdf)                    date: 2014-04-14 16:24:05
 (epstopdf)                    size: 11553 bytes
 (epstopdf)             Command: <epstopdf --outfile=drawings/spec-eps-converted
 -to.pdf drawings/spec.eps>
@@ -466,10 +462,10 @@ Package pdftex.def Info: drawings/spec-eps-converted-to.pdf used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <drawings/pca.eps>
-(epstopdf)                    date: 2014-03-28 17:59:58
-(epstopdf)                    size: 55703 bytes
+(epstopdf)                    date: 2014-04-02 00:40:12
+(epstopdf)                    size: 56954 bytes
 (epstopdf)             Output file: <drawings/pca-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-28 18:00:59
+(epstopdf)                    date: 2014-04-14 16:24:06
 (epstopdf)                    size: 6808 bytes
 (epstopdf)             Command: <epstopdf --outfile=drawings/pca-eps-converted-
 to.pdf drawings/pca.eps>
@@ -486,16 +482,24 @@ Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 2
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20])) [21 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Fina
+[20])) [21 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Fina
 lReport/drawings/spec-eps-converted-to.pdf>]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-experiments.tex") [22 <E:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pr
-ojects/FinalReport/drawings/pca-eps-converted-to.pdf>]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+experiments.tex"
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nditioningExperiments-ta.tex")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
+taVisualisation-ta.tex")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
+mExperiments-ta.tex")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
+mExperiments-sachin.tex")) [22 <C:/Dropbox/Engineering/Engineering Y3/B3 Group 
+Design Projects/FinalReport/drawings/pca-eps-converted-to.pdf>]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
 java.tex") [23]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
 droid-george.tex")) [24]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.tex"
 Chapter 6.
 ) [25
@@ -503,34 +507,30 @@ Chapter 6.
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.bbl"
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-) [26
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+dex.bbl") [26
 
 
 ]
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 dex.aux"
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 troduction.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
 dicalInfo.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
 tionale.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
 sign.aux")
-("E:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux")) ) 
 Here is how much of TeX's memory you used:
- 3666 strings out of 493921
- 54236 string characters out of 3144885
- 119413 words of memory out of 3000000
- 6797 multiletter control sequences out of 15000+200000
+ 3677 strings out of 493921
+ 55098 string characters out of 3144867
+ 119414 words of memory out of 3000000
+ 6796 multiletter control sequences out of 15000+200000
  17110 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,17n,34p,1332b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -557,7 +557,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on index.pdf (28 pages, 358447 bytes).
+Output written on index.pdf (28 pages, 359004 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
