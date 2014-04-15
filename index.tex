@@ -1,5 +1,6 @@
 \documentclass[11pt]{report}
 \usepackage{graphicx}
+\usepackage{subfig}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{url}
@@ -9,12 +10,19 @@
 \usepackage{epstopdf}
 \usepackage{titlesec}
 \usepackage{algorithm}
+\usepackage{booktabs}
 
 \titleformat{\chapter}
   {\Large\bfseries} % format
   {}                % label
   {0pt}             % sep
   {\huge}           % before-code
+
+\newlength{\wideitemsep}
+\setlength{\wideitemsep}{.5\itemsep}
+\addtolength{\wideitemsep}{-7pt}
+\let\olditem\item
+\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
 
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclareMathOperator*{\argmax}{arg\,max}

@@ -1,9 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ghahramani2000variational}
 Zoubin Ghahramani and Geoffrey~E Hinton.
 \newblock Variational learning for switching state-space models.
 \newblock {\em Neural computation}, 12(4):831--864, 2000.
+
+\bibitem{hlt}
+A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
+  University of~Oxford. Department~of Engineering~Science.
+\newblock {\em Engineering Tables and Data}.
+\newblock University of Oxford, Department of Engineering Science, 2008.
 
 \bibitem{mlBook}
 Kevin~P Murphy.
@@ -47,5 +53,10 @@ Wikipedia.
 Wikipedia.
 \newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
 \newblock [Online; accessed 18-March-2014].
+
+\bibitem{wiki:PSD}
+Wikipedia.
+\newblock Spectral density --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 14-April-2014].
 
 \end{thebibliography}
