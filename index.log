@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  15 APR 2014 21:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  15 APR 2014 21:59
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -316,14 +316,7 @@ tionale.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
-sign.aux"
-
-LaTeX Warning: Label `fig:svmExperimentNoKernels' multiply defined.
-
-
-LaTeX Warning: Label `fig:svmExperimentNoKernels' multiply defined.
-
-)
+sign.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -743,10 +736,6 @@ ed on input line 17.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
  [26 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/visualisePca-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:svmExperimentPoly' on page 27 undefined on input 
-line 23.
-
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
 (epstopdf)                    date: 2014-04-15 13:13:36
 (epstopdf)                    size: 145847 bytes
@@ -842,11 +831,6 @@ File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
 n input line 35.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-
-
-LaTeX Warning: Reference `fig:svmExperimentRbf' on page 27 undefined on input l
-ine 41.
-
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
 (epstopdf)                    date: 2014-04-15 16:53:47
 (epstopdf)                    size: 145850 bytes
@@ -945,15 +929,17 @@ Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
  [27 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/spectrogramClassesVisualise-eps-converted-to.pdf>])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
-mExperiments-sachin.tex")) [28 <C:/Dropbox/Engineering/Engineering Y3/B3 Group 
-Design Projects/FinalReport/drawings/svm/svmTestNoKernel11-eps-converted-to.pdf
-> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/d
-rawings/svm/svmTestNoKernel12-eps-converted-to.pdf> <C:/Dropbox/Engineering/Eng
-ineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestNoKernel13
--eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design P
-rojects/FinalReport/drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <C:/Dr
-opbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/
-svm/svmTestNoKernel15-eps-converted-to.pdf>]
+mExperiments-sachin.tex")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+ExperimentsSummary.tex")) [28 <C:/Dropbox/Engineering/Engineering Y3/B3 Group D
+esign Projects/FinalReport/drawings/svm/svmTestNoKernel11-eps-converted-to.pdf>
+ <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/dr
+awings/svm/svmTestNoKernel12-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engi
+neering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestNoKernel13-
+eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pr
+ojects/FinalReport/drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <C:/Dro
+pbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/s
+vm/svmTestNoKernel15-eps-converted-to.pdf>]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
 java.tex") [29 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/
 FinalReport/drawings/svm/svmTestPoly11-eps-converted-to.pdf> <C:/Dropbox/Engine
@@ -1000,48 +986,41 @@ p.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
 sign.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nclusion.aux"))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+nclusion.aux")) ) 
 Here is how much of TeX's memory you used:
- 5033 strings out of 493921
- 81742 string characters out of 3144867
- 141074 words of memory out of 3000000
+ 5036 strings out of 493921
+ 81960 string characters out of 3144867
+ 141058 words of memory out of 3000000
  8105 multiletter control sequences out of 15000+200000
  17409 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,49p,1332b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on index.pdf (34 pages, 1832878 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmc
+sc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/c
+mex8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on index.pdf (34 pages, 1832611 bytes).
 PDF statistics:
  359 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
