@@ -13,17 +13,17 @@
 
 	\begin{figure}[ht!]
 		\centering
-			\includegraphics{drawings/visualiseSpectrogram.eps}
+			\includegraphics[width=.5\textwidth]{drawings/visualiseSpectrogram.eps}
 		\caption{Spectrogram of one record}
 		\label{fig:visualiseSpectrogram}
 	\end{figure}
 
 \subsubsection{PCA}
-	For this, we use the function \verb!pca! from the package \verb!pmtk3!. Once we get the principal components (orthogonal bases) and their corresponding principal coefficients (variances of the data, projected onto that base, correct to a constant factor) $\{\lambda_1, \lambda_2, \dotsc, \lambda_D$, we will plot the graph of their cumulative sum over their total sum $\frac{\sum_{i = 1}^n \lambda_i}{\sum_{j = 1}^N \lambda_j}$ in order to decide on the number of principal components needed. The plot is in the Figure \ref{fig:visualisePca}. For the first 10 records, we can see that we will need to include at least 100 to capture half of the variance but at least 3000 components to capture the whole variance.
+	For this, we use the function \verb!pca! from the package \verb!pmtk3!. Once we get the principal components (orthogonal bases) and their corresponding principal coefficients (variances of the data, projected onto that base, correct to a constant factor) $\{\lambda_1, \lambda_2, \dotsc, \lambda_D\}$, we will plot the graph of their cumulative sum over their total sum $\frac{\sum_{i = 1}^n \lambda_i}{\sum_{j = 1}^N \lambda_j}$ in order to decide on the number of principal components needed. The plot is in the Figure \ref{fig:visualisePca}. Performed on the first 10 records, we can see that we will need to include at least 100 to capture half of the variance but at least 3000 components to capture the whole variance.
 
 	\begin{figure}[ht!]
 		\centering
-			\includegraphics{drawings/visualisePca.eps}
+			\includegraphics[width=.5\textwidth]{drawings/visualisePca.eps}
 		\caption{PCA of the first 10 records}
 		\label{fig:visualisePca}
 	\end{figure}
