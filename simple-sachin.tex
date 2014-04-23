@@ -1,1 +1,19 @@
 \section{Signal Analysis -- simple method}
+
+\subsection{Outline}
+
+The simple method of diagnosing sleep apnea, using audio data from the user's phone that is recorded while he/she is sleeping, was meant to provide to a starting point for the development of the app. It served three main purposes:
+
+\begin{itemize}
+\item To familiarise us with the typical sleep patterns and with power and frequency content of sleep data
+\item A backup\\
+This would give us a method that is able to provide a diagnostic output such as the apnea-hypopnea index score from sleep data, even if it was not using machine learning algorithms. 
+\item A point of comparison\\
+The simple method would serve as a point of comparison, along with other methods used, with regards to the accuracy of the diagnosis. Using simple metrics such as percentage accuracy of pre-determined apneatic points in the data against what the model is able to pick out, we can compare the simple model results with our machine learning results. This would allow us to gauge our preformance and also prove that the app is able to diagnose OSA with superior accuracy.
+\end{itemize}
+
+MATLAB\textsuperscript{\textregistered{}} was used as the development environment for the simple model. This was due to several reasons. Firstly, our familiarity with MATLAB\textsuperscript{\textregistered{}} from previous projects made it a natural starting point. Secondly, as a dynamically typed language with a user-friendly interface, MATLAB\textsuperscript{\textregistered{}} would enable us to make minor changes to the code and observe the results quicker. Experimentation and tinkering with the code is much easier in MATLAB\textsuperscript{\textregistered{}}  than it is in C/C++ or Java, for example. This ease of experimentation meant that MATLAB\textsuperscript{\textregistered{}} is a good language to start writing the model in, and is used in the initial development of the machine learning HMM model as well. With in-built functions such as wavread, MATLAB\textsuperscript{\textregistered{}}  provided the basic tools with which we could develop the model.
+
+ The MATLAB\textsuperscript{\textregistered{}} code for the simple model is presented below, with detailed explanations. A brief summary is as follows: two .m files are created - simple.m, the main script which is is run once an audio file is created and stored, and detectApnea.m, the function that takes a vector of the power signal and a few other parameters as inputs. The simple.m script uses the wavread or audioread function (the user's audio sleep data is recorded in .wav format) to read the file and produce a matrix of the audio level values. This is sampled at a lower frequency in order to reduce memory storage. The frequency content of the signal is calculated using the fast fourier transform function (fft) Along with a plot of the signal (this is done purely for the programmer's convenience and analysis), a plot of the frequency content is generated
+
+why frequency can be lower- with graph and citation
