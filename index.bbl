@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{phoneusers}
+eMarketer.com.
+\newblock Smartphone users worldwide will total 1.75 billion, January 2014.
+
 \bibitem{ghahramani2000variational}
 Zoubin Ghahramani and Geoffrey~E Hinton.
 \newblock Variational learning for switching state-space models.
@@ -11,6 +15,15 @@ A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
 \newblock {\em Engineering Tables and Data}.
 \newblock University of Oxford, Department of Engineering Science, 2008.
 
+\bibitem{wsjhometest}
+Wall~Street Journal.
+\newblock A test for sleep apnea from your own bedroom, May 2013.
+
+\bibitem{xerox2}
+MedIndia.
+\newblock Manipal university and xerox innovation to test remote-sensing
+  healthcare technologies, February 2014.
+
 \bibitem{mlBook}
 Kevin~P Murphy.
 \newblock {\em Machine learning: a probabilistic perspective}.
@@ -20,6 +33,31 @@ Kevin~P Murphy.
 Andrew Ng.
 \newblock Cs229 - lecture notes.
 \newblock Course website, 2013.
+
+\bibitem{nhsdiag}
+NHS.
+\newblock Sleep apnoea - diagnosis, June 2012.
+
+\bibitem{nhsmain}
+NHS.
+\newblock Sleep apnoea, June 2014.
+
+\bibitem{novasom1}
+Novasom.
+\newblock Economics of home sleep testing, 2014.
+
+\bibitem{novasom2}
+Novasom.
+\newblock Why accusom?, 2014.
+
+\bibitem{currentapps}
+NPR.
+\newblock Apps for apnea? new gadgets promise to improve sleep, February 2012.
+
+\bibitem{bigdata}
+David Knott Steve Van~Kuiken Peter~Groves, Basel~Kayyali.
+\newblock The 'big data' revolution in health care.
+\newblock {\em McKinsey \& Company}, 2013.
 
 \bibitem{rabiner1989tutorial}
 Lawrence Rabiner.
@@ -31,6 +69,11 @@ Lawrence Rabiner.
 Daniel Ramage.
 \newblock Cs229 - section notes.
 \newblock Course website, 2007.
+
+\bibitem{xerox1}
+The~Economic Times.
+\newblock Xerox, manipal to develop non-contact diagnostics solutions, February
+  2014.
 
 \bibitem{wiki:DFT}
 Wikipedia.

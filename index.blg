@@ -6,10 +6,25 @@ A level-1 auxiliary file: app.aux
 A level-1 auxiliary file: design.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: plain.bst
-White space in argument---line 9 of file index.aux
- : \bibdata{bibliography/tuananh,
- :                                bibliography/sachin, bibliography/george, bibliography/sophie}
-I'm skipping whatever remains of this command
 Database file #1: bibliography/tuananh.bib
+Database file #2: bibliography/sachin.bib
+Database file #3: bibliography/george.bib
+Database file #4: bibliography/sophie.bib
+Repeated entry---line 2 of file bibliography/sophie.bib
+ : @misc{wiki:machineLearning
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11 of file bibliography/sophie.bib
+ : @article{ghahramani2000variational
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22 of file bibliography/sophie.bib
+ : @book{hlt
+ :          ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Van Kuiken" for entry bigdata
+while executing---line 1049 of file plain.bst
 Warning--empty publisher in mlBook
-(There was 1 error message)
+Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Van Kuiken" for entry bigdata
+while executing---line 1090 of file plain.bst
+(There were 5 error messages)
