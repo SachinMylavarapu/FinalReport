@@ -23,7 +23,7 @@
 
 		\paragraph{Spectrograms.}
 			To create a spectrogram of a signal $\vec x = \{x_1, x_2, \dotsc, x_N\} = \{x(\Delta t), x(2\Delta t), \dotsc, x(N\Delta t)\}$, we must choose a window size $T_\text{window}$ and an offset $T_\text{offset}$. Then, we keep shifting the window by $T_\text{offset}$ and each time, we transform and store the window's content (in time domain) to the frequency domain using the DFT. This way, we will have a frequency domain data of the size $T_\text{window}$ every $T_\text{offset}$, which we will call $\vec X_1, \vec X_2, \dotsc, \vec X_\tau$. We usually represent this frequency domain data using colour intensities and plot them as $\tau$ columns of colour intensities with time on the horizontal axis and frequency on the vertical axis. Figure \ref{fig:spec} illustrates the process of creating a spectrogram. However, it is common to find the PSDs instead of the DFTs of the sliding windows (the principle stays the same). Hence we will refer to the process of creating the spectrogram with PSDs (instead of DFTs) of the sliding windows as \emph{freqency analysis of the signal}.
-			\begin{figure}[h!]
+			\begin{figure}[ht]
 				\centering
 					\includegraphics{drawings/spec.eps}
 				\caption{The process of creating a spectrogram.}
@@ -32,7 +32,7 @@
 
 	\subsubsection{Principal Components Analysis}
 		Here we present the theory for Principal Components Analysis (PCA) based on Andrew Ng's lecture notes \cite{ng13} and Kevin Murphy's book \cite{mlBook}. The objective is to take $m$ $n$-dimensional input data points $\{\vec x^{(i)} \in \mathbb{R}^n\}_1^m$ and transform them into $m$ $k$-dimensional data points ($k<n$) $\{\vec y^{(i)} \in \mathbb{R}^m\}_1^m$, where $\vec y^{(i)}$'s are projections of $\vec x^{(i)}$'s onto $k$ orthonormal basis vectors $\{\vec u_i\}_1^k$ while ``preserving the most variance''. We assume that over all $m$ points, their $\text{mean}\left[\{x^{(i)}_j\}_{i = 1}^m\right] = 0$ and their $\text{var}\left[\{x^{(i)}_j\}_{i = 1}^m\right] = 1$ for all features of the input points $1 \leq j \leq n$. We normalise the data first if this is not the case. For $n = 2$, $k = 1$, Figure \ref{fig:pca} shows the projections to the new axis.
-		\begin{figure}[h!]
+		\begin{figure}[ht]
 			\centering
 				\includegraphics{drawings/pca.eps}
 			\caption{Illustration of PCA.}

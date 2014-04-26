@@ -3,7 +3,7 @@
 
 \subsubsection{No kernels}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentNoKernels} and in Table \ref{table:svmResults}. The accuracy is high, however so is the number of SV's. This indicates that the generalisation guarantee is poor.
-	\begin{figure}[htb]
+	\begin{figure}[ht]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestNoKernel11}}
@@ -21,7 +21,7 @@
 
 \subsubsection{Polynomial kernel}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentPoly} and in Table \ref{table:svmResults}. We can see that there is a low number of SVs and high accuracy. This means that the polynomial kernel is likely to perform well on unseen data. If we had more computational resources, we could have used more features (and correspondingly more training data) in order to represent the features better.
-	\begin{figure}[!h]
+	\begin{figure}[ht]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestPoly11}}
@@ -39,7 +39,7 @@
 
 \subsubsection{Radial basis function kernel}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentRbf} and in Table \ref{table:svmResults}. Similarly to the case of no kernels, the accuracy is high, but so is the number of SV's indicating poor generalisation performance.
-	\begin{figure}[!h]
+	\begin{figure}[ht]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestRbf11}}

@@ -14,7 +14,7 @@ The simple method would serve as a point of comparison, along with other methods
 
 MATLAB\textsuperscript{\textregistered{}} was used as the development environment for the simple model. This was due to several reasons. Firstly, our familiarity with MATLAB\textsuperscript{\textregistered{}} from previous projects made it a natural starting point. Secondly, as a dynamically typed language with a user-friendly interface, MATLAB\textsuperscript{\textregistered{}} would enable us to make minor changes to the code and observe the results quicker. Experimentation and tinkering with the code is much easier in MATLAB\textsuperscript{\textregistered{}}  than it is in C/C++ or Java, for example. This ease of experimentation meant that MATLAB\textsuperscript{\textregistered{}} is a good language to start writing the model in, and is used in the initial development of the machine learning HMM model as well. With in-built functions such as audioread, MATLAB\textsuperscript{\textregistered{}}  provided the basic tools with which we could develop the model. Of course, if necessary, the model could later be written in Java for implementation in an Android App - this would be trivial.
 
-The MATLAB\textsuperscript{\textregistered{}} code for the simple model is presented below, with detailed explanations. A brief summary is as follows: three .m files are created - simple.m, the main script which is is run once an audio file is created and stored, and  two functions detectApnea.m and detectApneaVar, that take a vector of the signal power and a few other parameters as inputs. The simple.m script uses the wavread or audioread function (the user's audio sleep data is recorded in .wav format) to read the file and produce a matrix of the audio level values. This is sampled at a lower frequency in order to reduce memory storage. The frequency content of the signal is calculated using the fast fourier transform function (FFT) Along with a plot of the signal, a plot of the frequency content is generated (this is done purely for the programmer's convenience and analysis). The power content is calculated from the signal vector and is used in the detectApnea function. An additional function, detectApneaVar, is included in the code below highlighting two different ways of analysing the data. The first way, used in detectApnea, uses a simple threshold parameter, and searches the signal power vector for prolonged periods of time when the value is below a threshold level. These periods represent apneatic episodes when the user's airflow experiences blockages. The second way, used in detectApneaVar, aims to identify the sudden inspiration that accompanies the body attempting to re-establish airflow. This is usually characterised by a snorting noise from the user. Instead of simply looking at the power values and comparing them to a threshold, detectApneaVar identifes periods of high variance in the signal, which represent the user being 'shocked' to start breathing again.
+The MATLAB\textsuperscript{\textregistered{}} code for the simple model is presented below, with detailed explanations. A brief summary is as follows: three .m files are created - simple.m, the main script which is is run once an audio file is created and stored, and  two functions detectApnea.m and detectApneaVar, that take a vector of the signal power and a few other parameters as inputs. The simple.m script uses the wavread or audioread function (the user's audio sleep data is recorded in .wav format) to read the file and produce a matrix of the audio level values. This is sampled at a lower frequency in order to reduce memory storage. The frequency content of the signal is calculated using the fast fourier transform function (FFT) Along with a plot of the signal, a plot of the frequency content is generated (this is done purely for the programmer's convenience and analysis). The power content is calculated from the signal vector and is used in the detectApnea function. An additional function, detectApneaVar, is included in the code below highlighting two different ways of analysing the data. The first way, used in detectApnea, uses a simple threshold parameter, and searches the signal power vector for prolonged periods of time when the value is below a threshold level. These periods represent apneatic episodes when the user's airflow experiences blockages. The second way, used in detectApneaVar, aims to identify the sudden inspiration that accompanies the body attempting to re-establish airflow. This is usually characterised by a snorting noise from the user. Instead of simply looking at the power values and comparing them to a threshold, detectApneaVar identifes periods of high variance in the signal, which represent the user being `shocked' to start breathing again.
 
 \subsection{Implementation in MATLAB\textsuperscript{\textregistered{}}}
 
@@ -56,15 +56,15 @@ The first part of the code above assumes that the user's sleep data has already 
 
 A sampling frequency of 44.1 kHz is unnecessarily large and wasteful for an application such as ours - the frequency content of a 7-minute sample obtained from YouTube \cite{simplevideo} is shown below. The figure on the left represents the spectral density while that on the right represents the information on a logarithmic scale so as to highlight where the useful information is found. As can be seen, there is no useful information that can be found at frequencies above 5 kHz (the duplicated spectra on the left are a result of sampling at the frequency of 44.1kHz). There is no risk of aliasing occuring even if the audio is sampled at 5 kHz. This is where the scale parameter in line 9 above comes in - it reduces the size of YRaw by sampling the already sampled vector(and also combines the two channels into one by taking the average). 
 
-\begin{figure}[!htb]
-		\centering
-		\subfloat[Amplitude Spectra of Raw Audio File]{%
-			\includegraphics[width=.5\textwidth]{drawings/YRawFreq}}
-		\subfloat[Periodogram of Raw Audio File]{%
-			\includegraphics[width=.5\textwidth]{drawings/YRawPeriodogram}}
-		\caption{Frequency content of Raw Audio File}
-		\label{fig:simpleRawFreqContent}
-	\end{figure}
+\begin{figure}[htb]
+	\centering
+	\subfloat[Amplitude Spectra of Raw Audio File]{%
+		\includegraphics[width=.5\textwidth]{drawings/YRawFreq}}
+	\subfloat[Periodogram of Raw Audio File]{%
+		\includegraphics[width=.5\textwidth]{drawings/YRawPeriodogram}}
+	\caption{Frequency content of Raw Audio File}
+	\label{fig:simpleRawFreqContent}
+\end{figure}
 
 The frequency content shown above is calculated using the fast fourier transform (FFT) function in MATLAB\textsuperscript{\textregistered{}}. The function calculates the discrete fourier transform (DFT) of a vector $\vec x = \{x_1, x_2, \dotsc, x_{N}\}$ and returns output $\vec X = \{X_1, X_2, \dotsc, X_{N}\}$  such that
 \begin{equation}
@@ -162,7 +162,7 @@ As can be seen, a variance method is used to detect sudden spikes in the signal.
 
 The results from the two methods of detecting apnoea are combined together, and the results are plotted below for the sample YouTube video. Firstly, the plot of the power signal, with peaks at regular intervals, confirms that the user has OSA and experiences apnoea and hypopnoea in predictable cycles. The results from the two methods are plotted below the power signal, and exhibit enough correlation such that combining the methods can be justfied. 
 
-\begin{figure}[h]
+\begin{figure}[htb]
 \centering
 \includegraphics[width=1\textwidth]{drawings/simpleResults}
 \caption{Diagnosis Results from 7-minute Sample}
