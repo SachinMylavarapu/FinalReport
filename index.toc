@@ -78,7 +78,7 @@
 \contentsline {subsubsection}{Radial basis function kernel}{57}{subsubsection*.53}
 \contentsline {subsubsection}{Summary}{57}{subsubsection*.55}
 \contentsline {subsection}{\numberline {5.7.4}Hidden Markov Models}{58}{subsection.5.7.4}
-\contentsline {subsection}{\numberline {5.7.5}Summary}{61}{subsection.5.7.5}
-\contentsline {section}{\numberline {5.8}Machine Learning -- Java}{62}{section.5.8}
-\contentsline {section}{\numberline {5.9}Android}{63}{section.5.9}
-\contentsline {chapter}{\numberline {6}Conclusion}{64}{chapter.6}
+\contentsline {subsection}{\numberline {5.7.5}Summary}{64}{subsection.5.7.5}
+\contentsline {section}{\numberline {5.8}Machine Learning -- Java}{66}{section.5.8}
+\contentsline {section}{\numberline {5.9}Android}{67}{section.5.9}
+\contentsline {chapter}{\numberline {6}Conclusion}{68}{chapter.6}

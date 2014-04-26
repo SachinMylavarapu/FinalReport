@@ -2,26 +2,27 @@
 
 Having examined briefly the theory behind Hidden Markov Models, let us now look at how the training was done offline, and analyse some results from subsequent tests. As mentioned earlier, the apnoeatic states are modelled as the hidden states $\{x_t\}_1^T$, and are elements of the binary set $\{0, 1\}$. The observed signal is annotated every K samples (every minute in the case of the PhysioNet data), so we stack all K samples into $\vec y_t \in \mathbb{R}^d$, ($d = K$). Using the packages \verb!pmtk3! and \verb!HMM Toolbox!, the algorithms were implemented in \verb!MATLAB!\textsuperscript{\textregistered}, along with the conditioning of the data using spectrogram and PCA analysis. Again, \verb!MATLAB!\textsuperscript{\textregistered} is used for convenience and the code can be easily converted to \verb!Java! after experimentation and analysis.
 
-We present below parts of the code used for the training and testing of the data, for ease of explanation. Firstly, we present the main script, and subsequently explain the various functions created and used in the script.
+We present below parts of the code used for the training and testing of the data, for ease of explanation. Firstly, we present the main script, covering the reading and conditioning of data, spectrogram transformation and PCA analysis. After explaining the various functions created and used in the script till then, we move on to cover the training and testing of the data.
 
 \begin{lstlisting}
-trainIndex = 1:4;
-testIndex = 5:10;
+trainIndex = 1:10;
+testIndex = 11:15;
 
 %% Reading and conditioning data
-[X, Y, time, signal, annTime] = readData(trainIndex, 1); % X = observations, Y = latent states.
+[Y, X] = readData(trainIndex, 0); % Y = observations, X = latent states.
+N = 2; % number of states: apnea-noapnea
+S = [0; 1]; % set of possible states
 
 %% Transform spectrogram
-[XTransformed, YTransformed] = transformSpectrogram(X, Y);
-% figure(1);
-% hold on;
-% plot(time(annTime), Y * 50, 'x');
+[YTransformed, XTransformed] = transformSpectrogram(Y, X);
 
 %% PCA
 disp('PCA...');
-k = 50; % take k principal components only
-[PCoef, PVec, XMean, XVar] = pcaCalc(XTransformed, k);
-XPca = pcaTransform(XTransformed, PVec, XMean, XVar);
+k = 100; % take k principal components only
+[PCoef, PVec, YMean, YVar] = pcaCalc(YTransformed, k);
+figure;
+plot(cumsum(PCoef)/sum(PCoef));
+YPca = pcaTransform(YTransformed, PVec, YMean, YVar);
 \end{lstlisting}
 
 The trainIndex and testIndex vector are used simply for selecting the files to be used, out of 35, for training and the remainder (or less) for testing the accuracy of the diagnosis. Having chosen the files, the next step is to extract and read the files. This is done using the readData function, presented below:
@@ -57,3 +58,99 @@ The function reads data from the indices specified in fileIndex (which is trainI
 Firstly, readData uses a simple function getFilenames to return a 35x1 cell of the available filenames, in a cell string. Then, after initialising the variables, readData uses a for-loop to run through each file and extract the relevant information. Using the pre-provided rdsamp and rdann functions, the signal values as well as annotations are read from the file. As the annotations use 'A' for apnoeatic episodes and 'N' for non-apnoeatic episodes, the vector type is converted to the alphabet ${0,1}$. The O and q output matrices are built up using the information from each file, and finally some trivial conditioning is done to ensure ease of plotting if the signal were to be kept.
 
 Armed with the consolidated vectors X and Y, we now proceed to use the spectrogram function in \verb!MATLAB!\textsuperscript{\textregistered}, as described in section~\ref{sec:conditioningExperiments}. We then use the \verb!pca! function from the \verb!pmtk3! package to perform Principal Components Analysis (choosing the number of principal components we wish to include, k). 
+
+We then move on to training and fitting the parameters, using the \verb!pmtk3! and \verb!HMM Toolbox! packages. We then compare the expected hidden states calculated using the \verb!Viterbi Algorithm! with the actual underlying states and determine the accuracy of the HMM model diagnosis.
+\begin{lstlisting}
+%% Fitting parameters
+[A, Mu, U, pi] = apneaHMM4Train(XTransformed, YPca, N, S);
+
+%% Comparing with test data
+apneaHMM7Test(A, Mu, U, pi, PVec, YMean, YVar, N, testIndex);
+\end{lstlisting}
+
+The parameters are fitted using the apneaHMM4Train function shown below (the number 4 simply represents the final version that we used), which computes the transitional matrix A using
+\begin{align}
+		A_{ij} & = \frac{\sum_{t = 1}^{T - 1} 1\{x_t = s_i \land x_{t + 1} = s_j\}}{\sum_{t = 1}^{T} 1\{x_t = s_i\}}
+\end{align}
+and uses Gaussian fitting to calcuate the pdfs for the emissions (the gaussFit function is used from the \verb!HMM Toolbox! package - we shall not go into the details on how the function is implemented here). We are left with the outputs A, the 2x2 transition matrix, Mu and U, parameters of the Gaussian pdf fit of the emissions, and pi, the initial state distribution.
+ 
+\begin{lstlisting}
+function [A, Mu, U, pi] = apneaHMM4Train(q, O, N, S)
+    [T, D] = size(O); % dimension of observations & number observations
+
+    % Transitional matrix A
+    disp('Fitting transitions...');
+    A = zeros(N);
+    for i = 1:N
+        for j = 1:N
+            transitionsFromSiToSj = 0;
+            transitionsFromSi = 0;
+            for t = 1:(T - 1)
+                transitionsFromSiToSj = transitionsFromSiToSj + (q(t) == S(i) && q(t + 1) == S(j));
+                transitionsFromSi = transitionsFromSi + (q(t) == S(i));
+            end
+            A(i, j) = transitionsFromSiToSj / transitionsFromSi;
+        end
+    end
+
+    % Estimate Gaussian parameters
+    disp('Fitting emissions...');
+    Mu = zeros(D, N); % means
+    U = zeros(D, D, N); % covariances
+    for j = 1:N
+        x = O(q == S(j), :);
+        model = gaussFit(x);
+        Mu(:, j) = model.mu;
+        U(:, :, j) = model.Sigma;
+    end
+
+    % Estimate HMM parameters
+    pi = [0.5; 0.5];
+end
+\end{lstlisting}
+
+In order to compare with the test data, we need to read the data specified using the testIndex, condition it, and use the \verb!Viterbi Algorithm! to calculate the most likely path. This is done in the function apneaHMM7Test, shown below. The code for reading and conditioning the data (and plotting the results) has been ommitted as it is similar to that shown above. Once again, functions from 'off-the-shelf' packages are used in implementing the \verb!Viterbi Algorithm! and the accuracy of the most likely path is calculated by comparing it to the annotations reflecting the true states. This is done for each test file, and the results are shown below.  
+
+\begin{lstlisting}
+function apneaHMM7Test(A, Mu, U, pi, PVec, OMean, OVar, N, testIndex)
+    disp('Comparing with test data...');
+    accuracySum = 0;
+    for i = testIndex
+        %% Read data
+        %% Transform spectrogram
+        %% PCA
+
+        %% Most likely path (Viterbi)
+        disp(sprintf('\tCalculating the most likely path...'));
+        B = [];
+        for j = 1:N
+            B(j, :) = gaussian_prob(OTest', Mu(:, j), U(:, :, j));
+        end
+        path = viterbi_path(pi, A, B) - 1;
+        
+        accuracy = sum(path == qTest') / length(qTest)
+        accuracySum = accuracySum + accuracy;
+        
+        %% Plotting data
+    end
+    avgAccuracy = accuracySum / length(testIndex)
+end
+\end{lstlisting}
+
+The results for the HMM experiment are shown in Figure \ref{fig:hmmExperiment}. While the average accuracy is much lower than that found for the SVM model, at 64.1\%, we feel that the HMM model would still be more appropriate than the SVM one due to the absence of Support Vectors which tend to lead to poor generalisation performance. Due to limited time and computational power (fitting the parameters takes a considerable amount of time on a standard laptop), we were unable to utilise the full set of data for our experiments. However, we are confident that if more time and effort were to be expended in this area, the HMM model would prove to be more accurate in diagnosing apnoea as compared to the SVM model. This is because of the suitability of the Hidden Markov Model for temporal data and the applicability of the Markov assumptions in our case.
+
+\begin{figure}[ht]
+		\centering
+		\subfloat[record 11]{%
+			\includegraphics[width=.33\textwidth]{drawings/hmm/hmmTest11}}
+		\subfloat[record 12]{%
+			\includegraphics[width=.33\textwidth]{drawings/hmm/hmmTest12}}
+		\subfloat[record 13]{%
+			\includegraphics[width=.33\textwidth]{drawings/hmm/hmmTest13}} \\
+		\subfloat[record 14]{%
+			\includegraphics[width=.33\textwidth]{drawings/hmm/hmmTest14}}
+		\subfloat[record 15]{%
+			\includegraphics[width=.33\textwidth]{drawings/hmm/hmmTest15}}
+		\caption{Performance of HMM model on the test records 11 to 15}
+		\label{fig:hmmExperiment}
+\end{figure}
