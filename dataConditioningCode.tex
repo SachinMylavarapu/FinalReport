@@ -1,0 +1,66 @@
+\chapter{Code for data conditioning}
+\section{Transforming to spectrogram space -- transformSpectrogram.m}
+\label{sec:transformSpectrogram}
+\begin{lstlisting}
+function [OTransformed, qTransformed] = transformSpectrogram(O, q)
+% O = matrix of T D-dimensional observations [TxD]
+% q = vector of T hidden states [Tx1]
+% OTransformed = spectrograms after transformation and cut-off [T'xD']
+% qTransformed = hidden states after cut-off [T'x1]
+
+    [T, D] = size(O);
+
+    freq = 100;
+    nBinsPerAnn = 6; % number of bins per annotation
+    window = D / 2; % length of window
+    nOverlap = window - D / nBinsPerAnn;
+    OBig = reshape(O', 1, T * D);
+    [Ss, Fs, Ts, Ps] = spectrogram(OBig, window, nOverlap, [], freq); % time on x axis, freq on y axis
+    
+    timeCutOff = (T - 1) * nBinsPerAnn;
+    freqCutOff = 1500;
+    Ps = Ps(1:freqCutOff, 1:timeCutOff);
+
+    OTransformed = reshape(Ps, nBinsPerAnn * size(Ps, 1), T - 1)';
+    qTransformed = q(1:(T - 1));
+end
+\end{lstlisting}
+
+\section{Calculating PCA parameters -- pcaCalc.m}
+\label{sec:pcaCalc}
+\begin{lstlisting}
+function [PCoef, PVec, xMean, xVar] = pcaCalc(x, k)
+% Calculates the PCA parameters to reduce D-dimensional vectors stored in x
+% [NxD] to K-dimensional vectors stored in y [NxK]
+%   PCoef = vector of eigenvalues (variances)
+%   PVec = k principal bases stored in k columns [DxK]
+%   xMean = mean of data x (for future normalisation purposes)
+%   xVar = var of data x (for future normalisation purposes)
+    
+    % Normalise
+    xMean = mean(x);
+    xVar = var(x, 1);
+    x = bsxfun(@minus, x, xMean);
+    x = bsxfun(@rdivide, x, sqrt(xVar));
+    
+    % PCA
+    [PCoef, PVec] = pca(x); % DxD, with i-th column being the i-th principal component (from PMTK3 package)
+    PVec = PVec(:, 1:k); % consider only the first k components
+end
+\end{lstlisting}
+
+\section{Reducing dimensions using PCA -- pcaTransform.m}
+\label{sec:pcaTransform}
+\begin{lstlisting}
+function y = pcaTransform(x, PVec, xMean, xVar)
+% Reduces dimensions of D-dimensional vectors in x [NxD] to K-dimensional
+% vectors stored in y [NxK] using PCA parameters
+
+    % Normalise
+    x = bsxfun(@minus, x, xMean);
+    x = bsxfun(@rdivide, x, sqrt(xVar));
+    
+    % PCA
+    y = x * PVec;
+end
+\end{lstlisting}

@@ -5,6 +5,10 @@ A level-1 auxiliary file: rationale.aux
 A level-1 auxiliary file: app.aux
 A level-1 auxiliary file: design.aux
 A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: simpleCode.aux
+A level-1 auxiliary file: dataConditioningCode.aux
+A level-1 auxiliary file: SVMCode.aux
+A level-1 auxiliary file: HMMCode.aux
 The style file: plain.bst
 Database file #1: bibliography/tuananh.bib
 Database file #2: bibliography/sachin.bib

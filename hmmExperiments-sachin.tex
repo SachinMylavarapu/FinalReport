@@ -72,7 +72,7 @@ The parameters are fitted using the apneaHMM4Train function shown below (the num
 \begin{align}
 		A_{ij} & = \frac{\sum_{t = 1}^{T - 1} 1\{x_t = s_i \land x_{t + 1} = s_j\}}{\sum_{t = 1}^{T} 1\{x_t = s_i\}}
 \end{align}
-and uses Gaussian fitting to calcuate the pdfs for the emissions (the gaussFit function is used from the \verb!HMM Toolbox! package - we shall not go into the details on how the function is implemented here). We are left with the outputs A, the 2x2 transition matrix, Mu and U, parameters of the Gaussian pdf fit of the emissions, and pi, the initial state distribution.
+and uses Gaussian fitting to calculate the pdfs for the emissions (the gaussFit function is used from the \verb!HMM Toolbox! package - we shall not go into the details on how the function is implemented here). We are left with the outputs A, the 2x2 transition matrix, Mu and U, parameters of the Gaussian pdf fit of the emissions, and pi, the initial state distribution.
  
 \begin{lstlisting}
 function [A, Mu, U, pi] = apneaHMM4Train(q, O, N, S)
@@ -109,7 +109,7 @@ function [A, Mu, U, pi] = apneaHMM4Train(q, O, N, S)
 end
 \end{lstlisting}
 
-In order to compare with the test data, we need to read the data specified using the testIndex, condition it, and use the \verb!Viterbi Algorithm! to calculate the most likely path. This is done in the function apneaHMM7Test, shown below. The code for reading and conditioning the data (and plotting the results) has been ommitted as it is similar to that shown above. Once again, functions from 'off-the-shelf' packages are used in implementing the \verb!Viterbi Algorithm! and the accuracy of the most likely path is calculated by comparing it to the annotations reflecting the true states. This is done for each test file, and the results are shown below.  
+In order to compare with the test data, we need to read the data specified using the testIndex, condition it, and use the \verb!Viterbi Algorithm! to calculate the most likely path. This is done in the function apneaHMM7Test, shown below. The code for reading and conditioning the data (and plotting the results) has been ommitted as it is similar to that shown above. Once again, functions from `off-the-shelf' packages are used in implementing the \verb!Viterbi Algorithm! and the accuracy of the most likely path is calculated by comparing it to the annotations reflecting the true states. This is done for each test file, and the results are shown below.  
 
 \begin{lstlisting}
 function apneaHMM7Test(A, Mu, U, pi, PVec, OMean, OVar, N, testIndex)
