@@ -1,4 +1,5 @@
 \subsection{Conditioning input data}
+\label{sec:conditioning-ta}
 	Working in the time domain, the data is usually transformed to the frequency domain to analyse where the pattern is found more easily. Also, ergardless of the chosen model, we will work in high dimensions which means we need a lot of input data in order to find the pattern. In the case of SVMs, it will be high-dimensional training points $\{\vec x^{(i)}\}_1^m$; in the case of SSMs and HMMs, it will be the high-dimensional observed variables $\{\vec y_t\}_1^T$. We will present two ways to condition the input data, before analysing it using the learning algorithms above, namely frequency-domain analysis and Principal Components Analysis.
 	
 	\subsubsection{Frequency-domain analysis}

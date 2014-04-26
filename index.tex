@@ -14,18 +14,13 @@
 \usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
 \usepackage[bookmarks,hidelinks,bookmarksnumbered=true,pdfstartview=FitH]{hyperref}
 
-% \titleformat{\chapter}
-%   {\Large\bfseries} % format
-%   {}                % label
-%   {0pt}             % sep
-%   {\huge}           % before-code
-
 \newlength{\wideitemsep}
 \setlength{\wideitemsep}{.5\itemsep}
 \addtolength{\wideitemsep}{-7pt}
 \let\olditem\item
 \renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
 
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\ref*{#1} \nameref*{#1}}} % One single link
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclareMathOperator*{\argmax}{arg\,max}
@@ -55,6 +50,7 @@ The abstract text goes here.
 \include{dataConditioningCode}
 \include{SVMCode}
 \include{HMMCode}
+\include{divisionOfLabour}
 
 \bibliographystyle{plain}
 \bibliography{bibliography/tuananh,bibliography/sachin,bibliography/george,bibliography/sophie}
