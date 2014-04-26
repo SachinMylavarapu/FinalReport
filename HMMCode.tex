@@ -22,7 +22,7 @@ plot(cumsum(PCoef)/sum(PCoef));
 YPca = pcaTransform(YTransformed, PVec, YMean, YVar);
 
 %% Fitting parameters
-[A, Mu, U, pi] = apneaHMM4Train(XTransformed, YPca, N, S);
+[A, Mu, U, pi] = apneaHMMTrain(XTransformed, YPca, N, S);
 
 %% Comparing with test data
 apneaHMMTest(A, Mu, U, pi, PVec, YMean, YVar, N, testIndex);

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 23:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 23:13
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -1700,8 +1700,8 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 11777 strings out of 493921
- 186091 string characters out of 3144867
+ 11776 strings out of 493921
+ 186075 string characters out of 3144867
  319573 words of memory out of 3000000
  13957 multiletter control sequences out of 15000+200000
  23691 words of font info for 86 fonts, out of 3000000 for 9000
@@ -1742,9 +1742,9 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/courier/ucrr8a.pfb>
-Output written on index.pdf (84 pages, 2954995 bytes).
+Output written on index.pdf (84 pages, 2954841 bytes).
 PDF statistics:
- 1841 PDF objects out of 2073 (max. 8388607)
- 741 named destinations out of 1000 (max. 500000)
+ 1840 PDF objects out of 2073 (max. 8388607)
+ 740 named destinations out of 1000 (max. 500000)
  635 words of extra memory for PDF output out of 10000 (max. 10000000)
 
