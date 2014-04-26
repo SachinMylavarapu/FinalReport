@@ -14,11 +14,11 @@
 \usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
 \usepackage[bookmarks,hidelinks,bookmarksnumbered=true,pdfstartview=FitH]{hyperref}
 
-\titleformat{\chapter}
-  {\Large\bfseries} % format
-  {}                % label
-  {0pt}             % sep
-  {\huge}           % before-code
+% \titleformat{\chapter}
+%   {\Large\bfseries} % format
+%   {}                % label
+%   {0pt}             % sep
+%   {\huge}           % before-code
 
 \newlength{\wideitemsep}
 \setlength{\wideitemsep}{.5\itemsep}
@@ -26,6 +26,7 @@
 \let\olditem\item
 \renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \renewcommand{\vec}[1]{\boldsymbol{\mathbf{#1}}}
@@ -33,10 +34,7 @@
 
 \begin{document}
 
-\title{3rd Year Project Final Report \\ SleepAppnea}
-\author{George Cochrane, Sachin Mylavarapu, Tuan Anh Le, Sophie Louth}
-
-\maketitle
+\input{title}
 
 \begin{abstract}
 The abstract text goes here.

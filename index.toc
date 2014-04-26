@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {5.1}Diagnostic Methods}{16}{section.5.1}
 \contentsline {section}{\numberline {5.2}Signs and Symptoms -- non-invasive methods}{17}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Video}{18}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Accelerometry}{18}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Accelerometry}{19}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Audio}{19}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Questionnaire}{19}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}Conclusion}{19}{subsection.5.2.5}
