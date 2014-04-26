@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  26 APR 2014 16:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  26 APR 2014 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,13 +435,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 229.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ))
 \wideitemsep=\skip53
- (./index.aux
-(./introduction.aux) (./medicalInfo.aux) (./rationale.aux) (./app.aux)
-(./design.aux
-
-LaTeX Warning: Label `fig:pgm' multiply defined.
-
-) (./conclusion.aux))
+ (./index.aux)
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -564,22 +558,82 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [5] [6]) (./economics-sachin.tex [7]
+ [5] [6]) (./economics-sachin.tex
+
+LaTeX Warning: Citation `nhsdiag' on page 7 undefined on input line 21.
+
+
+LaTeX Warning: Citation `nhsmain' on page 7 undefined on input line 21.
+
+[7]
+
+LaTeX Warning: Citation `nhsdiag' on page 8 undefined on input line 35.
+
+
+LaTeX Warning: Citation `novasom1' on page 8 undefined on input line 40.
+
+
+LaTeX Warning: Citation `novasom2' on page 8 undefined on input line 40.
+
 <drawings/Novasom.jpg, id=37, 1034.86626pt x 803.0pt>
 File: drawings/Novasom.jpg Graphic file (type jpg)
 
 <use drawings/Novasom.jpg>
 Package pdftex.def Info: drawings/Novasom.jpg used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
- [8] [9 <./drawings/Novasom.jpg>] [10]
-<drawings/mobilephoneusers.png, id=48, 325.215pt x 307.1475pt>
+
+
+LaTeX Warning: Citation `novasom2' on page 8 undefined on input line 45.
+
+
+LaTeX Warning: Citation `novasom2' on page 8 undefined on input line 45.
+
+
+LaTeX Warning: Citation `wsjhometest' on page 8 undefined on input line 54.
+
+
+LaTeX Warning: Citation `wsjhometest' on page 8 undefined on input line 57.
+
+
+LaTeX Warning: Citation `nhsmain' on page 8 undefined on input line 62.
+
+[8]
+
+LaTeX Warning: Citation `currentapps' on page 9 undefined on input line 74.
+
+
+LaTeX Warning: Citation `xerox1' on page 9 undefined on input line 85.
+
+
+LaTeX Warning: Citation `xerox2' on page 9 undefined on input line 85.
+
+
+LaTeX Warning: Citation `xerox1' on page 9 undefined on input line 85.
+
+
+LaTeX Warning: Citation `bigdata' on page 9 undefined on input line 85.
+
+[9 <./drawings/Novasom.jpg>]
+
+LaTeX Warning: Citation `nhsmain' on page 10 undefined on input line 95.
+
+
+LaTeX Warning: Citation `phoneusers' on page 10 undefined on input line 95.
+
+[10] <drawings/mobilephoneusers.png, id=48, 325.215pt x 307.1475pt>
 File: drawings/mobilephoneusers.png Graphic file (type png)
 
 <use drawings/mobilephoneusers.png>
 Package pdftex.def Info: drawings/mobilephoneusers.png used on input line 99.
 (pdftex.def)             Requested size: 250.24199pt x 236.34496pt.
-)) [11 <./drawings/mobilephoneusers.png>]
-[12]
+
+
+LaTeX Warning: Citation `phoneusers' on page 11 undefined on input line 100.
+
+
+LaTeX Warning: Citation `phoneusers' on page 11 undefined on input line 100.
+
+)) [11 <./drawings/mobilephoneusers.png>] [12]
 \openout2 = `app.aux'.
 
  (./app.tex
@@ -593,669 +647,19 @@ Chapter 3.
 
  (./design.tex
 Chapter 4.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 [14
 
 
 
-] (./questionnaire-sophie.tex) [15] (./simple-sachin.tex [16]
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 25.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [17]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 49.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
-
-
-LaTeX Warning: Citation `simplevideo' on page 18 undefined on input line 57.
-
-Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
-(epstopdf)                    date: 2014-04-25 17:54:25
-(epstopdf)                    size: 53931 bytes
-(epstopdf)             Output file: <drawings/YRawFreq-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-25 18:22:42
-(epstopdf)                    size: 24599 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/YRawFreq-eps-conv
-erted-to.pdf drawings/YRawFreq.eps>
-(epstopdf)             \includegraphics on input line 62.
-Package epstopdf Info: Output file is already uptodate.
-<drawings/YRawFreq-eps-converted-to.pdf, id=75, 562.1pt x 421.575pt>
-File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/YRawFreq-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/YRawFreq-eps-converted-to.pdf used on input l
-ine 62.
-(pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
-Package epstopdf Info: Source file: <drawings/YRawPeriodogram.eps>
-(epstopdf)                    date: 2014-04-25 16:39:21
-(epstopdf)                    size: 128456 bytes
-(epstopdf)             Output file: <drawings/YRawPeriodogram-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2014-04-25 17:19:19
-(epstopdf)                    size: 80752 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/YRawPeriodogram-e
-ps-converted-to.pdf drawings/YRawPeriodogram.eps>
-(epstopdf)             \includegraphics on input line 64.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/YRawPeriodogram-eps-converted-to.pdf, id=76, 562.1pt x 421.575pt>
-File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/YRawPeriodogram-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/YRawPeriodogram-eps-converted-to.pdf used on 
-input line 64.
-(pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
- [18] [19 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogra
-m-eps-converted-to.pdf>]
-[20]
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 151.
-
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlpcr.fd
-File: omlpcr.fd 
-)
-LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 151.
- [21]
-Package epstopdf Info: Source file: <drawings/simpleResults.eps>
-(epstopdf)                    date: 2014-04-25 21:42:52
-(epstopdf)                    size: 145392 bytes
-(epstopdf)             Output file: <drawings/simpleResults-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2014-04-25 22:00:50
-(epstopdf)                    size: 43148 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/simpleResults-eps
--converted-to.pdf drawings/simpleResults.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/simpleResults-eps-converted-to.pdf, id=110, 562.1pt x 421.575pt>
-File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/simpleResults-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/simpleResults-eps-converted-to.pdf used on in
-put line 167.
-(pdftex.def)             Requested size: 500.484pt x 375.36137pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [22] (./mltheory-ta.tex [23 <./drawings/simpleResults-eps-converted-to.pdf>]
-(./svm-ta.tex [24]
-Package epstopdf Info: Source file: <drawings/svm.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 155908 bytes
-(epstopdf)             Output file: <drawings/svm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 15023 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm-eps-converted
--to.pdf drawings/svm.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm-eps-converted-to.pdf, id=128, 298.11375pt x 262.9825pt>
-File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/svm-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
-9.
-(pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
- [25] [26 <./drawings/svm-eps-converted-to.pdf>] [27]) (./ssm-ta.tex
-Package epstopdf Info: Source file: <drawings/pgm.eps>
-(epstopdf)                    date: 2014-03-29 11:04:07
-(epstopdf)                    size: 64674 bytes
-(epstopdf)             Output file: <drawings/pgm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 7086 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/pgm-eps-converted
--to.pdf drawings/pgm.eps>
-(epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/pgm-eps-converted-to.pdf, id=183, 226.8475pt x 98.3675pt>
-File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/pgm-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
-.
-(pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28]) (./hmm-ta.tex [29 <./drawings/pgm-eps-converted-to.pdf>] [30] [31]
-[32] [33] [34]) (./conditioning-ta.tex [35]
-Package epstopdf Info: Source file: <drawings/spec.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 96489 bytes
-(epstopdf)             Output file: <drawings/spec-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 12637 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/spec-eps-converte
-d-to.pdf drawings/spec.eps>
-(epstopdf)             \includegraphics on input line 28.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/spec-eps-converted-to.pdf, id=223, 474.77374pt x 371.3875pt>
-File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/spec-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/spec-eps-converted-to.pdf used on input line 
-28.
-(pdftex.def)             Requested size: 474.77258pt x 371.38658pt.
-
-Overfull \hbox (7.86572pt too wide) in paragraph at lines 25--32
-[] []\OT1/cmr/bx/n/10.95 Spec-tro-grams.[] \OT1/cmr/m/n/10.95 To cre-ate a spec
--tro-gram of a sig-nal $[] = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 x[]; x[];
- [] ; x[]\OMS/cmsy/m/n/10.95 g \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/c
-mm/m/it/10.95 x\OT1/cmr/m/n/10.95 (^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )
-\OML/cmm/m/it/10.95 ; x\OT1/cmr/m/n/10.95 (2^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/
-n/10.95 )\OML/cmm/m/it/10.95 ; [] ; x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 N\
-OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.
-95 g$\OT1/cmr/m/n/10.95 ,
- []
-
-[36]
-Package epstopdf Info: Source file: <drawings/pca.eps>
-(epstopdf)                    date: 2014-03-29 11:04:07
-(epstopdf)                    size: 55703 bytes
-(epstopdf)             Output file: <drawings/pca-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 6808 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/pca-eps-converted
--to.pdf drawings/pca.eps>
-(epstopdf)             \includegraphics on input line 37.
-Package epstopdf Info: Output file is already uptodate.
- <drawings/pca-eps-converted-to.pdf, id=227, 258.9675pt x 258.9675pt>
-File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/pca-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 3
-7.
-(pdftex.def)             Requested size: 258.96684pt x 258.96684pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37 <./drawings/spec-eps-converted-to.pdf>])) [38 <./drawings/pca-eps-converted
--to.pdf>] (./mlexperiments.tex
-Package epstopdf Info: Source file: <drawings/visualiseData.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 151369 bytes
-(epstopdf)             Output file: <drawings/visualiseData-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 73832 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/visualiseData-eps
--converted-to.pdf drawings/visualiseData.eps>
-(epstopdf)             \includegraphics on input line 8.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/visualiseData-eps-converted-to.pdf, id=259, 497.86pt x 413.545pt>
-File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/visualiseData-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/visualiseData-eps-converted-to.pdf used on in
-put line 8.
-(pdftex.def)             Requested size: 497.85878pt x 413.54398pt.
-
-(./conditioningExperiments-ta.tex [39 <./drawings/visualiseData-eps-converted-t
-o.pdf>]
-Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
-(epstopdf)                    date: 2014-04-18 18:34:59
-(epstopdf)                    size: 6514780 bytes
-(epstopdf)             Output file: <drawings/visualiseSpectrogram-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2014-04-23 22:24:53
-(epstopdf)                    size: 219547 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/visualiseSpectrog
-ram-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
-(epstopdf)             \includegraphics on input line 17.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=267, 510.90875pt x 406.
-51875pt>
-File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
-)
- <use drawings/visualiseSpectrogram-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/visualiseSpectrogram-eps-converted-to.pdf use
-d on input line 17.
-(pdftex.def)             Requested size: 250.24199pt x 199.10909pt.
-Package epstopdf Info: Source file: <drawings/visualisePca.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 35807 bytes
-(epstopdf)             Output file: <drawings/visualisePca-eps-converted-to.pdf
->
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 11630 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/visualisePca-eps-
-converted-to.pdf drawings/visualisePca.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/visualisePca-eps-converted-to.pdf, id=268, 497.86pt x 404.51125pt>
-File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
-
-<use drawings/visualisePca-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/visualisePca-eps-converted-to.pdf used on inp
-ut line 26.
-(pdftex.def)             Requested size: 250.24199pt x 203.32294pt.
-) (./dataVisualisation-ta.tex
-[40 <./drawings/visualiseSpectrogram-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <drawings/spectrogramClassesVisualise.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 904716 bytes
-(epstopdf)             Output file: <drawings/spectrogramClassesVisualise-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 222742 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/spectrogramClasse
-sVisualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
-(epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=281, 420.57124pt
- x 316.18124pt>
-File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
-ype pdf)
-
-<use drawings/spectrogramClassesVisualise-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/spectrogramClassesVisualise-eps-converted-to.
-pdf used on input line 5.
-(pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
-)
-(./svmExperiments-ta.tex [41 <./drawings/visualisePca-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 141662 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestNoKernel11-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 62094 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
-el11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
-(epstopdf)             \includegraphics on input line 9.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=290, 420.57124pt x 316
-.18124pt>
-File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
-f)
- <use drawings/svm/svmTestNoKernel11-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf us
-ed on input line 9.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel12.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 150787 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestNoKernel12-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 65163 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
-el12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=291, 420.57124pt x 316
-.18124pt>
-File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
-f)
- <use drawings/svm/svmTestNoKernel12-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf us
-ed on input line 11.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel13.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 149951 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestNoKernel13-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 67137 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
-el13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
-(epstopdf)             \includegraphics on input line 13.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=292, 420.57124pt x 316
-.18124pt>
-File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
-f)
- <use drawings/svm/svmTestNoKernel13-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf us
-ed on input line 13.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel14.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 140811 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestNoKernel14-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 60700 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
-el14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=293, 420.57124pt x 316
-.18124pt>
-File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
-f)
- <use drawings/svm/svmTestNoKernel14-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf us
-ed on input line 15.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel15.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 134177 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestNoKernel15-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 59250 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
-el15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
-(epstopdf)             \includegraphics on input line 17.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=294, 420.57124pt x 316
-.18124pt>
-File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
-f)
- <use drawings/svm/svmTestNoKernel15-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf us
-ed on input line 17.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 141654 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestPoly11-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 62449 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly11
--eps-converted-to.pdf drawings/svm/svmTestPoly11.eps>
-(epstopdf)             \includegraphics on input line 27.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=295, 420.57124pt x 316.181
-24pt>
-File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestPoly11-eps-converted-to.pdf used o
-n input line 27.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestPoly12.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 150780 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestPoly12-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 65378 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly12
--eps-converted-to.pdf drawings/svm/svmTestPoly12.eps>
-(epstopdf)             \includegraphics on input line 29.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=296, 420.57124pt x 316.181
-24pt>
-File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestPoly12-eps-converted-to.pdf used o
-n input line 29.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestPoly13.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 149943 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestPoly13-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 67263 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly13
--eps-converted-to.pdf drawings/svm/svmTestPoly13.eps>
-(epstopdf)             \includegraphics on input line 31.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=297, 420.57124pt x 316.181
-24pt>
-File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestPoly13-eps-converted-to.pdf used o
-n input line 31.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestPoly14.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 140809 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestPoly14-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 60979 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly14
--eps-converted-to.pdf drawings/svm/svmTestPoly14.eps>
-(epstopdf)             \includegraphics on input line 33.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=298, 420.57124pt x 316.181
-24pt>
-File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestPoly14-eps-converted-to.pdf used o
-n input line 33.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestPoly15.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 134173 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestPoly15-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 59327 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly15
--eps-converted-to.pdf drawings/svm/svmTestPoly15.eps>
-(epstopdf)             \includegraphics on input line 35.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=299, 420.57124pt x 316.181
-24pt>
-File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
-n input line 35.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
- [42 <./drawings/spectrogramClassesVisualise-eps-converted-to.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 141657 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestRbf11-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 62134 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf11-
-eps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
-(epstopdf)             \includegraphics on input line 45.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=308, 420.57124pt x 316.1812
-4pt>
-File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestRbf11-eps-converted-to.pdf used on
- input line 45.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestRbf12.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 150783 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestRbf12-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 65339 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf12-
-eps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
-(epstopdf)             \includegraphics on input line 47.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=309, 420.57124pt x 316.1812
-4pt>
-File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestRbf12-eps-converted-to.pdf used on
- input line 47.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestRbf13.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 149945 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestRbf13-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 66532 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf13-
-eps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=310, 420.57124pt x 316.1812
-4pt>
-File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestRbf13-eps-converted-to.pdf used on
- input line 49.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestRbf14.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 140808 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestRbf14-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 60855 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf14-
-eps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
-(epstopdf)             \includegraphics on input line 51.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=311, 420.57124pt x 316.1812
-4pt>
-File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestRbf14-eps-converted-to.pdf used on
- input line 51.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-Package epstopdf Info: Source file: <drawings/svm/svmTestRbf15.eps>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 134170 bytes
-(epstopdf)             Output file: <drawings/svm/svmTestRbf15-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2014-04-18 18:34:58
-(epstopdf)                    size: 58903 bytes
-(epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf15-
-eps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-
-<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=312, 420.57124pt x 316.1812
-4pt>
-File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
- <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
- input line 53.
-(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./hmmExperiments-sachin.tex [43 <./drawings/svm/svmTestNoKernel11-eps-conver
-ted-to.pdf> <./drawings/svm/svmTestNoKernel12-eps-converted-to.pdf> <./drawings
-/svm/svmTestNoKernel13-eps-converted-to.pdf> <./drawings/svm/svmTestNoKernel14-
-eps-converted-to.pdf> <./drawings/svm/svmTestNoKernel15-eps-converted-to.pdf>]
-
-LaTeX Warning: Text page 44 contains only floats.
-
-
-Overfull \vbox (1.6975pt too high) has occurred while \output is active []
-
-
-[44 <./drawings/svm/svmTestPoly11-eps-converted-to.pdf> <./drawings/svm/svmTest
-Poly12-eps-converted-to.pdf> <./drawings/svm/svmTestPoly13-eps-converted-to.pdf
-> <./drawings/svm/svmTestPoly14-eps-converted-to.pdf> <./drawings/svm/svmTestPo
-ly15-eps-converted-to.pdf> <./drawings/svm/svmTestRbf11-eps-converted-to.pdf> <
-./drawings/svm/svmTestRbf12-eps-converted-to.pdf> <./drawings/svm/svmTestRbf13-
-eps-converted-to.pdf> <./drawings/svm/svmTestRbf14-eps-converted-to.pdf> <./dra
-wings/svm/svmTestRbf15-eps-converted-to.pdf>] [45] [46])
-(./mlExperimentsSummary.tex)) [47] (./mljava.tex) [48] (./android-george.tex))
-[49]
-\openout2 = `conclusion.aux'.
-
- (./conclusion.tex
-Chapter 5.
-) [50
-
-
-
-] (./index.bbl [51
-
-
-]) [52] (./index.aux (./introduction.aux)
-(./medicalInfo.aux) (./rationale.aux) (./app.aux) (./design.aux)
-(./conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 7444 strings out of 493315
- 110968 string characters out of 6137904
- 241287 words of memory out of 5000000
- 10613 multiletter control sequences out of 15000+600000
- 20281 words of font info for 74 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 44i,17n,49p,1872b,1561s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx0800.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm0800.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/cm-super/sfrm1095.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/cour
-ier/ucrr8a.pfb>
-Output written on index.pdf (54 pages, 2183769 bytes).
-PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+]
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no “ in font cmbx12!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [15]
+Missing character: 
