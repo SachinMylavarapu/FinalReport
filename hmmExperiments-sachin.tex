@@ -2,25 +2,14 @@
 
 Having examined briefly the theory behind Hidden Markov Models, let us now look at how the training was done offline, and analyse some results from subsequent tests. As mentioned earlier, the apnoeatic states are modelled as the hidden states $\{x_t\}_1^T$, and are elements of the binary set $\{0, 1\}$. The observed signal is annotated every K samples (every minute in the case of the PhysioNet data), so we stack all K samples into $\vec y_t \in \mathbb{R}^d$, ($d = K$). Using the packages \verb!pmtk3! and \verb!HMM Toolbox!, the algorithms were implemented in \verb!MATLAB!\textsuperscript{\textregistered}, along with the conditioning of the data using spectrogram and PCA analysis. Again, \verb!MATLAB!\textsuperscript{\textregistered} is used for convenience and the code can be easily converted to \verb!Java! after experimentation and analysis.
 
-\begin{figure}[h!]
-		\centering
-			\includegraphics{drawings/pgm.eps}
-		\caption{Probabilistic Graphical Model of a SSM and a HMM}
-		\label{fig:pgm}
-	\end{figure}
-
 We present below parts of the code used for the training and testing of the data, for ease of explanation. Firstly, we present the main script, and subsequently explain the various functions created and used in the script.
 
 \begin{lstlisting}
-close all;
-clear all;
 trainIndex = 1:4;
 testIndex = 5:10;
 
 %% Reading and conditioning data
 [X, Y, time, signal, annTime] = readData(trainIndex, 1); % X = observations, Y = latent states.
-N = 2; % number of states: apnea-noapnea
-S = [0; 1]; % set of possible states
 
 %% Transform spectrogram
 [XTransformed, YTransformed] = transformSpectrogram(X, Y);
@@ -42,14 +31,9 @@ function [O, q, time, signal, annTime] = readData(fileIndex, keepSignal)
 
     disp('Reading and conditioning data...');
     filenames = getFilenames();
-    
-    lastTime = 0;
-    annTimeLast = 0;
-    time = []; % time
-    signal = []; % signal
-    annTime = []; % timestamps of annotations
-    q = []; % latent states
-    O = []; % observations
+
+   % Initialise Variables (not shown)
+
     for i = fileIndex
         filename = cell2mat(filenames(i));
         disp(sprintf('\tProcessing file %d: %s...', i, filename));
@@ -64,19 +48,6 @@ function [O, q, time, signal, annTime] = readData(fileIndex, keepSignal)
         for i = 1:length(type)
             O = [O; signalTemp((annTimeTemp(i) + 1):annTimeTemp(i + 1))'];
         end
-        
-        if keepSignal
-            nObs = annTimeTemp(end);
-            time = [time; timeTemp(1:nObs) + lastTime + 0.01];
-            annTime = [annTime; annTimeTemp(2:end) + annTimeLast];
-            signal = [signal; signalTemp(1:nObs)];
-            lastTime = time(end);
-            annTimeLast = annTime(end);
-        end
-    end
-    if ~keepSignal
-        signal = [];
-        time = [];
     end
 end
 \end{lstlisting}
