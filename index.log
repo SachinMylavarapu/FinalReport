@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 18:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 18:21
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -667,25 +667,31 @@ te ignored
 l.43 \end{abstract}
                     [1]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-troduction.tex"
-Chapter 1.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+dex.toc"pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \include{introduction}
-                            [1
+l.27 ...ng Down the Studies}{22}{subsection.5.3.4}
+                                                   [1
+
+])
+\tf@toc=\write4
+ [2]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+troduction.tex"
+Chapter 1.
+) [3
 
 
 ]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
 dicalInfo.tex"
 Chapter 2.
-[2
+[4
 
 
 
-]) [3]
+]) [5]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
 tionale.tex"
 Chapter 3.
@@ -695,7 +701,7 @@ dicalneed-sophie.tex"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [4
+ [6
 
 
 
@@ -706,28 +712,28 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [5] [6])
+ [7] [8])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ec
-onomics-sachin.tex" [7] <drawings/Novasom.jpg, id=231, 1034.86626pt x 803.0pt>
+onomics-sachin.tex" [9] <drawings/Novasom.jpg, id=286, 1034.86626pt x 803.0pt>
 File: drawings/Novasom.jpg Graphic file (type jpg)
 
 <use drawings/Novasom.jpg>
 Package pdftex.def Info: drawings/Novasom.jpg used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
- [8] [9 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRe
-port/drawings/Novasom.jpg>] [10]
-<drawings/mobilephoneusers.png, id=269, 325.215pt x 307.1475pt>
+ [10] [11 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+Report/drawings/Novasom.jpg>] [12]
+<drawings/mobilephoneusers.png, id=324, 325.215pt x 307.1475pt>
 File: drawings/mobilephoneusers.png Graphic file (type png)
 
 <use drawings/mobilephoneusers.png>
 Package pdftex.def Info: drawings/mobilephoneusers.png used on input line 99.
 (pdftex.def)             Requested size: 250.24199pt x 236.34496pt.
- [11 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
-t/drawings/mobilephoneusers.png>])) [12]
+ [13 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+t/drawings/mobilephoneusers.png>])) [14]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
 p.tex"
 Chapter 4.
-) [13
+) [15
 
 
 
@@ -737,7 +743,7 @@ sign.tex"
 Chapter 5.
 
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
-agnosticMethods-sophie.tex" [14
+agnosticMethods-sophie.tex" [16
 
 
 
@@ -748,29 +754,7 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [15]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [16]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-) [17]
-("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\qu
-estionnaire-sophie.tex"
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+ [17]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -786,38 +770,10 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [19]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
+) [19]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\qu
+estionnaire-sophie.tex"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -830,10 +786,53 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+ [20]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [20] [21]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [21]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -841,6 +840,13 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [22] [23]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [24] [25]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -862,13 +868,13 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
- [24] [25]
+ [26] [27]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [26]) [27]
+ [28]) [29]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
-mple-sachin.tex" [28]
+mple-sachin.tex" [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\mathsurround' on input line 19.
@@ -884,7 +890,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 25.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [29]
+) [31]
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 49.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
@@ -903,7 +909,7 @@ rted-to.pdf drawings/YRawFreq.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawFreq-eps-converted-to.pdf, id=389, 562.1pt x 421.575pt>
+<drawings/YRawFreq-eps-converted-to.pdf, id=443, 562.1pt x 421.575pt>
 File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawFreq-eps-converted-to.pdf>
@@ -922,17 +928,17 @@ s-converted-to.pdf drawings/YRawPeriodogram.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawPeriodogram-eps-converted-to.pdf, id=390, 562.1pt x 421.575pt>
+<drawings/YRawPeriodogram-eps-converted-to.pdf, id=444, 562.1pt x 421.575pt>
 File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawPeriodogram-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/YRawPeriodogram-eps-converted-to.pdf used on 
 input line 64.
 (pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
- [30] [31 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+ [32] [33 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
 Report/drawings/YRawFreq-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineer
 ing Y3/B3 Group Design Projects/FinalReport/drawings/YRawPeriodogram-eps-conver
-ted-to.pdf>] [32]
+ted-to.pdf>] [34]
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 151.
 
 
@@ -941,7 +947,7 @@ File: omlpcr.fd
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 151.
- [33]
+ [35]
 Package epstopdf Info: Source file: <drawings/simpleResults.eps>
 (epstopdf)                    date: 2014-04-26 16:17:53
 (epstopdf)                    size: 149619 bytes
@@ -954,19 +960,19 @@ converted-to.pdf drawings/simpleResults.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/simpleResults-eps-converted-to.pdf, id=508, 562.1pt x 421.575pt>
+<drawings/simpleResults-eps-converted-to.pdf, id=563, 562.1pt x 421.575pt>
 File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/simpleResults-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/simpleResults-eps-converted-to.pdf used on in
 put line 167.
 (pdftex.def)             Requested size: 500.484pt x 375.36137pt.
-) [34]
+) [36]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-theory-ta.tex" [35 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Proje
+theory-ta.tex" [37 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Proje
 cts/FinalReport/drawings/simpleResults-eps-converted-to.pdf>]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
-m-ta.tex" [36]
+m-ta.tex" [38]
 Package epstopdf Info: Source file: <drawings/svm.eps>
 (epstopdf)                    date: 2014-04-16 10:58:48
 (epstopdf)                    size: 155908 bytes
@@ -978,15 +984,15 @@ to.pdf drawings/svm.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm-eps-converted-to.pdf, id=537, 298.11375pt x 262.9825pt>
+<drawings/svm-eps-converted-to.pdf, id=591, 298.11375pt x 262.9825pt>
 File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/svm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
 9.
 (pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
- [37] [38 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
-Report/drawings/svm-eps-converted-to.pdf>] [39])
+ [39] [40 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+Report/drawings/svm-eps-converted-to.pdf>] [41])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
 m-ta.tex"
 Package epstopdf Info: Source file: <drawings/pgm.eps>
@@ -999,22 +1005,22 @@ Package epstopdf Info: Source file: <drawings/pgm.eps>
 to.pdf drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pgm-eps-converted-to.pdf, id=624, 226.8475pt x 98.3675pt>
+ <drawings/pgm-eps-converted-to.pdf, id=679, 226.8475pt x 98.3675pt>
 File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pgm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
 .
 (pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
- [40])
+ [42])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
-m-ta.tex" [41 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/F
+m-ta.tex" [43 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/F
 inalReport/drawings/pgm-eps-converted-to.pdf>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 20.
- [42] [43] [44] [45] [46])
+ [44] [45] [46] [47] [48])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nditioning-ta.tex" [47]
+nditioning-ta.tex" [49]
 Package epstopdf Info: Source file: <drawings/spec.eps>
 (epstopdf)                    date: 2014-04-14 23:52:26
 (epstopdf)                    size: 96489 bytes
@@ -1026,7 +1032,7 @@ Package epstopdf Info: Source file: <drawings/spec.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spec-eps-converted-to.pdf, id=752, 474.77374pt x 371.3875pt>
+<drawings/spec-eps-converted-to.pdf, id=806, 474.77374pt x 371.3875pt>
 File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/spec-eps-converted-to.pdf>
@@ -1045,7 +1051,7 @@ cmr/m/n/10.95 \OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 g$\
 OT1/cmr/m/n/10.95 ,
  []
 
-[48]
+[50]
 Package epstopdf Info: Source file: <drawings/pca.eps>
 (epstopdf)                    date: 2014-04-01 23:40:12
 (epstopdf)                    size: 56954 bytes
@@ -1056,15 +1062,15 @@ Package epstopdf Info: Source file: <drawings/pca.eps>
 to.pdf drawings/pca.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pca-eps-converted-to.pdf, id=772, 258.9675pt x 258.9675pt>
+ <drawings/pca-eps-converted-to.pdf, id=826, 258.9675pt x 258.9675pt>
 File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pca-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 3
 7.
 (pdftex.def)             Requested size: 258.96684pt x 258.96684pt.
- [49 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
-t/drawings/spec-eps-converted-to.pdf>])) [50 <C:/Dropbox/Engineering/Engineerin
+ [51 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+t/drawings/spec-eps-converted-to.pdf>])) [52 <C:/Dropbox/Engineering/Engineerin
 g Y3/B3 Group Design Projects/FinalReport/drawings/pca-eps-converted-to.pdf>]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
 experiments.tex"
@@ -1080,7 +1086,7 @@ converted-to.pdf drawings/visualiseData.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseData-eps-converted-to.pdf, id=811, 497.86pt x 413.545pt>
+<drawings/visualiseData-eps-converted-to.pdf, id=865, 497.86pt x 413.545pt>
 File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualiseData-eps-converted-to.pdf>
@@ -1089,7 +1095,7 @@ put line 8.
 (pdftex.def)             Requested size: 497.85878pt x 413.54398pt.
 
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
-nditioningExperiments-ta.tex" [51 <C:/Dropbox/Engineering/Engineering Y3/B3 Gro
+nditioningExperiments-ta.tex" [53 <C:/Dropbox/Engineering/Engineering Y3/B3 Gro
 up Design Projects/FinalReport/drawings/visualiseData-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
 (epstopdf)                    date: 2014-04-15 00:38:31
@@ -1103,7 +1109,7 @@ am-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=825, 510.90875pt x 406.
+<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=880, 510.90875pt x 406.
 51875pt>
 File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1123,7 +1129,7 @@ onverted-to.pdf drawings/visualisePca.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualisePca-eps-converted-to.pdf, id=827, 497.86pt x 404.51125pt>
+<drawings/visualisePca-eps-converted-to.pdf, id=882, 497.86pt x 404.51125pt>
 File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualisePca-eps-converted-to.pdf>
@@ -1132,7 +1138,7 @@ ut line 26.
 (pdftex.def)             Requested size: 250.24199pt x 203.32294pt.
 )
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
-taVisualisation-ta.tex" [52 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Des
+taVisualisation-ta.tex" [54 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Des
 ign Projects/FinalReport/drawings/visualiseSpectrogram-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/spectrogramClassesVisualise.eps>
 (epstopdf)                    date: 2014-04-15 17:53:17
@@ -1146,7 +1152,7 @@ Visualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=844, 420.57124pt
+<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=899, 420.57124pt
  x 316.18124pt>
 File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1157,7 +1163,7 @@ pdf used on input line 5.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
 )
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
-mExperiments-ta.tex" [53 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design
+mExperiments-ta.tex" [55 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design
  Projects/FinalReport/drawings/visualisePca-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)                    date: 2014-04-15 19:37:13
@@ -1171,7 +1177,7 @@ l11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=859, 420.57124pt x 316
+<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=913, 420.57124pt x 316
 .18124pt>
 File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1191,7 +1197,7 @@ l12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=860, 420.57124pt x 316
+<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=914, 420.57124pt x 316
 .18124pt>
 File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1211,7 +1217,7 @@ l13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=861, 420.57124pt x 316
+<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=915, 420.57124pt x 316
 .18124pt>
 File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1231,7 +1237,7 @@ l14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=862, 420.57124pt x 316
+<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=916, 420.57124pt x 316
 .18124pt>
 File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1251,7 +1257,7 @@ l15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=863, 420.57124pt x 316
+<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=917, 420.57124pt x 316
 .18124pt>
 File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1271,7 +1277,7 @@ eps-converted-to.pdf drawings/svm/svmTestPoly11.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=866, 420.57124pt x 316.181
+<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=920, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
@@ -1290,7 +1296,7 @@ eps-converted-to.pdf drawings/svm/svmTestPoly12.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=867, 420.57124pt x 316.181
+<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=921, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
@@ -1309,7 +1315,7 @@ eps-converted-to.pdf drawings/svm/svmTestPoly13.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=868, 420.57124pt x 316.181
+<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=922, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
@@ -1328,7 +1334,7 @@ eps-converted-to.pdf drawings/svm/svmTestPoly14.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=869, 420.57124pt x 316.181
+<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=923, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
@@ -1347,14 +1353,14 @@ eps-converted-to.pdf drawings/svm/svmTestPoly15.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=870, 420.57124pt x 316.181
+<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=924, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
 n input line 35.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
- [54 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+ [56 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
 t/drawings/spectrogramClassesVisualise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
 (epstopdf)                    date: 2014-04-15 15:53:47
@@ -1368,7 +1374,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=885, 420.57124pt x 316.1812
+<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=939, 420.57124pt x 316.1812
 4pt>
 File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
@@ -1387,7 +1393,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=886, 420.57124pt x 316.1812
+<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=940, 420.57124pt x 316.1812
 4pt>
 File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
@@ -1406,7 +1412,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=887, 420.57124pt x 316.1812
+<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=941, 420.57124pt x 316.1812
 4pt>
 File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
@@ -1425,7 +1431,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=888, 420.57124pt x 316.1812
+<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=942, 420.57124pt x 316.1812
 4pt>
 File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
@@ -1444,7 +1450,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=889, 420.57124pt x 316.1812
+<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=943, 420.57124pt x 316.1812
 4pt>
 File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
@@ -1453,7 +1459,7 @@ Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 )
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
-mExperiments-sachin.tex" [55 <C:/Dropbox/Engineering/Engineering Y3/B3 Group De
+mExperiments-sachin.tex" [57 <C:/Dropbox/Engineering/Engineering Y3/B3 Group De
 sign Projects/FinalReport/drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> 
 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/dra
 wings/svm/svmTestNoKernel12-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engin
@@ -1461,7 +1467,7 @@ eering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestNoKernel13-e
 ps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pro
 jects/FinalReport/drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <C:/Drop
 box/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/sv
-m/svmTestNoKernel15-eps-converted-to.pdf>] [56 <C:/Dropbox/Engineering/Engineer
+m/svmTestNoKernel15-eps-converted-to.pdf>] [58 <C:/Dropbox/Engineering/Engineer
 ing Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestPoly11-eps-conv
 erted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/F
 inalReport/drawings/svm/svmTestPoly12-eps-converted-to.pdf> <C:/Dropbox/Enginee
@@ -1469,7 +1475,7 @@ ring/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestPo
 ly13-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Desi
 gn Projects/FinalReport/drawings/svm/svmTestPoly14-eps-converted-to.pdf> <C:/Dr
 opbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/
-svm/svmTestPoly15-eps-converted-to.pdf>] [57 <C:/Dropbox/Engineering/Engineerin
+svm/svmTestPoly15-eps-converted-to.pdf>] [59 <C:/Dropbox/Engineering/Engineerin
 g Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestRbf11-eps-convert
 ed-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Fina
 lReport/drawings/svm/svmTestRbf12-eps-converted-to.pdf> <C:/Dropbox/Engineering
@@ -1477,29 +1483,29 @@ lReport/drawings/svm/svmTestRbf12-eps-converted-to.pdf> <C:/Dropbox/Engineering
 eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pr
 ojects/FinalReport/drawings/svm/svmTestRbf14-eps-converted-to.pdf> <C:/Dropbox/
 Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/sv
-mTestRbf15-eps-converted-to.pdf>] [58])
+mTestRbf15-eps-converted-to.pdf>] [60])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-ExperimentsSummary.tex")) [59]
+ExperimentsSummary.tex")) [61]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
-java.tex") [60]
+java.tex") [62]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
-droid-george.tex")) [61]
+droid-george.tex")) [63]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.tex"
 Chapter 6.
-) [62
+) [64
 
 
 
 ]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.bbl" [63
+dex.bbl" [65
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- [64]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+ [66]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
 
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 dex.aux"
@@ -1515,16 +1521,16 @@ p.aux")
 sign.aux")
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
 nclusion.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: F2215DF9BDDBD8374F02E3190F132839;3333.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 11243 strings out of 493921
- 175242 string characters out of 3144867
- 316097 words of memory out of 3000000
+ 11249 strings out of 493921
+ 175439 string characters out of 3144867
+ 316098 words of memory out of 3000000
  13818 multiletter control sequences out of 15000+200000
  20281 words of font info for 74 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1532,8 +1538,8 @@ Here is how much of TeX's memory you used:
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
 \Tuan Anh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx0800.
 pk> <C:\Users\Tuan Anh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\tcrm0800.pk> <C:\Users\Tuan Anh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+600\tcrm1095.pk> <C:\Users\Tuan Anh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\tcrm0800.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
@@ -1564,9 +1570,9 @@ onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/courier/ucrr8a.pfb>
-Output written on index.pdf (66 pages, 2350060 bytes).
+Output written on index.pdf (68 pages, 2361842 bytes).
 PDF statistics:
- 1236 PDF objects out of 1440 (max. 8388607)
- 398 named destinations out of 1000 (max. 500000)
+ 1291 PDF objects out of 1440 (max. 8388607)
+ 401 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
