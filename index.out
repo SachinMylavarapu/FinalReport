@@ -44,15 +44,18 @@
 \BOOKMARK [1][-]{section.5.9}{5.9 Android}{chapter.5}% 44
 \BOOKMARK [0][-]{chapter.6}{6 Conclusion}{}% 45
 \BOOKMARK [0][-]{appendix.A}{A Code for the simple model}{}% 46
-\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m}{}% 47
-\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning}{}% 48
-\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 49
-\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 50
-\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 51
-\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines}{}% 52
-\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 53
-\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 54
-\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models}{}% 55
-\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 56
-\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 57
-\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 58
+\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 NAME OF THE MAIN SCRIPT}{appendix.A}% 47
+\BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 48
+\BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 49
+\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m}{}% 50
+\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning}{}% 51
+\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 52
+\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 53
+\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 54
+\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines}{}% 55
+\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 56
+\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 57
+\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models}{}% 58
+\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 59
+\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 60
+\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 61

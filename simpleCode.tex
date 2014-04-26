@@ -1,1 +1,99 @@
 \chapter{Code for the simple model}
+\section{Main script -- NAME OF THE MAIN SCRIPT}
+\begin{lstlisting}
+% Reading data
+clear all;
+close all;
+FILENAME = 'signal.wav';
+[YRaw,f] = audioread(FILENAME) ;
+TMAX = length(YRaw) / f;
+
+% Sampling data because we don't need very high resolution
+scale = 20;
+for i = 1:(length(YRaw) / scale)
+    Y(i) = 0.5 * (YRaw(i * scale, 1) + YRaw(i * scale, 2));
+end
+
+% Plots sampled data
+figure;
+plot(Y);
+title('Sleep signal');
+
+% Calculates and plots frequency
+N = length(Y);
+Yf = fft(Y,N);
+freq = ((0:1/N:1-1/N)*f).'; % Frequency vector;
+
+% Plot spectrum.
+plot(freq,abs(Yf)) 
+title('Amplitude Spectrum of y(t)')
+xlabel('Frequency (Hz)')
+ylabel('|Y(f)|')
+
+% Calculates and plots the power
+power = Y.^2;
+
+% Apnea detection
+sensitivityMean = 0.01;
+interval = 3;
+sensitivityVar = 5e-2;
+windowSize = 20;
+apnea = detectApnea(power, TMAX, sensitivityMean, interval);
+apneaVar = detectApneaVar(power , TMAX , sensitivityVar , windowSize);
+\end{lstlisting}
+
+\section{Detecting apnoea -- detectApnea.m}
+\label{sec:detectApnea}
+\begin{lstlisting}
+function apnea = detectApnea(Y, TMAX, sensitivityMean, interval)
+    n = length(Y); % No. of samples
+    sampleInterval = round(n / TMAX * interval); % Minimum no. of consecutive samples that should be below threshold for apnea
+    apnea = zeros(1, n); % Generate a vector that will contain either zeros or ones to show where apnea is
+    
+    threshold = mean(Y) / sensitivityMean;
+    
+    nBelowThreshold = 0; % Number of sample points below the threshold in a row.
+	for i = 1:n
+        if Y(i) <= threshold
+            nBelowThreshold = nBelowThreshold + 1; % Increase # of sample points below the threshold in a row
+        else % We see a point that is above threshold.
+            if nBelowThreshold >= sampleInterval % Condition for which we classify apnea.
+                for j = max((i - nBelowThreshold), 1):(i - 1) % Loop through the last 'nBelowThreshold' points. Making sure (i - nBelowThreshold) doesn't go below 1 (otherwise error).
+                    apnea(j) = 1;
+                end
+            else
+                for j = max((i - nBelowThreshold), 1):(i - 1)
+                    apnea(j) = 0;
+                end
+            end
+            nBelowThreshold = 0;
+        end
+    end
+end
+\end{lstlisting}
+
+\section{Detecting apnoea using the `variance' method -- detectApneaVar.m}
+\label{sec:detectApneaVar}
+\begin{lstlisting}
+function apnea = detectApneaVar (Y , TMAX , sensitivityVar , windowSize)
+n = length (Y);
+apnea = zeros (1 , n);
+
+% Calculate variance of whole signal (as a yardstick)
+variance = var(Y) ;
+maxVariance = variance / sensitivityVar;
+
+% Calculate the variance through a moving window
+twindow = [1:windowSize ; Y( 1:windowSize )]; % This vector contains the locations of the moving window
+
+for i = 1:(n - windowSize)
+    sigma2 = var( twindow(2, :) );
+    
+    if sigma2 > maxVariance 
+        apnea(1 , twindow(1,:) ) = 1;
+    end
+    
+    twindow(1,:) = twindow(1,:) + 1; % Update the window for the next round of variance calculations
+    twindow(2,:) = Y ( twindow(1,:) );
+end
+\end{lstlisting}

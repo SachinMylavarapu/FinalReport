@@ -83,15 +83,18 @@
 \contentsline {section}{\numberline {5.9}Android}{68}{section.5.9}
 \contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}
 \contentsline {chapter}{\numberline {A}Code for the simple model}{70}{appendix.A}
-\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m}{71}{appendix.B}
-\contentsline {chapter}{\numberline {C}Code for data conditioning}{73}{appendix.C}
-\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{73}{section.C.1}
-\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{74}{section.C.2}
-\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{74}{section.C.3}
-\contentsline {chapter}{\numberline {D}Code for Support Vector Machines}{76}{appendix.D}
-\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{76}{section.D.1}
-\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{77}{section.D.2}
-\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models}{78}{appendix.E}
-\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{78}{section.E.1}
-\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{79}{section.E.2}
-\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{80}{section.E.3}
+\contentsline {section}{\numberline {A.1}Main script -- NAME OF THE MAIN SCRIPT}{70}{section.A.1}
+\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{71}{section.A.2}
+\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{72}{section.A.3}
+\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m}{74}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code for data conditioning}{76}{appendix.C}
+\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{76}{section.C.1}
+\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{77}{section.C.2}
+\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{77}{section.C.3}
+\contentsline {chapter}{\numberline {D}Code for Support Vector Machines}{79}{appendix.D}
+\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{79}{section.D.1}
+\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{80}{section.D.2}
+\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models}{81}{appendix.E}
+\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{81}{section.E.1}
+\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{82}{section.E.2}
+\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{83}{section.E.3}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 23:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 23:27
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -661,7 +661,7 @@ dex.out")
 \@outlinefile=\write3
 
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ti
-tle.tex" <drawings/oxford.png, id=235, 116.1138pt x 138.7584pt>
+tle.tex" <drawings/oxford.png, id=247, 116.1138pt x 138.7584pt>
 File: drawings/oxford.png Graphic file (type png)
 
 <use drawings/oxford.png>
@@ -735,7 +735,7 @@ Missing character: There is no ™ in font cmr10!
  [8] [9])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ec
 onomics-sachin.tex" [10]
-<drawings/Novasom.jpg, id=359, 1034.86626pt x 803.0pt>
+<drawings/Novasom.jpg, id=374, 1034.86626pt x 803.0pt>
 File: drawings/Novasom.jpg Graphic file (type jpg)
 
 <use drawings/Novasom.jpg>
@@ -743,7 +743,7 @@ Package pdftex.def Info: drawings/Novasom.jpg used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
  [11] [12 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
 Report/drawings/Novasom.jpg>] [13]
-<drawings/mobilephoneusers.png, id=397, 325.215pt x 307.1475pt>
+<drawings/mobilephoneusers.png, id=412, 325.215pt x 307.1475pt>
 File: drawings/mobilephoneusers.png Graphic file (type png)
 
 <use drawings/mobilephoneusers.png>
@@ -930,7 +930,7 @@ rted-to.pdf drawings/YRawFreq.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawFreq-eps-converted-to.pdf, id=516, 562.1pt x 421.575pt>
+<drawings/YRawFreq-eps-converted-to.pdf, id=531, 562.1pt x 421.575pt>
 File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawFreq-eps-converted-to.pdf>
@@ -949,7 +949,7 @@ s-converted-to.pdf drawings/YRawPeriodogram.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawPeriodogram-eps-converted-to.pdf, id=517, 562.1pt x 421.575pt>
+<drawings/YRawPeriodogram-eps-converted-to.pdf, id=532, 562.1pt x 421.575pt>
 File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawPeriodogram-eps-converted-to.pdf>
@@ -981,7 +981,7 @@ converted-to.pdf drawings/simpleResults.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/simpleResults-eps-converted-to.pdf, id=636, 562.1pt x 421.575pt>
+<drawings/simpleResults-eps-converted-to.pdf, id=651, 562.1pt x 421.575pt>
 File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/simpleResults-eps-converted-to.pdf>
@@ -1005,7 +1005,7 @@ to.pdf drawings/svm.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm-eps-converted-to.pdf, id=664, 298.11375pt x 262.9825pt>
+<drawings/svm-eps-converted-to.pdf, id=679, 298.11375pt x 262.9825pt>
 File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/svm-eps-converted-to.pdf>
@@ -1026,7 +1026,7 @@ Package epstopdf Info: Source file: <drawings/pgm.eps>
 to.pdf drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pgm-eps-converted-to.pdf, id=752, 226.8475pt x 98.3675pt>
+ <drawings/pgm-eps-converted-to.pdf, id=767, 226.8475pt x 98.3675pt>
 File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pgm-eps-converted-to.pdf>
@@ -1053,7 +1053,7 @@ Package epstopdf Info: Source file: <drawings/spec.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spec-eps-converted-to.pdf, id=878, 474.77374pt x 371.3875pt>
+<drawings/spec-eps-converted-to.pdf, id=893, 474.77374pt x 371.3875pt>
 File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/spec-eps-converted-to.pdf>
@@ -1083,7 +1083,7 @@ Package epstopdf Info: Source file: <drawings/pca.eps>
 to.pdf drawings/pca.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pca-eps-converted-to.pdf, id=898, 258.9675pt x 258.9675pt>
+ <drawings/pca-eps-converted-to.pdf, id=913, 258.9675pt x 258.9675pt>
 File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pca-eps-converted-to.pdf>
@@ -1107,7 +1107,7 @@ converted-to.pdf drawings/visualiseData.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseData-eps-converted-to.pdf, id=938, 497.86pt x 413.545pt>
+<drawings/visualiseData-eps-converted-to.pdf, id=953, 497.86pt x 413.545pt>
 File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualiseData-eps-converted-to.pdf>
@@ -1130,7 +1130,7 @@ am-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=952, 510.90875pt x 406.
+<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=967, 510.90875pt x 406.
 51875pt>
 File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1150,7 +1150,7 @@ onverted-to.pdf drawings/visualisePca.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualisePca-eps-converted-to.pdf, id=954, 497.86pt x 404.51125pt>
+<drawings/visualisePca-eps-converted-to.pdf, id=969, 497.86pt x 404.51125pt>
 File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualisePca-eps-converted-to.pdf>
@@ -1173,7 +1173,7 @@ Visualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=971, 420.57124pt
+<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=986, 420.57124pt
  x 316.18124pt>
 File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1198,8 +1198,8 @@ l11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=985, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=1000, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel11-eps-converted-to.pdf>
@@ -1218,8 +1218,8 @@ l12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=986, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=1001, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel12-eps-converted-to.pdf>
@@ -1238,8 +1238,8 @@ l13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=987, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=1002, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel13-eps-converted-to.pdf>
@@ -1258,8 +1258,8 @@ l14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=988, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=1003, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel14-eps-converted-to.pdf>
@@ -1278,8 +1278,8 @@ l15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=989, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=1004, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel15-eps-converted-to.pdf>
@@ -1298,8 +1298,8 @@ eps-converted-to.pdf drawings/svm/svmTestPoly11.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=992, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=1007, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly11-eps-converted-to.pdf used o
@@ -1317,8 +1317,8 @@ eps-converted-to.pdf drawings/svm/svmTestPoly12.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=993, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=1008, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly12-eps-converted-to.pdf used o
@@ -1336,8 +1336,8 @@ eps-converted-to.pdf drawings/svm/svmTestPoly13.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=994, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=1009, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly13-eps-converted-to.pdf used o
@@ -1355,8 +1355,8 @@ eps-converted-to.pdf drawings/svm/svmTestPoly14.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=995, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=1010, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly14-eps-converted-to.pdf used o
@@ -1374,8 +1374,8 @@ eps-converted-to.pdf drawings/svm/svmTestPoly15.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=996, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=1011, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
@@ -1395,7 +1395,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1011, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1026, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
@@ -1414,7 +1414,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1012, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1027, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
@@ -1433,7 +1433,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1013, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1028, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
@@ -1452,7 +1452,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1014, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1029, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
@@ -1471,7 +1471,7 @@ ps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1015, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1030, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
@@ -1517,7 +1517,7 @@ converted-to.pdf drawings/hmm/hmmTest11.eps>
 (epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1236, 471.7625pt x 395.4775pt>
+<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1251, 471.7625pt x 395.4775pt>
 File: drawings/hmm/hmmTest11-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest11-eps-converted-to.pdf used on in
@@ -1535,7 +1535,7 @@ converted-to.pdf drawings/hmm/hmmTest12.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1237, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1252, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest12-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest12-eps-converted-to.pdf used on in
@@ -1553,7 +1553,7 @@ converted-to.pdf drawings/hmm/hmmTest13.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1238, 474.77374pt x 395.4775pt
+<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1253, 474.77374pt x 395.4775pt
 >
 File: drawings/hmm/hmmTest13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/hmm/hmmTest13-eps-converted-to.pdf>
@@ -1572,7 +1572,7 @@ converted-to.pdf drawings/hmm/hmmTest14.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1239, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1254, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest14-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest14-eps-converted-to.pdf used on in
@@ -1590,7 +1590,7 @@ converted-to.pdf drawings/hmm/hmmTest15.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1240, 481.8pt x 395.4775pt>
+<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1255, 481.8pt x 395.4775pt>
 File: drawings/hmm/hmmTest15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/hmm/hmmTest15-eps-converted-to.pdf>
@@ -1623,50 +1623,56 @@ Chapter 6.
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
 mpleCode.tex"
 Appendix A.
-) [70
+[70
 
 
 
-]
+] [71]
+Overfull \hbox (5.13045pt too wide) in paragraph at lines 75--75
+ |[]\OT1/cmr/bx/n/14.4 Detecting ap-noea us-ing the `vari-ance' method -- de-te
+c-tAp-neaVar.m| 
+ []
+
+[72]) [73]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\re
 adingDataCode.tex"
 Appendix B.
-[71
+[74
 
 
 
-]) [72]
+]) [75]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
 taConditioningCode.tex"
 Appendix C.
-[73
-
-
-
-] [74]) [75]
-("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\SV
-MCode.tex"
-Appendix D.
 [76
 
 
 
-]) [77]
+] [77]) [78]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\SV
+MCode.tex"
+Appendix D.
+[79
+
+
+
+]) [80]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\HM
 MCode.tex"
 Appendix E.
-[78
+[81
 
 
 
-] [79]) [80]
+] [82]) [83]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
-dex.bbl" [81
+dex.bbl" [84
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
- [82]
+ [85]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
@@ -1696,14 +1702,14 @@ MCode.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: F41B2107587FC93C9145536E2D7DD906;4409.
+(rerunfilecheck)             Checksum: 08DB915A3FA2E706A974E548B97039BA;4709.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 11776 strings out of 493921
- 186075 string characters out of 3144867
- 319573 words of memory out of 3000000
- 13957 multiletter control sequences out of 15000+200000
+ 11875 strings out of 493921
+ 187586 string characters out of 3144867
+ 330726 words of memory out of 3000000
+ 13962 multiletter control sequences out of 15000+200000
  23691 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,49p,1947b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1742,9 +1748,9 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/courier/ucrr8a.pfb>
-Output written on index.pdf (84 pages, 2954841 bytes).
+Output written on index.pdf (87 pages, 2975709 bytes).
 PDF statistics:
- 1840 PDF objects out of 2073 (max. 8388607)
- 740 named destinations out of 1000 (max. 500000)
- 635 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1974 PDF objects out of 2073 (max. 8388607)
+ 834 named destinations out of 1000 (max. 500000)
+ 659 words of extra memory for PDF output out of 10000 (max. 10000000)
 
