@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  27 APR 2014 00:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  27 APR 2014 00:33
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
@@ -1678,12 +1678,6 @@ Appendix E.
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
 visionOfLabour.tex"
 Appendix F.
-
-Overfull \hbox (2.12172pt too wide) in paragraph at lines 8--9
-\OT1/cmr/m/n/10.95 Markov Models[][], []5.7.5[] Summary[][], []A[] Code for the
- sim-ple model[][], []B[] Code for read-ing data -- readData.m[][],
- []
-
 ) [85
 
 
@@ -1773,9 +1767,9 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/courier/ucrr8a.pfb>
-Output written on index.pdf (89 pages, 2983144 bytes).
+Output written on index.pdf (89 pages, 2983340 bytes).
 PDF statistics:
- 2016 PDF objects out of 2073 (max. 8388607)
+ 2017 PDF objects out of 2073 (max. 8388607)
  837 named destinations out of 1000 (max. 500000)
  667 words of extra memory for PDF output out of 10000 (max. 10000000)
 
