@@ -1,0 +1,102 @@
+\chapter{Code for Hidden Markov Models}
+\label{ch:HMMCode}
+
+\section{Main script -- apneaHMM.m}
+\label{sec:apneaHMM}
+\begin{lstlisting}
+trainIndex = 1:10;
+testIndex = 11:15;
+
+%% Reading and conditioning data
+[Y, X] = readData(trainIndex, 0); % Y = observations, X = latent states.
+N = 2; % number of states: apnea-noapnea
+S = [0; 1]; % set of possible states
+
+%% Transform spectrogram
+[YTransformed, XTransformed] = transformSpectrogram(Y, X);
+
+%% PCA
+disp('PCA...');
+k = 100; % take k principal components only
+[PCoef, PVec, YMean, YVar] = pcaCalc(YTransformed, k);
+figure;
+plot(cumsum(PCoef)/sum(PCoef));
+YPca = pcaTransform(YTransformed, PVec, YMean, YVar);
+
+%% Fitting parameters
+[A, Mu, U, pi] = apneaHMMTrain(XTransformed, YPca, N, S);
+
+%% Comparing with test data
+apneaHMMTest(A, Mu, U, pi, PVec, YMean, YVar, N, testIndex);
+\end{lstlisting}
+
+\section{Training script -- apneaHMMTrain.m}
+\label{sec:apneaHMMTrain}
+\begin{lstlisting}
+function [A, Mu, U, pi] = apneaHMMTrain(q, O, N, S)
+    [T, D] = size(O); % dimension of observations & number observations
+
+    % Transitional matrix A
+    disp('Fitting transitions...');
+    A = zeros(N);
+    for i = 1:N
+        for j = 1:N
+            transitionsFromSiToSj = 0;
+            transitionsFromSi = 0;
+            for t = 1:(T - 1)
+                transitionsFromSiToSj = transitionsFromSiToSj + (q(t) == S(i) && q(t + 1) == S(j));
+                transitionsFromSi = transitionsFromSi + (q(t) == S(i));
+            end
+            A(i, j) = transitionsFromSiToSj / transitionsFromSi;
+        end
+    end
+
+    % Estimate Gaussian parameters
+    disp('Fitting emissions...');
+    Mu = zeros(D, N); % means
+    U = zeros(D, D, N); % covariances
+    for j = 1:N
+        x = O(q == S(j), :);
+        model = gaussFit(x); % from PMTK3 package
+        Mu(:, j) = model.mu;
+        U(:, :, j) = model.Sigma;
+    end
+
+    % Estimate HMM parameters
+    pi = [0.5; 0.5];
+end
+\end{lstlisting}
+
+\section{Test script -- apneaHMMTest.m}
+\label{sec:apneaHMMTest}
+\begin{lstlisting}
+function apneaHMMTest(A, Mu, U, pi, PVec, YMean, YVar, N, testIndex)
+    disp('Comparing with test data...');
+    accuracySum = 0;
+    for i = testIndex
+        %% Read data
+        [YTest, XTest, timeTest, signalTest, annTimeTest] = readData(i, 1);
+        
+        %% Transform spectrogram
+        [YTest, XTest] = transformSpectrogram(YTest, XTest);
+        
+        %% PCA
+        YTest = pcaTransform(YTest, PVec, YMean, YVar);
+
+        %% Most likely path (Viterbi)
+        disp(sprintf('\tCalculating the most likely path...'));
+        B = [];
+        for j = 1:N
+            B(j, :) = gaussian_prob(YTest', Mu(:, j), U(:, :, j)); % from HMM Toolbox
+        end
+        path = viterbi_path(pi, A, B) - 1; % from PMTK3 package
+        
+        accuracy = sum(path == XTest') / length(XTest)
+        accuracySum = accuracySum + accuracy;
+        
+        %% Plotting data
+        ...
+    end
+    avgAccuracy = accuracySum / length(testIndex)
+end
+\end{lstlisting}

@@ -1,0 +1,117 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
+\contentsline {chapter}{\numberline {2}Medical Information}{5}{chapter.2}
+\contentsline {chapter}{\numberline {3}Rationale}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Medical Need}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Prevalence}{8}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Long Term Effects}{9}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Economic Rationale}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Current Solutions}{10}{subsection.3.2.1}
+\contentsline {subsubsection}{NHS}{10}{subsubsection*.2}
+\contentsline {subsubsection}{Commercial home-testing devices}{11}{subsubsection*.3}
+\contentsline {subsubsection}{Other options}{12}{subsubsection*.5}
+\contentsline {subsection}{\numberline {3.2.2}Proposed App - Where it fits in}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Advantages of proposed app}{13}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}The app}{16}{chapter.4}
+\contentsline {chapter}{\numberline {5}Design Process}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Diagnostic Methods}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Signs and Symptoms -- non-invasive methods}{19}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Video}{19}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Accelerometry}{20}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Audio}{20}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Questionnaire}{20}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Conclusion}{21}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Questionnaire selection}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Own vs Pre-Existing}{22}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}How Truthful are People}{22}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Questionnaires}{23}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Narrowing Down the Studies}{24}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Audio}{25}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Scoring of apnea R\&K vs AASM}{25}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Methods of Analysis}{25}{subsection.5.4.2}
+\contentsline {subsubsection}{Simple Characteristics}{25}{subsubsection*.7}
+\contentsline {subsubsection}{Peak Power}{26}{subsubsection*.8}
+\contentsline {subsubsection}{Power Ratio}{26}{subsubsection*.9}
+\contentsline {subsubsection}{Sound Intensity}{27}{subsubsection*.10}
+\contentsline {subsubsection}{Formants}{27}{subsubsection*.11}
+\contentsline {subsubsection}{Bispectral Analysis}{29}{subsubsection*.12}
+\contentsline {subsubsection}{Wavelet Analysis}{30}{subsubsection*.13}
+\contentsline {subsubsection}{Multiscale Entropy Coefficients}{30}{subsubsection*.14}
+\contentsline {section}{\numberline {5.5}Signal Analysis -- simple method}{32}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Outline}{32}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Implementation in MATLAB\textsuperscript {\textregistered {}}}{33}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Limitations of model}{38}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Machine Learning -- Theory}{39}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Support Vector Machines}{40}{subsection.5.6.1}
+\contentsline {subsubsection}{Notation}{40}{subsubsection*.17}
+\contentsline {subsubsection}{Objectives}{40}{subsubsection*.18}
+\contentsline {subsubsection}{Lagrange duality}{41}{subsubsection*.20}
+\contentsline {subsubsection}{Kernel trick}{43}{subsubsection*.21}
+\contentsline {subsubsection}{Soft margin SVMs}{44}{subsubsection*.22}
+\contentsline {subsubsection}{Our problem}{44}{subsubsection*.23}
+\contentsline {subsection}{\numberline {5.6.2}State-Space Models}{44}{subsection.5.6.2}
+\contentsline {subsubsection}{Our problem}{45}{subsubsection*.25}
+\contentsline {subsection}{\numberline {5.6.3}Hidden Markov Models}{46}{subsection.5.6.3}
+\contentsline {subsubsection}{Discrete observations}{46}{subsubsection*.26}
+\contentsline {paragraph}{Solution to the first problem.}{46}{paragraph*.27}
+\contentsline {paragraph}{Solution to the second problem.}{47}{paragraph*.28}
+\contentsline {paragraph}{Solution to the third problem.}{47}{paragraph*.29}
+\contentsline {paragraph}{Parameters estimation with known hidden states.}{49}{paragraph*.30}
+\contentsline {subsubsection}{Continuous observations}{50}{subsubsection*.31}
+\contentsline {paragraph}{Changes to the algorithms.}{50}{paragraph*.32}
+\contentsline {paragraph}{Different probability density functions.}{51}{paragraph*.33}
+\contentsline {subsubsection}{Our problem}{51}{subsubsection*.34}
+\contentsline {subsection}{\numberline {5.6.4}Conditioning input data}{51}{subsection.5.6.4}
+\contentsline {subsubsection}{Frequency-domain analysis}{52}{subsubsection*.35}
+\contentsline {paragraph}{Discrete Fourier Transform.}{52}{paragraph*.36}
+\contentsline {paragraph}{Power Spectral Density.}{52}{paragraph*.37}
+\contentsline {paragraph}{Spectrograms.}{52}{paragraph*.38}
+\contentsline {subsubsection}{Principal Components Analysis}{53}{subsubsection*.40}
+\contentsline {section}{\numberline {5.7}Machine Learning -- Experiments}{55}{section.5.7}
+\contentsline {paragraph}{}{55}{paragraph*.42}
+\contentsline {subsection}{\numberline {5.7.1}Conditioning input data}{56}{subsection.5.7.1}
+\contentsline {subsubsection}{Frequency Analysis}{56}{subsubsection*.44}
+\contentsline {subsubsection}{PCA}{56}{subsubsection*.46}
+\contentsline {subsection}{\numberline {5.7.2}Data Visualisation}{57}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Support Vector Machines}{58}{subsection.5.7.3}
+\contentsline {subsubsection}{No kernels}{58}{subsubsection*.49}
+\contentsline {subsubsection}{Polynomial kernel}{59}{subsubsection*.51}
+\contentsline {subsubsection}{Radial basis function kernel}{59}{subsubsection*.53}
+\contentsline {subsubsection}{Summary}{59}{subsubsection*.55}
+\contentsline {subsection}{\numberline {5.7.4}Hidden Markov Models}{60}{subsection.5.7.4}
+\contentsline {subsection}{\numberline {5.7.5}Summary}{66}{subsection.5.7.5}
+\contentsline {section}{\numberline {5.8}Machine Learning -- Java}{68}{section.5.8}
+\contentsline {section}{\numberline {5.9}Designing an Android App}{69}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}XML and Java sides of ADT}{69}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}XML IDs}{69}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Methods}{70}{subsection.5.9.3}
+\contentsline {subsection}{\numberline {5.9.4}Java and android libraries}{70}{subsection.5.9.4}
+\contentsline {subsection}{\numberline {5.9.5}Structure of an Activity}{70}{subsection.5.9.5}
+\contentsline {subsection}{\numberline {5.9.6}XML writing}{71}{subsection.5.9.6}
+\contentsline {subsection}{\numberline {5.9.7}XML layouts}{71}{subsection.5.9.7}
+\contentsline {subsection}{\numberline {5.9.8}Further XML details}{71}{subsection.5.9.8}
+\contentsline {subsection}{\numberline {5.9.9}Handling Strings}{72}{subsection.5.9.9}
+\contentsline {subsection}{\numberline {5.9.10}Java Techniques}{72}{subsection.5.9.10}
+\contentsline {subsection}{\numberline {5.9.11}Initialising AudioRecord}{73}{subsection.5.9.11}
+\contentsline {subsection}{\numberline {5.9.12}Progress Wheel}{74}{subsection.5.9.12}
+\contentsline {subsection}{\numberline {5.9.13}GraphView}{74}{subsection.5.9.13}
+\contentsline {subsection}{\numberline {5.9.14}Other Platforms}{75}{subsection.5.9.14}
+\contentsline {subsection}{\numberline {5.9.15}Xcode}{75}{subsection.5.9.15}
+\contentsline {subsection}{\numberline {5.9.16}AVAudioRecord Library}{75}{subsection.5.9.16}
+\contentsline {chapter}{\numberline {6}Conclusion}{77}{chapter.6}
+\contentsline {chapter}{\numberline {A}Code for the simple model}{78}{appendix.A}
+\contentsline {section}{\numberline {A.1}Main script -- NAME OF THE MAIN SCRIPT}{78}{section.A.1}
+\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{79}{section.A.2}
+\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{80}{section.A.3}
+\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m}{82}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code for data conditioning}{84}{appendix.C}
+\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{84}{section.C.1}
+\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{85}{section.C.2}
+\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{85}{section.C.3}
+\contentsline {chapter}{\numberline {D}Code for Support Vector Machines}{87}{appendix.D}
+\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{87}{section.D.1}
+\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{88}{section.D.2}
+\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models}{89}{appendix.E}
+\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{89}{section.E.1}
+\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{90}{section.E.2}
+\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{91}{section.E.3}
+\contentsline {chapter}{\numberline {F}Division of labour}{92}{appendix.F}

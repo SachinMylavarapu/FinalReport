@@ -1,16 +1,41 @@
-\documentclass{article}
+\documentclass[11pt]{report}
 \usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage[margin=2cm]{geometry}
+\usepackage{epstopdf}
+\usepackage{titlesec}
+\usepackage{algorithm}
+\usepackage{booktabs}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage[bookmarks,hidelinks,bookmarksnumbered=true,pdfstartview=FitH]{hyperref}
+
+\newlength{\wideitemsep}
+\setlength{\wideitemsep}{.5\itemsep}
+\addtolength{\wideitemsep}{-7pt}
+\let\olditem\item
+\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
+
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\ref*{#1} \nameref*{#1}}} % One single link
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\renewcommand{\vec}[1]{\boldsymbol{\mathbf{#1}}}
+\doublespacing
 
 \begin{document}
 
-\title{3rd Year Project Final Report \\ SleepAppnea}
-\author{George Cochrane, Sachin Mylavarapu, Tuan Anh Le, Sophie Louth}
-
-\maketitle
+\input{title}
 
 \begin{abstract}
 The abstract text goes here.
 \end{abstract}
+
+\tableofcontents
 
 \include{introduction}
 \include{medicalInfo}
@@ -19,4 +44,14 @@ The abstract text goes here.
 \include{design}
 \include{conclusion}
 
+\appendix
+\include{simpleCode}
+\include{readingDataCode}
+\include{dataConditioningCode}
+\include{SVMCode}
+\include{HMMCode}
+\include{divisionOfLabour}
+
+\bibliographystyle{plain}
+\bibliography{bibliography/tuananh,bibliography/sachin,bibliography/george,bibliography/sophie}
 \end{document}

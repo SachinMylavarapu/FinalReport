@@ -1,0 +1,59 @@
+\chapter{Code for Support Vector Machines}
+\label{ch:SVMCode}
+
+\section{Main script -- apneaSVM.m}
+\label{sec:apneaSVM}
+\begin{lstlisting}
+trainIndex = 1:10;
+testIndex = 11:15;
+
+%% Reading and conditioning data
+[X, Y, time, signal, annTime] = readData(trainIndex, 1); % X = input, Y = output
+
+%% Transform spectrogram
+[XTransformed, YTransformed] = transformSpectrogram(X, Y);
+
+%% PCA
+disp('PCA...');
+k = 100; % take k principal components only
+[PCoef, PVec, XMean, XVar] = pcaCalc(XTransformed, k);
+XPca = pcaTransform(XTransformed, PVec, XMean, XVar);
+
+%% SVM
+options = optimset('MaxIter', 1e6);
+SVMStructPoly = svmtrain(XPca, YTransformed, 'kernel_function', 'polynomial', 'polyorder', 3, 'options', options); % poly kernel
+% SVMStructRbf = svmtrain(XPca, YTransformed, 'kernel_function', 'rbf', 'options', options); % rbf kernel
+% SVMStruct = svmtrain(XPca, YTransformed, 'options', options); % no kernel
+
+%% Comparing with test data
+apneaSVMTest(SVMStruct, PVec, XMean, XVar, testIndex);
+\end{lstlisting}
+
+\section{Test script -- apneaSVMTest.m}
+\label{sec:apneaSVMTest}
+\begin{lstlisting}
+function apneaSVMTest(SVMStruct, PVec, XMean, XVar, testIndex)
+    disp('Comparing with test data...');
+    accuracySum = 0;
+    for i = testIndex
+        %% Read data
+        [XTest, YTest, timeTest, signalTest, annTimeTest] = readData(i, 1);
+        
+        %% Transform spectrogram
+        [XTest, YTest] = transformSpectrogram(XTest, YTest);
+        
+        %% PCA
+        XTest = pcaTransform(XTest, PVec, XMean, XVar);
+
+        %% SVM Classify
+        YPredict = svmclassify(SVMStruct, XTest);
+        
+        accuracy = sum(YPredict == YTest) / length(YTest)
+        accuracySum = accuracySum + accuracy;
+        
+        %% Plotting data
+        ...
+    end
+    avgAccuracy = accuracySum / length(testIndex)
+end
+\end{lstlisting}

@@ -1,0 +1,51 @@
+\chapter{Code for reading data -- readData.m}
+\label{ch:readingDataCode}
+\begin{lstlisting}
+function [O, q, time, signal, annTime] = readData(fileIndex, keepSignal)
+% Reads data from indices specified in the vector fileIndex and returns
+%   O = observations, merged together [TxD]
+%   q = latent states, 1-0 for apnea-nonapnea [Tx1]
+% Inputs
+%   fileIndex = vector of file indices to read
+%   keepSignal = keep signal and time for plotting purposes (set to 1 or 0)
+    
+    disp('Reading and conditioning data...');
+    filenames = getFilenames();
+    
+    lastTime = 0;
+    annTimeLast = 0;
+    time = []; % time
+    signal = []; % signal
+    annTime = []; % timestamps of annotations
+    q = []; % latent states
+    O = []; % observations
+    for i = fileIndex
+        filename = cell2mat(filenames(i));
+        disp(sprintf('\tProcessing file %d: %s...', i, filename));
+        
+        [timeTemp, signalTemp, freq] = rdsamp(filename); % reads the signal
+        [annTimeTemp, type] = rdann(filename,'apn'); % reads annotations
+        type = (type == 'A');
+
+        %% Conditioning data
+        annTimeTemp = [1; annTimeTemp];
+        q = [q; type]; % latent states
+        for i = 1:length(type)
+            O = [O; signalTemp((annTimeTemp(i) + 1):annTimeTemp(i + 1))'];
+        end
+        
+        if keepSignal
+            nObs = annTimeTemp(end);
+            time = [time; timeTemp(1:nObs) + lastTime + 0.01];
+            annTime = [annTime; annTimeTemp(2:end) + annTimeLast];
+            signal = [signal; signalTemp(1:nObs)];
+            lastTime = time(end);
+            annTimeLast = annTime(end);
+        end
+    end
+    if ~keepSignal
+        signal = [];
+        time = [];
+    end
+end
+\end{lstlisting}
