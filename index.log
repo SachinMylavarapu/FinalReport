@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  5 MAR 2014 16:07
 entering extended mode
  restricted \write18 enabled.
@@ -14,6 +15,10 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 =======
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  27 APR 2014 01:05
 entering extended mode
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  27 APR 2014 01:05
+entering extended mode
+>>>>>>> FETCH_HEAD
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/in
 dex.tex
 
@@ -34,6 +39,9 @@ ishmax, welsh, loaded.
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 )
 \c@part=\count79
@@ -82,6 +90,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen104
 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 (./index.aux (./introduction.aux) (./medicalInfo.aux) (./rationale.aux)
 (./app.aux) (./design.aux) (./conclusion.aux))
 \openout1 = `index.aux'.
@@ -99,6 +108,8 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 =======
+=======
+>>>>>>> FETCH_HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
@@ -139,6 +150,489 @@ Package: amsmath 2013/01/14 v2.14 AMS math features
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
+<<<<<<< HEAD
+=======
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen113
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks16
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks17
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen122
+\Gm@wd@mp=\dimen123
+\Gm@odd@mp=\dimen124
+\Gm@even@mp=\dimen125
+\Gm@layoutwidth=\dimen126
+\Gm@layoutheight=\dimen127
+\Gm@layouthoffset=\dimen128
+\Gm@layoutvoffset=\dimen129
+\Gm@dimlist=\toks20
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen130
+\ttl@minus=\dimen131
+\ttl@toksa=\toks21
+\titlewidth=\dimen132
+\titlewidthlast=\dimen133
+\titlewidthfirst=\dimen134
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count112
+\float@exts=\toks22
+\float@box=\box29
+\@float@everytoks=\toks23
+\@floatcapt=\box30
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count113
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen135
+\lightrulewidth=\dimen136
+\cmidrulewidth=\dimen137
+\belowrulesep=\dimen138
+\belowbottomsep=\dimen139
+\aboverulesep=\dimen140
+\abovetopsep=\dimen141
+\cmidrulesep=\dimen142
+\cmidrulekern=\dimen143
+\defaultaddspace=\dimen144
+\@cmidla=\count114
+\@cmidlb=\count115
+\@aboverulesep=\dimen145
+\@belowrulesep=\dimen146
+\@thisruleclass=\count116
+\@lastruleclass=\count117
+\@thisrulewidth=\dimen147
+)
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\mc
+ode.sty"
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count118
+\lst@gtempboxa=\box31
+\lst@token=\toks25
+\lst@length=\count119
+\lst@currlwidth=\dimen148
+\lst@column=\count120
+\lst@pos=\count121
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count122
+\lst@lineno=\count123
+\lst@maxwidth=\dimen151
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
+\lst@framebox=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+\lbreakdots=\box33
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 229.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count126
+\Hy@pagecounter=\count127
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count128
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4319
+.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count129
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen153
+\Fld@menulength=\count130
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count134
+\c@bookmark@seq@number=\count135
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip53
+)
+\wideitemsep=\skip54
+
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+dex.aux"
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+troduction.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+dicalInfo.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+tionale.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
+p.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
+sign.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nclusion.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
+mpleCode.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\re
+adingDataCode.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
+taConditioningCode.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\SV
+MCode.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\HM
+MCode.aux")
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
+visionOfLabour.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+>>>>>>> FETCH_HEAD
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
@@ -624,6 +1118,7 @@ LaTeX Font Info:    ... okay on input line 30.
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 <<<<<<< HEAD
+<<<<<<< HEAD
 \scratchcounter=\count88
 \scratchdimen=\dimen105
 \scratchbox=\box26
@@ -694,6 +1189,8 @@ Overfull \hbox (12.38394pt too wide) in paragraph at lines 9--9
  [][] 
  []
 =======
+=======
+>>>>>>> FETCH_HEAD
 \scratchcounter=\count136
 \scratchdimen=\dimen156
 \scratchbox=\box34
@@ -781,6 +1278,7 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+<<<<<<< HEAD
 >>>>>>> FETCH_HEAD
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
@@ -927,6 +1425,89 @@ t/drawings/mobilephoneusers.png>])) [15]
 p.tex"
 Chapter 4.
 ) [16
+=======
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Dropbox/Engineering/En
+gineering Y3/B3 Group Design Projects/FinalReport/drawings/oxford.png>])pdfTeX 
+warning (ext4): destination with the same identifier (name{page.1}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \end{abstract}
+                    [1]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+dex.toc"pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 ....3.3}Questionnaires}{23}{subsection.5.3.3}
+                                                   [1
+
+] [2])
+\tf@toc=\write4
+ [3]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
+troduction.tex"
+Chapter 1.
+) [4
+
+
+]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+dicalInfo.tex"
+Chapter 2.
+[5
+
+
+
+]) [6]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ra
+tionale.tex"
+Chapter 3.
+
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\me
+dicalneed-sophie.tex"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [7
+
+
+
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [8] [9])
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ec
+onomics-sachin.tex" [10]
+<drawings/Novasom.jpg, id=459, 1034.86626pt x 803.0pt>
+File: drawings/Novasom.jpg Graphic file (type jpg)
+
+<use drawings/Novasom.jpg>
+Package pdftex.def Info: drawings/Novasom.jpg used on input line 45.
+(pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
+ [11] [12 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+Report/drawings/Novasom.jpg>] [13]
+<drawings/mobilephoneusers.png, id=497, 325.215pt x 307.1475pt>
+File: drawings/mobilephoneusers.png Graphic file (type png)
+
+<use drawings/mobilephoneusers.png>
+Package pdftex.def Info: drawings/mobilephoneusers.png used on input line 100.
+(pdftex.def)             Requested size: 250.24199pt x 236.34496pt.
+ [14 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+t/drawings/mobilephoneusers.png>])) [15]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ap
+p.tex"
+Chapter 4.
+) [16
 
 
 
@@ -941,6 +1522,1314 @@ agnosticMethods-sophie.tex" [17
 
 
 ]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+) [18]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
+gnsAndSymptoms-sophie.tex"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [19]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [20]) [21]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\qu
+estionnaire-sophie.tex"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [22]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [23]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+) [24]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\au
+dio-sophie.tex"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [25]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [26] [27]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr8!
+Missing character: There is no ˆ in font cmr8!
+Missing character: There is no ’ in font cmr8!
+ [28] [29]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [30]) [31]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
+mple-sachin.tex" [32]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 20.
+
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 26.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+) [33]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 50.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 55368 bytes
+(epstopdf)             Output file: <drawings/YRawFreq-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 24599 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/YRawFreq-eps-conve
+rted-to.pdf drawings/YRawFreq.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/YRawFreq-eps-converted-to.pdf, id=620, 562.1pt x 421.575pt>
+File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/YRawFreq-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/YRawFreq-eps-converted-to.pdf used on input l
+ine 63.
+(pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
+Package epstopdf Info: Source file: <drawings/YRawPeriodogram.eps>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 131140 bytes
+(epstopdf)             Output file: <drawings/YRawPeriodogram-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 80752 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/YRawPeriodogram-ep
+s-converted-to.pdf drawings/YRawPeriodogram.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/YRawPeriodogram-eps-converted-to.pdf, id=621, 562.1pt x 421.575pt>
+File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/YRawPeriodogram-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/YRawPeriodogram-eps-converted-to.pdf used on 
+input line 65.
+(pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
+ [34] [35 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+Report/drawings/YRawFreq-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineer
+ing Y3/B3 Group Design Projects/FinalReport/drawings/YRawPeriodogram-eps-conver
+ted-to.pdf>] [36]
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 152.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 152.
+ [37]
+Package epstopdf Info: Source file: <drawings/simpleResults.eps>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 149619 bytes
+(epstopdf)             Output file: <drawings/simpleResults-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 16:17:53
+(epstopdf)                    size: 43148 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/simpleResults-eps-
+converted-to.pdf drawings/simpleResults.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/simpleResults-eps-converted-to.pdf, id=740, 562.1pt x 421.575pt>
+File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/simpleResults-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/simpleResults-eps-converted-to.pdf used on in
+put line 168.
+(pdftex.def)             Requested size: 500.484pt x 375.36137pt.
+) [38]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+theory-ta.tex" [39 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Proje
+cts/FinalReport/drawings/simpleResults-eps-converted-to.pdf>]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
+m-ta.tex" [40]
+Package epstopdf Info: Source file: <drawings/svm.eps>
+(epstopdf)                    date: 2014-04-16 10:58:48
+(epstopdf)                    size: 155908 bytes
+(epstopdf)             Output file: <drawings/svm-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-16 11:05:09
+(epstopdf)                    size: 15023 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm-eps-converted-
+to.pdf drawings/svm.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm-eps-converted-to.pdf, id=768, 298.11375pt x 262.9825pt>
+File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/svm-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
+9.
+(pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
+ [41] [42 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Final
+Report/drawings/svm-eps-converted-to.pdf>] [43])
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ss
+m-ta.tex"
+Package epstopdf Info: Source file: <drawings/pgm.eps>
+(epstopdf)                    date: 2014-04-01 23:40:12
+(epstopdf)                    size: 65991 bytes
+(epstopdf)             Output file: <drawings/pgm-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-14 15:24:05
+(epstopdf)                    size: 7086 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/pgm-eps-converted-
+to.pdf drawings/pgm.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+ <drawings/pgm-eps-converted-to.pdf, id=856, 226.8475pt x 98.3675pt>
+File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/pgm-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
+.
+(pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
+ [44])
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
+m-ta.tex" [45 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/F
+inalReport/drawings/pgm-eps-converted-to.pdf>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 20.
+ [46] [47] [48] [49] [50])
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nditioning-ta.tex" [51]
+Package epstopdf Info: Source file: <drawings/spec.eps>
+(epstopdf)                    date: 2014-04-14 23:52:26
+(epstopdf)                    size: 96489 bytes
+(epstopdf)             Output file: <drawings/spec-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-14 23:52:46
+(epstopdf)                    size: 12637 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/spec-eps-converted
+-to.pdf drawings/spec.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/spec-eps-converted-to.pdf, id=982, 474.77374pt x 371.3875pt>
+File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/spec-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/spec-eps-converted-to.pdf used on input line 
+29.
+(pdftex.def)             Requested size: 474.77258pt x 371.38658pt.
+
+Overfull \hbox (7.86572pt too wide) in paragraph at lines 26--33
+[] []\OT1/cmr/bx/n/10.95 Spec-tro-grams.[] \OT1/cmr/m/n/10.95 To cre-ate a spec
+-tro-gram of a sig-nal $[] = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 x[]; x[];
+ [] ; x[]\OMS/cmsy/m/n/10.95 g \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/c
+mm/m/it/10.95 x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\O
+ML/cmm/m/it/10.95 ; x\OT1/cmr/m/n/10.95 (2\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10
+.95 )\OML/cmm/m/it/10.95 ; [] ; x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 N\OT1/
+cmr/m/n/10.95 \OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 g$\
+OT1/cmr/m/n/10.95 ,
+ []
+
+[52]
+Package epstopdf Info: Source file: <drawings/pca.eps>
+(epstopdf)                    date: 2014-04-01 23:40:12
+(epstopdf)                    size: 56954 bytes
+(epstopdf)             Output file: <drawings/pca-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-14 15:24:06
+(epstopdf)                    size: 6808 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/pca-eps-converted-
+to.pdf drawings/pca.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+ <drawings/pca-eps-converted-to.pdf, id=1002, 258.9675pt x 258.9675pt>
+File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/pca-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 3
+8.
+(pdftex.def)             Requested size: 258.96684pt x 258.96684pt.
+ [53 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+t/drawings/spec-eps-converted-to.pdf>])) [54 <C:/Dropbox/Engineering/Engineerin
+g Y3/B3 Group Design Projects/FinalReport/drawings/pca-eps-converted-to.pdf>]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+experiments.tex"
+Package epstopdf Info: Source file: <drawings/visualiseData.eps>
+(epstopdf)                    date: 2014-04-14 17:50:57
+(epstopdf)                    size: 155337 bytes
+(epstopdf)             Output file: <drawings/visualiseData-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-14 17:58:00
+(epstopdf)                    size: 73832 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/visualiseData-eps-
+converted-to.pdf drawings/visualiseData.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/visualiseData-eps-converted-to.pdf, id=1042, 497.86pt x 413.545pt>
+File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/visualiseData-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/visualiseData-eps-converted-to.pdf used on in
+put line 8.
+(pdftex.def)             Requested size: 497.85878pt x 413.54398pt.
+
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nditioningExperiments-ta.tex" [55 <C:/Dropbox/Engineering/Engineering Y3/B3 Gro
+up Design Projects/FinalReport/drawings/visualiseData-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
+(epstopdf)                    date: 2014-04-15 00:38:31
+(epstopdf)                    size: 6542027 bytes
+(epstopdf)             Output file: <drawings/visualiseSpectrogram-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2014-04-23 21:35:27
+(epstopdf)                    size: 219547 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/visualiseSpectrogr
+am-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=1057, 510.90875pt x 406
+.51875pt>
+File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use drawings/visualiseSpectrogram-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/visualiseSpectrogram-eps-converted-to.pdf use
+d on input line 17.
+(pdftex.def)             Requested size: 250.24199pt x 199.10909pt.
+Package epstopdf Info: Source file: <drawings/visualisePca.eps>
+(epstopdf)                    date: 2014-04-15 02:25:23
+(epstopdf)                    size: 36888 bytes
+(epstopdf)             Output file: <drawings/visualisePca-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2014-04-15 16:46:05
+(epstopdf)                    size: 11630 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/visualisePca-eps-c
+onverted-to.pdf drawings/visualisePca.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/visualisePca-eps-converted-to.pdf, id=1061, 497.86pt x 404.51125pt>
+File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/visualisePca-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/visualisePca-eps-converted-to.pdf used on inp
+ut line 26.
+(pdftex.def)             Requested size: 250.24199pt x 203.32294pt.
+)
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
+taVisualisation-ta.tex"
+Package epstopdf Info: Source file: <drawings/spectrogramClassesVisualise.eps>
+(epstopdf)                    date: 2014-04-15 17:53:17
+(epstopdf)                    size: 973204 bytes
+(epstopdf)             Output file: <drawings/spectrogramClassesVisualise-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2014-04-15 17:53:33
+(epstopdf)                    size: 222742 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/spectrogramClasses
+Visualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
+(epstopdf)             \includegraphics on input line 6.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=1063, 420.57124p
+t x 316.18124pt>
+File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use drawings/spectrogramClassesVisualise-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/spectrogramClassesVisualise-eps-converted-to.
+pdf used on input line 6.
+(pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
+)
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\sv
+mExperiments-ta.tex" [56] [57 <C:/Dropbox/Engineering/Engineering Y3/B3 Group D
+esign Projects/FinalReport/drawings/visualiseSpectrogram-eps-converted-to.pdf> 
+<C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/dra
+wings/visualisePca-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
+(epstopdf)                    date: 2014-04-15 19:37:13
+(epstopdf)                    size: 145855 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestNoKernel11-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-04-15 20:45:31
+(epstopdf)                    size: 62094 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestNoKerne
+l11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=1093, 420.57124pt x 31
+6.18124pt>
+File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use drawings/svm/svmTestNoKernel11-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf us
+ed on input line 10.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel12.eps>
+(epstopdf)                    date: 2014-04-15 19:37:27
+(epstopdf)                    size: 155548 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestNoKernel12-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-04-15 20:45:32
+(epstopdf)                    size: 65163 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestNoKerne
+l12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=1094, 420.57124pt x 31
+6.18124pt>
+File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use drawings/svm/svmTestNoKernel12-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf us
+ed on input line 12.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel13.eps>
+(epstopdf)                    date: 2014-04-15 19:37:40
+(epstopdf)                    size: 154370 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestNoKernel13-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-04-15 20:45:32
+(epstopdf)                    size: 67137 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestNoKerne
+l13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=1095, 420.57124pt x 31
+6.18124pt>
+File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use drawings/svm/svmTestNoKernel13-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf us
+ed on input line 14.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel14.eps>
+(epstopdf)                    date: 2014-04-15 19:37:55
+(epstopdf)                    size: 145072 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestNoKernel14-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-04-15 20:45:33
+(epstopdf)                    size: 60700 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestNoKerne
+l14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=1096, 420.57124pt x 31
+6.18124pt>
+File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use drawings/svm/svmTestNoKernel14-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf us
+ed on input line 16.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel15.eps>
+(epstopdf)                    date: 2014-04-15 19:38:13
+(epstopdf)                    size: 138441 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestNoKernel15-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-04-15 20:45:34
+(epstopdf)                    size: 59250 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestNoKerne
+l15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=1097, 420.57124pt x 31
+6.18124pt>
+File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use drawings/svm/svmTestNoKernel15-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf us
+ed on input line 18.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
+(epstopdf)                    date: 2014-04-15 12:13:36
+(epstopdf)                    size: 145847 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestPoly11-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:09
+(epstopdf)                    size: 62449 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestPoly11-
+eps-converted-to.pdf drawings/svm/svmTestPoly11.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=1100, 420.57124pt x 316.18
+124pt>
+File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestPoly11-eps-converted-to.pdf used o
+n input line 28.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestPoly12.eps>
+(epstopdf)                    date: 2014-04-15 12:13:50
+(epstopdf)                    size: 155540 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestPoly12-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:09
+(epstopdf)                    size: 65378 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestPoly12-
+eps-converted-to.pdf drawings/svm/svmTestPoly12.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=1101, 420.57124pt x 316.18
+124pt>
+File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestPoly12-eps-converted-to.pdf used o
+n input line 30.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestPoly13.eps>
+(epstopdf)                    date: 2014-04-15 12:14:05
+(epstopdf)                    size: 154362 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestPoly13-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:10
+(epstopdf)                    size: 67263 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestPoly13-
+eps-converted-to.pdf drawings/svm/svmTestPoly13.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=1102, 420.57124pt x 316.18
+124pt>
+File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestPoly13-eps-converted-to.pdf used o
+n input line 32.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestPoly14.eps>
+(epstopdf)                    date: 2014-04-15 12:14:25
+(epstopdf)                    size: 145070 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestPoly14-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:11
+(epstopdf)                    size: 60979 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestPoly14-
+eps-converted-to.pdf drawings/svm/svmTestPoly14.eps>
+(epstopdf)             \includegraphics on input line 34.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=1103, 420.57124pt x 316.18
+124pt>
+File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestPoly14-eps-converted-to.pdf used o
+n input line 34.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestPoly15.eps>
+(epstopdf)                    date: 2014-04-15 12:14:41
+(epstopdf)                    size: 138437 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestPoly15-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:11
+(epstopdf)                    size: 59327 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestPoly15-
+eps-converted-to.pdf drawings/svm/svmTestPoly15.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=1104, 420.57124pt x 316.18
+124pt>
+File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
+n input line 36.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+ [58 <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalRepor
+t/drawings/spectrogramClassesVisualise-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
+(epstopdf)                    date: 2014-04-15 15:53:47
+(epstopdf)                    size: 145850 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestRbf11-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:12
+(epstopdf)                    size: 62134 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestRbf11-e
+ps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1119, 420.57124pt x 316.181
+24pt>
+File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestRbf11-eps-converted-to.pdf used on
+ input line 46.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestRbf12.eps>
+(epstopdf)                    date: 2014-04-15 15:53:57
+(epstopdf)                    size: 155543 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestRbf12-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:12
+(epstopdf)                    size: 65339 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestRbf12-e
+ps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1120, 420.57124pt x 316.181
+24pt>
+File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestRbf12-eps-converted-to.pdf used on
+ input line 48.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestRbf13.eps>
+(epstopdf)                    date: 2014-04-15 15:54:15
+(epstopdf)                    size: 154365 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestRbf13-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:13
+(epstopdf)                    size: 66532 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestRbf13-e
+ps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1121, 420.57124pt x 316.181
+24pt>
+File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestRbf13-eps-converted-to.pdf used on
+ input line 50.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestRbf14.eps>
+(epstopdf)                    date: 2014-04-15 15:54:32
+(epstopdf)                    size: 145069 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestRbf14-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:14
+(epstopdf)                    size: 60855 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestRbf14-e
+ps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1122, 420.57124pt x 316.181
+24pt>
+File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestRbf14-eps-converted-to.pdf used on
+ input line 52.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+Package epstopdf Info: Source file: <drawings/svm/svmTestRbf15.eps>
+(epstopdf)                    date: 2014-04-15 15:54:47
+(epstopdf)                    size: 138434 bytes
+(epstopdf)             Output file: <drawings/svm/svmTestRbf15-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-04-15 20:50:14
+(epstopdf)                    size: 58903 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/svm/svmTestRbf15-e
+ps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1123, 420.57124pt x 316.181
+24pt>
+File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
+ input line 54.
+(pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
+)
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\hm
+mExperiments-sachin.tex" [59 <C:/Dropbox/Engineering/Engineering Y3/B3 Group De
+sign Projects/FinalReport/drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> 
+<C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/dra
+wings/svm/svmTestNoKernel12-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engin
+eering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestNoKernel13-e
+ps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pro
+jects/FinalReport/drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <C:/Drop
+box/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/sv
+m/svmTestNoKernel15-eps-converted-to.pdf>] [60 <C:/Dropbox/Engineering/Engineer
+ing Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestPoly11-eps-conv
+erted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/F
+inalReport/drawings/svm/svmTestPoly12-eps-converted-to.pdf> <C:/Dropbox/Enginee
+ring/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestPo
+ly13-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Desi
+gn Projects/FinalReport/drawings/svm/svmTestPoly14-eps-converted-to.pdf> <C:/Dr
+opbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/
+svm/svmTestPoly15-eps-converted-to.pdf>] [61 <C:/Dropbox/Engineering/Engineerin
+g Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestRbf11-eps-convert
+ed-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/Fina
+lReport/drawings/svm/svmTestRbf12-eps-converted-to.pdf> <C:/Dropbox/Engineering
+/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/svmTestRbf13-
+eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Pr
+ojects/FinalReport/drawings/svm/svmTestRbf14-eps-converted-to.pdf> <C:/Dropbox/
+Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/svm/sv
+mTestRbf15-eps-converted-to.pdf>] [62] [63] [64] [65]
+Package epstopdf Info: Source file: <drawings/hmm/hmmTest11.eps>
+(epstopdf)                    date: 2014-04-26 17:31:47
+(epstopdf)                    size: 183000 bytes
+(epstopdf)             Output file: <drawings/hmm/hmmTest11-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 21:41:32
+(epstopdf)                    size: 87394 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/hmm/hmmTest11-eps-
+converted-to.pdf drawings/hmm/hmmTest11.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1345, 471.7625pt x 395.4775pt>
+File: drawings/hmm/hmmTest11-eps-converted-to.pdf Graphic file (type pdf)
+<use drawings/hmm/hmmTest11-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/hmm/hmmTest11-eps-converted-to.pdf used on in
+put line 146.
+(pdftex.def)             Requested size: 165.16063pt x 138.4554pt.
+Package epstopdf Info: Source file: <drawings/hmm/hmmTest12.eps>
+(epstopdf)                    date: 2014-04-26 17:31:47
+(epstopdf)                    size: 198039 bytes
+(epstopdf)             Output file: <drawings/hmm/hmmTest12-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 21:41:32
+(epstopdf)                    size: 90954 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/hmm/hmmTest12-eps-
+converted-to.pdf drawings/hmm/hmmTest12.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1346, 475.7775pt x 395.4775pt>
+File: drawings/hmm/hmmTest12-eps-converted-to.pdf Graphic file (type pdf)
+<use drawings/hmm/hmmTest12-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/hmm/hmmTest12-eps-converted-to.pdf used on in
+put line 148.
+(pdftex.def)             Requested size: 165.16063pt x 137.28471pt.
+Package epstopdf Info: Source file: <drawings/hmm/hmmTest13.eps>
+(epstopdf)                    date: 2014-04-26 17:31:47
+(epstopdf)                    size: 193373 bytes
+(epstopdf)             Output file: <drawings/hmm/hmmTest13-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 21:41:32
+(epstopdf)                    size: 94410 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/hmm/hmmTest13-eps-
+converted-to.pdf drawings/hmm/hmmTest13.eps>
+(epstopdf)             \includegraphics on input line 150.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1347, 474.77374pt x 395.4775pt
+>
+File: drawings/hmm/hmmTest13-eps-converted-to.pdf Graphic file (type pdf)
+ <use drawings/hmm/hmmTest13-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/hmm/hmmTest13-eps-converted-to.pdf used on in
+put line 150.
+(pdftex.def)             Requested size: 165.16063pt x 137.57436pt.
+Package epstopdf Info: Source file: <drawings/hmm/hmmTest14.eps>
+(epstopdf)                    date: 2014-04-26 17:31:47
+(epstopdf)                    size: 184326 bytes
+(epstopdf)             Output file: <drawings/hmm/hmmTest14-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 21:41:32
+(epstopdf)                    size: 86701 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/hmm/hmmTest14-eps-
+converted-to.pdf drawings/hmm/hmmTest14.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1348, 475.7775pt x 395.4775pt>
+File: drawings/hmm/hmmTest14-eps-converted-to.pdf Graphic file (type pdf)
+<use drawings/hmm/hmmTest14-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/hmm/hmmTest14-eps-converted-to.pdf used on in
+put line 152.
+(pdftex.def)             Requested size: 165.16063pt x 137.28471pt.
+Package epstopdf Info: Source file: <drawings/hmm/hmmTest15.eps>
+(epstopdf)                    date: 2014-04-26 17:31:47
+(epstopdf)                    size: 173904 bytes
+(epstopdf)             Output file: <drawings/hmm/hmmTest15-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-04-26 21:41:32
+(epstopdf)                    size: 80707 bytes
+(epstopdf)             Command: <epstopdf --outfile=drawings/hmm/hmmTest15-eps-
+converted-to.pdf drawings/hmm/hmmTest15.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1349, 481.8pt x 395.4775pt>
+File: drawings/hmm/hmmTest15-eps-converted-to.pdf Graphic file (type pdf)
+
+<use drawings/hmm/hmmTest15-eps-converted-to.pdf>
+Package pdftex.def Info: drawings/hmm/hmmTest15-eps-converted-to.pdf used on in
+put line 154.
+(pdftex.def)             Requested size: 165.16063pt x 135.56488pt.
+)
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+ExperimentsSummary.tex")) [66 <C:/Dropbox/Engineering/Engineering Y3/B3 Group D
+esign Projects/FinalReport/drawings/hmm/hmmTest11-eps-converted-to.pdf> <C:/Dro
+pbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawings/h
+mm/hmmTest12-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/B3 Gr
+oup Design Projects/FinalReport/drawings/hmm/hmmTest13-eps-converted-to.pdf> <C
+:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/drawi
+ngs/hmm/hmmTest14-eps-converted-to.pdf> <C:/Dropbox/Engineering/Engineering Y3/
+B3 Group Design Projects/FinalReport/drawings/hmm/hmmTest15-eps-converted-to.pd
+f>] [67]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\ml
+java.tex") [68]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\an
+droid-george.tex"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+ [69]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+ [70]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [71]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [72]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+ [73]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [74]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [75]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+)) [76]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\co
+nclusion.tex"
+Chapter 6.
+) [77
+>>>>>>> FETCH_HEAD
+
+
+
+]
+<<<<<<< HEAD
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\de
+sign.tex"
+Chapter 5.
+
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
+agnosticMethods-sophie.tex" [17
+=======
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\si
+mpleCode.tex"
+Appendix A.
+[78
+
+
+
+] [79]
+Overfull \hbox (5.13045pt too wide) in paragraph at lines 77--77
+ |[]\OT1/cmr/bx/n/14.4 Detecting ap-noea us-ing the `vari-ance' method -- de-te
+c-tAp-neaVar.m| 
+ []
+
+[80]) [81]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\re
+adingDataCode.tex"
+Appendix B.
+[82
+
+
+
+]) [83]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\da
+taConditioningCode.tex"
+Appendix C.
+[84
+
+
+
+] [85]) [86]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\SV
+MCode.tex"
+Appendix D.
+[87
+
+
+
+]) [88]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\HM
+MCode.tex"
+Appendix E.
+[89
+
+
+
+] [90]) [91]
+("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\di
+visionOfLabour.tex"
+Appendix F.
+) [92
+>>>>>>> FETCH_HEAD
+
+
+
+]
+<<<<<<< HEAD
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -2238,6 +4127,8 @@ Appendix F.
 
 
 ]
+=======
+>>>>>>> FETCH_HEAD
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\in
 dex.bbl" [93
 
@@ -2327,5 +4218,8 @@ PDF statistics:
  2163 PDF objects out of 2487 (max. 8388607)
  887 named destinations out of 1000 (max. 500000)
  795 words of extra memory for PDF output out of 10000 (max. 10000000)
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 
