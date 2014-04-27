@@ -12,11 +12,11 @@ The app loads into the home activity when it is first turned on. The user is wel
 The first task for the user to complete is the questionnaire, based on the eight STOPBANG criteria questions as detailed later in the ‘Design Process’ section of this report. Pressing the submit button then takes you back to the start page and simply stores the number of ‘yes’ answers the questionnaire received. This number is called during the processing of the overall results, noting that three or more ‘yes’ answers indicates a high risk of Obstructive Sleep Apnea. The default for all of the answers is ‘yes’ which should encourage the user to actively read/change each question (given that statistically the average person would have more ‘no’ answers). It also means that should the user bypass the questionnaire section or ignore the questions before hitting ‘submit’, the app will use the higher risk criteria and results will be more likely to suggest too high a probability of apnea than miss a positive diagnosis altogether. 
 \subsection{Sound Analysis Activity}
 This activity is indicated as the second task to complete, though it doesn’t require completion of the questionnaire before being executable itself. The user is presented with four simple buttons as seen below. Note the following button restrictions:
-\begin{itemise}
+\begin{itemize}
 \item ‘Stop’ cannot be pressed until the phone is recording audio.
 \item ‘View Data’ and ‘Delete File’ do nothing until there is data stored (‘Nothing yet’ is displayed as an indicator’).
 \item When ‘Start’ has been pressed, the ‘Stop’ button becomes the only usable button. This is done by checking whether the inbuilt Boolean variable ‘isRecording’ is true, and as such, the inverse becomes true again as soon as ‘Stop’ is pressed.
-\end{itemise}
+\end{itemize}
 For this simple prototype of the app, recording is restricted to one file in any instance of the app running.
 \\ The sound data is automatically stored to a file accessible only by the app and is later analyzed by the machine-learning algorithm and overall results algorithm. Clearly the delete button is only included for cases where recordings were accidentally created and as such, it uses a comprehensive “Are you sure?” alert upon pressing to avoid deletion of wanted files.
 \\Progress bars are used whilst the sound is being saved and loaded which will reassure the user that the app is still running properly during these otherwise unresponsive stages of high CPU usage. 
