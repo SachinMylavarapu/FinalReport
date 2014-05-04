@@ -1,2 +1,6 @@
 \section{Machine Learning -- Java}
 \label{sec:mljava}
+
+Now that we have established the model for our problem (Hidden Markov Models), and used it to learn from data (\fullref{sec:mlExperimentSummary}), we can implement it in Java for Android integration. Our implementation should be able to take sleeping data as an input (in our case observations) and output the most likely sequence of apnoea annotations (in our case latent states). Since all parameters for the HMM have been learnt in MATLAB beforehand, our implementation does not need to include the learning part. More specifically we want the input and output to be lists of integers (\verb!List<Integer> observations! and \verb!List<Integer> latentStates!).
+
+We set our requirements for the 
