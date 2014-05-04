@@ -32,19 +32,19 @@
 \BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Methods of Analysis}{section.5.4}% 32
 \BOOKMARK [1][-]{section.5.5}{5.5 Signal Analysis \205 simple method}{chapter.5}% 33
 \BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Outline}{section.5.5}% 34
-\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Implementation in MATLAB\256}{section.5.5}% 35
-\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 Limitations of model}{section.5.5}% 36
-\BOOKMARK [1][-]{section.5.6}{5.6 Machine Learning \205 Theory}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Support Vector Machines}{section.5.6}% 38
-\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 State-Space Models}{section.5.6}% 39
-\BOOKMARK [2][-]{subsection.5.6.3}{5.6.3 Hidden Markov Models}{section.5.6}% 40
-\BOOKMARK [2][-]{subsection.5.6.4}{5.6.4 Conditioning input data}{section.5.6}% 41
-\BOOKMARK [1][-]{section.5.7}{5.7 Machine Learning \205 Experiments}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Conditioning input data}{section.5.7}% 43
-\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Data Visualisation}{section.5.7}% 44
-\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Support Vector Machines}{section.5.7}% 45
-\BOOKMARK [2][-]{subsection.5.7.4}{5.7.4 Hidden Markov Models}{section.5.7}% 46
-\BOOKMARK [2][-]{subsection.5.7.5}{5.7.5 Summary}{section.5.7}% 47
+\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Limitations of model}{section.5.5}% 35
+\BOOKMARK [1][-]{section.5.6}{5.6 Machine Learning \205 Theory}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Support Vector Machines}{section.5.6}% 37
+\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 State-Space Models}{section.5.6}% 38
+\BOOKMARK [2][-]{subsection.5.6.3}{5.6.3 Hidden Markov Models}{section.5.6}% 39
+\BOOKMARK [2][-]{subsection.5.6.4}{5.6.4 Conditioning input data}{section.5.6}% 40
+\BOOKMARK [1][-]{section.5.7}{5.7 Machine Learning \205 Experiments}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Reading and Conditioning Data in MATLAB}{section.5.7}% 42
+\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Conditioning input data}{section.5.7}% 43
+\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Data Visualisation}{section.5.7}% 44
+\BOOKMARK [2][-]{subsection.5.7.4}{5.7.4 Support Vector Machines}{section.5.7}% 45
+\BOOKMARK [2][-]{subsection.5.7.5}{5.7.5 Hidden Markov Models}{section.5.7}% 46
+\BOOKMARK [2][-]{subsection.5.7.6}{5.7.6 Summary}{section.5.7}% 47
 \BOOKMARK [1][-]{section.5.8}{5.8 Machine Learning \205 Java}{chapter.5}% 48
 \BOOKMARK [1][-]{section.5.9}{5.9 Designing an Android App}{chapter.5}% 49
 \BOOKMARK [2][-]{subsection.5.9.1}{5.9.1 XML and Java sides of ADT}{section.5.9}% 50
@@ -65,7 +65,7 @@
 \BOOKMARK [2][-]{subsection.5.9.16}{5.9.16 AVAudioRecord Library}{section.5.9}% 65
 \BOOKMARK [0][-]{chapter.6}{6 Conclusion}{}% 66
 \BOOKMARK [0][-]{appendix.A}{A Code for the simple model}{}% 67
-\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 NAME OF THE MAIN SCRIPT}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 simple.m}{appendix.A}% 68
 \BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 69
 \BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 70
 \BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m}{}% 71
