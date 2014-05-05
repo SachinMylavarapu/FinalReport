@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: index.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: index.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: medicalInfo.aux
 A level-1 auxiliary file: rationale.aux
@@ -35,45 +33,4 @@ while executing---line 1049 of file plain.bst
 Warning--empty publisher in mlBook
 Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Van Kuiken" for entry bigdata
 while executing---line 1090 of file plain.bst
-You've used 22 entries,
-            2118 wiz_defined-function locations,
-            604 strings with 6306 characters,
-and the built_in function-call counts, 4896 in all, are:
-= -- 443
-> -- 186
-< -- 0
-+ -- 81
-- -- 56
-* -- 214
-:= -- 822
-add.period$ -- 57
-call.type$ -- 22
-change.case$ -- 92
-chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 175
-empty$ -- 490
-format.name$ -- 56
-if$ -- 1039
-int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 7
-newline$ -- 104
-num.names$ -- 44
-pop$ -- 181
-preamble$ -- 1
-purify$ -- 72
-quote$ -- 0
-skip$ -- 161
-stack$ -- 0
-substring$ -- 163
-swap$ -- 22
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 84
-warning$ -- 1
-while$ -- 48
-width$ -- 24
-write$ -- 206
 (There were 5 error messages)

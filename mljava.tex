@@ -1,6 +1,15 @@
 \section{Machine Learning -- Java}
 \label{sec:mljava}
 
-Now that we have established the model for our problem (Hidden Markov Models), and used it to learn from data (\fullref{sec:mlExperimentSummary}), we can implement it in Java for Android integration. Our implementation should be able to take sleeping data as an input (in our case observations) and output the most likely sequence of apnoea annotations (in our case latent states). Since all parameters for the HMM have been learnt in MATLAB beforehand, our implementation does not need to include the learning part. More specifically we want the input and output to be lists of integers (\verb!List<Integer> observations! and \verb!List<Integer> latentStates!).
+Now that we have established the model for our problem (Hidden Markov Models), and used it to learn from data (\fullref{sec:mlExperimentsSummary}), we can implement it in Java for Android integration. Our implementation should be able to take sleeping data as an input (in our case observations) and output the most likely sequence of apnoea annotations (in our case latent states). Since all parameters for the HMM have been learnt in MATLAB beforehand, our implementation does not need to include the learning part. More specifically we want the input and output to be lists of integers (\verb!List<Integer> observations! and \verb!List<Integer> latentStates!).
 
-We set our requirements for the 
+For this purpose, we have created a class \verb!ApneaHMM! with the following API:
+\begin{itemize}
+	\item \verb!void getParameters()! -- reads the learnt parameters from a local file.
+	\item \verb!void setObservations(List<ObservationVector> observations)! -- sets the observations (sleeping data) for the object.
+	\item \verb!void conditionData()! -- conditions observations by transforming it to the spectrogram space and then performing PCA, similarly as done in the experiments (using the same principal components).
+	\item \verb!void infer()! -- runs the Viterbi Algorithm to infer the most likely sequence of apnoea annotations given the observations based on the model parameters.
+	\item \verb!List<Integer> getLatentStates()! -- returns the inferred most likely sequence.
+\end{itemize}
+
+For the Viterbi Algorithm, we are using the \verb!Jahmm! library, which is a Java implementation of HMM related algorithms \cite{jahmm}. For the data conditioning, we are using the \verb!Linear Algebra for Java (la4j)! library \cite{la4j}, and for the spectrogram analysis, we are using the \verb!musicg!, a lightweight audio analysis library \cite{musicg}. 
