@@ -16,21 +16,19 @@ Database file #1: bibliography/tuananh.bib
 Database file #2: bibliography/sachin.bib
 Database file #3: bibliography/george.bib
 Database file #4: bibliography/sophie.bib
-Repeated entry---line 2 of file bibliography/sophie.bib
- : @misc{wiki:machineLearning
- :                           ,
+Repeated entry---line 418 of file bibliography/sophie.bib
+ : @article{epstein2009clinical
+ :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11 of file bibliography/sophie.bib
- : @article{ghahramani2000variational
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22 of file bibliography/sophie.bib
- : @book{hlt
- :          ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "whitelaw1993characteristics"
+Warning--I didn't find a database entry for "lowel1995cephalometric"
+Name 1 in "National Heart, Lung, and Blood Institute" has a comma at the end for entry sleepdisorderedbreathing
+while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Van Kuiken" for entry bigdata
 while executing---line 1049 of file plain.bst
 Warning--empty publisher in mlBook
+Name 1 in "National Heart, Lung, and Blood Institute" has a comma at the end for entry sleepdisorderedbreathing
+while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Van Kuiken" for entry bigdata
 while executing---line 1090 of file plain.bst
 (There were 5 error messages)

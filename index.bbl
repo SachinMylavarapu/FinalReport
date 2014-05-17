@@ -1,8 +1,31 @@
 \begin{thebibliography}{10}
 
+\bibitem{apneosotherfactors}
+Apneos.
+\newblock Obstructive sleep apnea : Details, other factors, 2003.
+
+\bibitem{american2001international}
+American Sleep~Disorders Association et~al.
+\newblock International classification of sleep disorders: Diagnostic and
+  coding manual. revised ed, 2001.
+
 \bibitem{phoneusers}
 eMarketer.com.
 \newblock Smartphone users worldwide will total 1.75 billion, January 2014.
+
+\bibitem{epstein2009clinical}
+Lawrence~J Epstein, David Kristo, Patrick~J Strollo~Jr, Norman Friedman, Atul
+  Malhotra, Susheel~P Patil, Kannan Ramar, Robert Rogers, Richard~J Schwab,
+  Edward~M Weaver, et~al.
+\newblock Clinical guideline for the evaluation, management and long-term care
+  of obstructive sleep apnea in adults.
+\newblock {\em J Clin Sleep Med}, 5(3):263--276, 2009.
+
+\bibitem{fogel2004sleep}
+RB~Fogel, A~Malhotra, and DP~White.
+\newblock Sleep{\textperiodcentered} 2: Pathophysiology of obstructive sleep
+  apnoea/hypopnoea syndrome.
+\newblock {\em Thorax}, 59(2):159--163, 2004.
 
 \bibitem{jahmm}
 Jean-Marc François.
@@ -34,6 +57,17 @@ leahthegeek.
 \newblock Nick sleep apnea proof 1, 2007.
 \newblock Online Video - Accessed 8th January 2014.
 
+\bibitem{leiter1996upper}
+JC~Leiter.
+\newblock Upper airway shape: Is it important in the pathogenesis of
+  obstructive sleep apnea?
+\newblock {\em American journal of respiratory and critical care medicine},
+  153(3):894--898, 1996.
+
+\bibitem{sagittalface}
+R~Martin.
+\newblock Labelled sagittal view of face, 2014.
+
 \bibitem{xerox2}
 MedIndia.
 \newblock Manipal university and xerox innovation to test remote-sensing
@@ -43,6 +77,10 @@ MedIndia.
 Kevin~P Murphy.
 \newblock {\em Machine learning: a probabilistic perspective}.
 \newblock Cambridge, MA, 2012.
+
+\bibitem{sleepdisorderedbreathing}
+Lung National~Heart and Blood Institute.
+\newblock Other names for sleep apnea, 2012.
 
 \bibitem{ng13}
 Andrew Ng.
@@ -69,6 +107,10 @@ Novasom.
 NPR.
 \newblock Apps for apnea? new gadgets promise to improve sleep, February 2012.
 
+\bibitem{AHI}
+Division of~Sleep Medicine~at Harvard Medical~School.
+\newblock Apnea hypopnea index (ahi), 2014.
+
 \bibitem{bigdata}
 David Knott Steve Van~Kuiken Peter~Groves, Basel~Kayyali.
 \newblock The 'big data' revolution in health care.
@@ -84,6 +126,19 @@ Lawrence Rabiner.
 Daniel Ramage.
 \newblock Cs229 - section notes.
 \newblock Course website, 2007.
+
+\bibitem{anteriormouth}
+Staples~High School.
+\newblock Labelled anterior view of mouth, 2014.
+
+\bibitem{schwab1995upper}
+Richard~J Schwab, Krishanu~B Gupta, Warren~B Gefter, Louis~J Metzger, Eric~A
+  Hoffman, and Allan~I Pack.
+\newblock Upper airway and soft tissue anatomy in normal subjects and patients
+  with sleep-disordered breathing. significance of the lateral pharyngeal
+  walls.
+\newblock {\em American Journal of Respiratory and Critical Care Medicine},
+  152(5):1673--1689, 1995.
 
 \bibitem{xerox1}
 The~Economic Times.
