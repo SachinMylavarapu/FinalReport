@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{adams2001relation}
+Nancy Adams, Milton Strauss, Mark Schluchter, and Susan Redline.
+\newblock Relation of measures of sleep-disordered breathing to
+  neuropsychological functioning.
+\newblock {\em American journal of respiratory and critical care medicine},
+  163(7):1626--1631, 2001.
+
+\bibitem{ancoli1991sleep}
+Sonia Ancoli-Israel, Daniel~F Kripke, Melville~R Klauber, William~J Mason,
+  Robert Fell, and Oscar Kaplan.
+\newblock Sleep-disordered breathing in community-dwelling elderly.
+\newblock {\em Sleep}, 14(6):486, 1991.
+
 \bibitem{apneosotherfactors}
 Apneos.
 \newblock Obstructive sleep apnea : Details, other factors, 2003.
@@ -9,17 +22,70 @@ American Sleep~Disorders Association et~al.
 \newblock International classification of sleep disorders: Diagnostic and
   coding manual. revised ed, 2001.
 
+\bibitem{baldwin2001association}
+Carol~M Baldwin, Kent~A Griffith, F~Javier Nieto, George~T O'Connor, Joyce~A
+  Walsleben, and Susan Redline.
+\newblock The association of sleep-disordered breathing and sleep symptoms with
+  quality of life in the sleep heart health study.
+\newblock {\em Sleep}, 24(1):96--105, 2001.
+
+\bibitem{balk2012future}
+Ethan~M Balk, Mei Chung, Denish Moorthy, Jeffrey~A Chan, Kamal Patel, Thomas~W
+  Concannon, Sara~J Ratichek, and Lina Kong~Win Chang.
+\newblock Future research needs for diagnosis of obstructive sleep apnea.
+\newblock 2012.
+
+\bibitem{ballester1999evidence}
+EUGENI BALLESTER, JOAN~R BADIA, LOURDES HERNÁNDEZ, EVA CARRASCO, JUAN
+  de~PABLO, CONSOL FORNAS, ROBERT RODRIGUEZ-ROISIN, and JOSEP~M MONTSERRAT.
+\newblock Evidence of the effectiveness of continuous positive airway pressure
+  in the treatment of sleep apnea/hypopnea syndrome.
+\newblock {\em American journal of respiratory and critical care medicine},
+  159(2):495--501, 1999.
+
 \bibitem{phoneusers}
 eMarketer.com.
 \newblock Smartphone users worldwide will total 1.75 billion, January 2014.
 
-\bibitem{epstein2009clinical}
-Lawrence~J Epstein, David Kristo, Patrick~J Strollo~Jr, Norman Friedman, Atul
-  Malhotra, Susheel~P Patil, Kannan Ramar, Robert Rogers, Richard~J Schwab,
-  Edward~M Weaver, et~al.
-\newblock Clinical guideline for the evaluation, management and long-term care
-  of obstructive sleep apnea in adults.
-\newblock {\em J Clin Sleep Med}, 5(3):263--276, 2009.
+\bibitem{engleman1999randomized}
+Heather~M Engleman, Ruth~N Kingshott, Peter~K Wraith, Thomas~W Mackay, Ian~J
+  Deary, and Neil~J Douglas.
+\newblock Randomized placebo-controlled crossover trial of continuous positive
+  airway pressure for mild sleep apnea/hypopnea syndrome.
+\newblock {\em American Journal of Respiratory and Critical Care Medicine},
+  159(2):461--467, 1999.
+
+\bibitem{enright1996prevalence}
+Paul~L Enright, Anne~B Newman, Patricia~W Wahl, Teri~A Manolio, Edward~F
+  Haponik, and PJ~Boyle.
+\newblock Prevalence and correlates of snoring and observed apneas in 5,201
+  older adults.
+\newblock {\em Sleep}, 19(7):531--538, 1996.
+
+\bibitem{findley1989driving}
+Larry~J Findley, Michael~J Fabrizio, Herbert Knight, Barbara~B Norcross, Amy~J
+  Laforte, and Paul~M Suratt.
+\newblock Driving simulator performance in patients with sleep apnea.
+\newblock {\em American Review of Respiratory Disease}, 140(2):529--530, 1989.
+
+\bibitem{findley1988automobile}
+Larry~J Findley, Mark~E Unverzagt, and Paul~M Suratt.
+\newblock Automobile accidents involving patients with obstructive sleep apnea.
+\newblock {\em American Review of Respiratory Disease}, 138(2):337--340, 1988.
+
+\bibitem{finkel2009prevalence}
+Kevin~J Finkel, Adam~C Searleman, Heidi Tymkew, Christopher~Y Tanaka, Leif
+  Saager, Elika Safer-Zadeh, Michael Bottros, Jacqueline~A Selvidge, Eric
+  Jacobsohn, Debra Pulley, et~al.
+\newblock Prevalence of undiagnosed obstructive sleep apnea among adult
+  surgical patients in an academic medical center.
+\newblock {\em Sleep medicine}, 10(7):753--758, 2009.
+
+\bibitem{finn1998sleep}
+Laurel Finn, Terry Young, Mari Palta, and Dennis~G Fryback.
+\newblock Sleep-disordered breathing and self-reported general health status in
+  the wisconsin sleep cohort study.
+\newblock {\em SLEEP-NEW YORK-}, 21:701--708, 1998.
 
 \bibitem{fogel2004sleep}
 RB~Fogel, A~Malhotra, and DP~White.
@@ -27,35 +93,42 @@ RB~Fogel, A~Malhotra, and DP~White.
   apnoea/hypopnoea syndrome.
 \newblock {\em Thorax}, 59(2):159--163, 2004.
 
-\bibitem{jahmm}
-Jean-Marc François.
-\newblock {jahmm}: An implementation of hidden markov models in java.
-\newblock \url{https://code.google.com/p/jahmm/}, 2006.
+\bibitem{britishlungfoundation}
+British~Lung Foundation.
+\newblock The osa charter, 2014.
 
-\bibitem{ghahramani2000variational}
-Zoubin Ghahramani and Geoffrey~E Hinton.
-\newblock Variational learning for switching state-space models.
-\newblock {\em Neural computation}, 12(4):831--864, 2000.
+\bibitem{franklin2000snoring}
+Karl~A Franklin, Per~Åke Holmgren, Fredrik Jönsson, Nils Poromaa, Hans
+  Stenlund, and Eva Svanborg.
+\newblock Snoring, pregnancy-induced hypertension, and growth retardation of
+  the fetus.
+\newblock {\em CHEST Journal}, 117(1):137--141, 2000.
 
-\bibitem{hlt}
-A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
-  University of~Oxford. Department~of Engineering~Science.
-\newblock {\em Engineering Tables and Data}.
-\newblock University of Oxford, Department of Engineering Science, 2008.
+\bibitem{gale2004effects}
+Shawn~D Gale and Ramona~O Hopkins.
+\newblock Effects of hypoxia on the brain: neuroimaging and neuropsychological
+  findings following carbon monoxide poisoning and obstructive sleep apnea.
+\newblock {\em Journal of the International neuropsychological society},
+  10(1):60--71, 2004.
+
+\bibitem{ip2001community}
+Mary~SM Ip, Bing Lam, Ian~J Lauder, Kenneth~WT Tsang, Ka-fai Chung, Yuk-wan
+  Mok, and Wah-kit Lam.
+\newblock A community study of sleep-disordered breathing in middle-aged
+  chinese men in hong kong.
+\newblock {\em CHEST Journal}, 119(1):62--69, 2001.
 
 \bibitem{wsjhometest}
 Wall~Street Journal.
 \newblock A test for sleep apnea from your own bedroom, May 2013.
 
-\bibitem{la4j}
-Vladimir Kostyukov.
-\newblock {la4j}: Linear algebra for java.
-\newblock \url{http://la4j.org/}, 2011-2013.
-
-\bibitem{simplevideo}
-leahthegeek.
-\newblock Nick sleep apnea proof 1, 2007.
-\newblock Online Video - Accessed 8th January 2014.
+\bibitem{kim1997sleep}
+Hyon~C Kim, Terry Young, Charles~G Matthews, Steven~M Weber, Austin~R Woodard,
+  and Mari Palta.
+\newblock Sleep-disordered breathing and neuropsychological deficits: a
+  population-based study.
+\newblock {\em American journal of respiratory and critical care medicine},
+  156(6):1813--1819, 1997.
 
 \bibitem{leiter1996upper}
 JC~Leiter.
@@ -73,19 +146,9 @@ MedIndia.
 \newblock Manipal university and xerox innovation to test remote-sensing
   healthcare technologies, February 2014.
 
-\bibitem{mlBook}
-Kevin~P Murphy.
-\newblock {\em Machine learning: a probabilistic perspective}.
-\newblock Cambridge, MA, 2012.
-
 \bibitem{sleepdisorderedbreathing}
 Lung National~Heart and Blood Institute.
 \newblock Other names for sleep apnea, 2012.
-
-\bibitem{ng13}
-Andrew Ng.
-\newblock Cs229 - lecture notes.
-\newblock Course website, 2013.
 
 \bibitem{nhsdiag}
 NHS.
@@ -107,25 +170,19 @@ Novasom.
 NPR.
 \newblock Apps for apnea? new gadgets promise to improve sleep, February 2012.
 
-\bibitem{AHI}
-Division of~Sleep Medicine~at Harvard Medical~School.
-\newblock Apnea hypopnea index (ahi), 2014.
+\bibitem{pankow2000sleep}
+Wulf Pankow, Achim Lies, Friedrich~W Lohmann, et~al.
+\newblock Sleep-disordered breathing and hypertension.
+\newblock {\em N Engl J Med}, 343(13):966, 2000.
 
 \bibitem{bigdata}
 David Knott Steve Van~Kuiken Peter~Groves, Basel~Kayyali.
 \newblock The 'big data' revolution in health care.
 \newblock {\em McKinsey \& Company}, 2013.
 
-\bibitem{rabiner1989tutorial}
-Lawrence Rabiner.
-\newblock A tutorial on hidden markov models and selected applications in
-  speech recognition.
-\newblock {\em Proceedings of the IEEE}, 77(2):257--286, 1989.
-
-\bibitem{ramage07}
-Daniel Ramage.
-\newblock Cs229 - section notes.
-\newblock Course website, 2007.
+\bibitem{physionet}
+PhysioNet.
+\newblock Detecting and quantifying apnea based on the ecg, 2012.
 
 \bibitem{anteriormouth}
 Staples~High School.
@@ -140,41 +197,59 @@ Richard~J Schwab, Krishanu~B Gupta, Warren~B Gefter, Louis~J Metzger, Eric~A
 \newblock {\em American Journal of Respiratory and Critical Care Medicine},
   152(5):1673--1689, 1995.
 
+\bibitem{shaver2000review}
+Joan~LF Shaver and Shannon~N Zenk.
+\newblock Review: Sleep disturbance in menopause.
+\newblock {\em Journal of women's health \& gender-based medicine},
+  9(2):109--118, 2000.
+
+\bibitem{stradling1991self}
+JR~Stradling, JH~Crosby, and CD~Payne.
+\newblock Self reported snoring and daytime sleepiness in men aged 35-65 years.
+\newblock {\em Thorax}, 46(11):807--810, 1991.
+
+\bibitem{strohl1996recognition}
+Kingman~P Strohl and Susan Redline.
+\newblock Recognition of obstructive sleep apnea.
+\newblock {\em American journal of respiratory and critical care medicine},
+  154(2):279--289, 1996.
+
 \bibitem{xerox1}
 The~Economic Times.
 \newblock Xerox, manipal to develop non-contact diagnostics solutions, February
   2014.
 
-\bibitem{wiki:DFT}
-Wikipedia.
-\newblock Discrete fourier transform --- {W}ikipedia{,} the free encyclopedia,
-  2014.
-\newblock [Online; accessed 28-March-2014].
+\bibitem{waldron1985we}
+Ingrid Waldron.
+\newblock What do we know about causes of sex differences in mortality? a
+  review of the literature.
+\newblock {\em Population Bulletin of the United Nations}, (18):59, 1985.
 
-\bibitem{wiki:EM}
-Wikipedia.
-\newblock Expectation-maximization algorithm --- {W}ikipedia{,} the free
-  encyclopedia, 2014.
-\newblock [Online; accessed 25-March-2014].
+\bibitem{whitelaw1993characteristics}
+WA~Whitelaw.
+\newblock Characteristics of the snoring noise in patients with and without
+  occlusive sleep apnea.
+\newblock {\em Am Rev Respir Dis}, 147:635--644, 1993.
 
-\bibitem{wiki:HMM}
-Wikipedia.
-\newblock Hidden markov model --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 24-March-2014].
+\bibitem{young1996sleep}
+Terry Young.
+\newblock Sleep-disordered breathing in older adults: is it a condition
+  distinct from that in middle-aged adults?
+\newblock {\em Sleep}, 19(7):529, 1996.
 
-\bibitem{wiki:machineLearning}
-Wikipedia.
-\newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 18-March-2014].
+\bibitem{young2002epidemiology}
+Terry Young, Paul~E Peppard, and Daniel~J Gottlieb.
+\newblock Epidemiology of obstructive sleep apnea: a population health
+  perspective.
+\newblock {\em American journal of respiratory and critical care medicine},
+  165(9):1217--1239, 2002.
 
-\bibitem{wiki:PSD}
-Wikipedia.
-\newblock Spectral density --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 14-April-2014].
-
-\bibitem{musicg}
-Jacquet Wong.
-\newblock {musicg}: Lightweight java api for audio analysing.
-\newblock \url{https://code.google.com/p/musicg/}, 2014.
+\bibitem{young2002predictors}
+Terry Young, Eyal Shahar, F~Javier Nieto, Susan Redline, Anne~B Newman,
+  Daniel~J Gottlieb, Joyce~A Walsleben, Laurel Finn, Paul Enright, and
+  Jonathan~M Samet.
+\newblock Predictors of sleep-disordered breathing in community-dwelling
+  adults: the sleep heart health study.
+\newblock {\em Archives of Internal Medicine}, 162(8):893--900, 2002.
 
 \end{thebibliography}
