@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{adams2001relation}
 Nancy Adams, Milton Strauss, Mark Schluchter, and Susan Redline.
@@ -22,6 +22,13 @@ American Sleep~Disorders Association et~al.
 \newblock International classification of sleep disorders: Diagnostic and
   coding manual. revised ed, 2001.
 
+\bibitem{azarbarzin2010unsupervised}
+Ali Azarbarzin and Zahra Moussavi.
+\newblock Unsupervised classification of respiratory sound signal into
+  snore/no-snore classes.
+\newblock In {\em Engineering in Medicine and Biology Society (EMBC), 2010
+  Annual International Conference of the IEEE}, pages 3666--3669. IEEE, 2010.
+
 \bibitem{baldwin2001association}
 Carol~M Baldwin, Kent~A Griffith, F~Javier Nieto, George~T O'Connor, Joyce~A
   Walsleben, and Susan Redline.
@@ -43,9 +50,72 @@ EUGENI BALLESTER, JOAN~R BADIA, LOURDES HERNÁNDEZ, EVA CARRASCO, JUAN
 \newblock {\em American journal of respiratory and critical care medicine},
   159(2):495--501, 1999.
 
+\bibitem{ben2012obstructive}
+Nir Ben-Israel, Ariel Tarasiuk, Yaniv Zigel, et~al.
+\newblock Obstructive apnea hypopnea index estimation by analysis of nocturnal
+  snoring signals in adults.
+\newblock {\em Sleep}, 35(9):1299--305C, 2012.
+
+\bibitem{castelo2010patients}
+Camil Castelo-Branco, Santiago Palacios, Javier Ferrer-Barriendos, and Xavier
+  Alberich.
+\newblock Do patients lie? an open interview vs. a blind questionnaire on
+  sexuality.
+\newblock {\em The journal of sexual medicine}, 7(2pt2):873--880, 2010.
+
+\bibitem{cavusoglu2007efficient}
+M~Cavusoglu, M~Kamasak, O~Erogul, T~Ciloglu, Y~Serinagaoglu, and T~Akcam.
+\newblock An efficient method for snore/nonsnore classification of sleep
+  sounds.
+\newblock {\em Physiological measurement}, 28(8):841, 2007.
+
+\bibitem{nhschoicesdiagnosis}
+NHS Choices.
+\newblock Diagnosing sleep apnoea, 2012.
+
+\bibitem{nhsmap}
+NHS Choices.
+\newblock Obstructive sleep apnoea/hypopnoea - suspected, 2014.
+
+\bibitem{chung2012high}
+F~Chung, R~Subramanyam, P~Liao, E~Sasaki, C~Shapiro, and Y~Sun.
+\newblock High stop-bang score indicates a high probability of obstructive
+  sleep apnoea.
+\newblock {\em British journal of anaesthesia}, 108(5):768--775, 2012.
+
+\bibitem{chung2008stop}
+Frances Chung, Balaji Yegneswaran, Pu~Liao, Sharon~A Chung, Santhira
+  Vairavanathan, Sazzadul Islam, Ali Khajehdehi, and Colin~M Shapiro.
+\newblock Stop questionnaire: a tool to screen patients for obstructive sleep
+  apnea.
+\newblock {\em Anesthesiology}, 108(5):812--821, 2008.
+
+\bibitem{chung2008validation}
+Frances Chung, Balaji Yegneswaran, Pu~Liao, Sharon~A Chung, Santhira
+  Vairavanathan, Sazzadul Islam, Ali Khajehdehi, and Colin~M Shapiro.
+\newblock Validation of the berlin questionnaire and american society of
+  anesthesiologists checklist as screening tools for obstructive sleep apnea in
+  surgical patients.
+\newblock {\em Anesthesiology}, 108(5):822--830, 2008.
+
+\bibitem{dinges1995survey}
+David~F Dinges.
+\newblock A survey screen for prediction of apnea.
+\newblock {\em Sleep}, 18(3):158--166, 1995.
+
+\bibitem{dixon2003predicting}
+John~B Dixon, Linda~M Schachter, et~al.
+\newblock Predicting sleep apnea and excessive day sleepiness in the severely
+  obeseindicators for polysomnography.
+\newblock {\em CHEST Journal}, 123(4):1134--1141, 2003.
+
 \bibitem{phoneusers}
 eMarketer.com.
 \newblock Smartphone users worldwide will total 1.75 billion, January 2014.
+
+\bibitem{adultobesity}
+Public~Health England.
+\newblock Adult obesity, 2014.
 
 \bibitem{engleman1999randomized}
 Heather~M Engleman, Ruth~N Kingshott, Peter~K Wraith, Thomas~W Mackay, Ian~J
@@ -61,6 +131,14 @@ Paul~L Enright, Anne~B Newman, Patricia~W Wahl, Teri~A Manolio, Edward~F
 \newblock Prevalence and correlates of snoring and observed apneas in 5,201
   older adults.
 \newblock {\em Sleep}, 19(7):531--538, 1996.
+
+\bibitem{epstein2009clinical}
+Lawrence~J Epstein, David Kristo, Patrick~J Strollo~Jr, Norman Friedman, Atul
+  Malhotra, Susheel~P Patil, Kannan Ramar, Robert Rogers, Richard~J Schwab,
+  Edward~M Weaver, et~al.
+\newblock Clinical guideline for the evaluation, management and long-term care
+  of obstructive sleep apnea in adults.
+\newblock {\em J Clin Sleep Med}, 5(3):263--276, 2009.
 
 \bibitem{findley1989driving}
 Larry~J Findley, Michael~J Fabrizio, Herbert Knight, Barbara~B Norcross, Amy~J
@@ -87,6 +165,19 @@ Laurel Finn, Terry Young, Mari Palta, and Dennis~G Fryback.
   the wisconsin sleep cohort study.
 \newblock {\em SLEEP-NEW YORK-}, 21:701--708, 1998.
 
+\bibitem{fiz1996acoustic}
+JA~Fiz, J~Abad, R~Jane, M~Riera, MA~Mananas, P~Caminal, D~Rodenstein, and
+  J~Morera.
+\newblock Acoustic analysis of snoring sound in patients with simple snoring
+  and obstructive sleep apnoea.
+\newblock {\em European Respiratory Journal}, 9(11):2365--2370, 1996.
+
+\bibitem{flemons1994likelihood}
+W~WARD Flemons, William~A Whitelaw, Rollin Brant, and John~E Remmers.
+\newblock Likelihood ratios for a sleep apnea clinical prediction rule.
+\newblock {\em American journal of respiratory and critical care medicine},
+  150(5):1279--1285, 1994.
+
 \bibitem{fogel2004sleep}
 RB~Fogel, A~Malhotra, and DP~White.
 \newblock Sleep{\textperiodcentered} 2: Pathophysiology of obstructive sleep
@@ -104,12 +195,47 @@ Karl~A Franklin, Per~Åke Holmgren, Fredrik Jönsson, Nils Poromaa, Hans
   the fetus.
 \newblock {\em CHEST Journal}, 117(1):137--141, 2000.
 
+\bibitem{jahmm}
+Jean-Marc François.
+\newblock {jahmm}: An implementation of hidden markov models in java.
+\newblock \url{https://code.google.com/p/jahmm/}, 2006.
+
 \bibitem{gale2004effects}
 Shawn~D Gale and Ramona~O Hopkins.
 \newblock Effects of hypoxia on the brain: neuroimaging and neuropsychological
   findings following carbon monoxide poisoning and obstructive sleep apnea.
 \newblock {\em Journal of the International neuropsychological society},
   10(1):60--71, 2004.
+
+\bibitem{gederi2012fusion}
+Elnaz Gederi and Gari~D Clifford.
+\newblock Fusion of image and signal processing for the detection of
+  obstructive sleep apnea.
+\newblock In {\em Biomedical and Health Informatics (BHI), 2012 IEEE-EMBS
+  International Conference on}, pages 890--893. IEEE, 2012.
+
+\bibitem{ghahramani2000variational}
+Zoubin Ghahramani and Geoffrey~E Hinton.
+\newblock Variational learning for switching state-space models.
+\newblock {\em Neural computation}, 12(4):831--864, 2000.
+
+\bibitem{hara2006acoustic}
+Hirotaka Hara, Naoko Murakami, Yuji Miyauchi, and Hiroshi Yamashita.
+\newblock Acoustic analysis of snoring sounds by a multidimensional voice
+  program.
+\newblock {\em The Laryngoscope}, 116(3):379--381, 2006.
+
+\bibitem{hlt}
+A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
+  University of~Oxford. Department~of Engineering~Science.
+\newblock {\em Engineering Tables and Data}.
+\newblock University of Oxford, Department of Engineering Science, 2008.
+
+\bibitem{iber2007aasm}
+Conrad Iber, American~Academy of~Sleep~Medicine, et~al.
+\newblock {\em The AASM manual for the scoring of sleep and associated events:
+  rules, terminology and technical specifications}.
+\newblock American Academy of Sleep Medicine, 2007.
 
 \bibitem{ip2001community}
 Mary~SM Ip, Bing Lam, Ian~J Lauder, Kenneth~WT Tsang, Ka-fai Chung, Yuk-wan
@@ -130,12 +256,40 @@ Hyon~C Kim, Terry Young, Charles~G Matthews, Steven~M Weber, Austin~R Woodard,
 \newblock {\em American journal of respiratory and critical care medicine},
   156(6):1813--1819, 1997.
 
+\bibitem{kirby1999neural}
+Simon~D Kirby, P~Eng, Wayne Danter, Charles~FP George, Tanya Francovic,
+  Ralph~RF Ruby, and Kathleen~A Ferguson.
+\newblock Neural network prediction of obstructive sleep apnea from clinical
+  criteria.
+\newblock {\em CHEST Journal}, 116(2):409--415, 1999.
+
+\bibitem{la4j}
+Vladimir Kostyukov.
+\newblock {la4j}: Linear algebra for java.
+\newblock \url{http://la4j.org/}, 2011-2013.
+
+\bibitem{kushida1997predictive}
+Clete~A Kushida, Bradley Efron, and Christian Guilleminault.
+\newblock A predictive morphometric model for the obstructive sleep apnea
+  syndrome.
+\newblock {\em Annals of Internal Medicine}, 127(8\_Part\_1):581--587, 1997.
+
+\bibitem{simplevideo}
+leahthegeek.
+\newblock Nick sleep apnea proof 1, 2007.
+\newblock Online Video - Accessed 8th January 2014.
+
 \bibitem{leiter1996upper}
 JC~Leiter.
 \newblock Upper airway shape: Is it important in the pathogenesis of
   obstructive sleep apnea?
 \newblock {\em American journal of respiratory and critical care medicine},
   153(3):894--898, 1996.
+
+\bibitem{malhotra2002obstructive}
+Atul Malhotra and David~P White.
+\newblock Obstructive sleep apnoea.
+\newblock {\em The lancet}, 360(9328):237--245, 2002.
 
 \bibitem{sagittalface}
 R~Martin.
@@ -146,9 +300,69 @@ MedIndia.
 \newblock Manipal university and xerox innovation to test remote-sensing
   healthcare technologies, February 2014.
 
+\bibitem{mengel2002fundamentals}
+Mark~B Mengel, Warren~Lee Holleman, and Scott~A Fields.
+\newblock {\em Fundamentals of clinical practice}.
+\newblock Springer, 2002.
+
+\bibitem{moser2009sleep}
+Doris Moser, Peter Anderer, Georg Gruber, Silvia Parapatics, Erna Loretz,
+  Marion Boeck, Gerhard Kloesch, Esther Heller, Andrea Schmidt, Heidi
+  Danker-Hopfe, et~al.
+\newblock Sleep classification according to aasm and rechtschaffen \& kales:
+  effects on sleep scoring parameters.
+\newblock {\em Sleep}, 32(2):139, 2009.
+
+\bibitem{mlBook}
+Kevin~P Murphy.
+\newblock {\em Machine learning: a probabilistic perspective}.
+\newblock Cambridge, MA, 2012.
+
 \bibitem{sleepdisorderedbreathing}
 Lung National~Heart and Blood Institute.
 \newblock Other names for sleep apnea, 2012.
+
+\bibitem{netzer1999using}
+Nikolaus~C Netzer, Riccardo~A Stoohs, Cordula~M Netzer, Kathryn Clark, and
+  Kingman~P Strohl.
+\newblock Using the berlin questionnaire to identify patients at risk for the
+  sleep apnea syndrome.
+\newblock {\em Annals of internal medicine}, 131(7):485--491, 1999.
+
+\bibitem{ng13}
+Andrew Ng.
+\newblock Cs229 - lecture notes.
+\newblock Course website, 2013.
+
+\bibitem{ng2008could}
+Andrew~Keong Ng, Tong~San Koh, Eugene Baey, Teck~Hock Lee, Udantha~Ranjith
+  Abeyratne, and Kathiravelu Puvanendran.
+\newblock Could formant frequencies of snore signals be an alternative means
+  for the diagnosis of obstructive sleep apnea?
+\newblock {\em Sleep medicine}, 9(8):894--898, 2008.
+
+\bibitem{ng2009investigation}
+Andrew~Keong Ng, Tong San~Koh, Udantha~Ranjith Abeyratne, and Kathiravelu
+  Puvanendran.
+\newblock Investigation of obstructive sleep apnea using nonlinear mode
+  interactions in nonstationary snore signals.
+\newblock {\em Annals of biomedical engineering}, 37(9):1796--1806, 2009.
+
+\bibitem{ng2008snore}
+Andrew~Keong Ng, Tong San~Koh, Kathiravelu Puvanendran, and Udantha~R
+  Abeyratne.
+\newblock Snore signal enhancement and activity detection via
+  translation-invariant wavelet transform.
+\newblock {\em Biomedical Engineering, IEEE Transactions on},
+  55(10):2332--2342, 2008.
+
+\bibitem{ng2007bispectral}
+Andrew~Keong Ng, Kim~Yong Wong, Chin~Hao Tan, and Tong~San Koh.
+\newblock Bispectral analysis of snore signals for obstructive sleep apnea
+  detection.
+\newblock In {\em Engineering in Medicine and Biology Society, 2007. EMBS 2007.
+  29th Annual International Conference of the IEEE}, pages 6195--6198. IEEE,
+  2007.
 
 \bibitem{nhsdiag}
 NHS.
@@ -170,6 +384,14 @@ Novasom.
 NPR.
 \newblock Apps for apnea? new gadgets promise to improve sleep, February 2012.
 
+\bibitem{ebpdiagnosticstrategies}
+University of~Georgia.
+\newblock Basic strategies for diagnosis, 2014.
+
+\bibitem{confidentialitynhs}
+Department of~Health.
+\newblock Confidentiality: Nhs code of practice, 2003.
+
 \bibitem{pankow2000sleep}
 Wulf Pankow, Achim Lies, Friedrich~W Lohmann, et~al.
 \newblock Sleep-disordered breathing and hypertension.
@@ -183,6 +405,68 @@ David Knott Steve Van~Kuiken Peter~Groves, Basel~Kayyali.
 \bibitem{physionet}
 PhysioNet.
 \newblock Detecting and quantifying apnea based on the ecg, 2012.
+
+\bibitem{rabiner1989tutorial}
+Lawrence Rabiner.
+\newblock A tutorial on hidden markov models and selected applications in
+  speech recognition.
+\newblock {\em Proceedings of the IEEE}, 77(2):257--286, 1989.
+
+\bibitem{vbox}
+Ewaryst Rafaj{\l}owicz, Miroslaw Pawlak, and Ansgar Steland.
+\newblock Nonparametric sequential change-point detection by a vertically
+  trimmed box method.
+\newblock {\em Information Theory, IEEE Transactions on}, 56(7):3621--3634,
+  2010.
+
+\bibitem{ramage07}
+Daniel Ramage.
+\newblock Cs229 - section notes.
+\newblock Course website, 2007.
+
+\bibitem{rastogi2005quadratic}
+Manu Rastogi, Dipankar Nagchoudhuri, and CD~Parikh.
+\newblock Quadratic phase coupling in ecg signals.
+\newblock In {\em Sensors and the International Conference on new Techniques in
+  Pharmaceutical and Biomedical Research, 2005 Asian Conference on}, pages
+  74--77. IEEE, 2005.
+
+\bibitem{rechtschaffen1968manual}
+Allan Rechtschaffen and Anthony Kales.
+\newblock A manual of standardized terminology, techniques and scoring system
+  for sleep stages of human subjects.
+\newblock 1968.
+
+\bibitem{roberts1992new}
+S~Roberts and L~Tarassenko.
+\newblock New method of automated sleep quantification.
+\newblock {\em Medical and Biological Engineering and Computing},
+  30(5):509--517, 1992.
+
+\bibitem{roebuck2014review}
+A~Roebuck, V~Monasterio, E~Gederi, M~Osipov, J~Behar, A~Malhotra, T~Penzel, and
+  GD~Clifford.
+\newblock A review of signals used in sleep analysis.
+\newblock {\em Physiological measurement}, 35(1):R1, 2014.
+
+\bibitem{rogers2002there}
+Wendy~A Rogers.
+\newblock Is there a moral duty for doctors to trust patients?
+\newblock {\em Journal of medical ethics}, 28(2):77--80, 2002.
+
+\bibitem{rosenthal2008epworth}
+Leon~D Rosenthal and Diana~C Dolan.
+\newblock The epworth sleepiness scale in the identification of obstructive
+  sleep apnea.
+\newblock {\em The Journal of nervous and mental disease}, 196(5):429--431,
+  2008.
+
+\bibitem{rossow2011automatic}
+Alex~Brandao Rossow, Evandro Ottoni~Teatini Salles, and Klaus~Fabian Côco.
+\newblock Automatic sleep staging using a single-channel eeg modeling by kalman
+  filter and hmm.
+\newblock In {\em Biosignals and Biorobotics Conference (BRC), 2011 ISSNIP},
+  pages 1--6. IEEE, 2011.
 
 \bibitem{anteriormouth}
 Staples~High School.
@@ -203,6 +487,21 @@ Joan~LF Shaver and Shannon~N Zenk.
 \newblock {\em Journal of women's health \& gender-based medicine},
   9(2):109--118, 2000.
 
+\bibitem{sola2003spectral}
+J~Sola-Soler, R~Jane, JA~Fiz, and J~Morera.
+\newblock Spectral envelope analysis in snoring signals from simple snorers and
+  patients with obstructive sleep apnea.
+\newblock In {\em Engineering in Medicine and Biology Society, 2003.
+  Proceedings of the 25th Annual International Conference of the IEEE},
+  volume~3, pages 2527--2530. IEEE, 2003.
+
+\bibitem{sola2012multiclass}
+Jordi Sol{\`a}-Soler, Jos{\'e}~Antonio Fiz, Jos{\'e} Morera, and Raimon
+  Jan{\'e}.
+\newblock Multiclass classification of subjects with sleep apnoea--hypopnoea
+  syndrome through snoring analysis.
+\newblock {\em Medical engineering \& physics}, 34(9):1213--1220, 2012.
+
 \bibitem{stradling1991self}
 JR~Stradling, JH~Crosby, and CD~Payne.
 \newblock Self reported snoring and daytime sleepiness in men aged 35-65 years.
@@ -219,6 +518,32 @@ The~Economic Times.
 \newblock Xerox, manipal to develop non-contact diagnostics solutions, February
   2014.
 
+\bibitem{tsai2003decision}
+Willis~H Tsai, John~E Remmers, Rollin Brant, W~Ward Flemons, Jan Davies, and
+  Colin Macarthur.
+\newblock A decision rule for diagnostic testing in obstructive sleep apnea.
+\newblock {\em American journal of respiratory and critical care medicine},
+  167(10):1427--1432, 2003.
+
+\bibitem{van1997intensity}
+DL~Van~Brunt, Kenneth~L Lichstein, Sharon~L Noe, RN~Aguillard, and Kristin~W
+  Lester.
+\newblock Intensity pattern of snoring sounds as a predictor for
+  sleep-disordered breathing.
+\newblock {\em Sleep}, 20(12):1151--1156, 1997.
+
+\bibitem{van1995wavelet}
+B~Ph Van~Milligen, E~Sanchez, T~Estrada, C~Hidalgo, B~Branas, B~Carreras, and
+  L~Garcia.
+\newblock Wavelet bicoherence: a new turbulence analysis tool.
+\newblock {\em Physics of Plasmas (1994-present)}, 2(8):3017--3032, 1995.
+
+\bibitem{viner1991history}
+Sidney Viner, John~P Szalai, and Victor Hoffstein.
+\newblock Are history and physical examination a good screening test for sleep
+  apnea?
+\newblock {\em Annals of internal medicine}, 115(5):356--359, 1991.
+
 \bibitem{waldron1985we}
 Ingrid Waldron.
 \newblock What do we know about causes of sex differences in mortality? a
@@ -230,6 +555,51 @@ WA~Whitelaw.
 \newblock Characteristics of the snoring noise in patients with and without
   occlusive sleep apnea.
 \newblock {\em Am Rev Respir Dis}, 147:635--644, 1993.
+
+\bibitem{wiki:DFT}
+Wikipedia.
+\newblock Discrete fourier transform --- {W}ikipedia{,} the free encyclopedia,
+  2014.
+\newblock [Online; accessed 28-March-2014].
+
+\bibitem{wiki:EM}
+Wikipedia.
+\newblock Expectation-maximization algorithm --- {W}ikipedia{,} the free
+  encyclopedia, 2014.
+\newblock [Online; accessed 25-March-2014].
+
+\bibitem{wiki:HMM}
+Wikipedia.
+\newblock Hidden markov model --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 24-March-2014].
+
+\bibitem{wiki:machineLearning}
+Wikipedia.
+\newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 18-March-2014].
+
+\bibitem{wiki:PSD}
+Wikipedia.
+\newblock Spectral density --- {W}ikipedia{,} the free encyclopedia, 2014.
+\newblock [Online; accessed 14-April-2014].
+
+\bibitem{wilson1999snoring}
+Kent Wilson, Riccardo~A Stoohs, Thomas~F Mulrooney, Linda~J Johnson, Christian
+  Guilleminault, and Zhen Huang.
+\newblock The snoring spectrumacoustic assessment of snoring sound intensity in
+  1,139 individuals undergoing polysomnography.
+\newblock {\em CHEST Journal}, 115(3):762--770, 1999.
+
+\bibitem{musicg}
+Jacquet Wong.
+\newblock {musicg}: Lightweight java api for audio analysing.
+\newblock \url{https://code.google.com/p/musicg/}, 2014.
+
+\bibitem{yadollahi2009formant}
+Azadeh Yadollahi and Zahra Moussavi.
+\newblock Formant analysis of breath and snore sounds.
+\newblock In {\em Engineering in Medicine and Biology Society, 2009. EMBC 2009.
+  Annual International Conference of the IEEE}, pages 2563--2566. IEEE, 2009.
 
 \bibitem{young1996sleep}
 Terry Young.

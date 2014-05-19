@@ -58,17 +58,17 @@ Sound intensity can be used for diagnosis in a couple of ways; as a cut off got 
 
 Van Brunt et al defined an acoustic signature event as an apnoeic event lasting between 10 and 90 seconds followed by snoring. Where apnoea had an intensity below 50$\mu$V and snoring above 100$\mu$V. 30 second intervals were analysed by sound intensity and polysomnogram and considered in two ways: firstly each patient (69 patients, 51 OSA suffers, 18 not) was assessed independently and RDI score compared with predictions, for an RDI of 15/hour or greater sensitivity was 93\%, specificity 25\%, false positive 36.2\%, false negative 2.8\%, 60.9\% classified correctly. Secondly pooling all the observations (60231) resulting in a 33\% sensitivity, 98\% specificity, and 85\% classified correctly ~\cite{van1997intensity}.
 
-Wilson et al looked at four sound intensity levels: L_{1}, L_{2}, L_{3} the dB levels exceeded for 1\%, 5\% and 20\% of the test period respectively, and L_{eq} the average dB level. 1139 patients were studied ( 682 OSA, 261 simple snorer and 196 unknown), differences were seen between the sound intensity of apnoeic and non-apnoeic snores with non-apnoeic snores having a lower intensity as seen in Table \ref{table:wilson}. A logistic regression model with RDI $\geq$ 10 as the dependent variable found a cut off of L_{eq} $\geq$ 38 to be significant, with a regression coefficient of 1.24, a standard error of 0.28 and an odds ratio of 3.44 ( 95\% CI) ~\cite{wilson1999snoring}.
+Wilson et al looked at four sound intensity levels: $L_{1}, L_{2}, L_{3}$ the dB levels exceeded for 1\%, 5\% and 20\% of the test period respectively, and $L_{eq}$ the average dB level. 1139 patients were studied (682 OSA, 261 simple snorer and 196 unknown), differences were seen between the sound intensity of apnoeic and non-apnoeic snores with non-apnoeic snores having a lower intensity as seen in Table \ref{table:wilson}. A logistic regression model with $\text{RDI} \geq 10$ as the dependent variable found a cut off of $L_{eq} \geq 38$ to be significant, with a regression coefficient of 1.24, a standard error of 0.28 and an odds ratio of 3.44 ( 95\% CI) ~\cite{wilson1999snoring}.
 
 \begin{table}[h]
 \centering
 \begin{tabular}{c c c}
 \toprule
 Sound Intensity Measure&Nonapnoeic Snoring (RDI < 10)&Apnoeic Snoring (RDI $\geq$ 10)\\ \midrule
-L_{eq}, dBA&42.7 (42.0–43.4)&48.8 (48.7–49.3)\\ 
-L_{1}, dBA&53.4 (52.8–54.1)&59.2 (58.7–59.7)\\ 
-L_{5}, dBA&48.0 (47.4–48.6)&53.2 (52.7–53.7)\\ 
-L_{10}, dBA&46.0 (45.5–46.5)&50.4 (49.9–50.9)\\ \bottomrule
+$L_{eq}$, dBA&42.7 (42.0–43.4)&48.8 (48.7–49.3)\\ 
+$L_{1}$, dBA&53.4 (52.8–54.1)&59.2 (58.7–59.7)\\ 
+$L_{5}$, dBA&48.0 (47.4–48.6)&53.2 (52.7–53.7)\\ 
+$L_{10}$, dBA&46.0 (45.5–46.5)&50.4 (49.9–50.9)\\ \bottomrule
 \end{tabular}
 \caption{Sound Intensity Measures for Subjects With Apnoeic Snoring (RDI $\geq$ 10) and Non-apnoeic Snoring (RDI < 10).}
 \label{table:wilson}
@@ -127,7 +127,7 @@ Power&Log (AHI) = −5.2100 + 2.3565 Log (F1)&0.5334&12.2\\ \bottomrule
 \caption{Regression analysis for apnoea–hypopnoea index (AHI) in events/h and first formant frequency (F1) in hertz \\ AHI computed at F1 = 470 Hz. Ideally predicted AHI = 10 events/h.}
 \label{table:ng2008aformantstable2}
 \end{table}
-Yadollahi et al used formant frequencies to distinguish between snores and breaths rather than simple snorers and OSA suffers so a direct comparison of method cannot be made however there is value in exploring the method used. Bands were used as in the Sola-Soler study but at different frequency ranges, [20−400]Hz, [270−840]Hz, [500−1380]Hz, [910−1920]Hz, [1680-2680]Hz, [2580-3770]Hz and [3590-5000]Hz these were found using K–means clustering. This is a method of partitioning data unsupervised, it uses an iterative method to find a predefined number of partitions, in this case seven, an error margin of 10^{−5} was used for the iterations. The process is sensitive to initial conditions so was repeated 20 times with different initial conditions, the one with the minimum error was selected. Table \ref{table:yadollahi2009formant} shows the student t-test p values, which show the first and third formants to be significant, with probability p = 0.003 and p = 0.0244 respectively. The F1 frequency of the breath sound was greater than that of the snore while the F3 frequencies were the converse ~\cite{yadollahi2009formant}.
+Yadollahi et al used formant frequencies to distinguish between snores and breaths rather than simple snorers and OSA suffers so a direct comparison of method cannot be made however there is value in exploring the method used. Bands were used as in the Sola-Soler study but at different frequency ranges, [20−400]Hz, [270−840]Hz, [500−1380]Hz, [910−1920]Hz, [1680-2680]Hz, [2580-3770]Hz and [3590-5000]Hz these were found using K–means clustering. This is a method of partitioning data unsupervised, it uses an iterative method to find a predefined number of partitions, in this case seven, an error margin of $10^{−5}$ was used for the iterations. The process is sensitive to initial conditions so was repeated 20 times with different initial conditions, the one with the minimum error was selected. Table \ref{table:yadollahi2009formant} shows the student t-test p values, which show the first and third formants to be significant, with probability p = 0.003 and p = 0.0244 respectively. The F1 frequency of the breath sound was greater than that of the snore while the F3 frequencies were the converse ~\cite{yadollahi2009formant}.
 
 \begin{table}[h]
 \centering
@@ -149,11 +149,12 @@ Azarbarzin et al used a similar method to Cavusoglu except that K-means clusteri
 Bispectral analysis exploits the fact that the bispectrum reveals both amplitude and phase information about a spectrum, while also being calculated by convolution makes it the easiest polyspectra to compute. Polyspectra are Fourier Transforms of cumulants, for example the second order cumulant; autocorrelation Fourier Transforms to the Power Spectrum. The third-order cumulant \eqref{cummulant} transforms via a Double Discrete Fourier Transform (DDFT) to the bispectrum \eqref{bispectral}. Although the bispectrum is often plotted on a square it is symmetric and so only a triangular region is needed to completely describe it, this is defined by$ 0\leq \omega_2 \leq \omega_1, \omega_1 + \omega_2 \leq \pi $.
 
 \begin{equation}
-C(m,n)=E\{x(k)x(k+m)x(k+n)\}
 \label{Cummulant}
+C(m,n)=E\{x(k)x(k+m)x(k+n)\}
+\end{equation}
 \begin{equation}
-B(\omega_1,\omega_2) = E\{X(\omega_1)X(\omega_2)X^*(\omega_1+\omega_2)\}
 \label{bispectral}
+B(\omega_1,\omega_2) = E\{X(\omega_1)X(\omega_2)X^*(\omega_1+\omega_2)\}
 \end{equation}
 Quadratic phase coupling (QPC) occurs uniquely in second-order non-linear systems, and is where the phases add and subtract along with the frequency components ~\cite{rastogi2005quadratic}. QPC causes peaks in the bispectrum triangular region, this shows energy is produced at frequency $\omega_1 + \omega_2$, a flat bispectrum at $\omega_1$ and $\omega_2$ suggests no activity and that it is not affected by QPC. 
 
@@ -170,8 +171,8 @@ Ng et al exploited the bispectrum shape in order to distinguish between nine OSA
 \begin{tabular}{@{}lll@{}}
 \toprule
 Types of snores&f1(Hz)&f2(Hz)\\\midrule
-Apnoeic& 233 \pm 147 &170 \pm 82\\
-Benign& 154 \pm 51& 140 \pm 61\\\bottomrule
+Apnoeic& $233 \pm 147$ &$170 \pm 82$\\
+Benign& $154 \pm 51$& $140 \pm 61$\\\bottomrule
 \end{tabular}
 \caption{Mean peak frequencies of apnoeic and benign snores}
 \label{table:ng2007bispectral}
@@ -195,17 +196,17 @@ Ng et al in 2008 used a special type of discrete wavelet transform that was tran
 \centering 
 \includegraphics[width=0.5\textwidth]{drawings/ng2008bfig5}
 \caption{Accuracy comparisons between conventional- (energy and ZCR) and wavelet-based (TIDWT and SA detector) approaches in snore segment boundary detection at several tolerance degrees: 25, 50, 75, 100, and 125 ms. ~\cite{ng2008snore}}
-\label{fig: ng2008bfig5}
+\label{fig:ng2008bfig5}
 \end{figure}
 
-Ng et al in 2009 used continuous wavelet transform in the form or wavelet bicoherence analysis. Bicoherence is the normalised bispectrum and a measure of the amount of phase coupling in a signal ~\cite{van1995wavelet}. Apnoeic snores showed phase coupling at higher frequency modes than benign snores, with apnoeic snores being 20\% less self coupled that benign snores. Two markers were proposed, these were peak frequency component at f_1 (PF1) and peak sum frequency (PSF) i.e. the frequencies with the highest coupling strength of frequency 1 and the sum of frequencies 1 and 2. The relationship between the markers and AHI was assessed using various regression models the most successful of which were exponential and power models using residual standard deviation statistic. These produced optimal thresholds for the markers of PF1 = 285 Hz and PSF = 492 Hz resulting in a sensitivity of 85.0\% and a specificity of 90.7\% ~\cite{ng2009investigation}.
+Ng et al in 2009 used continuous wavelet transform in the form or wavelet bicoherence analysis. Bicoherence is the normalised bispectrum and a measure of the amount of phase coupling in a signal ~\cite{van1995wavelet}. Apnoeic snores showed phase coupling at higher frequency modes than benign snores, with apnoeic snores being 20\% less self coupled that benign snores. Two markers were proposed, these were peak frequency component at $f_1$ (PF1) and peak sum frequency (PSF) i.e. the frequencies with the highest coupling strength of frequency 1 and the sum of frequencies 1 and 2. The relationship between the markers and AHI was assessed using various regression models the most successful of which were exponential and power models using residual standard deviation statistic. These produced optimal thresholds for the markers of PF1 = 285 Hz and PSF = 492 Hz resulting in a sensitivity of 85.0\% and a specificity of 90.7\% ~\cite{ng2009investigation}.
 
 \subsection{Multiclass Classification}
 Rather than looking at each potential feature separately as has been done so far it is possible to use regression analysis and Bayes classifiers ( a type of machine learning), amongst others to predict AHI level from a sound signal with the need to count the number of apnoeas, instead looking at the overall shape of the signal.
 
 Ben-Israel et al investigated the use of five classifiers on 60 training patient sets and 30 testing patient sets. The features were: Mel-Cepstability, a measure of stability of the spectrum over the whole night; running variance, a measure of the energy variability between snores over the whole night; apnoeic phase ratio, percentage time the upper airway collapsed using an energy threshold; inter event silence, a count of apnoeic events based on energy patterns; and pitch density, a measure of stability of fundamental frequencies. This resulted in a five dimensional feature vector, which was classified by a Gaussian Bayes classifier. A threshold of AHI >10 resulted in a sensitivity of 87\% and a specificity of 80\% ~\cite{ben2012obstructive}.
 
-Sola-Soler et al classified their subject into three classes C_{1} simple snorers with AHI <5, C_{2} mild to moderate OSA sufferers 5$\leq$ AHI < 30, and C_{3} sufferers of severe OSA with AHI $\geq$30. There were 13 simple snorers, 11 C_{2} and 12 C_{3} sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants (see Table \ref{table:sola2012} for the full list). These were then classified in two main ways, logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously, two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
+Sola-Soler et al classified their subject into three classes $C_{1}$ simple snorers with AHI <5, $C_{2}$ mild to moderate OSA sufferers 5$\leq$ AHI < 30, and $C_{3}$ sufferers of severe OSA with AHI $\geq$ 30. There were 13 simple snorers, 11 $C_{2}$ and 12 $C_{3}$ sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants (see Table \ref{table:sola2012} for the full list). These were then classified in two main ways, logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously, two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
 
 \begin{wraptable}{r}{5.5cm}[h]
 \%width of table will need manual changing
@@ -213,31 +214,31 @@ Sola-Soler et al classified their subject into three classes C_{1} simple snorer
 \begin{tabular}{l l}
 \toprule
 \multicolumn{2}{l}{Snore intensity parameters}\\ \midrule
-I_mean&Mean sound intensity\\ 
-I_max&Maximum sound intensity\\ 
+$I_mean$&Mean sound intensity\\ 
+$I_max$&Maximum sound intensity\\ 
 \multicolumn{2}{l}{Snore pitch parameters}\\ 
-P_{m}&Pitch mean value\\ 
-P_{s}&Pitch standard deviation\\ 
-P_{iqr}&Pitch interquartile range\\ 
-P_{dens}&Pitch density\\ 
-P_{ints}&Pitch intervals\\ 
+$P_{m}$&Pitch mean value\\ 
+$P_{s}$&Pitch standard deviation\\ 
+$P_{iqr}$&Pitch interquartile range\\ 
+$P_{dens}$&Pitch density\\ 
+$P_{ints}$&Pitch intervals\\ 
 \multicolumn{2}{l}{Snore frequency (PSD) Parameters}\\ 
-F_{mean}&Mean frequency\\ 
-F_{med}&Median frequency\\ 
-F_{peak}&Peak frequency\\ 
-F_{max}&Maximum frequency\\ 
+$F_{mean}$&Mean frequency\\ 
+$F_{med}$&Median frequency\\ 
+$F_{peak}$&Peak frequency\\ 
+$F_{max}$&Maximum frequency\\ 
 CSymm&Symmetry coefficient\\ 
 CFlatn&Flatness coefficient\\ 
-RW_{B}&Ratio of energy in band B to total energy\\ 
-Rout_{B}&Ratio of energy in band B to energy outside B\\ 
+$RW_{B}$&Ratio of energy in band B to total energy\\ 
+$Rout_{B}$&Ratio of energy in band B to energy outside B\\ 
 \multicolumn{2}{l}{Spectral envelope snore parameters}\\ 
-F_{i}&Frequency of the ith formant\\ 
-L_{i}&Attenuation of the ith formant\\ 
-M_{i}&Amplitude of the ith formant\\ \bottomrule
+$F_{i}$&Frequency of the ith formant\\ 
+$L_{i}$&Attenuation of the ith formant\\ 
+$M_{i}$&Amplitude of the ith formant\\ \bottomrule
 \end{tabular}
 \caption{Snore characterisation. B is the frequency band: B = (0, 500)Hz, (100, 500)Hz or (0, 800)Hz. i = 1:5.}
 \label{table:sola2012}
-\end{table}
+\end{wraptable}
 Three different types of naive Bayes classifier were investigated, the optimum independent variables were found by a sequential floating forward selection algorithm up to a maximum of ten variables. The three approaches were Gaussian, kernel diffusion and kernel density; with kernel density producing the best results. Gaussian produced the worst results for the training set probably because snore features are not Gaussian. Bayes using kernel density performed better than logistic regression with accuracy of 83.3\% and 0\% false negatives whereas logistic regression was 72.2\% and 8.3\% respectively ~\cite{sola2012multiclass}.
 \subsection{Conclusion}
 As has been shown a number of features can be used successfully to differentiate obstructive sleep apnoea sufferers from simple snorers with sub-band energy analysis and multiclass analysis performing the best. There were three ways the signals were classified: regression, K-means clustering and Bayes classifiers. Bayes classifiers and K-means clustering consistently outperformed regression classifiers. These are types of machine learning, although not the only types to be used for the classification of signals used in the diagnosis of OSA, other types of machine learning used include; Hidden Markov Models used by Rossow et al to classify EEG signals ~\cite{rossow2011automatic}; Support Vector Machines used by Gederi and Clifford to classify images ~\cite{gederi2012fusion}, and neural networks used by Roberts and Tarassenko to classify EEG ~\cite{roberts1992new}. Given the success of machine learning in the cases shown even with very small training and testing sets this will be the focus of the next work. 
