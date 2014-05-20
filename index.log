@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 16:47
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/Fi
 nalReport/index.tex
@@ -680,14 +680,14 @@ nalReport\title.tex" <drawings/oxford.pdf, id=395, 116.435pt x 139.52126pt>
 File: drawings/oxford.pdf Graphic file (type pdf)
 
 <use drawings/oxford.pdf>
-Package pdftex.def Info: drawings/oxford.pdf used on input line 6.
+Package pdftex.def Info: drawings/oxford.pdf used on input line 7.
 (pdftex.def)             Requested size: 75.06953pt x 89.9575pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2539,7 +2539,7 @@ nalReport\divisionOfLabour.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: FD7D6A5C980AD74D70C40B0B1E5F7D20;7577.
+(rerunfilecheck)             Checksum: 52F773A6C74FA75AC758ADDB4F9B8C5D;7584.
 
 
 LaTeX Warning: There were undefined references.
@@ -2549,7 +2549,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
 Here is how much of TeX's memory you used:
  12227 strings out of 493921
  197878 string characters out of 3144867
- 341507 words of memory out of 3000000
+ 341514 words of memory out of 3000000
  14282 multiletter control sequences out of 15000+200000
  21490 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2588,7 +2588,7 @@ ublic/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on index.pdf (113 pages, 3634723 bytes).
+Output written on index.pdf (113 pages, 3635308 bytes).
 PDF statistics:
  2389 PDF objects out of 2487 (max. 8388607)
  824 named destinations out of 1000 (max. 500000)
