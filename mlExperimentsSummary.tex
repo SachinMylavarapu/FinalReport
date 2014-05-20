@@ -1,7 +1,22 @@
 \subsection{Summary (Sachin)}
 \label{sec:mlExperimentsSummary}
 
-We have seen the implementation of the SVM and HMM models to the PhysioNet data and have calculated the accuracy of both methods in diagnosing apnoea from five records. While the average accuracy for the HMM model is much lower than that found for the SVM model, at 64.1\%, we feel that the HMM model would still be more appropriate for use in our app. Due to limited computational power and memory (fitting the parameters takes a considerable amount of time on a standard laptop), we were unable to utilise the full set of data for our experiments. However, we are confident that if more time and effort were to be expended in this area, the HMM model would prove to be more accurate in diagnosing apnoea as compared to the SVM model. This is because of the suitability of the Hidden Markov Model for temporal data and the applicability of the Markov assumptions in our case. The accuracy can also be improved by ensuring that the annotations on training and testing data reflect the reality of the patient.
+We have seen the implementation of the SVM and HMM models to the PhysioNet data and have calculated the accuracy of both methods in diagnosing apnoea from five records.The results are summarised below in table \ref{table:mlResults}. While the average accuracy for the HMM model is much lower than that found for the SVM model, at 64.1\%, we feel that the HMM model would still be more appropriate for use in our app. Due to limited computational power and memory (fitting the parameters takes a considerable amount of time on a standard laptop), we were unable to utilise the full set of data for our experiments. However, we are confident that if more time and effort were to be expended in this area, the HMM model would prove to be more accurate in diagnosing apnoea as compared to the SVM model. This is because of the suitability of the Hidden Markov Model for temporal data and the applicability of the Markov assumptions in our case. The accuracy can also be improved by ensuring that the annotations on training and testing data reflect the reality of the patient.
+
+\begin{table}[h]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+		\toprule
+		            & \# SV's (5005 data points) & Average accuracy \\ \midrule
+		SVM -- No kernel   & 3679                       & 0.7116           \\
+		SVM -- Poly kernel & 1879                       & 0.6801           \\
+		SVM -- Rbf kernel  & 4033                       & 0.6814           \\
+		HMM & NA & 0.6414 \\ \bottomrule
+
+		\end{tabular}
+		\caption{Summary of performances of machine learning methods}
+		\label{table:mlResults}
+	\end{table}
 
 The current HMM or SVM models can be improved further as well. For example, we could set more suitable probability distributions over the observations, rather than just the multi-variate Gaussian distribution we have used (such as a mixture of Gaussians). Secondly, better dimensionality reduction could be achieved using auto-encoders, for example.
 
