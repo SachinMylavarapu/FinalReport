@@ -208,14 +208,14 @@ Ben-Israel et al investigated the use of five classifiers on 60 training patient
 
 Sola-Soler et al classified their subject into three classes $C_{1}$ simple snorers with AHI <5, $C_{2}$ mild to moderate OSA sufferers 5$\leq$ AHI < 30, and $C_{3}$ sufferers of severe OSA with AHI $\geq$ 30. There were 13 simple snorers, 11 $C_{2}$ and 12 $C_{3}$ sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants (see Table \ref{table:sola2012} for the full list). These were then classified in two main ways, logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously, two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
 
-\begin{wraptable}{r}{5.5cm}[h]
+\begin{wraptable}{r}{5.5cm}
 \%width of table will need manual changing
 \centering
 \begin{tabular}{l l}
 \toprule
 \multicolumn{2}{l}{Snore intensity parameters}\\ \midrule
-$I_mean$&Mean sound intensity\\ 
-$I_max$&Maximum sound intensity\\ 
+$I_{mean}$&Mean sound intensity\\ 
+$I_{max}$&Maximum sound intensity\\ 
 \multicolumn{2}{l}{Snore pitch parameters}\\ 
 $P_{m}$&Pitch mean value\\ 
 $P_{s}$&Pitch standard deviation\\ 
@@ -227,8 +227,8 @@ $F_{mean}$&Mean frequency\\
 $F_{med}$&Median frequency\\ 
 $F_{peak}$&Peak frequency\\ 
 $F_{max}$&Maximum frequency\\ 
-CSymm&Symmetry coefficient\\ 
-CFlatn&Flatness coefficient\\ 
+$C_{Symm}$&Symmetry coefficient\\ 
+$C_{Flatn}$&Flatness coefficient\\ 
 $RW_{B}$&Ratio of energy in band B to total energy\\ 
 $Rout_{B}$&Ratio of energy in band B to energy outside B\\ 
 \multicolumn{2}{l}{Spectral envelope snore parameters}\\ 
