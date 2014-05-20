@@ -1,4 +1,4 @@
-\chapter{Code for Support Vector Machines}
+\chapter{Code for Support Vector Machines (Tuan Anh)}
 \label{ch:SVMCode}
 
 \section{Main script -- apneaSVM.m}
@@ -26,7 +26,7 @@ SVMStructPoly = svmtrain(XPca, YTransformed, 'kernel_function', 'polynomial', 'p
 % SVMStruct = svmtrain(XPca, YTransformed, 'options', options); % no kernel
 
 %% Comparing with test data
-apneaSVMTest(SVMStruct, PVec, XMean, XVar, testIndex);
+apneaSVMTest(SVMStructPoly, PVec, XMean, XVar, testIndex);
 \end{lstlisting}
 
 \section{Test script -- apneaSVMTest.m}

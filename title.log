@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  26 APR 2014 18:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 16:28
 entering extended mode
-**C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/ti
-tle.tex
+**C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/Fi
+nalReport/title.tex
 
-("C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/ti
-tle.tex"
+("C:/Dropbox/Engineering/Engineering Y3/B3 Group Design Projects/FinalReport/Fi
+nalReport/title.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -23,7 +23,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 \begin{titlepage}
+l.1 \begin{titlepage}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -36,32 +36,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \begin{center}
+l.2 \begin{center}
                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--3
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
 [] 
  []
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \\
-      [0.4cm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
-l.8 \includegraphics
-                    [width=0.15\textwidth]{drawings/oxford.png}~\\[1cm]
+l.6 \includegraphics
+                    [width=0.15\textwidth]{drawings/oxford.pdf}~\\[1cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -82,8 +69,8 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.8 \includegraphics[width=0.15\textwidth]
-                                          {drawings/oxford.png}~\\[1cm]
+l.6 \includegraphics[width=0.15\textwidth]
+                                          {drawings/oxford.pdf}~\\[1cm]
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -91,8 +78,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.8 \includegraphics[width=0.15\textwidth]
-                                          {drawings/oxford.png}~\\[1cm]
+l.6 \includegraphics[width=0.15\textwidth]
+                                          {drawings/oxford.pdf}~\\[1cm]
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -118,13 +105,13 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 <recently read> \LARGE 
                        
-l.10 \textsc{\LARGE University of Oxford}
-                                         \\[1.5cm]
+l.8 \textsc{\LARGE University of Oxford}
+                                        \\[1.5cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -132,29 +119,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (54.67194pt too wide) in paragraph at lines 10--10
+Overfull \hbox (54.67194pt too wide) in paragraph at lines 8--8
  []\OT1/cmr/m/sc/10 University 
  []
 
 
-Overfull \hbox (11.71107pt too wide) in paragraph at lines 10--10
+Overfull \hbox (11.71107pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 of 
  []
 
 
-Overfull \hbox (18.06375pt too wide) in paragraph at lines 10--10
+Overfull \hbox (18.06375pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 Ox- 
  []
 
 
-Overfull \hbox (23.75548pt too wide) in paragraph at lines 10--10
+Overfull \hbox (23.75548pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/sc/10 ford 
  []
 
 ! Undefined control sequence.
 <recently read> \Large 
                        
-l.12 \textsc{\Large Third year project}
+l.10 \textsc{\Large Third year project}
                                        \\[0.5cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -163,22 +150,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (29.28319pt too wide) in paragraph at lines 12--12
+Overfull \hbox (29.28319pt too wide) in paragraph at lines 10--10
  []\OT1/cmr/m/sc/10 Third 
  []
 
 
-Overfull \hbox (23.86658pt too wide) in paragraph at lines 12--12
+Overfull \hbox (23.86658pt too wide) in paragraph at lines 10--10
  \OT1/cmr/m/sc/10 year 
  []
 
 
-Overfull \hbox (39.37756pt too wide) in paragraph at lines 12--12
+Overfull \hbox (39.37756pt too wide) in paragraph at lines 10--10
  \OT1/cmr/m/sc/10 project 
  []
 
 ! Undefined control sequence.
-l.15 \HRule
+l.13 \HRule
             \\[0.4cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -193,14 +180,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \HRule \\
+l.13 \HRule \\
               [0.4cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.16 {\huge
+l.14 {\huge
             \bfseries Detecting sleep apnoea via non-invasive methods}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -209,7 +196,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 \HRule
+l.15 \HRule
             \\[1.5cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -218,52 +205,52 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (48.74976pt too wide) in paragraph at lines 16--17
+Overfull \hbox (48.74976pt too wide) in paragraph at lines 14--15
  []\OT1/cmr/bx/n/10 Detecting 
  []
 
 
-Overfull \hbox (24.66098pt too wide) in paragraph at lines 16--17
+Overfull \hbox (24.66098pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 sleep 
  []
 
 
-Overfull \hbox (15.8124pt too wide) in paragraph at lines 16--17
+Overfull \hbox (15.8124pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 ap- 
  []
 
 
-Overfull \hbox (23.3193pt too wide) in paragraph at lines 16--17
+Overfull \hbox (23.3193pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 noea 
  []
 
 
-Overfull \hbox (14.85406pt too wide) in paragraph at lines 16--17
+Overfull \hbox (14.85406pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 via 
  []
 
 
-Overfull \hbox (22.361pt too wide) in paragraph at lines 16--17
+Overfull \hbox (22.361pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 non- 
  []
 
 
-Overfull \hbox (39.03587pt too wide) in paragraph at lines 16--17
+Overfull \hbox (39.03587pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 invasive 
  []
 
 
-Overfull \hbox (29.54846pt too wide) in paragraph at lines 16--17
+Overfull \hbox (29.54846pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 meth- 
  []
 
 
-Overfull \hbox (16.99434pt too wide) in paragraph at lines 16--17
+Overfull \hbox (16.99434pt too wide) in paragraph at lines 14--15
  \OT1/cmr/bx/n/10 ods 
  []
 
 ! Undefined control sequence.
-l.21 \begin{flushleft} \large
+l.19 \begin{flushleft} \large
                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -272,7 +259,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (38.0428pt too wide) in paragraph at lines 22--22
+Overfull \hbox (38.0428pt too wide) in paragraph at lines 20--20
 \OT1/cmr/m/it/10 Authors:  
  []
 
@@ -283,19 +270,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (50.12753pt too wide) in paragraph at lines 23--23
+Overfull \hbox (50.12753pt too wide) in paragraph at lines 21--21
 \OT1/cmr/m/sc/10 Cochrane  
- []
-
-Missing character: There is no S in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-
-Overfull \hbox (61.64415pt too wide) in paragraph at lines 24--24
-\OT1/cmr/m/sc/10 Mylavarapu  
  []
 
 Missing character: There is no T in font nullfont!
@@ -306,7 +282,7 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no h in font nullfont!
 
-Overfull \hbox (12.41101pt too wide) in paragraph at lines 25--25
+Overfull \hbox (12.41101pt too wide) in paragraph at lines 22--22
 \OT1/cmr/m/sc/10 Le  
  []
 
@@ -317,16 +293,27 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (31.3665pt too wide) in paragraph at lines 26--27
+Overfull \hbox (31.3665pt too wide) in paragraph at lines 23--23
 \OT1/cmr/m/sc/10 Louth  
  []
 
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (61.64415pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/sc/10 Mylavarapu  
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 26.
 ! Undefined control sequence.
-l.30 \begin{flushright} \large
+l.28 \begin{flushright} \large
                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -335,7 +322,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (49.13716pt too wide) in paragraph at lines 31--31
+Overfull \hbox (49.13716pt too wide) in paragraph at lines 29--29
  \OT1/cmr/m/it/10 Supervisor:
  []
 
@@ -348,12 +335,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no k in font nullfont!
 
-Overfull \hbox (29.85258pt too wide) in paragraph at lines 32--33
+Overfull \hbox (29.85258pt too wide) in paragraph at lines 30--31
  []  \OT1/cmr/m/sc/10 Payne
  []
 
 ! Undefined control sequence.
-l.39 {\large
+l.37 {\large
              \today}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -362,7 +349,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.39 {\large \today
+l.37 {\large \today
                    }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -377,7 +364,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{titlepage}
+l.40 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -386,17 +373,17 @@ or  <return>  to continue without it.
 )
 *
 ! Emergency stop.
-<*> ...Group*Design*Projects/FinalReport/title.tex
+<*> ...*Projects/FinalReport/FinalReport/title.tex
                                                   
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
  19 strings out of 493921
- 424 string characters out of 3144867
+ 460 string characters out of 3144867
  50031 words of memory out of 3000000
  3410 multiletter control sequences out of 15000+200000
  4595 words of font info for 17 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 20i,3n,18p,168b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 20i,3n,18p,180b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

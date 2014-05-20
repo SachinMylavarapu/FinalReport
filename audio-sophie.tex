@@ -1,67 +1,244 @@
-\section{Audio}
+\section{Audio (Sophie)}
 \label{sec:audio-sophie}
-\subsection{Scoring of apnea R\&K vs AASM}
+\subsection{Scoring of apnoea R\&K vs. AASM}
 Audio signals taken during polysomnograms are currently scored by sleep specialists, there are two guidelines as to how to do this. The Rechtschaffen and Kales Manual is long standing, it was the only manual in use between 1968 when it was created and 2007 when the AASM Manual came into use. 
-The R\&K manual is based on healthy subjects aged 21 to 86 years and doesn’t actually mention how to recognise apneas. It has also been criticised for being open to interpretation. The AASM manual has a slight change in terminology and changes distribution of NREM sleep stages but the main difference is it explains how to classify more sleep abnormalities including apneas and arousals. 
-The AASM scores a signal as an apnea if, there is a drop in the peak thermal sensor excursion by more than 90\% of baseline, the event last at least 10 seconds and at least 90\% of the event’s duration meets the amplitude reduction criteria for apnea. Obstructive apnease are associated with continued or increased inspiratory effort through the period of absent airflow. A minimum desaturation criterion is not required. 
-The basis for scoring arousals is based on EEG and EMG and therefore isn’t helpful in terms on how to analyse audio signals. 
 
-\subsection{Methods of Analysis}
-There are a number of different methods that can be used to analyse audio signals, each will be looked at in turn, looking at how they work, studies on them and strengths and weaknesses of the method. Due to issues with background noise and other signal noise most methods focus on the characteristic snores of OSA sufferers rather than the quiet apneas. 
+The R\&K manual is based on healthy subjects aged 21 to 86 years and does not actually mention how to recognise apnoeas~\cite{rechtschaffen1968manual}. It has also been criticised for being open to interpretation. The AASM manual has a slight change in terminology and changes distribution of NREM sleep stages but the main difference is it explains how to classify more sleep abnormalities including apnoeas and arousals ~\cite{moser2009sleep}.
 
-\subsubsection{Simple Characteristics}
-Three simple features of a snore can be analysed quite easily, snore duration, the time taken for a snore sound, generally measured in seconds; snore loudness, generally the average loudness measured from a microphone, a snore simulator is also needed in order to calibrate the microphone; snore periodicity, calculated from segmented short frames of the snores with low amplitude, high frequency components removed, autocorrelation used to asses each frame as either periodic or not. Overall periodicity calculated from the ratio of the number of periodic frames to the total number of frames.
+The AASM scores a signal as an apnoea if: there is a drop in the peak thermal sensor excursion by more than 90\% of baseline, the event last at least 10 seconds and at least 90\% of the event’s duration meets the amplitude reduction criteria for apnoea. Obstructive apnoeas are associated with continued or increased inspiratory effort through the period of absent airflow. A minimum desaturation criterion is not required. The basis for scoring arousals is based on EEG and EMG and therefore is not helpful in terms on how to analyse audio signals ~\cite{iber2007aasm}.
 
-Jones et al studies these features amongst others in order to see whether it was possible to predict the outcome of palatal surgery rather than as a diagnostic measure for OSA. Frame size of 200ms was used centre-clipped by 30\%. Autocorrelation peaks between 25 and 87.5ms were used to classify as periodic. 
+Both of these guidelines are used by modern papers and so awareness of both is needed, given both result in scoring of apnoeas, choking events and snores they are useful as they lead to labelled signals which can be used for training and testing data sets.
+\subsection{Methods of analysis}
+The aim of the audio analysis is to find and count the apnoea-choking events to directly determine AHI, or use the difference in snoring type between OSA sufferers and simple snorers as an indicator of AHI. The initial process of this in the majority of the analyses is to split the signal down into intervals of time of somewhere between 10 and 30 seconds and assess the features of those intervals independently to determine whether they contain apnoea, choking, snoring, breathing or something else.
 
-\subsubsection{Peak Power}
-Using Fast Fourier Transforms a power spectrum can be created of the snores. This can then be characterised in a number of ways including establishing: Fa the fundamental frequency; Fo the lowest frequency, Fpeak the peak with the maximum power, Fmean the statistical mean frequency, and Fmax can also be calculated, however there are different conventions for this, it is defined as the frequency beyond which the signal amplitude has dissipated to less than a percentage of its peak power, some studies use 3\% others 1\%. 
-Perez-Padilla et al used Fa, Fo, Fpeak and Fmax to examine the differences between nine OSA sufferers and ten simple snorers. Defining Fmax as dissipating to 3\% of peak power. Sound was recorded via a microphone attached to the manubrium sterni (chest). Significant variation was found between snores in a given patient making it hard to find a differentiator between OSA sufferers and simple snorers. It was found that for OSA suffers Fpeak was usually at a higher frequency than Fa, however this was significant enough to be used to differentiate the two groups.
+The starting point for assessing the intervals will be speech analysis as snoring and speech are both generated in the vocal tract although snoring is caused by vibration of the pharyngeal structures during inspiration whereas speech is vibration of the vocal cords during expiration. The digitalisation and filtering of the signals will be mainly performed by inbuilt phone software, so the focus here will be on which feature to extract, how to extract them and classification of the features. 
 
-Fiz et al used Fpeak, Fmean and Fmax defined at 10\% of peak power to distinguish between ten OSA sufferers and seven simple snorers. The microphone was placed just above the larynx without skin contact. Two features were found to distinguish OSA sufferers from simple snorers. The first was peak frequency (Fpeak) which was significantly lower in OSA sufferers with a threshold of 150Hz, although one of each group was on the opposite side, a strong non linear negative correlation was seen between Fpeak value and number of AHI events as seen in figure X ( 3), this is associated with a Spearman rank order correlation: r=-0.70; p<0.0016. The second feature was to do with the shape of the power spectrum. The simple snorers displayed a clear fundamental frequency and harmonic pattern whereas the OSA sufferers displayed a low frequency peak with scattered peaks over a narrow band of frequencies, Figure X (1 \& 2 b) shows the different patterns. Fiz et al attributed the differences seen to microphone placement, Perez-Padilla et al placing their microphone on the chest whereas Fiz et al placing above the larynx, this results in a different filtering effect caused by the different tissues and cavities the sound travels through. 
+\subsection{Frequency of Prominent Peaks}
+Using Fast Fourier Transforms a power spectrum can be created of the snores. This can then be characterised in a number of ways including establishing: Fa the fundamental frequency; Fo the lowest frequency, Fpeak the peak with the maximum power, Fmean the statistical mean frequency, and Fmax can also be calculated, however there are different conventions for this, it is defined as the frequency beyond which the signal amplitude has dissipated to less than a percentage of its peak power, some studies use 3\%, others 10\%. 
 
-\subsubsection{Power Ratio}
-Given the difference in spectra between those with OSA and simple snorers there is potential to characterise this by means of a cumulative power ratio. This would be the area under one part of the power spectrum divided by the area under the rest, where the threshold(s) is placed would depend on what characteristic was trying to be differentiated. From the power spectrum from the Fiz et al study above one potential threshold would be 100Hz to pick up on the low frequency components of the OSA curve, see figure X ( adapted version of 1\&2 b from Fiz). 
-Perez-Padilla et al used superimposed spectra from ten snores from each subject (9 OSA, 10 simple snorers) and a threshold of 800Hz, dividing the integral of the spectra above 800Hz with that below 800Hz, for OSA patients who took a second breath after an apnea the cumulative power ratio was also calculated for that. Figure X (8) shows the scattering of the ratios, with snorers having a ratio of 0.08 $\pm$ 0.02 and OSA sufferers a ratio of 1.12 $\pm$ 0.31. A threshold of 0.3 was proposed which would distinguish all but one OSA sufferer on first breath after apnea, this patient had a low AHI and mild symptoms. 
-Hara et al used the same method as above on 46 OSA sufferers and 12 simple snorers, keeping the threshold at 800Hz, using a ratio of below 800Hz to above 800Hz. Simple snorers had a power ratio of 34.002 whereas OSA sufferers had a ratio of 6.288. The p value of a Mann-Whitney U test was 0.015, this small value is a good indicator that this didn’t happen by chance. 
-Hara et al wouldn’t recommend this approach as the calculation is very time consuming. Significant differences were found between the values of the ratios in both studies although in both cases a difference between OSA sufferers and simple snorers was clearly seen. 
+Perez-Padilla et al used Fa, Fo, Fpeak and Fmax to examine the differences between nine OSA sufferers and ten simple snorers. Defining Fmax as dissipating to 3\% of peak power. Sound was recorded via a microphone attached to the manubrium sterni (chest). Significant variation was found between snores in a given patient making it hard to find a differentiator between OSA sufferers and simple snorers. It was found that for OSA suffers Fpeak was usually at a higher frequency than Fa, however this was not significant enough to be used to differentiate the two groups ~\cite{whitelaw1993characteristics}.
 
-\subsubsection{Sound Intensity}
-Another diagnostic tool uses sound intensity without frequency, instead looking at the apnea-snoring combination. Define an acoustic signature event (ASE) as a period of apnea, duration specified between limits, followed by snoring, where snoring and apnea are defined in terms of sound intensity.
-Van Brunt DL et al define apnea below 50microV and snoring above 100microV with apnea episode lasting between 10 and 90 seconds. 30 second intervals were analysed by sound intensity and polysomnogram and analysed in two ways. Firstly each patient (69 patients, 51 OSA suffers, 18 not) was assessed independently and RDI score compared with predictions, for an RDI of 15/hour or greater sensitivity was 0.93, specificity 0.25, false positive 36.2\%, false negative 2.8\%, 60.9\% classified correctly. Secondly pooling all the observations (60231) resulting in a 33\% sensitivity, 98\% specificity, 85\% classified correctly. 
+Fiz et al used Fpeak, Fmean and Fmax defined at 10\% of peak power to distinguish between ten OSA sufferers and seven simple snorers. The microphone was placed just above the larynx without skin contact. Two features were found to distinguish OSA sufferers from simple snorers. The first was peak frequency (Fpeak) which was significantly lower in OSA sufferers with a threshold of 150Hz, although one of each group was on the opposite side, a strong non linear negative correlation was seen between Fpeak value and number of AHI events as seen in Figure \ref{fig:Fiz1996fig3}, this is associated with a Spearman rank order correlation: r=-0.70; p<0.0016. The second feature was to do with the shape of the power spectrum. The simple snorers displayed a clear fundamental frequency and harmonic pattern whereas the OSA sufferers displayed a low frequency peak with scattered peaks over a narrow band of frequencies, Figure \ref{fig:Fiz1996fig12} shows the different patterns. Fiz et al attributed the differences seen to microphone placement, Perez-Padilla et al placing their microphone on the chest whereas Fiz et al placing above the larynx, this results in a different filtering effect caused by the different tissues and cavities the sound travels through ~\cite{fiz1996acoustic}.
 
-\subsubsection{Formants}
+Prominent peaks alone are not sufficient to diagnose obstructive sleep apnoea. 
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/Fiz1996fig3}
+\caption{Relationship between apnoea/hypopnoea index (AHI) and
+peak frequency (Fpeak) of spectrum in seven simple snorers and 10
+obstructive sleep apnoea (OSA) patients. There is a significant negative correlation (Spearman rank
+order correlation: r=-0.70; p<0.0016) ~\cite{fiz1996acoustic}.}
+\label{fig: Fiz1996fig3}
+\end{figure}
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/Fiz1996fig12}
+\caption{Power Spectrum of first breath from a simple snorer and OSA patient ~\cite{fiz1996acoustic}.}
+\label{fig: Fiz1996fig12}
+\end{figure}
+
+
+\subsection{Power Ratio}
+Given the difference in spectra between those with OSA and simple snorers there is potential to characterise this by means of a cumulative power ratio. This would be the area under one part of the power spectrum divided by the area under the rest, where the threshold is placed would depend on what characteristic was trying to be differentiated. 
+
+Perez-Padilla et al used superimposed spectra from ten snores from each subject (9 OSA, 10 simple snorers) and a threshold of 800Hz, dividing the integral of the spectra above 800Hz with that below 800Hz, for OSA patients who took a second breath after an apnoea the cumulative power ratio was also calculated for that. Figure \ref{fig:Perez1993fig8} shows the scattering of the ratios, with simple snorers having a ratio of 0.08$\pm$0.02 and OSA sufferers a ratio of 1.12$\pm$0.31. A threshold of 0.3 was proposed which would distinguish all but one OSA sufferer on first breath after apnoea, this patient had a low AHI and mild symptoms ~\cite{whitelaw1993characteristics}
+
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/Perez1993fig8}
+\caption{Cumulative power ratio between frequency components higher and lower than 800 Hz in patients with OSA and in snorers. ~\cite{whitelaw1993characteristics}}
+\label{fig: Perez1993fig8}
+\end{figure}
+
+Hara et al used the same method as above except power ratio was defined as the inverse on 46 OSA sufferers and 12 simple snorers, keeping the threshold at 800Hz, using a ratio of below 800Hz to above 800Hz. Simple snorers had a power ratio of 34.002 (0.03 when defined as in the Perez-Padilla study) whereas OSA sufferers had a ratio of 6.288 (0.16 when defined as in the Perez-Padilla study). The p value of a Mann-Whitney U test was 0.015, this small value is a good indicator that this did not happen by chance ~\cite{hara2006acoustic}. 
+
+Hara et al would not recommend this approach as the calculation is very time consuming ~\cite{hara2006acoustic}. Significant differences were found between the values of the ratios in both studies although in both cases a difference between OSA sufferers and simple snorers was clearly seen. 
+\subsection{Sound Intensity}
+Sound intensity can be used for diagnosis in a couple of ways; as a cut off got distinguishing between snores and apnoeas in order to look for apnoea-arousal events, and as a distinguisher between apnoeic snores and non-apnoeic snores. In both cases frequency need not be known although in the first approach the signal does need to be split into temporal intervals. 
+
+Van Brunt et al defined an acoustic signature event as an apnoeic event lasting between 10 and 90 seconds followed by snoring. Where apnoea had an intensity below 50$\mu$V and snoring above 100$\mu$V. 30 second intervals were analysed by sound intensity and polysomnogram and considered in two ways: firstly each patient (69 patients, 51 OSA suffers, 18 not) was assessed independently and RDI score compared with predictions, for an RDI of 15/hour or greater sensitivity was 93\%, specificity 25\%, false positive 36.2\%, false negative 2.8\%, 60.9\% classified correctly. Secondly pooling all the observations (60231) resulting in a 33\% sensitivity, 98\% specificity, and 85\% classified correctly ~\cite{van1997intensity}.
+
+Wilson et al looked at four sound intensity levels: $L_{1}, L_{2}, L_{3}$ the dB levels exceeded for 1\%, 5\% and 20\% of the test period respectively, and $L_{eq}$ the average dB level. 1139 patients were studied (682 OSA, 261 simple snorer and 196 unknown), differences were seen between the sound intensity of apnoeic and non-apnoeic snores with non-apnoeic snores having a lower intensity as seen in Table \ref{table:wilson}. A logistic regression model with $\text{RDI} \geq 10$ as the dependent variable found a cut off of $L_{eq} \geq 38$ to be significant, with a regression coefficient of 1.24, a standard error of 0.28 and an odds ratio of 3.44 ( 95\% CI) ~\cite{wilson1999snoring}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c}
+\toprule
+Sound Intensity Measure&Nonapnoeic Snoring (RDI < 10)&Apnoeic Snoring (RDI $\geq$ 10)\\ \midrule
+$L_{eq}$, dBA&42.7 (42.0–43.4)&48.8 (48.7–49.3)\\ 
+$L_{1}$, dBA&53.4 (52.8–54.1)&59.2 (58.7–59.7)\\ 
+$L_{5}$, dBA&48.0 (47.4–48.6)&53.2 (52.7–53.7)\\ 
+$L_{10}$, dBA&46.0 (45.5–46.5)&50.4 (49.9–50.9)\\ \bottomrule
+\end{tabular}
+\caption{Sound Intensity Measures for Subjects With Apnoeic Snoring (RDI $\geq$ 10) and Non-apnoeic Snoring (RDI < 10).}
+\label{table:wilson}
+\end{table}
+\subsection{Formants}
 Formants are the resonant frequencies of the signal, most easily determined by picking out the peaks on a linear predictive coding (LPC) spectrum of the signal. LPC is the spectral envelope produced by a linear predictive model. The lowest formants are associated with degree of constriction of the pharynx, degree of advancement of the tongue and degree of lip rounding respectively, these are often referred to as F1, F2 and F3. Because these physical properties change in sufferers of OSA there is a chance that the frequencies associated with them will change too, therefore threshold frequencies to distinguish OSA sufferers and simple snorers are sought. 
 
-Ng et al tested 30 OSA sufferers and ten simple snorers and found a threshold for F1 of 470Hz but not F2 nor F3, this threshold yielded a sensitivity of 88\% and a specificity of 82\%. However increased sensitivity and specificity were seen if different thresholds were used for men and women as seen in table X (1). Women show a greater distinction in F1 frequency than men as well as a reduced spread of results, although more outliers amongst the simple snorers, as seen in figure X (1). It is however worth noting that the sample size for women was small (6 OSA sufferers, 4 simple snorers) Once the threshold has been established an equation is needed to convert it to an AHI value, a number of equations were proposed and regression used to see which was the best fit, as seen in table X(2). A power law came out best with a regression of 0.5334 giving a predicted AHI score of 12.2 when 10 was being aimed for. It is worth noting that the same subjects was used for training and testing, although different data for each.
+Sola-Soler et al used formant frequencies to distinguish between snores from eight simple snorers ( 447 snores) and eight OSA sufferers ( 236 normal snores and 429 post-apnoeic snores). The spectral envelope was estimated by linear predictive autoregression, with very low amplitude spurious peaks rejected by a 3dB threshold. Investigation of the spectral envelope found 2 to 6 formants in each snore, these fell in common frequency range around 150Hz, 500Hz, 1KHz, 1.7KHz, and in a few snores 2.2KHz. This led to definition of five frequency bands: B1[0,300), B2[300,700), B3[700,1400), B4[ 1400,1900) and B5[ 1900,2500) in Hz. For each band and type of snore ( simple snorer SN, OSA normal snore OP-N, and OSA post apnoeic snore OP-PA) the mean value Fi and standard deviation SFi was calculated. Table \ref{table:sola2003formants} shows a comparison between these means and standard deviations for each combination of snore type calculated using the Mann-Whitney U test, the fifth band was left off because so few snores exhibited this formant. If a snore had more than one formant in a band the average frequency of those was used in the calculation. Bands 1 \&3 showed significant differences between formants when comparing the standard deviation of simple snorers and OSA sufferers both in normal snores and post apnoeic snores of the OSA sufferers. The most distinct difference was between the standard deviation of simple snorers’ normal snores and post-apnoeic snores in band 1 which had a probability of 0.0006 ~\cite{sola2003spectral}.
 
-Sola-Soler et al used formant frequencies to distinguish between snores from eight simple snorers ( 447 snores) and eight OSA sufferers ( 236 normal snores and 429 post-apneic snores). The spectral envelope was estimated by linear predictive autoregression, with very low amplitude spurious peaks rejected by a 3dB threshold. Investigation of the spectral envelope found 2 to 6 formants in each snore, these fell in common frequency range around 150Hz, 500Hz, 1KHz, 1.7KHz, and in a few snores 2.2KHz. This led to definition of five frequency bands: B1[0,300), B2[300,700), B3[700,1400), B4[ 1400,1900) and B5[ 1900,2500) in Hz. For each band and type of snore ( simple snorer SN, OSA normal snore OP-N, and OSA post apneic snore OP-PA) the mean value Fi and standard deviation SFi was calculated. Table X (3) shows a comparison between these means and standard deviations for each combination of snore type calculated using the Mann-Whitney U test, the fifth band was left off because so few snores exhibited this formant. If a snore had more than one formant in a band the average frequency of those was used in the calculation. Bands 1 \& 3 showed significant differences between formants when comparing the standard deviation of simple snorers and OSA sufferers both in normal snores and post apneic snores of the OSA sufferers. The most distinct difference was between the standard deviation of simple snorers’ normal snores and post-apneic snores in band 1 which had a probability of 0.0006. 
+\begin{table}[h]
+\centering
+\begin{tabular}{l c c c c c c c c}
+\toprule
+Contrasted populations&F1&SF1&F2&SF2&F3&SF3&F4&SF4\\ \midrule
+SN 1 OP-N&0.4179&0.0151&0.0882&0.0618&0.1556&0.0045&0.5839&0.8551\\ 
+SN / OP-PA&0.7104&0.0006&0.1061&0.6389&0.5338&0.0012&1&0.1255\\ 
+OP-N 1 OP-PA&0.6434&0.0372&0.4822&0.0842&0.5628&0.203&0.631&0.1495\\ \bottomrule
+\end{tabular}
+\caption{Bilateral significance in Mann Whitney U test to contrast population difference.}
+\label{table:sola2003formants}
+\end{table}
+Ng et al tested 30 OSA sufferers and ten simple snorers and found a threshold for F1 of 470Hz but not F2 nor F3, this threshold yielded a sensitivity of 88\% and a specificity of 82\%. However increased sensitivity and specificity were seen if different thresholds were used for men and women as seen in Table \ref{table:ng2008aformantstable1}. Women show a greater distinction in F1 frequency than men as well as a reduced spread of results, although more outliers amongst the simple snorers, as seen in Figure \ref{fig:ng2008afig1}. It is however worth noting that the sample size for women was small (6 OSA sufferers, 4 simple snorers) Once the threshold has been established an equation is needed to convert it to an AHI value, a number of equations were proposed and regression used to see which was the best fit, as seen in Table \ref{table:ng2008aformantstable2}. A power law came out best with a regression of 0.5334 giving a predicted AHI score of 12.2 when 10 was being aimed for. It is worth noting that the same subjects was used for training and testing, although different data for each ~\cite{ng2008could}.
 
-Yadollahi et al used formant frequencies to distinguish between snores and breaths rather than simple snorers and OSA suffers so a direct comparison of method cannot be made however there is value in exploring the method used. Bands were used as in the Sola-Soler study but at different frequency ranges, [20−400]Hz, [270−840]Hz, [500−1380]Hz, [910−1920]Hz, [1680-2680]Hz, [2580-3770]Hz and [3590-5000]Hz these were found using K–means clustering. This is a method of partitioning data unsupervised, it uses an iterative method to find a predefined number of partitions, in this case seven, an error margin of $10^{−5}$ was used for the iterations. The process is sensitive to initial conditions so was repeated 20 times with different initial conditions, the one with the minimum error was selected. Table X (3) shows the student t-test p values, which show the first and third formants to be significant, with probability p = 0.003 and p = 0.0244 respectively. The F1 frequency of the breath sound was greater than that of the snore while the F3 frequencies with the converse. 
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/ng2008afig1}
+\caption{Notched box plots of apnoeic and benign snores in the training dataset for males (M), females (F), and for both males and females combined (C), under first formant frequency (F1) analysis, with marked threshold values, from Table \ref{table:ng2008aformantstable1}. ~\cite{ng2008could}}
+\label{fig: ng2008afig1}
+\end{figure}
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c c c c c c c}
+\toprule
+Type&AHI&Data size (train ; test)&F1&F2&F3&Threshold of F1 (AUC : F1; F2; F3)&Sens&Spec\\ \midrule
+M:A&52.8$\pm$24.7&720 ; 240&750$\pm$204&1842$\pm$238&3008$\pm$266&545&\multirow{2}{*}{83}&\multirow{2}{*}{92}\\ 
+M:B&5.3$\pm$3.5&180 ; 60&425$\pm$157&1670$\pm$271&2858$\pm$405&(0.8977; 0.6860; 0.6117)&&\\ 
+F:A&23.6$\pm$15.1&180 ; 60&623$\pm$150&1676$\pm$303&2739$\pm$282&298&\multirow{2}{*}{100}&\multirow{2}{*}{95}\\ 
+F:B&3.4$\pm$3.2&120 ; 40&263$\pm$187&1564$\pm$294&2813$\pm$297&(0.8969; 0.5894; 0.5850)&&\\ 
+C:A&46.9$\pm$25.7&900 ; 300&724$\pm$201&1809$\pm$261&2955$\pm$290&470&\multirow{2}{*}{88}&\multirow{2}{*}{82}\\ 
+C:B&4.6$\pm$3.4&300 ; 100&360$\pm$187&1627$\pm$285&2840$\pm$366&(0.8992; 0.6820; 0.5964)&&\\ \bottomrule
+\end{tabular}
+\caption{AHI, apnoea–hypopnoea index (events/h); Data size, number of snores; AUC, area under receiver operating characteristic curve; Sens, sensitivity (\%); Spec, specificity (\%).}
+\label{table:ng2008aformantstable1}
+\end{table}
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c c}
+\toprule
+Regression&Equations&R2&Predicted AHI/h\\ \midrule
+Linear&AHI = 0.0738 (F1) − 10.4067&0.3449&24.3\\ 
+Quadratic&AHI = − 0.0001 (FI)2 + 0.1778 (F1) − 39.2095&0.3824&26.3\\ 
+Logarithmic&AHI = −212.4891 + 89.9464 Log (F1)&0.3553&27.9\\ 
+Exponential&Log (AHI) = 0.1545 + 0.0018 (F1)&0.4602&10.3\\ 
+Power&Log (AHI) = −5.2100 + 2.3565 Log (F1)&0.5334&12.2\\ \bottomrule
+\end{tabular}
+\caption{Regression analysis for apnoea–hypopnoea index (AHI) in events/h and first formant frequency (F1) in hertz \\ AHI computed at F1 = 470 Hz. Ideally predicted AHI = 10 events/h.}
+\label{table:ng2008aformantstable2}
+\end{table}
+Yadollahi et al used formant frequencies to distinguish between snores and breaths rather than simple snorers and OSA suffers so a direct comparison of method cannot be made however there is value in exploring the method used. Bands were used as in the Sola-Soler study but at different frequency ranges, [20−400]Hz, [270−840]Hz, [500−1380]Hz, [910−1920]Hz, [1680-2680]Hz, [2580-3770]Hz and [3590-5000]Hz these were found using K–means clustering. This is a method of partitioning data unsupervised, it uses an iterative method to find a predefined number of partitions, in this case seven, an error margin of $10^{−5}$ was used for the iterations. The process is sensitive to initial conditions so was repeated 20 times with different initial conditions, the one with the minimum error was selected. Table \ref{table:yadollahi2009formant} shows the student t-test p values, which show the first and third formants to be significant, with probability p = 0.003 and p = 0.0244 respectively. The F1 frequency of the breath sound was greater than that of the snore while the F3 frequencies were the converse ~\cite{yadollahi2009formant}.
 
-\subsubsection{Bispectral Analysis}
-Bispectral analysis exploits the fact that the bispectrum reveals both amplitude and phase information about a spectrum, while also being calculated by convolution makes it the easiest polyspectra to compute. Polyspectra are Fourier Transforms of cumulants, for example the second order cumulant; autocorrelation Fourier Transforms to the Power Spectrum. The third-order cumulant C(m,n) = E{x(k)x(k+m)x(k+n)} transforms via a Double Discrete Fourier Transform (DDFT) to the bispectrum . Although the bispectrum is often plotted on a square it is symmetric and so only a triangular region is needed to completely describe it, this is defined by $0 \le \omega2 \le \omega1, \omega1 + \omega2 \le \pi$
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c c c}
+\toprule
+Formants&F1&F2&F3&F4\\ \midrule
+p-value&0.0003\*&0.1793&0.0244\*&0.7009\\ \bottomrule
+\end{tabular}
+\caption{Results of P-values of t-test between formants of snore and breath sounds. \* represents the significant values.}
+\label{table:yadollahi2009formant}
+\end{table}
+\subsection{Sub-band Energy Analysis}
+This uses the vertical box control chart to segment the signal temporally into intervals, this is a nonparametric detection rule which uses a moving vertically trimmer box, hence the name ~\cite{vbox}. The ten dimensional 500Hz sub-band energy features are computed and then reduced to two dimensional feature space by principal component analysis, this is a statistical procedure that uses orthogonal transformations, this results in the largest possible variance within the first component. Classification can then be performed on this 2D feature space to separate the desired classes. 
 
-Quadratic phase coupling occurs uniquely in second-order non-linear systems, and is where the phases add and subtract along with the frequency components. (QPC) causes peaks in the bispectrum triangular region, this shows energy is produced at frequency $\omega1 + \omega2$, a flat bispectrum at w1 and w2 suggests no activity and that it is not affected by QPC. 
+Cavusoglu et al computed the normalised 500Hz sub-band energy distribution for ten apnoeic snorers and eighteen simple snorers and used principle component analysis to reduce it to two dimensional feature space in order to find the most discriminant features. Robust linear regression was used to separate snores from non-snores. This had a sensitivity of 89.3\% and a specificity of 96.3\% ~\cite{cavusoglu2007efficient}.
 
-Ng et al exploited the bispectrum shape in order to distinguish between nine OSA sufferers and seven simple snorers. Bispectral analysis has benefits over power spectrum because it reveals the non-Gaussian and non-linear behaviour, given the upper airway is non-linear this is a good plan. 
+Azarbarzin et al used a similar method to Cavusoglu except that K-means clustering was used as the classifier for the thirteen apnoeic snorers and seven simple snorers. When the classification was compared to manually annotated signals, a sensitivity of 94.8\% and a specificity of 96.3\% was found for the distinction between snores and non-snores in OSA sufferers ~\cite{azarbarzin2010unsupervised}.
+\subsection{Bispectral Analysis}
+Bispectral analysis exploits the fact that the bispectrum reveals both amplitude and phase information about a spectrum, while also being calculated by convolution makes it the easiest polyspectra to compute. Polyspectra are Fourier Transforms of cumulants, for example the second order cumulant; autocorrelation Fourier Transforms to the Power Spectrum. The third-order cumulant \eqref{cummulant} transforms via a Double Discrete Fourier Transform (DDFT) to the bispectrum \eqref{bispectral}. Although the bispectrum is often plotted on a square it is symmetric and so only a triangular region is needed to completely describe it, this is defined by$ 0\leq \omega_2 \leq \omega_1, \omega_1 + \omega_2 \leq \pi $.
 
-Noise was suppressed using a level-wavelet-dependent (LWD) thresholding scheme under undecimated discrete wavelet transform (UDWT) setting. Fast Fourier Transforms were used to estimate the bispectrum, this was plotted (figures X and X (4 \& 5) and inspected visually, the axies have been normalized with a frequency of 1 being 11025Hz. From visual inspection is appears the biggest peak for simple snorers are near the origin while for apneic snores are further away, this suggests a greater degree of phase coupling in apneic snores due to nonlinearities in the signals. When analysed peak position was reflected in the numbers with apneic peaks are higher frequencies than simple snore peaks, table X(1) shows the figures.
+\begin{equation}
+\label{Cummulant}
+C(m,n)=E\{x(k)x(k+m)x(k+n)\}
+\end{equation}
+\begin{equation}
+\label{bispectral}
+B(\omega_1,\omega_2) = E\{X(\omega_1)X(\omega_2)X^*(\omega_1+\omega_2)\}
+\end{equation}
+Quadratic phase coupling (QPC) occurs uniquely in second-order non-linear systems, and is where the phases add and subtract along with the frequency components ~\cite{rastogi2005quadratic}. QPC causes peaks in the bispectrum triangular region, this shows energy is produced at frequency $\omega_1 + \omega_2$, a flat bispectrum at $\omega_1$ and $\omega_2$ suggests no activity and that it is not affected by QPC. 
 
-Clustered multiple comparison graphs were then produced, figure X(6), QPCs appear mainly at $f_1=f_2$ for simple snores whereas they appear mainly at $f_1 \not= f_2$ for apneic snores, however there is less self coupling. 77\% of simple snore are self coupled compared to 49\% of apneic snores. So the analysis shows there are three differences between simple snores and apneic snores, apneic snores have strong presence of nonlinear interaction, less self-coupling and QPC peaks appear and higher frequencies. 
+Ng et al exploited the bispectrum shape in order to distinguish between nine OSA sufferers and seven simple snorers. The bispectrum was plotted (Figure \ref{fig:ng2007fig45} ) and inspected visually, the axes have been normalized with a frequency of 1 being 11025Hz. From visual inspection is appears the biggest peak for simple snorers are near the origin while for apnoeic snores are further away, this suggests a greater degree of phase coupling in apnoeic snores due to nonlinearities in the signals. When analysed peak position was reflected in the numbers with apnoeic peaks are higher frequencies than simple snore peaks, Table \ref{table:ng2007bispectral} shows the figures ~\cite{ng2007bispectral}.
 
-\subsubsection{Wavelet Analysis}
-Translation-Invariant Discrete Wavelet Transform(TIDWT) is a nonorthogonal, undecimated adaption of the more common Discrete Wavelet Transform (DWT) which is orthogonal and maximally decimated, and causes Gibbs like artefacts around discontinuities. There are two TIDWT methods:`a-trous and cycle-spinning. The `a-trous scheme removes the downsamplers and upsamplers of the DWT and upsamples the filter coefficients by a factor of $s^{j-1}$ in the $j^\text{th}$ level of the algorithm. As the output of each level contains the same number of samples as the input it is inherently redundant. 
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/ng2007fig45}
+\caption{Bispectrum of a common benign snore ~\cite{ng2007bispectral}}
+\label{fig: ng2007fig45 }
+\end{figure}
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+Types of snores&f1(Hz)&f2(Hz)\\\midrule
+Apnoeic& $233 \pm 147$ &$170 \pm 82$\\
+Benign& $154 \pm 51$& $140 \pm 61$\\\bottomrule
+\end{tabular}
+\caption{Mean peak frequencies of apnoeic and benign snores}
+\label{table:ng2007bispectral}
+\end{table}
+Clustered multiple comparison graphs were then produced, Figure \ref{fig:ng2007fig6}, QPCs appear mainly at f1=f2 for simple snores whereas they appear mainly at f1$\neq$f2 for apnoeic snores, however there is less self coupling. 77\% of simple snore are self coupled compared to 49\% of apnoeic snores. So the analysis shows there are three differences between simple snores and apnoeic snores, apnoeic snores have strong presence of nonlinear interaction, less self-coupling and QPC peaks appear at higher frequencies. 
 
-Cycle spinning incorporates translation invariance by applying DWT to all circular shifts of the input vector and averaging over them. However due to periodic properties the number of shifts reduces to one. Both schemes offer better error properties than DWT due to redundant coefficients by about 10-20%. 
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/ng2007fig6}
+\caption{Clustered multiple comparison graphs. ~\cite{ng2007bispectral}}
+\label{fig: ng2007fig6 }
+\end{figure}
 
-Ng et al used cycle spinning TIDWT to distinguish between 30 OSA sufferers and ten simple snorers. Ten snores of about 6 seconds were randomly chosen from each snorer, marked by polysomnogram technologists. Figure X(5) compares the energy approach used by Cavusoglu et al and the TIDWT approach used by Ng et al in this study. At the narrowest tolerance of 25ms the TIDWT approach detected 51\% of the snore segments correctly compared with 8\% for the energy approach, and at the largest tolerance of 125ms the TIDWT approach detected 98\% correctly, whereas the energy approach only managed 87\%, i.e. the TIDWT approach is at least 10\% more effective. 
+\subsection{Wavelet Analysis}
+Wavelet analysis is based on basis functions much like Fourier transforms (they do not have to be orthogonal although they often are), however wavelets are used rather than sines and cosines. As wavelets decay rapidly with time they can be used as a function of time as well as frequency.
 
-\subsubsection{Multiscale Entropy Coefficients}
-Entropy is used as a measure of complexness and the idea of using entropy for multiple scales was originally proposed by Zhang however this was based on Shannon’s definition of entropy that has some flaws so Costa et al proposed a new method using sample entropy (SampEn) a refinement on approximate entropy (ApEn) introduced by Pincus .
+Ng et al in 2008 used a special type of discrete wavelet transform that was translation which is a non-orthogonal and undecimated adaption of the former, solving a number of fundamental issues it suffered mainly to do with sensitivity with alignment in time, and Gibbs like artefacts around discontinuities, to distinguish between 30 OSA sufferers and ten simple snorers. Ten snores of about 6 seconds were randomly chosen from each snorer, marked by polysomnogram technologists. Figure \ref{fig:ng2008bfig5} compares the energy approach used by Cavusoglu et al and the time invariant discrete wavelet transform (TIDWT) approach used by Ng et al in this study. At the narrowest tolerance of 25ms the TIDWT approach detected 51\% of the snore segments correctly compared with 8\% for the energy approach, and at the largest tolerance of 125ms the TIDWT approach detected 98\% correctly, whereas the energy approach only managed 87\%, i.e. the TIDWT approach is at least 10\% more effective ~\cite{ng2008snore}.
 
-The method works by constructing consecutive coarse-grained time series of the original time series. These are created by averaging the data points within non-overlapping windows of increasing length. Each element of the coarse-grained series is calculated by the equation . An illustration of this is shown in figure X (1)
 
-SampEn is then calculated for each coarse-grained time series and plotted as a function of the scale factor. SampEn quantifies the regularity and predictability of the time series, it acts as a regularity statistic, looking for patterns, it does this by looking at the probability that m consecutive data point that are similar will remain similar when one more data point is added, here similar means the distance between them is less than r. 
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.5\textwidth]{drawings/ng2008bfig5}
+\caption{Accuracy comparisons between conventional- (energy and ZCR) and wavelet-based (TIDWT and SA detector) approaches in snore segment boundary detection at several tolerance degrees: 25, 50, 75, 100, and 125 ms. ~\cite{ng2008snore}}
+\label{fig:ng2008bfig5}
+\end{figure}
 
-Roebuck and Clifford used MSE over 40 scales (1-40seconds) to distinguish between 50 simple snorer, 72 OSA sufferers and 24 normal subjects. They used 240minutes of recording from each subject, splitting the data between a training set and a testing set 70:30. Scales of 6seconds, 21seconds and 30second yielded a specificity of 92.5\% and a positive predictive value of 85.8\% in the training set and a specificity of 90.5\% and a positive predictive value of 83.5\% in the testing set.
+Ng et al in 2009 used continuous wavelet transform in the form or wavelet bicoherence analysis. Bicoherence is the normalised bispectrum and a measure of the amount of phase coupling in a signal ~\cite{van1995wavelet}. Apnoeic snores showed phase coupling at higher frequency modes than benign snores, with apnoeic snores being 20\% less self coupled that benign snores. Two markers were proposed, these were peak frequency component at $f_1$ (PF1) and peak sum frequency (PSF) i.e. the frequencies with the highest coupling strength of frequency 1 and the sum of frequencies 1 and 2. The relationship between the markers and AHI was assessed using various regression models the most successful of which were exponential and power models using residual standard deviation statistic. These produced optimal thresholds for the markers of PF1 = 285 Hz and PSF = 492 Hz resulting in a sensitivity of 85.0\% and a specificity of 90.7\% ~\cite{ng2009investigation}.
+
+\subsection{Multiclass Classification}
+Rather than looking at each potential feature separately as has been done so far it is possible to use regression analysis and Bayes classifiers ( a type of machine learning), amongst others to predict AHI level from a sound signal with the need to count the number of apnoeas, instead looking at the overall shape of the signal.
+
+Ben-Israel et al investigated the use of five classifiers on 60 training patient sets and 30 testing patient sets. The features were: Mel-Cepstability, a measure of stability of the spectrum over the whole night; running variance, a measure of the energy variability between snores over the whole night; apnoeic phase ratio, percentage time the upper airway collapsed using an energy threshold; inter event silence, a count of apnoeic events based on energy patterns; and pitch density, a measure of stability of fundamental frequencies. This resulted in a five dimensional feature vector, which was classified by a Gaussian Bayes classifier. A threshold of AHI >10 resulted in a sensitivity of 87\% and a specificity of 80\% ~\cite{ben2012obstructive}.
+
+Sola-Soler et al classified their subject into three classes $C_{1}$ simple snorers with AHI <5, $C_{2}$ mild to moderate OSA sufferers 5$\leq$ AHI < 30, and $C_{3}$ sufferers of severe OSA with AHI $\geq$ 30. There were 13 simple snorers, 11 $C_{2}$ and 12 $C_{3}$ sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants (see Table \ref{table:sola2012} for the full list). These were then classified in two main ways, logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously, two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
+
+\begin{wraptable}{r}{5.5cm}[h]
+\%width of table will need manual changing
+\centering
+\begin{tabular}{l l}
+\toprule
+\multicolumn{2}{l}{Snore intensity parameters}\\ \midrule
+$I_mean$&Mean sound intensity\\ 
+$I_max$&Maximum sound intensity\\ 
+\multicolumn{2}{l}{Snore pitch parameters}\\ 
+$P_{m}$&Pitch mean value\\ 
+$P_{s}$&Pitch standard deviation\\ 
+$P_{iqr}$&Pitch interquartile range\\ 
+$P_{dens}$&Pitch density\\ 
+$P_{ints}$&Pitch intervals\\ 
+\multicolumn{2}{l}{Snore frequency (PSD) Parameters}\\ 
+$F_{mean}$&Mean frequency\\ 
+$F_{med}$&Median frequency\\ 
+$F_{peak}$&Peak frequency\\ 
+$F_{max}$&Maximum frequency\\ 
+CSymm&Symmetry coefficient\\ 
+CFlatn&Flatness coefficient\\ 
+$RW_{B}$&Ratio of energy in band B to total energy\\ 
+$Rout_{B}$&Ratio of energy in band B to energy outside B\\ 
+\multicolumn{2}{l}{Spectral envelope snore parameters}\\ 
+$F_{i}$&Frequency of the ith formant\\ 
+$L_{i}$&Attenuation of the ith formant\\ 
+$M_{i}$&Amplitude of the ith formant\\ \bottomrule
+\end{tabular}
+\caption{Snore characterisation. B is the frequency band: B = (0, 500)Hz, (100, 500)Hz or (0, 800)Hz. i = 1:5.}
+\label{table:sola2012}
+\end{wraptable}
+Three different types of naive Bayes classifier were investigated, the optimum independent variables were found by a sequential floating forward selection algorithm up to a maximum of ten variables. The three approaches were Gaussian, kernel diffusion and kernel density; with kernel density producing the best results. Gaussian produced the worst results for the training set probably because snore features are not Gaussian. Bayes using kernel density performed better than logistic regression with accuracy of 83.3\% and 0\% false negatives whereas logistic regression was 72.2\% and 8.3\% respectively ~\cite{sola2012multiclass}.
+\subsection{Conclusion}
+As has been shown a number of features can be used successfully to differentiate obstructive sleep apnoea sufferers from simple snorers with sub-band energy analysis and multiclass analysis performing the best. There were three ways the signals were classified: regression, K-means clustering and Bayes classifiers. Bayes classifiers and K-means clustering consistently outperformed regression classifiers. These are types of machine learning, although not the only types to be used for the classification of signals used in the diagnosis of OSA, other types of machine learning used include; Hidden Markov Models used by Rossow et al to classify EEG signals ~\cite{rossow2011automatic}; Support Vector Machines used by Gederi and Clifford to classify images ~\cite{gederi2012fusion}, and neural networks used by Roberts and Tarassenko to classify EEG ~\cite{roberts1992new}. Given the success of machine learning in the cases shown even with very small training and testing sets this will be the focus of the next work. 

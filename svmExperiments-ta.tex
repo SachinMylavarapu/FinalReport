@@ -1,10 +1,10 @@
-\subsection{Support Vector Machines}
+\subsection{Support Vector Machines (Tuan Anh)}
 \label{sec:svmExperiments-ta}
 	Firstly, we investigate the case when no kernels are used. Then we will investigate the use of two possible kernels -- polynomial (degree 3) and radial basis function. We will train on the first ten records using the \verb!MATLAB!\textsuperscript{\textregistered}'s function \verb!svmtrain!. Then we will test our trained parameters on the next five records, where we record the accuracy as the ratio of the number of correctly classified annotations over the total number of annotations. We will also record the number of Support Vectors (SVs) because they indicate the generalisation performance. The actual implementation can be found in Appendix \ref{ch:SVMCode}.
 
 \subsubsection{No kernels}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentNoKernels} and in Table \ref{table:svmResults}. The accuracy is high, however so is the number of SV's. This indicates that the generalisation guarantee is poor.
-	\begin{figure}[ht]
+	\begin{figure}[htb]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestNoKernel11}}
@@ -22,7 +22,7 @@
 
 \subsubsection{Polynomial kernel}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentPoly} and in Table \ref{table:svmResults}. We can see that there is a low number of SVs and high accuracy. This means that the polynomial kernel is likely to perform well on unseen data. If we had more computational resources, we could have used more features (and correspondingly more training data) in order to represent the features better.
-	\begin{figure}[ht]
+	\begin{figure}[htb!]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestPoly11}}
@@ -40,7 +40,7 @@
 
 \subsubsection{Radial basis function kernel}
 	The results of this experiment are shown in Figure \ref{fig:svmExperimentRbf} and in Table \ref{table:svmResults}. Similarly to the case of no kernels, the accuracy is high, but so is the number of SV's indicating poor generalisation performance.
-	\begin{figure}[ht]
+	\begin{figure}[htb!]
 		\centering
 		\subfloat[record 11]{%
 			\includegraphics[width=.33\textwidth]{drawings/svm/svmTestRbf11}}

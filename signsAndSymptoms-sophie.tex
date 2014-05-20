@@ -1,34 +1,121 @@
-\section{Signs and Symptoms -- non-invasive methods}
+\section{Symptoms of OSA (Sophie)}
 \label{sec:signsAndSymptoms-sophie}
-Table X shows all the known signs and symptoms of OSA along with detectable presentation. From there Table X+1 shows these presentations and the different sensors for measuring them, as well as whether those sensors are invasive or not. The non-invasive sensors shall be the focus of the following work. The presenting symptom for OSA is daytime sleepiness, with reports of snoring and witnessed apneas from the patient’s bed partner. So focussing on other conditions with these symptoms is a start to finding a unique combination of symptoms for OSA that can be tested non-invasively by an app. 
+Obstructive Sleep Apnoea sufferers display a wide range of symptoms and it is neither possible nor necessary to detect them all in order to diagnose the condition. This section will look at which symptoms to use and start to look at mechanisms for detecting them. Table \ref{table:X4} shows a list of all the presenting symptoms, secondary symptoms and exacerbating factors of OSA ~\cite{epstein2009clinical} ~\cite{nhsmap} ~\cite{american2001international}. The secondary symptoms are things that the patient may have noticed but has not associated with their presenting symptoms, a patient may not experience all of these secondary symptoms, and they are not sufficient without at least one primary symptom to suggest OSA. However they are easy to assess using a questionnaire and are worthy of further work. The exacerbating factors are mainly physical features that a medical practitioner would need to assess; as such they would not be suitable to be assessed as part of this app with the exception of high BMI, large neck circumference, and potentially overbite as these could be assessed by a patient.
 
-Table X+2 looks at four key symptoms of OSA which the majority of patients display ( and can be detected non-invasively). Disorders which also display one or more of these symptoms are then listed along with their differentiator from OSA. From the table it is clear most of these conditions can be ruled out by diagnosis focussing on daytime sleepiness, snoring, and an apnea awakening/choking combination. 
+%for now to make it work
+\begin{table}[h]
+%\begin{wraptable}{r}{5.5cm}[h]
+\%width of table will need manual changing
+\centering
+\begin{tabular}{l l}
+\toprule
+\multirow{4}{*}{Primary presenting symptom}&Daytime sleepiness\\ 
+&Loud snoring\\ 
+&Witnessed apnoeas\\ 
+&Witnessed arousals (choking/gasping)\\ 
+\multirow{10}{*}{Secondary symptoms}&Irritability\\ 
+&Dry mouth upon wakening\\ 
+&Disorientation upon wakening\\ 
+&Mental dullness upon wakening\\ 
+&Grogginess upon wakening\\ 
+&Incoordination upon wakening\\ 
+&Nocturia (wetting the bed)\\ 
+&Impaired cognitive function\\ 
+&Morning headaches\\ 
+&Personality change\\ 
+\multirow{10}{*}{Exacerbating factors}&High BMI\\ 
+&Large neck circumference\\ 
+&High blood pressure\\ 
+&Overbite\\ 
+&Enlarged tongue\\ 
+&Enlarged tonsils\\ 
+&Elongated or enlarged uvula\\ 
+&Nasal abnormalities\\ 
+&Small jaw size\\ 
+&High arched or narrow hard palate\\ \bottomrule
+\end{tabular}
+\caption{symptoms and exacerbating factors of OSA.}
+\label{table:X4}
+\end{table}
 
-Ascertaining these would eliminate all but central sleep apnea and altitude insomnia however both of these would be picked up a significant proportion of the time by a questionnaire because the sufferers would only fit the risk cases for OSA in a small percentage of cases. Especially for altitude insomnia as those with a BMI over 35kgm-2 are unlikely to be climbing over 4000m in height for extended periods ( i.e. climbing mountains rather than flying).
+That leaves the primary presenting features these are the key features to use to distinguish OSA from other disorders. Table \ref{table:X2} shows disorders that also display one or more of these symptoms along with how they can be differentiated from OSA. From the table it is clear most of these conditions can be ruled out by diagnosis focussing on daytime sleepiness, snoring, and an apnoea awakening/choking combination ~\cite{american2001international}.
 
-Those suffering from central sleep apnea are likely to reflect population distribution for BMI as weight is not a cause or exacerbating factor. I.e. about 25\% of central sleep apnea patients are obese ($\text{BMI} > 30$) compared to 70\% of OSA sufferers.
+\begin{table}[h]
+\centering
+%for now to try and make it work
+\begin{tabular}{l l l}
+%\begin{tabular} { | p{ 5cm } | p { 3cm } | p{5cm} | }
+Disorder Similar to OSA & Key OSA symptoms shared & Differentiator from OSA (or reason to discount from analysis) \\
+Narcolepsy & Excessive Sleepiness & Any night time feature would differentiate\\
+Idiopathic Hypersomnia & Excessive Sleepiness & Any night time feature would differentiate\\
+Insufficient Sleep Syndrome & Excessive Sleepiness & Any night time feature would differentiate\\
+Periodic Limb Movement Disorder & Excessive Sleepiness & Although partial arousal my occur similar to OSA, they will not be preceded by apnoea\\
+Depressive Episodes & Excessive Sleepiness & Any night time feature would differentiate\\
+Central Alveolar Hypoventilation Syndrome & Excessive Sleepiness, Choking, Snoring, Apnoeas & Hyperventilation rather than wakening \& choking used to resaturate blood after apnoea\\
+Central Sleep Apnoea & Excessive Sleepiness, Snoring, Apnoeas & Non prominent snoring, physical features most likely to differentiate\\
+Cheyne-Stokes & Choking &  \\
+Panic Attacks & Choking &  \\
+Sleep Choking Syndrome & Choking, Snoring & No apnoeas present and full awakening occurs, no daytime sleepiness\\
+Sleep Related Laryngospasm & Choking, Snoring & Strider present, very rare, no apnoeas, full awakening, no daytime sleepiness\\
+Sleep Related Gastroesophageal Reflux & Choking & No apnoeas, may show signs of regurgitation before wakening and full awakening\\
+Sleep Related Abnormal Swallowing Syndrome & Choking, Snoring & Gurgling rather than apnoeas followed by choking and gagging\\
+Chronic Obstructive Pulmonary Disease & Snoring & May coexist with OSA, if apnoeas present it is due to OSA, so apnoeas a differentiator\\
+Sleep Related Asthma & Snoring & Coughing (prolonged) rather than choking (short) and no apnoeas\\
+Congenital Central Hypoventilation Syndrome & Snoring & Detected in children\\
+Sudden Infant Death Syndrome & Snoring & Detected in children\\
+Infant Sleep Apnoea & Snoring & Detected in children\\
+Altitude Insomnia & Snoring & The height (4000m+) is a major factor here\\
+\end{tabular}
+\caption{Conditions which present at least one of the primary symptoms of OSA and differentiator from OSA.}
+\label{table:X2}
+\end{table}
+Ascertaining these would eliminate all but central sleep apnoea and altitude insomnia however both of these would be picked up a significant proportion of the time by a questionnaire because the sufferers would only fit the risk cases for OSA in a small percentage of cases. Especially for altitude insomnia as those with a BMI over $35 \text{kg} \text{m}^{-2}$ are unlikely to be climbing over $4000$ m in height for extended periods (i.e. climbing mountains rather than flying).
 
-Methods are then needed to detect daytime sleepiness, loud snoring and apnea arousal (choking) combinations. Sensors to look at are; video, accelerometry, audio and questionnaires. Idea and their merits and weaknesses will be discussed next.
+Those suffering from central sleep apnoea are likely to reflect population distribution for BMI as weight is not a cause or exacerbating factor ~\cite{american2001international}. I.e. about 25\% ~\cite{adultobesity} of central sleep apnoea patients are obese ( BMI >30) compared to 70\% of OSA sufferers ~\cite{malhotra2002obstructive}.
 
+Table \ref{table:X3} suggests methods of detecting daytime sleepiness, snoring, apnoeas and arousal events, and distinguishes whether they are invasive or not ~\cite{ iber2007aasm}. The only viable approaches are video, accelerometry, audio and questionnaires, and so these will be investigated further next.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l}
+\toprule
+Symptom&Identifying Feature&Sensor&Invasive or Not\\ \midrule
+Daytime Sleepiness&Patient self aware&Questionnaire&Non-invasive\\ 
+\multirow{2}{*}{Loud Snoring}&Bed partner observed&Questionnaire&Non-invasive\\ 
+&Rasping sound&Audio&Non-invasive\\ 
+\multirow{5}{*}{Apnoeas}&\multirow{2}{*}{Airflow}&Oronasal pressure transducers&Invasive\\ 
+&&Oronasal thermocouple&Invasive\\ 
+&Oxygen Saturation&Pulse Oximetry&Invasive\\ 
+&Absence of sound&Audio&Non-invasive\\ 
+&Heart rate increase&Electrocardiogram&Invasive\\ 
+\multirow{7}{*}{Arousals}&Electrical activity in the brain, change from low voltage \newline during REM to higher voltage during arousal&Electroencephalogram&Invasive\\ 
+&Jaw activity, relaxed during REM&Chin Electromyogram&Invasive\\ 
+&Eye movement, rapid during REM, decreased during arousal&Electrooculogram&Invasive\\ 
+&\multirow{3}{*}{Sudden movement of arousal}&Video&Non-invasive\\ 
+&&Accelerometry&Non-invasive\\ 
+&&Chest wall belts&Invasive\\ 
+&Choking / gasping&Audio&Non-invasive\\ \bottomrule
+\end{tabular}
+\caption{Sensors for detecting primary symptoms of OSA.}
+\label{table:X3}
+\end{table}
 \subsection{Video}
-The aim is to pick up on apneas via cessation of breathing and arousal via significant body movement. Snoring would not be possible to detect although some other attributes that hint at OSA may be detectable e.g. lying in the supine position ( on back). Video could also be used to detect sleep and activity, e.g. sleep cycle transitions and limb movements. 
+The aim is to pick up on apnoeas via cessation of breathing and arousal via significant body movement. Snoring would not be possible to detect although some other attributes that hint at OSA may be detectable e.g. lying in the supine position ( on back). Video could also be used to detect sleep and activity, e.g. sleep cycle transitions and limb movements. 
 
-Merits include, smartphone already have cameras so an external camera wouldn’t be needed, although the cameras may struggle with the low light level in the sleeping space, and changing the light level in order to accommodate the camera could have a knock on effect on the quality or type of sleep. 
+Merits include: smartphones already have cameras so an external camera would not be needed, although the cameras may struggle with the low light level in the sleeping space, and changing the light level in order to accommodate the camera could have a knock on effect on the quality or type of sleep. 
 
-Weaknesses include, positioning of the camera will be important and this is hard when all rooms are different and smartphones don’t naturally stand up by themselves. Manual analysis of the video has been used until recently so there isn’t a great deal of statistical data on how well computer algorithms can detect OSA. Video produces large data files that cannot be sensibly stored on a phone. Video has formed part of the polysomnogram in some areas for a long time as an aide to observation and only recently investigated as an independent method of diagnosis using automated analysis. As a consequence lots of video data does exist however it is highly regulated due to patient confidentiality. 
+Weaknesses include: positioning of the camera will be important and this is hard when all rooms are different and smartphones do not naturally stand up by themselves. Manual analysis of the video has been used until recently so there is not a great deal of statistical data on how well computer algorithms can detect OSA ~\cite{roebuck2014review}. Video produces large data files that cannot be sensibly stored on a phone. Video has formed part of the polysomnogram in some areas for a long time as an aide to observation and only recently investigated as an independent method of diagnosis using automated analysis ~\cite{nhschoicesdiagnosis}, as a consequence lots of video data does exist however it is highly regulated due to patient confidentiality, and potentially not labelled resulting in a need for a large number of specialist man hour to generate training and testing data sets ~\cite{confidentialitynhs}.
 
 \subsection{Accelerometry}
-This has the potential to be able to detect body position and sleep wake segmentation which could give a pretty good indicator of apnea arousal events, however mechanism for detecting snoring.
-
-This has not been part of the polysomnogram although it has started to be investigated as a mechanism for detecting OSA. There is very little data available which makes a retrospective study a challenge, especially as there is no data conbined with polysomnogram data for verification. Positioning of the phone in order to get the best results without damaging the phone would require some investigation. Non standardised arrangements of mattress and bed clothes may cause issues. 
+This has the potential to be able to detect body position, and arousal events. It has not been part of the polysomnogram although it has started to be investigated as a mechanism for detecting OSA. There is very little data available which makes a retrospective study a challenge, especially as there is no data combined with polysomnogram data for verification. Positioning of the phone in order to get the best results without damaging the phone would require some investigation. Non standardised arrangements of mattress and bed clothes may cause issues. 
 
 \subsection{Audio}
-The most obvious way to detect audio signals from the patient is via the phone’s in built microphone although external microphones should also be investigated. It ought to be possible to detect apnea arousal events and snoring. 
+The most obvious way to detect audio signals from the patient is via the phone’s in built microphone although external microphones should also be investigated. It ought to be possible to detect apnoea arousal events and snoring. 
 
-Lots of work has been done on audio analysis of speech so there are lots of ideas out there to work from. Many polysomnograms include a sound recording for reference so there is a lot of data available and in the most part it is anonymised so there isn’t a risk to patient confidentiality. In some cases it has been labelled so it can be used easily for a retrospective study such as this one. There are also regulations which can act as a guidline. 
+Lots of work has been done on audio analysis of speech so there are lots of ideas out there to work from. Many polysomnograms include a sound recording for reference so there is a lot of data available and in the most part it is anonymised so there is not a risk to patient confidentiality. In some cases it has been labelled so it can be used easily for a retrospective study such as this one. 
 
 \subsection{Questionnaire}
-A questionnaire is pretty much the only way to assess daytime sleepiness, it can also be used to acquire about other symptoms and co-morbidities. If a prexisting questionnaire is used then there will be data on its effectiveness and usability and statistics it has produced. Questions for part of the diagnostic pathway so it takes some of the work away from the doctor. Some studies show patients are more truthful with anonymous questionnaires than with their doctor, more on that to follow.
+A questionnaire is pretty much the only way to assess daytime sleepiness, it can also be used to enquire about other symptoms and co-morbidities. If a pre-existing questionnaire is used then there will be data on its effectiveness and usability and statistics it has produced. Questions form part of the diagnostic pathway so it takes some of the work away from the doctor. Some studies show patients are more truthful with anonymous questionnaires than with their doctor. 
 
 \subsection{Conclusion}
-Given that audio analysis and questionnaires should be sufficient to diagnose OSA and rule out other similar disorders, these will be investigated further with the other methods discarded unless significant issues are encountered with audio and questionnaire analysis.
+Given that audio analysis and questionnaires should be sufficient to diagnose OSA and rule out other similar disorders, these will be investigated further with the other methods discarded unless significant issues are encountered with audio and questionnaire analysis. 
