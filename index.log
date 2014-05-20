@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 16:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 17:09
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/Fi
 nalReport/index.tex
@@ -1420,9 +1420,15 @@ Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
 Report/FinalReport/drawings/pgm-eps-converted-to.pdf>])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\Fi
 nalReport\hmm-ta.tex" [56]
+Overfull \hbox (24.3553pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10.95 Find the most prob-a-ble se-quence of hid-den states $[]$ 
+given the ob-ser-va-tions $[]$, $[][] = [][] \OML/cmm/m/it/10.95 P []$\OT1/cmr/
+m/n/10.95 . 
+ []
+
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 20.
- [57] [58] [59] [60])
+[57] [58] [59] [60])
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\Fi
 nalReport\conditioning-ta.tex" [61]
 Package epstopdf Info: Source file: <drawings/spec.eps>
@@ -1466,7 +1472,7 @@ Package epstopdf Info: Source file: <drawings/pca.eps>
 to.pdf drawings/pca.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pca-eps-converted-to.pdf, id=1298, 258.9675pt x 258.9675pt>
+ <drawings/pca-eps-converted-to.pdf, id=1299, 258.9675pt x 258.9675pt>
 File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pca-eps-converted-to.pdf>
@@ -2588,7 +2594,7 @@ ublic/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on index.pdf (113 pages, 3635299 bytes).
+Output written on index.pdf (113 pages, 3635253 bytes).
 PDF statistics:
  2389 PDF objects out of 2487 (max. 8388607)
  824 named destinations out of 1000 (max. 500000)

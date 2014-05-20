@@ -65,7 +65,7 @@
 \contentsline {paragraph}{Solution to the first problem.}{57}{paragraph*.45}
 \contentsline {paragraph}{Solution to the second problem.}{57}{paragraph*.46}
 \contentsline {paragraph}{Solution to the third problem.}{58}{paragraph*.47}
-\contentsline {paragraph}{Parameters estimation with known hidden states.}{60}{paragraph*.48}
+\contentsline {paragraph}{Parameters estimation with known hidden states.}{59}{paragraph*.48}
 \contentsline {subsubsection}{Continuous observations}{60}{subsubsection*.49}
 \contentsline {paragraph}{Changes to the algorithms.}{60}{paragraph*.50}
 \contentsline {paragraph}{Different probability density functions.}{61}{paragraph*.51}
