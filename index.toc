@@ -21,9 +21,9 @@
 \contentsline {chapter}{\numberline {5}Design Process}{22}{chapter.5}
 \contentsline {section}{\numberline {5.1}Diagnostic Approaches (Sophie)}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}Symptoms of OSA (Sophie)}{24}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Video}{24}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Video}{25}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Accelerometry}{25}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Audio}{25}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Audio}{26}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Questionnaire}{26}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}Conclusion}{26}{subsection.5.2.5}
 \contentsline {section}{\numberline {5.3}Questionnaire selection (Sophie)}{27}{section.5.3}

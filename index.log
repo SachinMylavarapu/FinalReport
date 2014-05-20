@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 21:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.14)  20 MAY 2014 21:28
 entering extended mode
 **C:/Dropbox/Engineering/Engineering*Y3/B3*Group*Design*Projects/FinalReport/Fi
 nalReport/index.tex
@@ -699,7 +699,7 @@ nalReport\index.toc"pdfTeX warning (ext4): destination with the same identifier
  (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 ...erline {5.2.3}Audio}{25}{subsection.5.2.3}
+l.26 ...erline {5.2.3}Audio}{26}{subsection.5.2.3}
                                                    [1
 
 ] [2] [3])
@@ -929,12 +929,7 @@ nalReport\diagnosticMethods-sophie.tex" [22
 
 ]) [23]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\Fi
-nalReport\signsAndSymptoms-sophie.tex"
-Overfull \hbox (147.46075pt too wide) in paragraph at lines 5--35
- [] 
- []
-
-
+nalReport\signsAndSymptoms-sophie.tex" [24]
 Underfull \hbox (badness 5359) in paragraph at lines 45--45
 []\OT1/cmr/m/n/10.95 Disorder Sim-i-lar
  []
@@ -1293,11 +1288,11 @@ Overfull \hbox (341.72649pt too wide) in paragraph at lines 74--93
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
+[25]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [25]) [26]
+) [26]
 ("C:\Dropbox\Engineering\Engineering Y3\B3 Group Design Projects\FinalReport\Fi
 nalReport\questionnaire-sophie.tex"
 Missing character: There is no â in font cmr10!
@@ -2616,10 +2611,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 12264 strings out of 493921
- 198274 string characters out of 3144867
+ 12262 strings out of 493921
+ 198244 string characters out of 3144867
  341611 words of memory out of 3000000
- 14307 multiletter control sequences out of 15000+200000
+ 14305 multiletter control sequences out of 15000+200000
  21490 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,49p,2073b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2657,7 +2652,7 @@ ublic/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on index.pdf (117 pages, 4714119 bytes).
+Output written on index.pdf (117 pages, 4714041 bytes).
 PDF statistics:
  2459 PDF objects out of 2487 (max. 8388607)
  832 named destinations out of 1000 (max. 500000)
