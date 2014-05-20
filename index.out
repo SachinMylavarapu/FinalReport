@@ -52,46 +52,47 @@
 \BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 State-Space Models}{section.5.6}% 52
 \BOOKMARK [2][-]{subsection.5.6.3}{5.6.3 Hidden Markov Models}{section.5.6}% 53
 \BOOKMARK [2][-]{subsection.5.6.4}{5.6.4 Conditioning input data}{section.5.6}% 54
-\BOOKMARK [1][-]{section.5.7}{5.7 Machine Learning \205 Experiments}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Reading and Conditioning Data in MATLAB}{section.5.7}% 56
-\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Conditioning input data}{section.5.7}% 57
-\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Data Visualisation}{section.5.7}% 58
-\BOOKMARK [2][-]{subsection.5.7.4}{5.7.4 Support Vector Machines}{section.5.7}% 59
-\BOOKMARK [2][-]{subsection.5.7.5}{5.7.5 Hidden Markov Models}{section.5.7}% 60
-\BOOKMARK [2][-]{subsection.5.7.6}{5.7.6 Summary}{section.5.7}% 61
-\BOOKMARK [1][-]{section.5.8}{5.8 Machine Learning \205 Java}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.9}{5.9 Designing an Android App}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.9.1}{5.9.1 XML and Java sides of ADT}{section.5.9}% 64
-\BOOKMARK [2][-]{subsection.5.9.2}{5.9.2 XML IDs}{section.5.9}% 65
-\BOOKMARK [2][-]{subsection.5.9.3}{5.9.3 Methods}{section.5.9}% 66
-\BOOKMARK [2][-]{subsection.5.9.4}{5.9.4 Java and android libraries}{section.5.9}% 67
-\BOOKMARK [2][-]{subsection.5.9.5}{5.9.5 Structure of an Activity}{section.5.9}% 68
-\BOOKMARK [2][-]{subsection.5.9.6}{5.9.6 XML writing}{section.5.9}% 69
-\BOOKMARK [2][-]{subsection.5.9.7}{5.9.7 XML layouts}{section.5.9}% 70
-\BOOKMARK [2][-]{subsection.5.9.8}{5.9.8 Further XML details}{section.5.9}% 71
-\BOOKMARK [2][-]{subsection.5.9.9}{5.9.9 Handling Strings}{section.5.9}% 72
-\BOOKMARK [2][-]{subsection.5.9.10}{5.9.10 Java Techniques}{section.5.9}% 73
-\BOOKMARK [2][-]{subsection.5.9.11}{5.9.11 Initialising AudioRecord}{section.5.9}% 74
-\BOOKMARK [2][-]{subsection.5.9.12}{5.9.12 Progress Wheel}{section.5.9}% 75
-\BOOKMARK [2][-]{subsection.5.9.13}{5.9.13 GraphView}{section.5.9}% 76
-\BOOKMARK [2][-]{subsection.5.9.14}{5.9.14 Other Platforms}{section.5.9}% 77
-\BOOKMARK [2][-]{subsection.5.9.15}{5.9.15 Xcode}{section.5.9}% 78
-\BOOKMARK [2][-]{subsection.5.9.16}{5.9.16 AVAudioRecord Library}{section.5.9}% 79
-\BOOKMARK [0][-]{chapter.6}{6 Conclusion}{}% 80
-\BOOKMARK [0][-]{appendix.A}{A Code for the simple model}{}% 81
-\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 simple.m}{appendix.A}% 82
-\BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 83
-\BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 84
-\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m}{}% 85
-\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning}{}% 86
-\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 87
-\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 88
-\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 89
-\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines}{}% 90
-\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 91
-\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 92
-\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models}{}% 93
-\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 94
-\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 95
-\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 96
-\BOOKMARK [0][-]{appendix.F}{F Division of labour}{}% 97
+\BOOKMARK [2][-]{subsection.5.6.5}{5.6.5 Summary}{section.5.6}% 55
+\BOOKMARK [1][-]{section.5.7}{5.7 Machine Learning \205 Experiments}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Reading and Conditioning Data in MATLAB}{section.5.7}% 57
+\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Conditioning input data}{section.5.7}% 58
+\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Data Visualisation}{section.5.7}% 59
+\BOOKMARK [2][-]{subsection.5.7.4}{5.7.4 Support Vector Machines}{section.5.7}% 60
+\BOOKMARK [2][-]{subsection.5.7.5}{5.7.5 Hidden Markov Models}{section.5.7}% 61
+\BOOKMARK [2][-]{subsection.5.7.6}{5.7.6 Summary}{section.5.7}% 62
+\BOOKMARK [1][-]{section.5.8}{5.8 Machine Learning \205 Java}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.9}{5.9 Designing an Android App}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.9.1}{5.9.1 XML and Java sides of ADT}{section.5.9}% 65
+\BOOKMARK [2][-]{subsection.5.9.2}{5.9.2 XML IDs}{section.5.9}% 66
+\BOOKMARK [2][-]{subsection.5.9.3}{5.9.3 Methods}{section.5.9}% 67
+\BOOKMARK [2][-]{subsection.5.9.4}{5.9.4 Java and android libraries}{section.5.9}% 68
+\BOOKMARK [2][-]{subsection.5.9.5}{5.9.5 Structure of an Activity}{section.5.9}% 69
+\BOOKMARK [2][-]{subsection.5.9.6}{5.9.6 XML writing}{section.5.9}% 70
+\BOOKMARK [2][-]{subsection.5.9.7}{5.9.7 XML layouts}{section.5.9}% 71
+\BOOKMARK [2][-]{subsection.5.9.8}{5.9.8 Further XML details}{section.5.9}% 72
+\BOOKMARK [2][-]{subsection.5.9.9}{5.9.9 Handling Strings}{section.5.9}% 73
+\BOOKMARK [2][-]{subsection.5.9.10}{5.9.10 Java Techniques}{section.5.9}% 74
+\BOOKMARK [2][-]{subsection.5.9.11}{5.9.11 Initialising AudioRecord}{section.5.9}% 75
+\BOOKMARK [2][-]{subsection.5.9.12}{5.9.12 Progress Wheel}{section.5.9}% 76
+\BOOKMARK [2][-]{subsection.5.9.13}{5.9.13 GraphView}{section.5.9}% 77
+\BOOKMARK [2][-]{subsection.5.9.14}{5.9.14 Other Platforms}{section.5.9}% 78
+\BOOKMARK [2][-]{subsection.5.9.15}{5.9.15 Xcode}{section.5.9}% 79
+\BOOKMARK [2][-]{subsection.5.9.16}{5.9.16 AVAudioRecord Library}{section.5.9}% 80
+\BOOKMARK [0][-]{chapter.6}{6 Conclusion}{}% 81
+\BOOKMARK [0][-]{appendix.A}{A Code for the simple model}{}% 82
+\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 simple.m}{appendix.A}% 83
+\BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 84
+\BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 85
+\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m}{}% 86
+\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning}{}% 87
+\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 88
+\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 89
+\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 90
+\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines}{}% 91
+\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 92
+\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 93
+\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models}{}% 94
+\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 95
+\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 96
+\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 97
+\BOOKMARK [0][-]{appendix.F}{F Division of labour}{}% 98
