@@ -2,7 +2,7 @@
 \label{sec:mltheory-ta}
 	Machine learning, a branch of artificial intelligence, concerns the construction and study of systems that can learn from data \cite{wiki:machineLearning}. The supervised classification problem in machine learning concerns finding the unknown target function that classifies certain input data into classes based on some set of training examples containing labelled input data.
 
-	It is exciting to use machine learning algorithms to aid medical diagnoses because it can dramatically save time for medical experts. These techniques should create a reasonably reliable, though not perfect, system on which the medical experts can base their decisions on.
+	It is useful to apply machine learning algorithms to aid medical diagnoses because it can dramatically save time for medical experts. These techniques should create a reasonably reliable, though not perfect, system on which the medical experts can base their decisions on.
 	
 	In our case, given a sampled sound signal of a sleeper, we want to identify apnoea periods. In particular, we represent our input (sampled sound signal) as $\vec S = \left\{s_1, s_2, \dotsc, s_T \right\} \equiv \left\{ s_i \right\}_{i = 1}^{T}$, and we want to output the classifiers for every $K$ samples, $\vec Y = \left\{ y_i \right\}_{i = 1}^{T/K}$, where the classifier $y_i \in \left\{0, 1\right\}$ corresponds to samples $\left\{ s_j \right\}_{j = \left(i - 1\right)K + 1}^{iK}$ of the signal. We assume that $T$ is divisible by $K$, however if this is not the case, we discard an appropriate number of signal samples to fulfill this condition.
 

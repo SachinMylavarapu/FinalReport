@@ -9,7 +9,7 @@
 	The three main questions of a HMM are
 	\begin{enumerate}
 		\item Find the probability of observations given the model, $P\left(\vec Y; \lambda\right)$.
-		\item Find the most likely series of hidden states $\vec X$ to have generated the observations $\vec Y$, $\vec X^\ast = \argmax_{\vec X} P\left(\vec Y | \vec X; \lambda\right)$.
+		\item Find the most probable sequence of hidden states $\vec X$ given the observations $\vec Y$, $\vec X^\ast = \argmax_{\vec X} P\left(\vec Y | \vec X; \lambda\right)$.
 		\item Find the parameters $\lambda$ to maximise $P\left(\vec Y; \lambda\right)$.
 	\end{enumerate}
 	We will discuss algorithmic solution to these three problems in turn.

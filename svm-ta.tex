@@ -9,7 +9,7 @@
   		\item $y^{(i)} \in \left\{-1, 1 \right\}$ is the $i$-th training label.
 
 	\end{itemize}
-	we want to find the parameter $\vec{w} \in \mathbb{R}^d$ which describes the hyperplane $\vec{w}^T \vec{x} + b = 0$ that separates our two classes. Thus, we can define our classifier as $h_{\vec{w}, b}(\vec{x}) = g\left(\vec{w}^T \vec{x} + b \right)$, such that $g(z) = 1$ if $z \geq 0$ and $g(z) = -1$ otherwise. Note that this is a non-probabilistic learning model as we are not considering the probability of each class or the data.
+	we want to find the parameter $\vec{w} \in \mathbb{R}^d$ which describes the hyperplane $\vec{w}^T \vec{x} + b = 0$ that separates our two classes. Thus, we can define our classifier as $h_{\vec{w}, b}(\vec{x}) = g\left(\vec{w}^T \vec{x} + b \right)$, such that $g(z) = 1$ if $z \geq 0$ and $g(z) = -1$ otherwise. Note that this is a discriminative learning model as we are not modelling the joint probability of the data.
 	
 \subsubsection{Objectives}
 	The essence of SVMs lies in finding the decision boundary (hyperplane) which maximises the gap between the closest training points to it. For the $i$-th training point $x^{(i)}$, we call the ``gap'', geometric margin $\gamma^{(i)}$, which is the distance to the decision hyperplane and can be found by considering a point $\vec{x}$ on it (note that $\vec{w}^T\vec{x} = -b$):
