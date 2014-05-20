@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  20 MAY 2014 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  20 MAY 2014 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**index.tex
+**index.tex -recorder
 (./index.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -779,11 +779,11 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 Package epstopdf Info: Source file: <drawings/Structure-network.eps>
-(epstopdf)                    date: 2014-05-20 18:22:44
+(epstopdf)                    date: 2014-04-27 23:27:48
 (epstopdf)                    size: 3175504 bytes
 (epstopdf)             Output file: <drawings/Structure-network-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-05-20 18:22:44
+(epstopdf)                    date: 2014-05-20 18:59:26
 (epstopdf)                    size: 98474 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/Structure-network
 -eps-converted-to.pdf drawings/Structure-network.eps>
@@ -1228,10 +1228,10 @@ Overfull \hbox (128.4548pt too wide) in paragraph at lines 211--239
 
 ) [44] (./simple-sachin.tex [45]
 Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 17:54:25
 (epstopdf)                    size: 53931 bytes
 (epstopdf)             Output file: <drawings/YRawFreq-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 18:22:42
 (epstopdf)                    size: 24599 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/YRawFreq-eps-conv
 erted-to.pdf drawings/YRawFreq.eps>
@@ -1246,11 +1246,11 @@ Package pdftex.def Info: drawings/YRawFreq-eps-converted-to.pdf used on input l
 ine 27.
 (pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
 Package epstopdf Info: Source file: <drawings/YRawPeriodogram.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 16:39:21
 (epstopdf)                    size: 128456 bytes
 (epstopdf)             Output file: <drawings/YRawPeriodogram-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 17:19:19
 (epstopdf)                    size: 80752 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/YRawPeriodogram-e
 ps-converted-to.pdf drawings/YRawPeriodogram.eps>
@@ -1267,11 +1267,11 @@ input line 29.
  [46] [47 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogra
 m-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/simpleResults.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 21:42:52
 (epstopdf)                    size: 145392 bytes
 (epstopdf)             Output file: <drawings/simpleResults-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-25 22:00:50
 (epstopdf)                    size: 43148 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/simpleResults-eps
 -converted-to.pdf drawings/simpleResults.eps>
@@ -1288,10 +1288,10 @@ put line 61.
  [48]) [49 <./drawings/simpleResults-eps-converted-to.pdf>] (./mltheory-ta.tex 
 (./svm-ta.tex [50]
 Package epstopdf Info: Source file: <drawings/svm.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 155908 bytes
 (epstopdf)             Output file: <drawings/svm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 15023 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm-eps-converted
 -to.pdf drawings/svm.eps>
@@ -1307,10 +1307,10 @@ Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
 (pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
  [51] [52 <./drawings/svm-eps-converted-to.pdf>] [53]) (./ssm-ta.tex
 Package epstopdf Info: Source file: <drawings/pgm.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-03-29 11:04:07
 (epstopdf)                    size: 64674 bytes
 (epstopdf)             Output file: <drawings/pgm-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 7086 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/pgm-eps-converted
 -to.pdf drawings/pgm.eps>
@@ -1335,10 +1335,10 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 20.
 [57] [58] [59] [60]) (./conditioning-ta.tex [61]
 Package epstopdf Info: Source file: <drawings/spec.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 96489 bytes
 (epstopdf)             Output file: <drawings/spec-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 12637 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/spec-eps-converte
 d-to.pdf drawings/spec.eps>
@@ -1366,10 +1366,10 @@ OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.
 
 [62]
 Package epstopdf Info: Source file: <drawings/pca.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-03-29 11:04:07
 (epstopdf)                    size: 55703 bytes
 (epstopdf)             Output file: <drawings/pca-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 6808 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/pca-eps-converted
 -to.pdf drawings/pca.eps>
@@ -1391,11 +1391,11 @@ oNet database lo-cated at []$\OT1/cmtt/m/n/10.95 http : / / physionet .
  []
 
 Package epstopdf Info: Source file: <drawings/visualiseData.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 151369 bytes
 (epstopdf)             Output file: <drawings/visualiseData-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 73832 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/visualiseData-eps
 -converted-to.pdf drawings/visualiseData.eps>
@@ -1412,11 +1412,11 @@ put line 6.
 (./readingDataExplCode-sachin.tex [66 <./drawings/visualiseData-eps-converted-t
 o.pdf>]) (./conditioningExperiments-ta.tex [67]
 Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:59
 (epstopdf)                    size: 6514780 bytes
 (epstopdf)             Output file: <drawings/visualiseSpectrogram-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-23 22:24:53
 (epstopdf)                    size: 219547 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/visualiseSpectrog
 ram-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
@@ -1432,11 +1432,11 @@ Package pdftex.def Info: drawings/visualiseSpectrogram-eps-converted-to.pdf use
 d on input line 17.
 (pdftex.def)             Requested size: 250.24199pt x 199.10909pt.
 Package epstopdf Info: Source file: <drawings/visualisePca.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 35807 bytes
 (epstopdf)             Output file: <drawings/visualisePca-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 11630 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/visualisePca-eps-
 converted-to.pdf drawings/visualisePca.eps>
@@ -1453,11 +1453,11 @@ ut line 26.
 ) (./dataVisualisation-ta.tex
 [68 <./drawings/visualiseSpectrogram-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/spectrogramClassesVisualise.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 904716 bytes
 (epstopdf)             Output file: <drawings/spectrogramClassesVisualise-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 222742 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/spectrogramClasse
 sVisualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
@@ -1476,11 +1476,11 @@ pdf used on input line 6.
 )
 (./svmExperiments-ta.tex [69 <./drawings/visualisePca-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 141662 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestNoKernel11-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 62094 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
 el11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
@@ -1496,11 +1496,11 @@ Package pdftex.def Info: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf us
 ed on input line 10.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel12.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 150787 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestNoKernel12-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 65163 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
 el12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
@@ -1516,11 +1516,11 @@ Package pdftex.def Info: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf us
 ed on input line 12.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel13.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 149951 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestNoKernel13-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 67137 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
 el13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
@@ -1536,11 +1536,11 @@ Package pdftex.def Info: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf us
 ed on input line 14.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel14.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 140811 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestNoKernel14-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 60700 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
 el14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
@@ -1556,11 +1556,11 @@ Package pdftex.def Info: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf us
 ed on input line 16.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel15.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 134177 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestNoKernel15-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 59250 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestNoKern
 el15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
@@ -1576,11 +1576,11 @@ Package pdftex.def Info: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf us
 ed on input line 18.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 141654 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestPoly11-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 62449 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly11
 -eps-converted-to.pdf drawings/svm/svmTestPoly11.eps>
@@ -1595,11 +1595,11 @@ Package pdftex.def Info: drawings/svm/svmTestPoly11-eps-converted-to.pdf used o
 n input line 28.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly12.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 150780 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestPoly12-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 65378 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly12
 -eps-converted-to.pdf drawings/svm/svmTestPoly12.eps>
@@ -1614,11 +1614,11 @@ Package pdftex.def Info: drawings/svm/svmTestPoly12-eps-converted-to.pdf used o
 n input line 30.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly13.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 149943 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestPoly13-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 67263 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly13
 -eps-converted-to.pdf drawings/svm/svmTestPoly13.eps>
@@ -1633,11 +1633,11 @@ Package pdftex.def Info: drawings/svm/svmTestPoly13-eps-converted-to.pdf used o
 n input line 32.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly14.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 140809 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestPoly14-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 60979 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly14
 -eps-converted-to.pdf drawings/svm/svmTestPoly14.eps>
@@ -1652,11 +1652,11 @@ Package pdftex.def Info: drawings/svm/svmTestPoly14-eps-converted-to.pdf used o
 n input line 34.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly15.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 134173 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestPoly15-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 59327 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestPoly15
 -eps-converted-to.pdf drawings/svm/svmTestPoly15.eps>
@@ -1671,11 +1671,11 @@ Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
 n input line 36.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 141657 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestRbf11-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 62134 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf11-
 eps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
@@ -1690,11 +1690,11 @@ Package pdftex.def Info: drawings/svm/svmTestRbf11-eps-converted-to.pdf used on
  input line 46.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf12.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 150783 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestRbf12-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 65339 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf12-
 eps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
@@ -1709,11 +1709,11 @@ Package pdftex.def Info: drawings/svm/svmTestRbf12-eps-converted-to.pdf used on
  input line 48.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf13.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 149945 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestRbf13-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 66532 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf13-
 eps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
@@ -1728,11 +1728,11 @@ Package pdftex.def Info: drawings/svm/svmTestRbf13-eps-converted-to.pdf used on
  input line 50.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf14.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 140808 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestRbf14-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 60855 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf14-
 eps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
@@ -1747,11 +1747,11 @@ Package pdftex.def Info: drawings/svm/svmTestRbf14-eps-converted-to.pdf used on
  input line 52.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf15.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 134170 bytes
 (epstopdf)             Output file: <drawings/svm/svmTestRbf15-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-18 18:34:58
 (epstopdf)                    size: 58903 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/svm/svmTestRbf15-
 eps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
@@ -1785,11 +1785,11 @@ pdf> <./drawings/svm/svmTestRbf12-eps-converted-to.pdf> <./drawings/svm/svmTest
 Rbf13-eps-converted-to.pdf> <./drawings/svm/svmTestRbf14-eps-converted-to.pdf> 
 <./drawings/svm/svmTestRbf15-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest11.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 18:32:13
 (epstopdf)                    size: 178041 bytes
 (epstopdf)             Output file: <drawings/hmm/hmmTest11-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-05-20 18:22:44
+(epstopdf)                    date: 2014-05-20 18:59:26
 (epstopdf)                    size: 84118 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/hmm/hmmTest11-eps
 -converted-to.pdf drawings/hmm/hmmTest11.eps>
@@ -1803,11 +1803,11 @@ Package pdftex.def Info: drawings/hmm/hmmTest11-eps-converted-to.pdf used on in
 put line 23.
 (pdftex.def)             Requested size: 165.16063pt x 138.4554pt.
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest12.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 18:32:13
 (epstopdf)                    size: 192455 bytes
 (epstopdf)             Output file: <drawings/hmm/hmmTest12-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-05-20 18:22:44
+(epstopdf)                    date: 2014-05-05 15:53:24
 (epstopdf)                    size: 87678 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/hmm/hmmTest12-eps
 -converted-to.pdf drawings/hmm/hmmTest12.eps>
@@ -1821,11 +1821,11 @@ Package pdftex.def Info: drawings/hmm/hmmTest12-eps-converted-to.pdf used on in
 put line 25.
 (pdftex.def)             Requested size: 165.16063pt x 137.28471pt.
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest13.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 18:32:13
 (epstopdf)                    size: 188130 bytes
 (epstopdf)             Output file: <drawings/hmm/hmmTest13-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 21:12:43
 (epstopdf)                    size: 94410 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/hmm/hmmTest13-eps
 -converted-to.pdf drawings/hmm/hmmTest13.eps>
@@ -1840,11 +1840,11 @@ Package pdftex.def Info: drawings/hmm/hmmTest13-eps-converted-to.pdf used on in
 put line 27.
 (pdftex.def)             Requested size: 165.16063pt x 137.57436pt.
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest14.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 18:32:13
 (epstopdf)                    size: 179337 bytes
 (epstopdf)             Output file: <drawings/hmm/hmmTest14-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 21:12:43
 (epstopdf)                    size: 86701 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/hmm/hmmTest14-eps
 -converted-to.pdf drawings/hmm/hmmTest14.eps>
@@ -1858,11 +1858,11 @@ Package pdftex.def Info: drawings/hmm/hmmTest14-eps-converted-to.pdf used on in
 put line 29.
 (pdftex.def)             Requested size: 165.16063pt x 137.28471pt.
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest15.eps>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 18:32:13
 (epstopdf)                    size: 168906 bytes
 (epstopdf)             Output file: <drawings/hmm/hmmTest15-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-04-27 20:45:33
+(epstopdf)                    date: 2014-04-26 21:12:43
 (epstopdf)                    size: 80707 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/hmm/hmmTest15-eps
 -converted-to.pdf drawings/hmm/hmmTest15.eps>
@@ -2095,12 +2095,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
  12241 strings out of 493315
- 186642 string characters out of 6137905
+ 186642 string characters out of 6137904
  345645 words of memory out of 5000000
  14456 multiletter control sequences out of 15000+600000
  21490 words of font info for 78 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,17n,49p,1986b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,49p,1996b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
