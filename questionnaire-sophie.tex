@@ -71,7 +71,7 @@ Viner et al&&410&94&28&1.31&&\\ \bottomrule
 The 23 clinical variables which form the parameters for the neural network are shown in Table \ref{table:neural}. The patient would be aware of the demographics and social history information. However night time symptoms and bed partner observations would be more challenging and impossible for the patient to know about themselves in some cases. As regards past medical history, anthropometrics and the physical examination, in most cases the patient would not be able to self administer the questionnaire, negating its use.
 \begin{table}[h]
 \centering
-\begin{tabular}{l l}
+\begin{tabular}{p{5cm} p{10cm}}
 \toprule
 Variables&Characteristics\\ \midrule
 Demographics&Age, gender\\ 
@@ -113,27 +113,29 @@ This is only based on three features as shown in the flowchart(Figure \ref{fig:f
 
 \subsection{STOPbang Questionnaire}
 This questionnaire is based on eight questions to do with patients self reported symptoms. Each is answered with yes or no and the score is just a summation of the yes answers. Chung et al found that it was particularly good at distinguishing between severity of OSA, however as a simple diagnostic tool to find everyone who suffers it is relatively effective when used with a cut off of scoring 3 or above, with a probability of 93\% for detecting moderate OSA sufferers with AHI$\geq$15.
-
-1. Snoring: Do you snore loudly (loud enough to be heard through closed doors)?
-2. Tired: Do you often feel tired, fatigued, or sleepy during daytime?
-3. Observed: Has anyone observed you stop breathing during your sleep?
-4. Blood pressure: Do you have or are you being treated for high blood pressure?
-5. BMI: BMI more than $35 \text{ kg} \text{m}^{−2}$?
-6. Age: Age over 50 yr old?
-7. Neck circumference: Neck circumference $>$ 40 cm?
-8. Gender: Male?
+\begin{enumerate}
+\item Snoring: Do you snore loudly (loud enough to be heard through closed doors)?
+\item Tired: Do you often feel tired, fatigued, or sleepy during daytime?
+\item Observed: Has anyone observed you stop breathing during your sleep?
+\item Blood pressure: Do you have or are you being treated for high blood pressure?
+\item BMI: BMI more than $35 \text{ kg} \text{m}^{−2}$?
+\item Age: Age over 50 yr old?
+\item Neck circumference: Neck circumference $>$ 40 cm?
+\item Gender: Male?
+\end{enumerate}
 
 \subsection{Epworth Sleepiness Scale}
-This is a tool for establishing how much the patient feels they suffer from daytime sleepiness. The patient is asked to say how likely they are to doze in eight situations with 0 being they would never doze, through slight and moderate to high chance of dozing given a 3. A cut off value of 8 has been proposed by Rosenthal and Dolan which gives a sensitivity of 76\% for an AHI $\geq$5. 
-
-Sitting and reading\\
-Watching TV\\
-Sitting, inactive in a public place (e.g. a theater or a meeting)\\
-As a passenger in a car for an hour without a break\\
-Lying down to rest in the afternoon when circumstances permit\\
-Sitting and talking to someone\\
-Sitting quietly after lunch without alcohol\\
-In a car, while stopped for a few minutes in traffic
+This is a tool for establishing how much the patient feels they suffer from daytime sleepiness. The patient is asked to say how likely they are to doze in eight situations with 0 being they would never doze, through slight and moderate to high chance of dozing given a 3. A cut off value of 8 has been proposed by Rosenthal and Dolan which gives a sensitivity of 76\% for an AHI $\geq$ 5. 
+\begin{itemize}
+\item Sitting and reading
+\item Watching TV
+\item Sitting, inactive in a public place (e.g. a theater or a meeting)
+\item As a passenger in a car for an hour without a break
+\item Lying down to rest in the afternoon when circumstances permit
+\item Sitting and talking to someone
+\item Sitting quietly after lunch without alcohol
+\item In a car, while stopped for a few minutes in traffic
+\end{itemize}
 
 \subsection{Conclusion}
 The STOPbang questionnaire and Epworth Sleepiness Scale are the only tests that a patient could reliably self administer, due to their shortness of length, ease to understand by a patient and ease to interpret by an algorithm. Both will be included in the app.
