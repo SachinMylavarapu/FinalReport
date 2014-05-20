@@ -24,5 +24,15 @@ rationale.aux
 drawings/Structure-network-eps-converted-to.pdf
 
 app.aux
+<<<<<<< HEAD
 
 *.log
+
+index.log
+
+index.pdf
+
+index.synctex.gz
+=======
+*.log
+>>>>>>> FETCH_HEAD
