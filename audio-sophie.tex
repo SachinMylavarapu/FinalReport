@@ -190,42 +190,6 @@ Ben-Israel et al investigated the use of five classifiers on 60 training patient
 
 Sola-Soler et al classified their subject into three classes: $C_{1}$ simple snorers with AHI \textless 5, $C_{2}$ mild to moderate OSA sufferers 5 $\leq$ AHI \textless 30, and $C_{3}$ sufferers of severe OSA with AHI $\geq$ 30. There were 13 simple snorers, 11 $C_{2}$ and 12 $C_{3}$ sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants. These were then classified in two main ways: logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously; two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
 Three different types of naive Bayes classifier were investigated. The optimum independent variables were found by a sequential floating forward selection algorithm up to a maximum of ten variables. The three approaches were Gaussian, kernel diffusion and kernel density, with kernel density producing the best results. Gaussian produced the worst results for the training set probably because snore features are not Gaussian. Bayes using kernel density performed better than logistic regression with accuracy of 83.3\% and 0\% false negatives whereas logistic regression was 72.2\% and 8.3\% respectively ~\cite{sola2012multiclass}.
-
-Sola-Soler et al classified their subject into three classes $C_{1}$ simple snorers with AHI <5, $C_{2}$ mild to moderate OSA sufferers 5$\leq$ AHI < 30, and $C_{3}$ sufferers of severe OSA with AHI $\geq$ 30. There were 13 simple snorers, 11 $C_{2}$ and 12 $C_{3}$ sufferers. 22 features were used which fell into the categories of sound intensity, pitch, frequency parameters and formants (see Table \ref{table:sola2012} for the full list). These were then classified in two main ways, logistic regression and Bayes rule. A forward stepwise selection algorithm was used to find optimum independent variables for two binary logistic regression classifiers used simultaneously, two classifiers were needed because there are two thresholds ~\cite{sola2012multiclass}.
-
-\begin{wraptable}{r}{5.5cm}
-\%width of table will need manual changing
-\centering
-\begin{tabular}{l l}
-\toprule
-\multicolumn{2}{l}{Snore intensity parameters}\\ \midrule
-$I_{mean}$&Mean sound intensity\\ 
-$I_{max}$&Maximum sound intensity\\ 
-\multicolumn{2}{l}{Snore pitch parameters}\\ 
-$P_{m}$&Pitch mean value\\ 
-$P_{s}$&Pitch standard deviation\\ 
-$P_{iqr}$&Pitch interquartile range\\ 
-$P_{dens}$&Pitch density\\ 
-$P_{ints}$&Pitch intervals\\ 
-\multicolumn{2}{l}{Snore frequency (PSD) Parameters}\\ 
-$F_{mean}$&Mean frequency\\ 
-$F_{med}$&Median frequency\\ 
-$F_{peak}$&Peak frequency\\ 
-$F_{max}$&Maximum frequency\\ 
-$C_{Symm}$&Symmetry coefficient\\ 
-$C_{Flatn}$&Flatness coefficient\\ 
-$RW_{B}$&Ratio of energy in band B to total energy\\ 
-$Rout_{B}$&Ratio of energy in band B to energy outside B\\ 
-\multicolumn{2}{l}{Spectral envelope snore parameters}\\ 
-$F_{i}$&Frequency of the ith formant\\ 
-$L_{i}$&Attenuation of the ith formant\\ 
-$M_{i}$&Amplitude of the ith formant\\ \bottomrule
-\end{tabular}
-\caption{Snore characterisation. B is the frequency band: B = (0, 500)Hz, (100, 500)Hz or (0, 800)Hz. i = 1:5.}
-\label{table:sola2012}
-\end{wraptable}
-Three different types of naive Bayes classifier were investigated, the optimum independent variables were found by a sequential floating forward selection algorithm up to a maximum of ten variables. The three approaches were Gaussian, kernel diffusion and kernel density; with kernel density producing the best results. Gaussian produced the worst results for the training set probably because snore features are not Gaussian. Bayes using kernel density performed better than logistic regression with accuracy of 83.3\% and 0\% false negatives whereas logistic regression was 72.2\% and 8.3\% respectively ~\cite{sola2012multiclass}.
->>>>>>> bf769160212ac044109ec58c0efea744269fe130
 \subsection{Conclusion}
 As has been shown a number of features can be used successfully to differentiate obstructive sleep apnoea sufferers from simple snorers with sub-band energy analysis and multiclass analysis performing the best. There were three ways the signals were classified: regression, K-means clustering and Bayes classifiers. Bayes classifiers and K-means clustering consistently outperformed regression classifiers. These are types of machine learning, although not the only types to be used for the classification of signals used in the diagnosis of OSA. Other types of machine learning used include: Hidden Markov Models used by Rossow et al to classify EEG signals ~\cite{rossow2011automatic}; Support Vector Machines used by Gederi and Clifford to classify images ~\cite{gederi2012fusion}; and neural networks used by Roberts and Tarassenko to classify EEG ~\cite{roberts1992new}. Given the success of machine learning in the cases shown, even with very small training and testing sets, this will be the focus of the next stage of our work. 
 
