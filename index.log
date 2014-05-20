@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  20 MAY 2014 18:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  20 MAY 2014 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \wideitemsep=\skip54
 
-(./index.aux)
+(./index.aux (./introduction.aux) (./medicalInfo.aux) (./rationale.aux)
+(./app.aux) (./design.aux) (./conclusion.aux) (./simpleCode.aux)
+(./readingDataCode.aux) (./dataConditioningCode.aux) (./SVMCode.aux)
+(./HMMCode.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -635,11 +638,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
+
+(./index.out) (./index.out)
 \@outlinefile=\write3
 \openout3 = `index.out'.
 
-
-(./title.tex <drawings/oxford.pdf, id=4, 116.435pt x 139.52126pt>
+ (./title.tex
+<drawings/oxford.pdf, id=401, 116.435pt x 139.52126pt>
 File: drawings/oxford.pdf Graphic file (type pdf)
 
 <use drawings/oxford.pdf>
@@ -662,26 +667,24 @@ ame{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.38 \end{abstract}
-                    [1]
+                    [1] (./index.tocpdfTeX warning (ext4): destination with the
+ same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 ...erline {5.2.3}Audio}{23}{subsection.5.2.3}
+                                                   [1
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+] [2] [3])
 \tf@toc=\write4
 \openout4 = `index.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.42 \include{introduction}
-                            [1
-
-]
+ [4]
 \openout2 = `introduction.aux'.
 
- (./introduction.tex
+
+(./introduction.tex
 Chapter 1.
-) [2
+) [5
 
 
 ]
@@ -689,26 +692,7 @@ Chapter 1.
 
  (./medicalInfo.tex
 Chapter 2.
-
-LaTeX Warning: Citation `whitelaw1993characteristics' on page 3 undefined on in
-put line 3.
-
-
-LaTeX Warning: Citation `sleepdisorderedbreathing' on page 3 undefined on input
- line 3.
-
-
-LaTeX Warning: Citation `american2001international' on page 3 undefined on inpu
-t line 3.
-
-
-LaTeX Warning: Reference `fig:Sagittal-Face' on page 3 undefined on input line 
-5.
-
-
-LaTeX Warning: Citation `fogel2004sleep' on page 3 undefined on input line 5.
-
-<drawings/Sagittal-Face.jpg, id=30, 722.7pt x 542.025pt>
+<drawings/Sagittal-Face.jpg, id=545, 722.7pt x 542.025pt>
 File: drawings/Sagittal-Face.jpg Graphic file (type jpg)
 
 <use drawings/Sagittal-Face.jpg>
@@ -716,58 +700,27 @@ Package pdftex.def Info: drawings/Sagittal-Face.jpg used on input line 9.
 (pdftex.def)             Requested size: 250.24199pt x 187.67702pt.
 
 
-LaTeX Warning: Citation `sagittalface' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `sagittalface' on page 3 undefined on input line 10.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `leiter1996upper' on page 3 undefined on input line 13.
-
-
-
-LaTeX Warning: Citation `lowel1995cephalometric' on page 3 undefined on input l
+LaTeX Warning: Citation `lowel1995cephalometric' on page 6 undefined on input l
 ine 15.
 
-[3
+[6
 
 
 
-]
-
-LaTeX Warning: Reference `fig:Anterior-View-Mouth' on page 4 undefined on input
- line 17.
-
-
-LaTeX Warning: Citation `schwab1995upper' on page 4 undefined on input line 17.
-
-
-<drawings/Anterior-View-Mouth.jpg, id=36, 722.7pt x 542.025pt>
+] <drawings/Anterior-View-Mouth.jpg, id=561, 722.7pt x 542.025pt>
 File: drawings/Anterior-View-Mouth.jpg Graphic file (type jpg)
 
 <use drawings/Anterior-View-Mouth.jpg>
 Package pdftex.def Info: drawings/Anterior-View-Mouth.jpg used on input line 21
 .
 (pdftex.def)             Requested size: 250.24199pt x 187.67702pt.
-
-
-LaTeX Warning: Citation `anteriormouth' on page 4 undefined on input line 22.
-
-
-LaTeX Warning: Citation `anteriormouth' on page 4 undefined on input line 22.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: Citation `apneosotherfactors' on page 4 undefined on input line 
-26.
-
-[4 <./drawings/Sagittal-Face.jpg> <./drawings/Anterior-View-Mouth.jpg>])
-[5]
+ [7 <./drawings/Sagittal-Face.jpg> <./drawings/Anterior-View-Mouth.jpg>]) [8]
 \openout2 = `rationale.aux'.
 
  (./rationale.tex
@@ -776,61 +729,12 @@ Chapter 3.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-
-LaTeX Warning: Citation `britishlungfoundation' on page 6 undefined on input li
-ne 5.
-
-
-LaTeX Warning: Citation `physionet' on page 6 undefined on input line 7.
-
-
-LaTeX Warning: Citation `balk2012future' on page 6 undefined on input line 9.
-
-
-LaTeX Warning: Citation `finkel2009prevalence' on page 6 undefined on input lin
-e 12.
-
-
-LaTeX Warning: Citation `young2002epidemiology' on page 6 undefined on input li
-ne 12.
-
-[6
+ [9
 
 
 
-]
-
-LaTeX Warning: Citation `ip2001community' on page 7 undefined on input line 14.
-
-
-
-LaTeX Warning: Citation `strohl1996recognition' on page 7 undefined on input li
-ne 16.
-
-
-LaTeX Warning: Citation `shaver2000review' on page 7 undefined on input line 16
-.
-
-
-LaTeX Warning: Citation `waldron1985we' on page 7 undefined on input line 16.
-
-
-LaTeX Warning: Citation `franklin2000snoring' on page 7 undefined on input line
- 18.
-
-
-LaTeX Warning: Citation `ancoli1991sleep' on page 7 undefined on input line 20.
-
-
-
-LaTeX Warning: Reference `fig: prevalence' on page 7 undefined on input line 22
-.
-
-
-LaTeX Warning: Citation `young1996sleep' on page 7 undefined on input line 22.
-
-[7] <drawings/prevalenceage.jpg, id=61, 395.076pt x 228.855pt>
+] [10]
+<drawings/prevalenceage.jpg, id=613, 395.076pt x 228.855pt>
 File: drawings/prevalenceage.jpg Graphic file (type jpg)
 
 <use drawings/prevalenceage.jpg>
@@ -838,142 +742,25 @@ Package pdftex.def Info: drawings/prevalenceage.jpg used on input line 26.
 (pdftex.def)             Requested size: 250.24199pt x 144.96162pt.
 
 
-LaTeX Warning: Citation `young2002predictors' on page 8 undefined on input line
- 27.
+LaTeX Warning: Citation `hel1988mortality' on page 11 undefined on input line 3
+8.
 
-
-LaTeX Warning: Citation `young2002predictors' on page 8 undefined on input line
- 27.
-
-
-LaTeX Warning: Citation `enright1996prevalence' on page 8 undefined on input li
-ne 31.
-
-
-LaTeX Warning: Citation `young1996sleep' on page 8 undefined on input line 31.
-
-
-LaTeX Warning: Citation `pankow2000sleep' on page 8 undefined on input line 36.
-
-
-
-LaTeX Warning: Citation `hel1988mortality' on page 8 undefined on input line 38
-.
-
-
-LaTeX Warning: Citation `ballester1999evidence' on page 8 undefined on input li
-ne 40.
-
-
-LaTeX Warning: Citation `engleman1999randomized' on page 8 undefined on input l
-ine 40.
-
-
-LaTeX Warning: Citation `stradling1991self' on page 8 undefined on input line 4
-0.
-
-[8 <./drawings/prevalenceage.jpg>]
-
-LaTeX Warning: Citation `kim1997sleep' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `adams2001relation' on page 9 undefined on input line 4
-2.
-
-
-LaTeX Warning: Citation `gale2004effects' on page 9 undefined on input line 42.
-
-
-
-LaTeX Warning: Citation `finn1998sleep' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `baldwin2001association' on page 9 undefined on input l
-ine 44.
-
-
-LaTeX Warning: Citation `findley1988automobile' on page 9 undefined on input li
-ne 46.
-
-
-LaTeX Warning: Citation `findley1989driving' on page 9 undefined on input line 
-46.
-
-) (./economics-sachin.tex [9]
-
-LaTeX Warning: Citation `nhsdiag' on page 10 undefined on input line 22.
-
-
-LaTeX Warning: Citation `nhsmain' on page 10 undefined on input line 22.
-
-
-LaTeX Warning: Citation `nhsdiag' on page 10 undefined on input line 36.
-
-
-LaTeX Warning: Citation `novasom1' on page 10 undefined on input line 41.
-
-
-LaTeX Warning: Citation `novasom2' on page 10 undefined on input line 41.
-
-[10] <drawings/Novasom.jpg, id=79, 1034.86626pt x 803.0pt>
+[11 <./drawings/prevalenceage.jpg>]) (./economics-sachin.tex [12] [13]
+<drawings/Novasom.jpg, id=664, 1034.86626pt x 803.0pt>
 File: drawings/Novasom.jpg Graphic file (type jpg)
 
 <use drawings/Novasom.jpg>
 Package pdftex.def Info: drawings/Novasom.jpg used on input line 45.
 (pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
-
-
-LaTeX Warning: Citation `novasom2' on page 11 undefined on input line 46.
-
-
-LaTeX Warning: Citation `novasom2' on page 11 undefined on input line 46.
-
-
-LaTeX Warning: Citation `wsjhometest' on page 11 undefined on input line 55.
-
-
-LaTeX Warning: Citation `wsjhometest' on page 11 undefined on input line 58.
-
-
-LaTeX Warning: Citation `nhsmain' on page 11 undefined on input line 63.
-
-
-LaTeX Warning: Citation `currentapps' on page 11 undefined on input line 75.
-
-[11 <./drawings/Novasom.jpg>]
-
-LaTeX Warning: Citation `xerox1' on page 12 undefined on input line 86.
-
-
-LaTeX Warning: Citation `xerox2' on page 12 undefined on input line 86.
-
-
-LaTeX Warning: Citation `xerox1' on page 12 undefined on input line 86.
-
-
-LaTeX Warning: Citation `bigdata' on page 12 undefined on input line 86.
-
-[12]
-
-LaTeX Warning: Citation `nhsmain' on page 13 undefined on input line 96.
-
-
-LaTeX Warning: Citation `phoneusers' on page 13 undefined on input line 96.
-
-<drawings/mobilephoneusers.png, id=94, 325.215pt x 307.1475pt>
+ [14 <./drawings/Novasom.jpg>] [15]
+<drawings/mobilephoneusers.png, id=697, 325.215pt x 307.1475pt>
 File: drawings/mobilephoneusers.png Graphic file (type png)
 
 <use drawings/mobilephoneusers.png>
 Package pdftex.def Info: drawings/mobilephoneusers.png used on input line 100.
 (pdftex.def)             Requested size: 250.24199pt x 236.34496pt.
-
-
-LaTeX Warning: Citation `phoneusers' on page 13 undefined on input line 101.
-
-
-LaTeX Warning: Citation `phoneusers' on page 13 undefined on input line 101.
-
-[13 <./drawings/mobilephoneusers.png>])) [14]
+ [16 <./drawings/mobilephoneusers.png>]))
+[17]
 \openout2 = `app.aux'.
 
  (./app.tex
@@ -1003,14 +790,14 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/Structure-network-eps-converted-to.pdf, id=105, 358.33875pt x 338.263
+<drawings/Structure-network-eps-converted-to.pdf, id=711, 358.33875pt x 338.263
 75pt>
 File: drawings/Structure-network-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/Structure-network-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/Structure-network-eps-converted-to.pdf used o
 n input line 5.
 (pdftex.def)             Requested size: 250.24199pt x 236.22556pt.
- [15
+ [18
 
 
 
@@ -1105,71 +892,20 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [16])) [17]
+ [19])) [20]
 \openout2 = `design.aux'.
 
  (./design.tex
 Chapter 5.
-(./diagnosticMethods-sophie.tex
-
-LaTeX Warning: Citation `ebpdiagnosticstrategies' on page 18 undefined on input
- line 5.
-
-
-LaTeX Warning: Citation `mengel2002fundamentals' on page 18 undefined on input 
-line 5.
-
-
-LaTeX Warning: Citation `american2001international' on page 18 undefined on inp
-ut line 11.
-
-[18
+(./diagnosticMethods-sophie.tex [21
 
 
 
-]) [19] (./signsAndSymptoms-sophie.tex
-
-LaTeX Warning: Reference `table:X4' on page 20 undefined on input line 3.
-
-
-LaTeX Warning: Citation `epstein2009clinical' on page 20 undefined on input lin
-e 3.
-
-
-LaTeX Warning: Citation `nhsmap' on page 20 undefined on input line 3.
-
-
-LaTeX Warning: Citation `american2001international' on page 20 undefined on inp
-ut line 3.
-
-
-LaTeX Warning: Reference `table:X2' on page 20 undefined on input line 41.
-
-
-LaTeX Warning: Citation `american2001international' on page 20 undefined on inp
-ut line 41.
-
-[20]
+]) [22] (./signsAndSymptoms-sophie.tex
+[23]
 Overfull \hbox (416.47495pt too wide) in paragraph at lines 46--69
  [][] 
  []
-
-
-LaTeX Warning: Citation `american2001international' on page 21 undefined on inp
-ut line 74.
-
-
-LaTeX Warning: Citation `adultobesity' on page 21 undefined on input line 74.
-
-
-LaTeX Warning: Citation `malhotra2002obstructive' on page 21 undefined on input
- line 74.
-
-
-LaTeX Warning: Reference `table:X3' on page 21 undefined on input line 76.
-
-
-LaTeX Warning: Citation `iber2007aasm' on page 21 undefined on input line 76.
 
 
 Overfull \hbox (341.72649pt too wide) in paragraph at lines 80--99
@@ -1179,73 +915,36 @@ Overfull \hbox (341.72649pt too wide) in paragraph at lines 80--99
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
-
-LaTeX Warning: Citation `roebuck2014review' on page 22 undefined on input line 
-107.
-
-
-LaTeX Warning: Citation `nhschoicesdiagnosis' on page 22 undefined on input lin
-e 107.
-
-
-LaTeX Warning: Citation `confidentialitynhs' on page 22 undefined on input line
- 107.
-
-[22]
+[24] [25]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [23] (./questionnaire-sophie.tex
+) [26] (./questionnaire-sophie.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-
-LaTeX Warning: Citation `castelo2010patients' on page 24 undefined on input lin
-e 14.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: Citation `rogers2002there' on page 24 undefined on input line 14
-.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[24]
+ [27]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-LaTeX Warning: Citation `chung2008stop' on page 25 undefined on input line 21.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Citation `chung2012high' on page 25 undefined on input line 23.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Citation `chung2008validation' on page 25 undefined on input lin
-e 25.
-
-
-LaTeX Warning: Citation `dixon2003predicting' on page 25 undefined on input lin
-e 27.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1255,59 +954,22 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: Citation `flemons1994likelihood' on page 25 undefined on input l
-ine 29.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: Citation `kirby1999neural' on page 25 undefined on input line 31
-.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Citation `kushida1997predictive' on page 25 undefined on input l
-ine 33.
-
-
-LaTeX Warning: Citation `dinges1995survey' on page 25 undefined on input line 3
-5.
-
-[25]
+ [28]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-LaTeX Warning: Citation `netzer1999using' on page 26 undefined on input line 37
-.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Citation `rosenthal2008epworth' on page 26 undefined on input li
-ne 39.
-
-
-LaTeX Warning: Citation `tsai2003decision' on page 26 undefined on input line 4
-1.
-
-
-LaTeX Warning: Citation `viner1991history' on page 26 undefined on input line 4
-3.
-
-
-LaTeX Warning: Reference `table:questionnaire' on page 26 undefined on input li
-ne 47.
-
 
 Overfull \hbox (214.10048pt too wide) in paragraph at lines 51--67
  [][] 
@@ -1315,9 +977,6 @@ Overfull \hbox (214.10048pt too wide) in paragraph at lines 51--67
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `table:neural' on page 26 undefined on input line 71.
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no â in font cmr10!
@@ -1330,35 +989,27 @@ Overfull \hbox (36.49371pt too wide) in paragraph at lines 74--87
  [][] 
  []
 
-[26]
+[29]
 
-LaTeX Warning: Reference `fig:flowchart' on page 27 undefined on input line 92.
+LaTeX Warning: Reference `fig:flowchart' on page 30 undefined on input line 92.
 
 
 
-LaTeX Warning: Reference `fig:cricomental' on page 27 undefined on input line 9
+LaTeX Warning: Reference `fig:cricomental' on page 30 undefined on input line 9
 2.
 
 
-LaTeX Warning: Reference `fig:pharyngeal' on page 27 undefined on input line 92
+LaTeX Warning: Reference `fig:pharyngeal' on page 30 undefined on input line 92
 .
 
-[27] <drawings/cricomental.jpg, id=194, 216.22717pt x 291.41129pt>
+[30] <drawings/cricomental.jpg, id=835, 216.22717pt x 291.41129pt>
 File: drawings/cricomental.jpg Graphic file (type jpg)
 
 <use drawings/cricomental.jpg>
 Package pdftex.def Info: drawings/cricomental.jpg used on input line 96.
 (pdftex.def)             Requested size: 250.24199pt x 337.26361pt.
 
-
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 9
-7.
-
-
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 9
-7.
-
-<drawings/pharyngeal.jpg, id=195, 377.91188pt x 138.5175pt>
+<drawings/pharyngeal.jpg, id=838, 377.91188pt x 138.5175pt>
 File: drawings/pharyngeal.jpg Graphic file (type jpg)
 
 <use drawings/pharyngeal.jpg>
@@ -1366,17 +1017,9 @@ Package pdftex.def Info: drawings/pharyngeal.jpg used on input line 102.
 (pdftex.def)             Requested size: 250.24199pt x 91.72195pt.
 
 
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 1
-03.
-
-
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 1
-03.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<drawings/flowchart.jpg, id=196, 377.91188pt x 224.33812pt>
+<drawings/flowchart.jpg, id=841, 377.91188pt x 224.33812pt>
 File: drawings/flowchart.jpg Graphic file (type jpg)
 
 <use drawings/flowchart.jpg>
@@ -1384,67 +1027,33 @@ Package pdftex.def Info: drawings/flowchart.jpg used on input line 108.
 (pdftex.def)             Requested size: 250.24199pt x 148.5497pt.
 
 
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 1
-09.
-
-
-LaTeX Warning: Citation `tsai2003decision' on page 28 undefined on input line 1
-09.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no ‚ in font cmr8!
 Missing character: There is no à in font cmr8!
 Missing character: There is no í in font cmr8!
-[28 <./drawings/cricomental.jpg>]) [29 <./drawings/pharyngeal.jpg> <./drawings/
+[31 <./drawings/cricomental.jpg>]) [32 <./drawings/pharyngeal.jpg> <./drawings/
 flowchart.jpg>] (./audio-sophie.tex
-
-LaTeX Warning: Citation `rechtschaffen1968manual' on page 30 undefined on input
- line 6.
-
-
-LaTeX Warning: Citation `moser2009sleep' on page 30 undefined on input line 6.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ [33]
 
-LaTeX Warning: Citation `iber2007aasm' on page 30 undefined on input line 8.
-
-[30]
-
-LaTeX Warning: Citation `whitelaw1993characteristics' on page 31 undefined on i
-nput line 19.
-
-
-LaTeX Warning: Reference `fig:Fiz1996fig3' on page 31 undefined on input line 2
+LaTeX Warning: Reference `fig:Fiz1996fig3' on page 34 undefined on input line 2
 1.
 
 
-LaTeX Warning: Reference `fig:Fiz1996fig12' on page 31 undefined on input line 
+LaTeX Warning: Reference `fig:Fiz1996fig12' on page 34 undefined on input line 
 21.
 
-
-LaTeX Warning: Citation `fiz1996acoustic' on page 31 undefined on input line 21
-.
-
-<drawings/Fiz1996fig3.png, id=219, 387.849pt x 336.7782pt>
+<drawings/Fiz1996fig3.png, id=866, 387.849pt x 336.7782pt>
 File: drawings/Fiz1996fig3.png Graphic file (type png)
 
 <use drawings/Fiz1996fig3.png>
 Package pdftex.def Info: drawings/Fiz1996fig3.png used on input line 26.
 (pdftex.def)             Requested size: 250.24199pt x 217.28964pt.
 
-
-LaTeX Warning: Citation `fiz1996acoustic' on page 31 undefined on input line 30
-.
-
-
-LaTeX Warning: Citation `fiz1996acoustic' on page 31 undefined on input line 30
-.
-
-<drawings/Fiz1996fig12.jpg, id=221, 724.20563pt x 225.09094pt>
+<drawings/Fiz1996fig12.jpg, id=870, 724.20563pt x 225.09094pt>
 File: drawings/Fiz1996fig12.jpg Graphic file (type jpg)
 
 <use drawings/Fiz1996fig12.jpg>
@@ -1452,29 +1061,17 @@ Package pdftex.def Info: drawings/Fiz1996fig12.jpg used on input line 35.
 (pdftex.def)             Requested size: 250.24199pt x 77.77666pt.
 
 
-LaTeX Warning: Citation `fiz1996acoustic' on page 31 undefined on input line 36
-.
-
-
-LaTeX Warning: Citation `fiz1996acoustic' on page 31 undefined on input line 36
-.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31]
+[34]
 
-LaTeX Warning: Reference `fig:Perez1993fig8' on page 32 undefined on input line
+LaTeX Warning: Reference `fig:Perez1993fig8' on page 35 undefined on input line
  44.
 
-
-LaTeX Warning: Citation `whitelaw1993characteristics' on page 32 undefined on i
-nput line 44.
-
-<drawings/Perez1993fig8.jpg, id=228, 365.2044pt x 484.52322pt>
+<drawings/Perez1993fig8.jpg, id=879, 365.2044pt x 484.52322pt>
 File: drawings/Perez1993fig8.jpg Graphic file (type jpg)
 
 <use drawings/Perez1993fig8.jpg>
@@ -1482,37 +1079,10 @@ Package pdftex.def Info: drawings/Perez1993fig8.jpg used on input line 48.
 (pdftex.def)             Requested size: 250.24199pt x 331.99991pt.
 
 
-LaTeX Warning: Citation `whitelaw1993characteristics' on page 32 undefined on i
-nput line 49.
-
-
-LaTeX Warning: Citation `whitelaw1993characteristics' on page 32 undefined on i
-nput line 49.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `hara2006acoustic' on page 32 undefined on input line 5
-3.
-
-[32 <./drawings/Fiz1996fig3.png> <./drawings/Fiz1996fig12.jpg>]
-
-LaTeX Warning: Citation `hara2006acoustic' on page 33 undefined on input line 5
-5.
-
-
-LaTeX Warning: Citation `van1997intensity' on page 33 undefined on input line 5
-9.
-
-[33 <./drawings/Perez1993fig8.jpg>]
-
-LaTeX Warning: Reference `table:wilson' on page 34 undefined on input line 61.
-
-
-LaTeX Warning: Citation `wilson1999snoring' on page 34 undefined on input line 
-61.
-
+[35 <./drawings/Fiz1996fig3.png> <./drawings/Fiz1996fig12.jpg>] [36 <./drawings
+/Perez1993fig8.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -1537,53 +1107,20 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Reference `table:sola2003formants' on page 34 undefined on input
- line 79.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ [37]
 
-LaTeX Warning: Citation `sola2003spectral' on page 34 undefined on input line 7
-9.
-
-[34]
-
-LaTeX Warning: Reference `table:ng2008aformantstable1' on page 35 undefined on 
-input line 93.
-
-
-LaTeX Warning: Reference `fig:ng2008afig1' on page 35 undefined on input line 9
+LaTeX Warning: Reference `fig:ng2008afig1' on page 38 undefined on input line 9
 3.
 
-
-LaTeX Warning: Reference `table:ng2008aformantstable2' on page 35 undefined on 
-input line 93.
-
-
-LaTeX Warning: Citation `ng2008could' on page 35 undefined on input line 93.
-
-<drawings/ng2008afig1.jpg, id=250, 520.8258pt x 408.5664pt>
+<drawings/ng2008afig1.jpg, id=915, 520.8258pt x 408.5664pt>
 File: drawings/ng2008afig1.jpg Graphic file (type jpg)
 
 <use drawings/ng2008afig1.jpg>
 Package pdftex.def Info: drawings/ng2008afig1.jpg used on input line 97.
 (pdftex.def)             Requested size: 250.24199pt x 196.3029pt.
-
-
-LaTeX Warning: Reference `table:ng2008aformantstable1' on page 35 undefined on 
-input line 98.
-
-
-LaTeX Warning: Citation `ng2008could' on page 35 undefined on input line 98.
-
-
-LaTeX Warning: Reference `table:ng2008aformantstable1' on page 35 undefined on 
-input line 98.
-
-
-LaTeX Warning: Citation `ng2008could' on page 35 undefined on input line 98.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1620,7 +1157,7 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[35]
+[38]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
@@ -1641,52 +1178,18 @@ Missing character: There is no à in font cmr8!
 Missing character: There is no í in font cmr8!
 
 
-LaTeX Warning: Reference `table:yadollahi2009formant' on page 36 undefined on i
-nput line 130.
-
-
-LaTeX Warning: Citation `yadollahi2009formant' on page 36 undefined on input li
-ne 130.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[39 <./drawings/ng2008afig1.jpg>]
 
-LaTeX Warning: Citation `vbox' on page 36 undefined on input line 143.
+LaTeX Warning: Reference `cummulant' on page 40 undefined on input line 149.
 
-[36 <./drawings/ng2008afig1.jpg>]
+[40]
 
-LaTeX Warning: Citation `cavusoglu2007efficient' on page 37 undefined on input 
-line 145.
-
-
-LaTeX Warning: Citation `azarbarzin2010unsupervised' on page 37 undefined on in
-put line 147.
-
-
-LaTeX Warning: Reference `cummulant' on page 37 undefined on input line 149.
-
-
-LaTeX Warning: Reference `bispectral' on page 37 undefined on input line 149.
-
-[37]
-
-LaTeX Warning: Citation `rastogi2005quadratic' on page 38 undefined on input li
-ne 159.
-
-
-LaTeX Warning: Reference `fig:ng2007fig45' on page 38 undefined on input line 1
+LaTeX Warning: Reference `fig:ng2007fig45' on page 41 undefined on input line 1
 61.
 
-
-LaTeX Warning: Reference `table:ng2007bispectral' on page 38 undefined on input
- line 161.
-
-
-LaTeX Warning: Citation `ng2007bispectral' on page 38 undefined on input line 1
-61.
-
-<drawings/ng2007fig45.jpg, id=272, 713.75938pt x 272.6988pt>
+<drawings/ng2007fig45.jpg, id=955, 713.75938pt x 272.6988pt>
 File: drawings/ng2007fig45.jpg Graphic file (type jpg)
 
 <use drawings/ng2007fig45.jpg>
@@ -1694,18 +1197,10 @@ Package pdftex.def Info: drawings/ng2007fig45.jpg used on input line 165.
 (pdftex.def)             Requested size: 250.24199pt x 95.60828pt.
 
 
-LaTeX Warning: Citation `ng2007bispectral' on page 38 undefined on input line 1
-66.
-
-
-LaTeX Warning: Citation `ng2007bispectral' on page 38 undefined on input line 1
-66.
-
-
-LaTeX Warning: Reference `fig:ng2007fig6' on page 38 undefined on input line 18
+LaTeX Warning: Reference `fig:ng2007fig6' on page 41 undefined on input line 18
 0.
 
-<drawings/ng2007fig6.jpg, id=273, 323.87666pt x 309.22083pt>
+<drawings/ng2007fig6.jpg, id=958, 323.87666pt x 309.22083pt>
 File: drawings/ng2007fig6.jpg Graphic file (type jpg)
 
 <use drawings/ng2007fig6.jpg>
@@ -1713,25 +1208,10 @@ Package pdftex.def Info: drawings/ng2007fig6.jpg used on input line 184.
 (pdftex.def)             Requested size: 250.24199pt x 238.91704pt.
 
 
-LaTeX Warning: Citation `ng2007bispectral' on page 38 undefined on input line 1
-85.
-
-
-LaTeX Warning: Citation `ng2007bispectral' on page 38 undefined on input line 1
-85.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 <./drawings/ng2007fig45.jpg>]
-
-LaTeX Warning: Reference `fig:ng2008bfig5' on page 39 undefined on input line 1
-92.
-
-
-LaTeX Warning: Citation `ng2008snore' on page 39 undefined on input line 192.
-
-<drawings/ng2008bfig5.jpg, id=281, 480.8364pt x 348.8232pt>
+[41 <./drawings/ng2007fig45.jpg>]
+<drawings/ng2008bfig5.jpg, id=972, 480.8364pt x 348.8232pt>
 File: drawings/ng2008bfig5.jpg Graphic file (type jpg)
 
 <use drawings/ng2008bfig5.jpg>
@@ -1739,68 +1219,14 @@ Package pdftex.def Info: drawings/ng2008bfig5.jpg used on input line 197.
 (pdftex.def)             Requested size: 250.24199pt x 181.53813pt.
 
 
-LaTeX Warning: Citation `ng2008snore' on page 39 undefined on input line 198.
-
-
-LaTeX Warning: Citation `ng2008snore' on page 39 undefined on input line 198.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `van1995wavelet' on page 39 undefined on input line 202
-.
-
-
-LaTeX Warning: Citation `ng2009investigation' on page 39 undefined on input lin
-e 202.
-
-[39 <./drawings/ng2007fig6.jpg>]
-
-LaTeX Warning: Citation `ben2012obstructive' on page 40 undefined on input line
- 207.
-
-
-LaTeX Warning: Reference `table:sola2012' on page 40 undefined on input line 20
-9.
-
-
-LaTeX Warning: Citation `sola2012multiclass' on page 40 undefined on input line
- 209.
-
-[40 <./drawings/ng2008bfig5.jpg>]
+[42 <./drawings/ng2007fig6.jpg>] [43 <./drawings/ng2008bfig5.jpg>]
 Overfull \hbox (128.4548pt too wide) in paragraph at lines 211--239
  [] 
  []
 
-
-LaTeX Warning: Citation `sola2012multiclass' on page 41 undefined on input line
- 242.
-
-
-LaTeX Warning: Citation `rossow2011automatic' on page 41 undefined on input lin
-e 244.
-
-
-LaTeX Warning: Citation `gederi2012fusion' on page 41 undefined on input line 2
-44.
-
-
-LaTeX Warning: Citation `roberts1992new' on page 41 undefined on input line 244
-.
-
-) [41] (./simple-sachin.tex
-
-LaTeX Warning: Reference `ch:simpleCode' on page 42 undefined on input line 18.
-
-
-[42]
-
-LaTeX Warning: Reference `sec:simple' on page 43 undefined on input line 20.
-
-
-LaTeX Warning: Citation `simplevideo' on page 43 undefined on input line 22.
-
+) [44] (./simple-sachin.tex [45]
 Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 53931 bytes
@@ -1811,7 +1237,8 @@ Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
 erted-to.pdf drawings/YRawFreq.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/YRawFreq-eps-converted-to.pdf, id=309, 562.1pt x 421.575pt>
+
+<drawings/YRawFreq-eps-converted-to.pdf, id=1015, 562.1pt x 421.575pt>
 File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawFreq-eps-converted-to.pdf>
@@ -1830,24 +1257,15 @@ ps-converted-to.pdf drawings/YRawPeriodogram.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawPeriodogram-eps-converted-to.pdf, id=310, 562.1pt x 421.575pt>
+<drawings/YRawPeriodogram-eps-converted-to.pdf, id=1016, 562.1pt x 421.575pt>
 File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawPeriodogram-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/YRawPeriodogram-eps-converted-to.pdf used on 
 input line 29.
 (pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
- [43]
-
-LaTeX Warning: Reference `sec:detectApnea' on page 44 undefined on input line 5
-1.
-
-[44 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogram-eps-
-converted-to.pdf>]
-
-LaTeX Warning: Reference `sec:detectApneaVar' on page 45 undefined on input lin
-e 53.
-
+ [46] [47 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogra
+m-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/simpleResults.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 145392 bytes
@@ -1859,26 +1277,16 @@ f>
 -converted-to.pdf drawings/simpleResults.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/simpleResults-eps-converted-to.pdf, id=337, 562.1pt x 421.575pt>
+
+<drawings/simpleResults-eps-converted-to.pdf, id=1047, 562.1pt x 421.575pt>
 File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/simpleResults-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/simpleResults-eps-converted-to.pdf used on in
 put line 61.
 (pdftex.def)             Requested size: 500.484pt x 375.36137pt.
- [45]) [46 <./drawings/simpleResults-eps-converted-to.pdf>] (./mltheory-ta.tex
-
-LaTeX Warning: Citation `wiki:machineLearning' on page 47 undefined on input li
-ne 3.
-
-(./svm-ta.tex
-
-LaTeX Warning: Citation `ng13' on page 47 undefined on input line 2.
-
-[47]
-
-LaTeX Warning: Reference `eqn:svm' on page 48 undefined on input line 35.
-
+ [48]) [49 <./drawings/simpleResults-eps-converted-to.pdf>] (./mltheory-ta.tex 
+(./svm-ta.tex [50]
 Package epstopdf Info: Source file: <drawings/svm.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 155908 bytes
@@ -1889,74 +1297,15 @@ Package epstopdf Info: Source file: <drawings/svm.eps>
 -to.pdf drawings/svm.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/svm-eps-converted-to.pdf, id=362, 298.11375pt x 262.9825pt>
+
+<drawings/svm-eps-converted-to.pdf, id=1074, 298.11375pt x 262.9825pt>
 File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/svm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
 9.
 (pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
-
-
-LaTeX Warning: Reference `eqn:svm' on page 48 undefined on input line 45.
-
-
-LaTeX Warning: Reference `eqn:svm' on page 48 undefined on input line 45.
-
-[48]
-
-LaTeX Warning: Reference `eqn:lagrangian' on page 49 undefined on input line 50
-.
-
-
-LaTeX Warning: Reference `eqn:dual1' on page 49 undefined on input line 55.
-
-
-LaTeX Warning: Reference `eqn:dual2' on page 49 undefined on input line 55.
-
-
-LaTeX Warning: Reference `eqn:lagrangian' on page 49 undefined on input line 55
-.
-
-
-LaTeX Warning: Reference `eqn:svm' on page 49 undefined on input line 60.
-
-[49 <./drawings/svm-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `eqn:dual1' on page 50 undefined on input line 71.
-
-
-LaTeX Warning: Reference `eqn:svmClassifier' on page 50 undefined on input line
- 84.
-
-
-LaTeX Warning: Reference `eqn:bStar' on page 50 undefined on input line 84.
-
-[50]
-
-LaTeX Warning: Reference `eqn:polyKernel' on page 51 undefined on input line 90
-.
-
-
-LaTeX Warning: Reference `eqn:rbfKernel' on page 51 undefined on input line 90.
-
-
-
-LaTeX Warning: Reference `eqn:polyKernel' on page 51 undefined on input line 90
-.
-
-
-LaTeX Warning: Reference `eqn:rbfKernel' on page 51 undefined on input line 90.
-
-
-) (./ssm-ta.tex
-
-LaTeX Warning: Citation `mlBook' on page 51 undefined on input line 2.
-
-
-LaTeX Warning: Citation `ghahramani2000variational' on page 51 undefined on inp
-ut line 2.
-
+ [51] [52 <./drawings/svm-eps-converted-to.pdf>] [53]) (./ssm-ta.tex
 Package epstopdf Info: Source file: <drawings/pgm.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 64674 bytes
@@ -1967,100 +1316,24 @@ Package epstopdf Info: Source file: <drawings/pgm.eps>
 -to.pdf drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/pgm-eps-converted-to.pdf, id=436, 226.8475pt x 98.3675pt>
+
+<drawings/pgm-eps-converted-to.pdf, id=1164, 226.8475pt x 98.3675pt>
 File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pgm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
 .
 (pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
- [51]
-
-LaTeX Warning: Reference `fig:pgm' on page 52 undefined on input line 10.
-
-[52 <./drawings/pgm-eps-converted-to.pdf>]) (./hmm-ta.tex
-
-LaTeX Warning: Citation `wiki:HMM' on page 53 undefined on input line 2.
-
-
-LaTeX Warning: Citation `rabiner1989tutorial' on page 53 undefined on input lin
-e 2.
-
-
-LaTeX Warning: Citation `ramage07' on page 53 undefined on input line 2.
-
-
-LaTeX Warning: Citation `mlBook' on page 53 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:pgm' on page 53 undefined on input line 5.
-
-[53]
+ [54] [55 <./drawings/pgm-eps-converted-to.pdf>]) (./hmm-ta.tex [56]
 Overfull \hbox (24.3553pt too wide) in paragraph at lines 12--13
 []\OT1/cmr/m/n/10.95 Find the most prob-a-ble se-quence of hid-den states $[]$ 
 given the ob-ser-va-tions $[]$, $[][] = [][] \OML/cmm/m/it/10.95 P []$\OT1/cmr/
 m/n/10.95 . 
  []
 
-
-LaTeX Warning: Reference `alg:forward' on page 54 undefined on input line 18.
-
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 20.
-[54]
-
-LaTeX Warning: Reference `alg:viterbi' on page 55 undefined on input line 56.
-
-
-LaTeX Warning: Reference `alg:backward' on page 55 undefined on input line 99.
-
-[55]
-
-LaTeX Warning: Reference `alg:baumwelch' on page 56 undefined on input line 129
-.
-
-
-LaTeX Warning: Citation `wiki:EM' on page 56 undefined on input line 129.
-
-
-LaTeX Warning: Reference `eqn:hmmGamma' on page 56 undefined on input line 140.
-
-
-[56]
-
-LaTeX Warning: Reference `alg:forward' on page 57 undefined on input line 172.
-
-
-LaTeX Warning: Reference `alg:backward' on page 57 undefined on input line 172.
-
-
-
-LaTeX Warning: Reference `alg:viterbi' on page 57 undefined on input line 172.
-
-
-LaTeX Warning: Reference `eqn:gaussian' on page 57 undefined on input line 172.
-
-
-[57]
-
-LaTeX Warning: Citation `mlBook' on page 58 undefined on input line 179.
-
-) (./conditioning-ta.tex [58]
-
-LaTeX Warning: Citation `wiki:DFT' on page 59 undefined on input line 7.
-
-
-LaTeX Warning: Citation `wiki:DFT' on page 59 undefined on input line 7.
-
-
-LaTeX Warning: Citation `hlt' on page 59 undefined on input line 18.
-
-
-LaTeX Warning: Citation `wiki:PSD' on page 59 undefined on input line 23.
-
-
-LaTeX Warning: Reference `fig:spec' on page 59 undefined on input line 26.
-
+[57] [58] [59] [60]) (./conditioning-ta.tex [61]
 Package epstopdf Info: Source file: <drawings/spec.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 96489 bytes
@@ -2071,7 +1344,8 @@ Package epstopdf Info: Source file: <drawings/spec.eps>
 d-to.pdf drawings/spec.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/spec-eps-converted-to.pdf, id=538, 474.77374pt x 371.3875pt>
+
+<drawings/spec-eps-converted-to.pdf, id=1292, 474.77374pt x 371.3875pt>
 File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/spec-eps-converted-to.pdf>
@@ -2090,16 +1364,7 @@ OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.
 95 g$\OT1/cmr/m/n/10.95 ,
  []
 
-[59]
-
-LaTeX Warning: Citation `ng13' on page 60 undefined on input line 35.
-
-
-LaTeX Warning: Citation `mlBook' on page 60 undefined on input line 35.
-
-
-LaTeX Warning: Reference `fig:pca' on page 60 undefined on input line 35.
-
+[62]
 Package epstopdf Info: Source file: <drawings/pca.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 55703 bytes
@@ -2110,21 +1375,16 @@ Package epstopdf Info: Source file: <drawings/pca.eps>
 -to.pdf drawings/pca.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/pca-eps-converted-to.pdf, id=553, 258.9675pt x 258.9675pt>
+ <drawings/pca-eps-converted-to.pdf, id=1312, 258.9675pt x 258.9675pt>
 File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pca-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 3
 8.
 (pdftex.def)             Requested size: 258.96684pt x 258.96684pt.
- [60 <./drawings/spec-eps-converted-to.pdf>]) (./mltheory-summary-ta.tex [61 <.
+ [63 <./drawings/spec-eps-converted-to.pdf>]) (./mltheory-summary-ta.tex [64 <.
 /drawings/pca-eps-converted-to.pdf>]))
-[62] (./mlexperiments.tex (./mlExperimentsIntroduction.tex
-
-LaTeX Warning: Reference `fig:visualiseData' on page 63 undefined on input line
- 2.
-
-
+[65] (./mlexperiments.tex (./mlExperimentsIntroduction.tex
 Overfull \hbox (0.58322pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10.95 We ob-tained the data from the ECG database from the Phy-s-i
 oNet database lo-cated at []$\OT1/cmtt/m/n/10.95 http : / / physionet .
@@ -2141,7 +1401,7 @@ f>
 -converted-to.pdf drawings/visualiseData.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/visualiseData-eps-converted-to.pdf, id=597, 497.86pt x 413.545pt>
+<drawings/visualiseData-eps-converted-to.pdf, id=1357, 497.86pt x 413.545pt>
 File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualiseData-eps-converted-to.pdf>
@@ -2149,35 +1409,8 @@ Package pdftex.def Info: drawings/visualiseData-eps-converted-to.pdf used on in
 put line 6.
 (pdftex.def)             Requested size: 497.85878pt x 413.54398pt.
 )
-(./readingDataExplCode-sachin.tex
-
-LaTeX Warning: Reference `ch:HMMCode' on page 63 undefined on input line 4.
-
-[63 <./drawings/visualiseData-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `sec:apneaHMM' on page 64 undefined on input line 6.
-
-
-LaTeX Warning: Reference `ch:readingDataCode' on page 64 undefined on input lin
-e 6.
-
-
-LaTeX Warning: Reference `sec:conditioningExperiments-ta' on page 64 undefined 
-on input line 12.
-
-) (./conditioningExperiments-ta.tex [64]
-
-LaTeX Warning: Reference `fig:visualiseSpectrogram' on page 65 undefined on inp
-ut line 14.
-
-
-LaTeX Warning: Reference `fig:visualiseData' on page 65 undefined on input line
- 14.
-
-
-LaTeX Warning: Reference `sec:transformSpectrogram' on page 65 undefined on inp
-ut line 14.
-
+(./readingDataExplCode-sachin.tex [66 <./drawings/visualiseData-eps-converted-t
+o.pdf>]) (./conditioningExperiments-ta.tex [67]
 Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 6514780 bytes
@@ -2190,26 +1423,14 @@ ram-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=617, 510.90875pt x 406.
-51875pt>
+<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=1380, 510.90875pt x 406
+.51875pt>
 File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
 )
  <use drawings/visualiseSpectrogram-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/visualiseSpectrogram-eps-converted-to.pdf use
 d on input line 17.
 (pdftex.def)             Requested size: 250.24199pt x 199.10909pt.
-
-
-LaTeX Warning: Reference `fig:visualisePca' on page 65 undefined on input line 
-23.
-
-
-LaTeX Warning: Reference `sec:pcaCalc' on page 65 undefined on input line 23.
-
-
-LaTeX Warning: Reference `sec:pcaTransform' on page 65 undefined on input line 
-23.
-
 Package epstopdf Info: Source file: <drawings/visualisePca.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 35807 bytes
@@ -2221,7 +1442,8 @@ Package epstopdf Info: Source file: <drawings/visualisePca.eps>
 converted-to.pdf drawings/visualisePca.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/visualisePca-eps-converted-to.pdf, id=618, 497.86pt x 404.51125pt>
+
+<drawings/visualisePca-eps-converted-to.pdf, id=1384, 497.86pt x 404.51125pt>
 File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualisePca-eps-converted-to.pdf>
@@ -2229,11 +1451,7 @@ Package pdftex.def Info: drawings/visualisePca-eps-converted-to.pdf used on inp
 ut line 26.
 (pdftex.def)             Requested size: 250.24199pt x 203.32294pt.
 ) (./dataVisualisation-ta.tex
-[65 <./drawings/visualiseSpectrogram-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:spectrogramClassesVisualise' on page 66 undefined
- on input line 3.
-
+[68 <./drawings/visualiseSpectrogram-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/spectrogramClassesVisualise.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 904716 bytes
@@ -2246,8 +1464,8 @@ sVisualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=635, 420.57124pt
- x 316.18124pt>
+<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=1401, 420.57124p
+t x 316.18124pt>
 File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
@@ -2256,19 +1474,7 @@ Package pdftex.def Info: drawings/spectrogramClassesVisualise-eps-converted-to.
 pdf used on input line 6.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
 )
-(./svmExperiments-ta.tex
-
-LaTeX Warning: Reference `ch:SVMCode' on page 66 undefined on input line 3.
-
-[66 <./drawings/visualisePca-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:svmExperimentNoKernels' on page 67 undefined on i
-nput line 6.
-
-
-LaTeX Warning: Reference `table:svmResults' on page 67 undefined on input line 
-6.
-
+(./svmExperiments-ta.tex [69 <./drawings/visualisePca-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 141662 bytes
@@ -2281,8 +1487,8 @@ el11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=647, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=1415, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel11-eps-converted-to.pdf>
@@ -2301,8 +1507,8 @@ el12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=648, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=1416, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel12-eps-converted-to.pdf>
@@ -2321,8 +1527,8 @@ el13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=649, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=1417, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel13-eps-converted-to.pdf>
@@ -2341,8 +1547,8 @@ el14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=650, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=1418, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel14-eps-converted-to.pdf>
@@ -2361,23 +1567,14 @@ el15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=651, 420.57124pt x 316
-.18124pt>
+<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=1419, 420.57124pt x 31
+6.18124pt>
 File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
 f)
  <use drawings/svm/svmTestNoKernel15-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf us
 ed on input line 18.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-
-
-LaTeX Warning: Reference `fig:svmExperimentPoly' on page 67 undefined on input 
-line 24.
-
-
-LaTeX Warning: Reference `table:svmResults' on page 67 undefined on input line 
-24.
-
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 141654 bytes
@@ -2390,8 +1587,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=652, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=1422, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly11-eps-converted-to.pdf used o
@@ -2409,8 +1606,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=653, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=1423, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly12-eps-converted-to.pdf used o
@@ -2428,8 +1625,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=654, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=1424, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly13-eps-converted-to.pdf used o
@@ -2447,8 +1644,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=655, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=1425, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly14-eps-converted-to.pdf used o
@@ -2466,22 +1663,13 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=656, 420.57124pt x 316.181
-24pt>
+<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=1426, 420.57124pt x 316.18
+124pt>
 File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestPoly15-eps-converted-to.pdf used o
 n input line 36.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
-
-
-LaTeX Warning: Reference `fig:svmExperimentRbf' on page 67 undefined on input l
-ine 42.
-
-
-LaTeX Warning: Reference `table:svmResults' on page 67 undefined on input line 
-42.
-
 Package epstopdf Info: Source file: <drawings/svm/svmTestRbf11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 141657 bytes
@@ -2494,8 +1682,8 @@ eps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=657, 420.57124pt x 316.1812
-4pt>
+<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1429, 420.57124pt x 316.181
+24pt>
 File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestRbf11-eps-converted-to.pdf used on
@@ -2513,8 +1701,8 @@ eps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=658, 420.57124pt x 316.1812
-4pt>
+<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1430, 420.57124pt x 316.181
+24pt>
 File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestRbf12-eps-converted-to.pdf used on
@@ -2532,8 +1720,8 @@ eps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=659, 420.57124pt x 316.1812
-4pt>
+<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1431, 420.57124pt x 316.181
+24pt>
 File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestRbf13-eps-converted-to.pdf used on
@@ -2551,8 +1739,8 @@ eps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=660, 420.57124pt x 316.1812
-4pt>
+<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1432, 420.57124pt x 316.181
+24pt>
 File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestRbf14-eps-converted-to.pdf used on
@@ -2570,52 +1758,32 @@ eps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=661, 420.57124pt x 316.1812
-4pt>
+<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1433, 420.57124pt x 316.181
+24pt>
 File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
  input line 54.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
- [67 <./drawings/spectrogramClassesVisualise-eps-converted-to.pdf>]
+ [70 <./drawings/spectrogramClassesVisualise-eps-converted-to.pdf>]
 
-LaTeX Warning: Text page 68 contains only floats.
+LaTeX Warning: Text page 71 contains only floats.
 
 
 Overfull \vbox (1.6975pt too high) has occurred while \output is active []
 
 
-[68 <./drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> <./drawings/svm/svm
+[71 <./drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> <./drawings/svm/svm
 TestNoKernel12-eps-converted-to.pdf> <./drawings/svm/svmTestNoKernel13-eps-conv
 erted-to.pdf> <./drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <./drawin
 gs/svm/svmTestNoKernel15-eps-converted-to.pdf> <./drawings/svm/svmTestPoly11-ep
 s-converted-to.pdf> <./drawings/svm/svmTestPoly12-eps-converted-to.pdf> <./draw
 ings/svm/svmTestPoly13-eps-converted-to.pdf> <./drawings/svm/svmTestPoly14-eps-
-converted-to.pdf> <./drawings/svm/svmTestPoly15-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `table:svmResults' on page 69 undefined on input line 
-60.
-
-) (./hmmExperiments-sachin.tex [69 <./drawings/svm/svmTestRbf11-eps-converted-t
-o.pdf> <./drawings/svm/svmTestRbf12-eps-converted-to.pdf> <./drawings/svm/svmTe
-stRbf13-eps-converted-to.pdf> <./drawings/svm/svmTestRbf14-eps-converted-to.pdf
-> <./drawings/svm/svmTestRbf15-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `sec:RandCDatainMATLAB' on page 70 undefined on input 
-line 6.
-
-
-LaTeX Warning: Reference `sec:apneaHMMTrain' on page 70 undefined on input line
- 10.
-
-
-LaTeX Warning: Reference `sec:apneaHMMTest' on page 70 undefined on input line 
-18.
-
-
-LaTeX Warning: Reference `fig:hmmExperiment' on page 70 undefined on input line
- 18.
-
+converted-to.pdf> <./drawings/svm/svmTestPoly15-eps-converted-to.pdf>])
+(./hmmExperiments-sachin.tex [72 <./drawings/svm/svmTestRbf11-eps-converted-to.
+pdf> <./drawings/svm/svmTestRbf12-eps-converted-to.pdf> <./drawings/svm/svmTest
+Rbf13-eps-converted-to.pdf> <./drawings/svm/svmTestRbf14-eps-converted-to.pdf> 
+<./drawings/svm/svmTestRbf15-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 178041 bytes
@@ -2628,9 +1796,8 @@ f>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=764, 471.7625pt x 395.4775pt>
+<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1541, 471.7625pt x 395.4775pt>
 File: drawings/hmm/hmmTest11-eps-converted-to.pdf Graphic file (type pdf)
-
 <use drawings/hmm/hmmTest11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest11-eps-converted-to.pdf used on in
 put line 23.
@@ -2647,9 +1814,8 @@ f>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=765, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1542, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest12-eps-converted-to.pdf Graphic file (type pdf)
-
 <use drawings/hmm/hmmTest12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest12-eps-converted-to.pdf used on in
 put line 25.
@@ -2666,9 +1832,10 @@ f>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=766, 474.77374pt x 395.4775pt>
+<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1543, 474.77374pt x 395.4775pt
+>
 File: drawings/hmm/hmmTest13-eps-converted-to.pdf Graphic file (type pdf)
-<use drawings/hmm/hmmTest13-eps-converted-to.pdf>
+ <use drawings/hmm/hmmTest13-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest13-eps-converted-to.pdf used on in
 put line 27.
 (pdftex.def)             Requested size: 165.16063pt x 137.57436pt.
@@ -2684,9 +1851,8 @@ f>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=767, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1544, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest14-eps-converted-to.pdf Graphic file (type pdf)
-
 <use drawings/hmm/hmmTest14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest14-eps-converted-to.pdf used on in
 put line 29.
@@ -2703,7 +1869,7 @@ f>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=768, 481.8pt x 395.4775pt>
+<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1545, 481.8pt x 395.4775pt>
 File: drawings/hmm/hmmTest15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/hmm/hmmTest15-eps-converted-to.pdf>
@@ -2711,38 +1877,16 @@ Package pdftex.def Info: drawings/hmm/hmmTest15-eps-converted-to.pdf used on in
 put line 31.
 (pdftex.def)             Requested size: 165.16063pt x 135.56488pt.
 ) (./mlExperimentsSummary.tex
-[70] [71 <./drawings/hmm/hmmTest11-eps-converted-to.pdf> <./drawings/hmm/hmmTes
+[73] [74 <./drawings/hmm/hmmTest11-eps-converted-to.pdf> <./drawings/hmm/hmmTes
 t12-eps-converted-to.pdf> <./drawings/hmm/hmmTest13-eps-converted-to.pdf> <./dr
 awings/hmm/hmmTest14-eps-converted-to.pdf> <./drawings/hmm/hmmTest15-eps-conver
-ted-to.pdf>])) [72] (./mljava.tex
-
-LaTeX Warning: Hyper reference `sec:mlExperimentsSummary' on page 73 undefined 
-on input line 4.
-
-
-LaTeX Warning: Reference `sec:mlExperimentsSummary' on page 73 undefined on inp
-ut line 4.
-
-
-LaTeX Warning: Reference `sec:mlExperimentsSummary' on page 73 undefined on inp
-ut line 4.
-
-
+ted-to.pdf>])) [75] (./mljava.tex
 Overfull \hbox (0.87054pt too wide) in paragraph at lines 9--10
 [][]\OT1/cmtt/m/n/10.95 void setObservations(List<ObservationVector> observatio
 ns) \OT1/cmr/m/n/10.95 -- sets the ob-ser-va-tions (sleep-
  []
 
-
-LaTeX Warning: Citation `jahmm' on page 73 undefined on input line 15.
-
-
-LaTeX Warning: Citation `la4j' on page 73 undefined on input line 15.
-
-
-LaTeX Warning: Citation `musicg' on page 73 undefined on input line 15.
-
-) [73] (./android-george.tex
+) [76] (./android-george.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2753,7 +1897,7 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
- [74]
+ [77]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2763,7 +1907,7 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [75]
+ [78]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2792,7 +1936,7 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [76]
+ [79]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -2805,12 +1949,12 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [77]
+ [80]
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 45.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [78]
+) [81]
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 67.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlpcr.fd
@@ -2827,7 +1971,7 @@ Missing character: There is no ¶ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [79]
+ [82]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2837,7 +1981,7 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [80]
+ [83]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2854,95 +1998,86 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 ))
-[81]
+[84]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 6.
-
-LaTeX Warning: Reference `sec:mlExperimentsSummary' on page 82 undefined on inp
-ut line 8.
-
-[82
+[85
 
 
 
-]
-
-LaTeX Warning: Reference `sec:mlExperimentsSummary' on page 83 undefined on inp
-ut line 11.
-
-) [83]
+]) [86]
 \openout2 = `simpleCode.aux'.
 
  (./simpleCode.tex
 Appendix A.
-[84
+[87
 
 
 
-] [85]
+] [88]
 Overfull \hbox (5.13045pt too wide) in paragraph at lines 78--78
  |[]\OT1/cmr/bx/n/14.4 Detecting ap-noea us-ing the `vari-ance' method -- de-te
 c-tAp-neaVar.m| 
  []
 
-[86]) [87]
+[89]) [90]
 \openout2 = `readingDataCode.aux'.
 
  (./readingDataCode.tex
 Appendix B.
-[88
+[91
 
 
 
-]) [89]
+]) [92]
 \openout2 = `dataConditioningCode.aux'.
 
  (./dataConditioningCode.tex
 Appendix C.
-[90
-
-
-
-] [91]) [92]
-\openout2 = `SVMCode.aux'.
-
- (./SVMCode.tex
-Appendix D.
 [93
 
 
 
-]) [94]
+] [94]) [95]
+\openout2 = `SVMCode.aux'.
+
+ (./SVMCode.tex
+Appendix D.
+[96
+
+
+
+]) [97]
 \openout2 = `HMMCode.aux'.
 
  (./HMMCode.tex
 Appendix E.
-[95
+[98
 
 
 
-] [96] [97]) [98] (./index.bbl
+] [99] [100]) [101] (./index.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Å in font cmr10!
- [99
+ [102
 
 
-] [100] [101]
+] [103] [104]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ä in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ß in font cmr10!
- [102] [103] [104]
+ [105] [106] [107]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ç in font cmr10!
- [105]
-[106] [107])
+
+[108] [109] [110])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [108]
+ [111]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./index.aux (./introduction.aux) (./medicalInfo.aux)
 (./rationale.aux) (./app.aux) (./design.aux) (./conclusion.aux)
@@ -2950,15 +2085,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 (./SVMCode.aux) (./HMMCode.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: 4A0C73CADC2960C656AFC7B5A2D63EB3;7889.
 
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4A0C73CADC2960C656AFC7B5A2D63EB3;7889.
 
 LaTeX Warning: There were undefined references.
 
@@ -2968,10 +2097,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 12099 strings out of 493315
- 184479 string characters out of 6137905
- 326699 words of memory out of 5000000
- 14345 multiletter control sequences out of 15000+600000
+ 12241 strings out of 493315
+ 186642 string characters out of 6137905
+ 345641 words of memory out of 5000000
+ 14456 multiletter control sequences out of 15000+600000
  21490 words of font info for 78 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,17n,49p,1986b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3010,10 +2139,10 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm0800.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1095.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/c
 ourier/ucrr8a.pfb>
-Output written on index.pdf (110 pages, 3424183 bytes).
+Output written on index.pdf (113 pages, 3446797 bytes).
 PDF statistics:
- 1739 PDF objects out of 2073 (max. 8388607)
- 1513 compressed objects within 16 object streams
- 821 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2385 PDF objects out of 2487 (max. 8388607)
+ 2134 compressed objects within 22 object streams
+ 824 named destinations out of 1000 (max. 500000)
+ 1033 words of extra memory for PDF output out of 10000 (max. 10000000)
 
