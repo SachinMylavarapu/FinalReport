@@ -16,6 +16,7 @@ Sonia Ancoli-Israel, Daniel~F Kripke, Melville~R Klauber, William~J Mason,
 \bibitem{apneosotherfactors}
 Apneos.
 \newblock Obstructive sleep apnea : Details, other factors, 2003.
+\newblock \url{http://apneos.com/osa.html}.
 
 \bibitem{american2001international}
 American Sleep~Disorders Association et~al.
@@ -72,10 +73,14 @@ M~Cavusoglu, M~Kamasak, O~Erogul, T~Ciloglu, Y~Serinagaoglu, and T~Akcam.
 \bibitem{nhschoicesdiagnosis}
 NHS Choices.
 \newblock Diagnosing sleep apnoea, 2012.
+\newblock \url{http://www.nhs.uk/Conditions/Sleep-apnoea/Pages/Diagnosis.aspx
+  }.
 
 \bibitem{nhsmap}
 NHS Choices.
 \newblock Obstructive sleep apnoea/hypopnoea - suspected, 2014.
+\newblock
+  \url{http://healthguides.mapofmedicine.com/choices/map/obstructive_sleep_apnoea_hypopnoea_syndrome1.html}.
 
 \bibitem{chung2012high}
 F~Chung, R~Subramanyam, P~Liao, E~Sasaki, C~Shapiro, and Y~Sun.
@@ -112,10 +117,13 @@ John~B Dixon, Linda~M Schachter, et~al.
 \bibitem{phoneusers}
 eMarketer.com.
 \newblock Smartphone users worldwide will total 1.75 billion, January 2014.
+\newblock
+  \url{http://www.emarketer.com/Article/Smartphone-Users-Worldwide-Will-Total-175-Billion-2014/1010536}.
 
 \bibitem{adultobesity}
 Public~Health England.
 \newblock Adult obesity, 2014.
+\newblock \url{http://www.noo.org.uk/NOO_about_obesity/adult_obesity}.
 
 \bibitem{engleman1999randomized}
 Heather~M Engleman, Ruth~N Kingshott, Peter~K Wraith, Thomas~W Mackay, Ian~J
@@ -187,6 +195,7 @@ RB~Fogel, A~Malhotra, and DP~White.
 \bibitem{britishlungfoundation}
 British~Lung Foundation.
 \newblock The osa charter, 2014.
+\newblock \url{http://www.blf.org.uk/Page/The-OSA-Charter}.
 
 \bibitem{franklin2000snoring}
 Karl~A Franklin, Per~Åke Holmgren, Fredrik Jönsson, Nils Poromaa, Hans
@@ -230,6 +239,7 @@ A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
   University of~Oxford. Department~of Engineering~Science.
 \newblock {\em Engineering Tables and Data}.
 \newblock University of Oxford, Department of Engineering Science, 2008.
+\newblock \url{http://books.google.sk/books?id=FeNNPgAACAAJ}.
 
 \bibitem{iber2007aasm}
 Conrad Iber, American~Academy of~Sleep~Medicine, et~al.
@@ -247,6 +257,8 @@ Mary~SM Ip, Bing Lam, Ian~J Lauder, Kenneth~WT Tsang, Ka-fai Chung, Yuk-wan
 \bibitem{wsjhometest}
 Wall~Street Journal.
 \newblock A test for sleep apnea from your own bedroom, May 2013.
+\newblock
+  \url{http://online.wsj.com/news/articles/SB10001424127887324715704578480883962087110}.
 
 \bibitem{kim1997sleep}
 Hyon~C Kim, Terry Young, Charles~G Matthews, Steven~M Weber, Austin~R Woodard,
@@ -277,7 +289,6 @@ Clete~A Kushida, Bradley Efron, and Christian Guilleminault.
 \bibitem{simplevideo}
 leahthegeek.
 \newblock Nick sleep apnea proof 1, 2007.
-\newblock Online Video - Accessed 8th January 2014.
 
 \bibitem{leiter1996upper}
 JC~Leiter.
@@ -294,11 +305,15 @@ Atul Malhotra and David~P White.
 \bibitem{sagittalface}
 R~Martin.
 \newblock Labelled sagittal view of face, 2014.
+\newblock
+  \url{http://lshs.leesummit.k12.mo.us/rmartin1/Anatomy_Physiology/APlabeledpics/CH23(L).jpg/Fig%2023.02B(UL).jpg}.
 
 \bibitem{xerox2}
 MedIndia.
 \newblock Manipal university and xerox innovation to test remote-sensing
   healthcare technologies, February 2014.
+\newblock
+  \url{http://www.medindia.net/news/manipal-university-and-xerox-innovation-group-to-test-remote-sensing-healthcare-technologies-131546-1.htm}.
 
 \bibitem{mengel2002fundamentals}
 Mark~B Mengel, Warren~Lee Holleman, and Scott~A Fields.
@@ -321,6 +336,8 @@ Kevin~P Murphy.
 \bibitem{sleepdisorderedbreathing}
 Lung National~Heart and Blood Institute.
 \newblock Other names for sleep apnea, 2012.
+\newblock
+  \url{http://www.nhlbi.nih.gov/health/health-topics/topics/sleepapnea/names.html}.
 
 \bibitem{netzer1999using}
 Nikolaus~C Netzer, Riccardo~A Stoohs, Cordula~M Netzer, Kathryn Clark, and
@@ -333,6 +350,7 @@ Nikolaus~C Netzer, Riccardo~A Stoohs, Cordula~M Netzer, Kathryn Clark, and
 Andrew Ng.
 \newblock Cs229 - lecture notes.
 \newblock Course website, 2013.
+\newblock \url{http://cs229.stanford.edu/materials.html}.
 
 \bibitem{ng2008could}
 Andrew~Keong Ng, Tong~San Koh, Eugene Baey, Teck~Hock Lee, Udantha~Ranjith
@@ -367,30 +385,42 @@ Andrew~Keong Ng, Kim~Yong Wong, Chin~Hao Tan, and Tong~San Koh.
 \bibitem{nhsdiag}
 NHS.
 \newblock Sleep apnoea - diagnosis, June 2012.
+\newblock \url{http://www.nhs.uk/Conditions/Sleep-apnoea/Pages/Diagnosis.aspx}.
 
 \bibitem{nhsmain}
 NHS.
 \newblock Sleep apnoea, June 2014.
+\newblock
+  \url{http://www.nhs.uk/conditions/Sleep-apnoea/Pages/Introduction.aspx}.
 
 \bibitem{novasom1}
 Novasom.
 \newblock Economics of home sleep testing, 2014.
+\newblock
+  \url{http://www.novasom.com/why-a-home-sleep-test/economics-of-home-sleep-testing/}.
 
 \bibitem{novasom2}
 Novasom.
 \newblock Why accusom?, 2014.
+\newblock \url{http://www.novasom.com/why-accusom/}.
 
 \bibitem{currentapps}
 NPR.
 \newblock Apps for apnea? new gadgets promise to improve sleep, February 2012.
+\newblock
+  \url{http://www.npr.org/blogs/alltechconsidered/2012/02/13/146711356/apps-for-apnea-new-gadgets-promise-to-improve-sleep}.
 
 \bibitem{ebpdiagnosticstrategies}
 University of~Georgia.
 \newblock Basic strategies for diagnosis, 2014.
+\newblock
+  \url{http://ebp.uga.edu/courses/Chapter%201%20-%20Diagnostic%20process/4%20-%20Diagnostic%20strategies.html}.
 
 \bibitem{confidentialitynhs}
 Department of~Health.
 \newblock Confidentiality: Nhs code of practice, 2003.
+\newblock
+  \url{httphttps://www.gov.uk/government/uploads/system/uploads/attachment_data/file/200146/Confidentiality_-_NHS_Code_of_Practice.pdf}.
 
 \bibitem{pankow2000sleep}
 Wulf Pankow, Achim Lies, Friedrich~W Lohmann, et~al.
@@ -405,6 +435,7 @@ David Knott Steve Van~Kuiken Peter~Groves, Basel~Kayyali.
 \bibitem{physionet}
 PhysioNet.
 \newblock Detecting and quantifying apnea based on the ecg, 2012.
+\newblock \url{http://physionet.org/challenge/2000/}.
 
 \bibitem{rabiner1989tutorial}
 Lawrence Rabiner.
@@ -423,6 +454,7 @@ Ewaryst Rafaj{\l}owicz, Miroslaw Pawlak, and Ansgar Steland.
 Daniel Ramage.
 \newblock Cs229 - section notes.
 \newblock Course website, 2007.
+\newblock \url{http://cs229.stanford.edu/materials.html}.
 
 \bibitem{rastogi2005quadratic}
 Manu Rastogi, Dipankar Nagchoudhuri, and CD~Parikh.
@@ -471,6 +503,8 @@ Alex~Brandao Rossow, Evandro Ottoni~Teatini Salles, and Klaus~Fabian Côco.
 \bibitem{anteriormouth}
 Staples~High School.
 \newblock Labelled anterior view of mouth, 2014.
+\newblock
+  \url{http://shs2.westport.k12.ct.us/forensics/11-forensic_anthropology/skeleton_testrev.htm}.
 
 \bibitem{schwab1995upper}
 Richard~J Schwab, Krishanu~B Gupta, Warren~B Gefter, Louis~J Metzger, Eric~A
@@ -517,6 +551,8 @@ Kingman~P Strohl and Susan Redline.
 The~Economic Times.
 \newblock Xerox, manipal to develop non-contact diagnostics solutions, February
   2014.
+\newblock
+  \url{http://articles.economictimes.indiatimes.com/2014-02-07/news/47126649_1_heart-rate-xrci-diagnostics}.
 
 \bibitem{tsai2003decision}
 Willis~H Tsai, John~E Remmers, Rollin Brant, W~Ward Flemons, Jan Davies, and
@@ -560,28 +596,33 @@ WA~Whitelaw.
 Wikipedia.
 \newblock Discrete fourier transform --- {W}ikipedia{,} the free encyclopedia,
   2014.
-\newblock [Online; accessed 28-March-2014].
+\newblock [Online; accessed 28-March-2014 at
+  \url{http://en.wikipedia.org/wiki/Discrete_Fourier_transform}].
 
 \bibitem{wiki:EM}
 Wikipedia.
 \newblock Expectation-maximization algorithm --- {W}ikipedia{,} the free
   encyclopedia, 2014.
-\newblock [Online; accessed 25-March-2014].
+\newblock [Online; accessed 25-March-2014 at
+  \url{http://en.wikipedia.org/wiki/Expectation-maximization_algorithm}].
 
 \bibitem{wiki:HMM}
 Wikipedia.
 \newblock Hidden markov model --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 24-March-2014].
+\newblock [Online; accessed 24-March-2014 at
+  \url{http://en.wikipedia.org/wiki/Hidden_Markov_model}].
 
 \bibitem{wiki:machineLearning}
 Wikipedia.
 \newblock Machine learning --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 18-March-2014].
+\newblock [Online; accessed 18-March-2014 at
+  \url{http://en.wikipedia.org/wiki/Machine_learning}].
 
 \bibitem{wiki:PSD}
 Wikipedia.
 \newblock Spectral density --- {W}ikipedia{,} the free encyclopedia, 2014.
-\newblock [Online; accessed 14-April-2014].
+\newblock [Online; accessed 14-April-2014 at
+  \url{http://en.wikipedia.org/wiki/Spectral_density}].
 
 \bibitem{wilson1999snoring}
 Kent Wilson, Riccardo~A Stoohs, Thomas~F Mulrooney, Linda~J Johnson, Christian
