@@ -40,3 +40,6 @@ index.synctex.gz
 =======
 *.log
 >>>>>>> FETCH_HEAD
+*.bbl
+*.blg
+*.log
