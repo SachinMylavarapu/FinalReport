@@ -21,10 +21,10 @@
 \contentsline {chapter}{\numberline {5}Design Process}{22}{chapter.5}
 \contentsline {section}{\numberline {5.1}Diagnostic Approaches (Sophie)}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}Symptoms of OSA (Sophie)}{24}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Video}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Video}{24}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Accelerometry}{25}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Audio}{26}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Questionnaire}{26}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.3}Audio}{25}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Questionnaire}{25}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}Conclusion}{26}{subsection.5.2.5}
 \contentsline {section}{\numberline {5.3}Questionnaire selection (Sophie)}{27}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}New vs. Pre-existing Questionnaire}{27}{subsection.5.3.1}
@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {5.4.6}Formants}{37}{subsection.5.4.6}
 \contentsline {subsection}{\numberline {5.4.7}Sub-band Energy Analysis}{39}{subsection.5.4.7}
 \contentsline {subsection}{\numberline {5.4.8}Bispectral Analysis}{39}{subsection.5.4.8}
-\contentsline {subsection}{\numberline {5.4.9}Wavelet Analysis}{40}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.9}Wavelet Analysis}{41}{subsection.5.4.9}
 \contentsline {subsection}{\numberline {5.4.10}Multiclass Classification}{42}{subsection.5.4.10}
 \contentsline {subsection}{\numberline {5.4.11}Conclusion}{43}{subsection.5.4.11}
 \contentsline {section}{\numberline {5.5}Signal Analysis -- simple method (Sachin)}{44}{section.5.5}
@@ -110,20 +110,20 @@
 \contentsline {subsection}{\numberline {5.9.14}Other Platforms}{82}{subsection.5.9.14}
 \contentsline {subsection}{\numberline {5.9.15}Xcode}{82}{subsection.5.9.15}
 \contentsline {subsection}{\numberline {5.9.16}AVAudioRecord Library}{83}{subsection.5.9.16}
-\contentsline {chapter}{\numberline {6}Conclusion (Sachin)}{89}{chapter.6}
-\contentsline {chapter}{\numberline {A}Code for the simple model (Sachin)}{91}{appendix.A}
-\contentsline {section}{\numberline {A.1}Main script -- simple.m}{91}{section.A.1}
-\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{92}{section.A.2}
-\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{93}{section.A.3}
-\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m (Sachin)}{95}{appendix.B}
-\contentsline {chapter}{\numberline {C}Code for data conditioning (Tuan Anh)}{97}{appendix.C}
-\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{97}{section.C.1}
-\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{98}{section.C.2}
-\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{98}{section.C.3}
-\contentsline {chapter}{\numberline {D}Code for Support Vector Machines (Tuan Anh)}{100}{appendix.D}
-\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{100}{section.D.1}
-\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{101}{section.D.2}
-\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models (Sachin)}{102}{appendix.E}
-\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{102}{section.E.1}
-\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{103}{section.E.2}
-\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{104}{section.E.3}
+\contentsline {chapter}{\numberline {6}Conclusion (Sachin)}{90}{chapter.6}
+\contentsline {chapter}{\numberline {A}Code for the simple model (Sachin)}{92}{appendix.A}
+\contentsline {section}{\numberline {A.1}Main script -- simple.m}{92}{section.A.1}
+\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{93}{section.A.2}
+\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{94}{section.A.3}
+\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m (Sachin)}{96}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code for data conditioning (Tuan Anh)}{98}{appendix.C}
+\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{98}{section.C.1}
+\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{99}{section.C.2}
+\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{99}{section.C.3}
+\contentsline {chapter}{\numberline {D}Code for Support Vector Machines (Tuan Anh)}{101}{appendix.D}
+\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{101}{section.D.1}
+\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{102}{section.D.2}
+\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models (Sachin)}{103}{appendix.E}
+\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{103}{section.E.1}
+\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{104}{section.E.2}
+\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{105}{section.E.3}
