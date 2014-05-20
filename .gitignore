@@ -1,45 +1,4 @@
-
-index.pdf
-
-index.log
-
-index.out
-
-index.toc
-
-introduction.aux
-
-*.aux
-
-*.aux
-
-medicalInfo.aux
-
-*.aux
-
-index.aux
-
-rationale.aux
-
-drawings/Structure-network-eps-converted-to.pdf
-
-app.aux
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-*.log
-
-index.log
-
-index.pdf
-
 index.synctex.gz
-=======
-*.log
->>>>>>> FETCH_HEAD
-=======
-*.log
->>>>>>> FETCH_HEAD
 *.bbl
 *.blg
 *.log
