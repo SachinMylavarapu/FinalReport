@@ -24,9 +24,9 @@
 \BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Audio}{section.5.2}% 24
 \BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Questionnaire}{section.5.2}% 25
 \BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Conclusion}{section.5.2}% 26
-\BOOKMARK [1][-]{section.5.3}{5.3 Questionnaire selection \(Sophie\)}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 New vs. Pre-existing Questionnaire}{section.5.3}% 28
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Using app based questionnaires to increase patient truthfulness}{section.5.3}% 29
+\BOOKMARK [1][-]{section.5.3}{5.3 Questionnaire Selection \(Sophie\)}{chapter.5}% 27
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Arguments for Using a New vs. Pre-existing Questionnaire}{section.5.3}% 28
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Using App Based Questionnaires to Increase Patient Truthfulness}{section.5.3}% 29
 \BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Questionnaires}{section.5.3}% 30
 \BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Narrowing Down the Studies}{section.5.3}% 31
 \BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Artificial Neural Net}{section.5.3}% 32
@@ -77,24 +77,23 @@
 \BOOKMARK [2][-]{subsection.5.9.10}{5.9.10 Java Techniques}{section.5.9}% 77
 \BOOKMARK [2][-]{subsection.5.9.11}{5.9.11 Initialising AudioRecord}{section.5.9}% 78
 \BOOKMARK [2][-]{subsection.5.9.12}{5.9.12 Progress Wheel}{section.5.9}% 79
-\BOOKMARK [2][-]{subsection.5.9.13}{5.9.13 GraphView}{section.5.9}% 80
-\BOOKMARK [2][-]{subsection.5.9.14}{5.9.14 Other Platforms}{section.5.9}% 81
-\BOOKMARK [2][-]{subsection.5.9.15}{5.9.15 Xcode}{section.5.9}% 82
-\BOOKMARK [2][-]{subsection.5.9.16}{5.9.16 AVAudioRecord Library}{section.5.9}% 83
-\BOOKMARK [0][-]{chapter.6}{6 Conclusion \(Sachin\)}{}% 84
-\BOOKMARK [0][-]{appendix.A}{A Code for the simple model \(Sachin\)}{}% 85
-\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 simple.m}{appendix.A}% 86
-\BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 87
-\BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 88
-\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m \(Sachin\)}{}% 89
-\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning \(Tuan Anh\)}{}% 90
-\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 91
-\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 92
-\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 93
-\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines \(Tuan Anh\)}{}% 94
-\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 95
-\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 96
-\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models \(Sachin\)}{}% 97
-\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 98
-\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 99
-\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 100
+\BOOKMARK [2][-]{subsection.5.9.13}{5.9.13 Other Platforms}{section.5.9}% 80
+\BOOKMARK [2][-]{subsection.5.9.14}{5.9.14 Xcode}{section.5.9}% 81
+\BOOKMARK [2][-]{subsection.5.9.15}{5.9.15 AVAudioRecord Library}{section.5.9}% 82
+\BOOKMARK [0][-]{chapter.6}{6 Conclusion \(Sachin\)}{}% 83
+\BOOKMARK [0][-]{appendix.A}{A Code for the simple model \(Sachin\)}{}% 84
+\BOOKMARK [1][-]{section.A.1}{A.1 Main script \205 simple.m}{appendix.A}% 85
+\BOOKMARK [1][-]{section.A.2}{A.2 Detecting apnoea \205 detectApnea.m}{appendix.A}% 86
+\BOOKMARK [1][-]{section.A.3}{A.3 Detecting apnoea using the `variance' method \205 detectApneaVar.m}{appendix.A}% 87
+\BOOKMARK [0][-]{appendix.B}{B Code for reading data \205 readData.m \(Sachin\)}{}% 88
+\BOOKMARK [0][-]{appendix.C}{C Code for data conditioning \(Tuan Anh\)}{}% 89
+\BOOKMARK [1][-]{section.C.1}{C.1 Transforming to spectrogram space \205 transformSpectrogram.m}{appendix.C}% 90
+\BOOKMARK [1][-]{section.C.2}{C.2 Calculating PCA parameters \205 pcaCalc.m}{appendix.C}% 91
+\BOOKMARK [1][-]{section.C.3}{C.3 Reducing dimensions using PCA \205 pcaTransform.m}{appendix.C}% 92
+\BOOKMARK [0][-]{appendix.D}{D Code for Support Vector Machines \(Tuan Anh\)}{}% 93
+\BOOKMARK [1][-]{section.D.1}{D.1 Main script \205 apneaSVM.m}{appendix.D}% 94
+\BOOKMARK [1][-]{section.D.2}{D.2 Test script \205 apneaSVMTest.m}{appendix.D}% 95
+\BOOKMARK [0][-]{appendix.E}{E Code for Hidden Markov Models \(Sachin\)}{}% 96
+\BOOKMARK [1][-]{section.E.1}{E.1 Main script \205 apneaHMM.m}{appendix.E}% 97
+\BOOKMARK [1][-]{section.E.2}{E.2 Training script \205 apneaHMMTrain.m}{appendix.E}% 98
+\BOOKMARK [1][-]{section.E.3}{E.3 Test script \205 apneaHMMTest.m}{appendix.E}% 99

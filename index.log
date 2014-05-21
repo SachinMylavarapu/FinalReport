@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  21 MAY 2014 11:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.3)  21 MAY 2014 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 \openout3 = `index.out'.
 
  (./title.tex
-<drawings/oxford.pdf, id=406, 116.435pt x 139.52126pt>
+<drawings/oxford.pdf, id=401, 116.435pt x 139.52126pt>
 File: drawings/oxford.pdf Graphic file (type pdf)
 
 <use drawings/oxford.pdf>
@@ -687,7 +687,7 @@ Chapter 1.
 
  (./medicalInfo.tex
 Chapter 2.
-<drawings/Sagittal-Face.jpg, id=546, 722.7pt x 542.025pt>
+<drawings/Sagittal-Face.jpg, id=541, 722.7pt x 542.025pt>
 File: drawings/Sagittal-Face.jpg Graphic file (type jpg)
 
 <use drawings/Sagittal-Face.jpg>
@@ -701,7 +701,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] <drawings/Anterior-View-Mouth.jpg, id=564, 722.7pt x 542.025pt>
+] <drawings/Anterior-View-Mouth.jpg, id=559, 722.7pt x 542.025pt>
 File: drawings/Anterior-View-Mouth.jpg Graphic file (type jpg)
 
 <use drawings/Anterior-View-Mouth.jpg>
@@ -726,19 +726,12 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 
  (./rationale.tex
 Chapter 3.
-(./medicalneed-sophie.tex
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
- [9
+(./medicalneed-sophie.tex [9
 
 
 
 ] [10]
-<drawings/prevalenceage.jpg, id=621, 395.076pt x 228.855pt>
+<drawings/prevalenceage.jpg, id=616, 395.076pt x 228.855pt>
 File: drawings/prevalenceage.jpg Graphic file (type jpg)
 
 <use drawings/prevalenceage.jpg>
@@ -746,14 +739,14 @@ Package pdftex.def Info: drawings/prevalenceage.jpg used on input line 26.
 (pdftex.def)             Requested size: 250.24199pt x 144.96162pt.
  [11 <./drawings/prevalenceage.jpg>])
 (./economics-sachin.tex [12] [13]
-<drawings/Novasom.jpg, id=676, 1034.86626pt x 803.0pt>
+<drawings/Novasom.jpg, id=670, 1034.86626pt x 803.0pt>
 File: drawings/Novasom.jpg Graphic file (type jpg)
 
 <use drawings/Novasom.jpg>
 Package pdftex.def Info: drawings/Novasom.jpg used on input line 45.
 (pdftex.def)             Requested size: 250.24199pt x 194.16977pt.
  [14 <./drawings/Novasom.jpg>] [15]
-<drawings/mobilephoneusers.png, id=708, 325.215pt x 307.1475pt>
+<drawings/mobilephoneusers.png, id=703, 325.215pt x 307.1475pt>
 File: drawings/mobilephoneusers.png Graphic file (type png)
 
 <use drawings/mobilephoneusers.png>
@@ -779,7 +772,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<drawings/App_nav.png, id=722, 1207.3908pt x 783.4068pt>
+<drawings/App_nav.png, id=717, 1207.3908pt x 783.4068pt>
 File: drawings/App_nav.png Graphic file (type png)
 
 <use drawings/App_nav.png>
@@ -839,7 +832,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<drawings/Audiorecord_struct.png, id=733, 645.1302pt x 354.123pt>
+<drawings/Audiorecord_struct.png, id=728, 645.1302pt x 354.123pt>
 File: drawings/Audiorecord_struct.png Graphic file (type png)
 
 <use drawings/Audiorecord_struct.png>
@@ -847,14 +840,14 @@ Package pdftex.def Info: drawings/Audiorecord_struct.png used on input line 22.
 
 (pdftex.def)             Requested size: 450.43253pt x 247.24678pt.
  [19]
-<drawings/android_buttons.png, id=741, 446.1468pt x 162.8484pt>
+<drawings/android_buttons.png, id=736, 446.1468pt x 162.8484pt>
 File: drawings/android_buttons.png Graphic file (type png)
 
 <use drawings/android_buttons.png>
 Package pdftex.def Info: drawings/android_buttons.png used on input line 38.
 (pdftex.def)             Requested size: 350.33727pt x 127.881pt.
  [20 <./drawings/Audiorecord_struct.png>]
-<drawings/Gartner_marketshare.png, id=750, 434.62375pt x 142.5325pt>
+<drawings/Gartner_marketshare.png, id=747, 434.62375pt x 142.5325pt>
 File: drawings/Gartner_marketshare.png Graphic file (type png)
 
 <use drawings/Gartner_marketshare.png>
@@ -872,372 +865,53 @@ Chapter 5.
 
 ]) [23] (./signsAndSymptoms-sophie.tex
 [24]
-Underfull \hbox (badness 5359) in paragraph at lines 45--45
-[]\OT1/cmr/m/n/10.95 Disorder Sim-i-lar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]\OT1/cmr/m/n/10.95 Key OSA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\OT1/cmr/m/n/10.95 symp-toms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]\OT1/cmr/m/n/10.95 Differentiator
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\OT1/cmr/m/n/10.95 from OSA (or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\OT1/cmr/m/n/10.95 rea-son to dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\OT1/cmr/m/n/10.95 count from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/10.95 Any night time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 47--48
-[]\OT1/cmr/m/n/10.95 Any night time
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 48--48
-[]\OT1/cmr/m/n/10.95 Insufficient Sleep
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10.95 Any night time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]\OT1/cmr/m/n/10.95 Periodic Limb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 49--50
-[]\OT1/cmr/m/n/10.95 Although par-tial
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 49--50
-\OT1/cmr/m/n/10.95 sim-i-lar to OSA,
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 49--50
-\OT1/cmr/m/n/10.95 pre-ceded by ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/cmr/m/n/10.95 Depressive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 50--51
-[]\OT1/cmr/m/n/10.95 Any night time
- []
-
-
-Underfull \hbox (badness 3942) in paragraph at lines 51--51
-[]\OT1/cmr/m/n/10.95 Central Alve-o-lar
+[]\OT1/cmr/m/n/10.95 Insufficient Sleep Syn-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\OT1/cmr/m/n/10.95 Hy-poven-ti-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\OT1/cmr/m/n/10.95 Sleepi-ness,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\OT1/cmr/m/n/10.95 Chok-ing,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\OT1/cmr/m/n/10.95 Snor-ing,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-[]\OT1/cmr/m/n/10.95 Hyperventilation
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 51--52
-\OT1/cmr/m/n/10.95 used to re-sat-u-
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 51--52
-\OT1/cmr/m/n/10.95 rate blood af-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]\OT1/cmr/m/n/10.95 Excessive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\OT1/cmr/m/n/10.95 Sleepi-ness,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\OT1/cmr/m/n/10.95 Snor-ing,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-[]\OT1/cmr/m/n/10.95 Non promi-nent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/cmr/m/n/10.95 snor-ing, phys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/cmr/m/n/10.95 i-cal fea-tures
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/cmr/m/n/10.95 most likely to
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 53--54
-[]\OT1/cmr/m/n/10.95 Excessive sleepi-
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 53--54
-\OT1/cmr/m/n/10.95 en-ti-ate in most
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 54--55
-[]\OT1/cmr/m/n/10.95 Excessive sleepi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]\OT1/cmr/m/n/10.95 Sleep Chok-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]\OT1/cmr/m/n/10.95 Choking,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[]\OT1/cmr/m/n/10.95 No ap-noeas
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 55--56
-\OT1/cmr/m/n/10.95 present and full
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\OT1/cmr/m/n/10.95 awak-en-ing oc-
+\OT1/cmr/m/n/10.95 Chok-ing, Snor-ing,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]\OT1/cmr/m/n/10.95 Sleep Re-lated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]\OT1/cmr/m/n/10.95 Choking,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]\OT1/cmr/m/n/10.95 Strider present,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/cmr/m/n/10.95 very rare, no
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/cmr/m/n/10.95 ap-noeas, full
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/cmr/m/n/10.95 awak-en-ing, no
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/cmr/m/n/10.95 day-time sleepi-
+[]\OT1/cmr/m/n/10.95 Sleep Re-lated Laryn-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\OT1/cmr/m/n/10.95 Sleep Re-lated
+[]\OT1/cmr/m/n/10.95 Sleep Re-lated Gas-troe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-\OT1/cmr/m/n/10.95 Gas-troe-sophageal
+Underfull \hbox (badness 3009) in paragraph at lines 58--58
+[]\OT1/cmr/m/n/10.95 Sleep Re-lated Ab-nor-mal
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 58--58
-\OT1/cmr/m/n/10.95 nor-mal Swal-low-
+Underfull \hbox (badness 8056) in paragraph at lines 61--61
+[]\OT1/cmr/m/n/10.95 Congenital Cen-tral Hy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]\OT1/cmr/m/n/10.95 Choking,
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\OT1/cmr/m/n/10.95 Daytime
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]\OT1/cmr/m/n/10.95 Gurgling rather
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\OT1/cmr/m/n/10.95 tive Pul-monary
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 59--60
-\OT1/cmr/m/n/10.95 to OSA, so ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]\OT1/cmr/m/n/10.95 Sleep Re-lated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-[]\OT1/cmr/m/n/10.95 Coughing (pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/10.95 longed) rather
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/10.95 than chok-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/10.95 (short) and no
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 61--61
-[]\OT1/cmr/m/n/10.95 Congenital Cen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]\OT1/cmr/m/n/10.95 Sudden In-fant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]\OT1/cmr/m/n/10.95 Altitude In-som-
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 64--64
-[]\OT1/cmr/m/n/10.95 Any night time
- []
-
-
-LaTeX Warning: Float too large for page by 469.8412pt on input line 68.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (341.72649pt too wide) in paragraph at lines 74--93
- [][] 
+Overfull \hbox (4.91498pt too wide) in paragraph at lines 78--78
+[][]| 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25]
+[25] [26]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [26] (./questionnaire-sophie.tex
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+) [27] [28] (./questionnaire-sophie.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1247,19 +921,10 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [27]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
+ [29]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1271,21 +936,11 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [28]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-
+Missing character: There is no ô in font cmr10!
+ [30]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1295,56 +950,47 @@ Missing character: There is no • in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no • in font cmr10!
-
-Overfull \hbox (36.49371pt too wide) in paragraph at lines 74--87
- [][] 
- []
-
-[29]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<drawings/cricomental.jpg, id=853, 216.22717pt x 291.41129pt>
+[31] [32] <drawings/cricomental.jpg, id=867, 216.22717pt x 291.41129pt>
 File: drawings/cricomental.jpg Graphic file (type jpg)
 
 <use drawings/cricomental.jpg>
-Package pdftex.def Info: drawings/cricomental.jpg used on input line 96.
+Package pdftex.def Info: drawings/cricomental.jpg used on input line 97.
 (pdftex.def)             Requested size: 100.09526pt x 134.89566pt.
 
-<drawings/pharyngeal.jpg, id=856, 377.91188pt x 138.5175pt>
+<drawings/pharyngeal.jpg, id=870, 377.91188pt x 138.5175pt>
 File: drawings/pharyngeal.jpg Graphic file (type jpg)
 
 <use drawings/pharyngeal.jpg>
-Package pdftex.def Info: drawings/pharyngeal.jpg used on input line 102.
+Package pdftex.def Info: drawings/pharyngeal.jpg used on input line 103.
 (pdftex.def)             Requested size: 200.19054pt x 73.37587pt.
 
-<drawings/flowchart.jpg, id=859, 377.91188pt x 224.33812pt>
+<drawings/flowchart.jpg, id=873, 377.91188pt x 224.33812pt>
 File: drawings/flowchart.jpg Graphic file (type jpg)
 
 <use drawings/flowchart.jpg>
-Package pdftex.def Info: drawings/flowchart.jpg used on input line 108.
+Package pdftex.def Info: drawings/flowchart.jpg used on input line 109.
 (pdftex.def)             Requested size: 250.24199pt x 148.5497pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <./drawings/cricomental.jpg> <./drawings/pharyngeal.jpg>]
+[33 <./drawings/cricomental.jpg> <./drawings/pharyngeal.jpg>]
 Missing character: There is no ‚ in font cmr8!
 Missing character: There is no à in font cmr8!
 Missing character: There is no í in font cmr8!
- [31 <./drawings/flowchart.jpg>]) [32] (./audio-sophie.tex
+) [34 <./drawings/flowchart.jpg>] [35] (./audio-sophie.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [33]
-<drawings/Fiz1996fig3.png, id=892, 387.849pt x 336.7782pt>
-File: drawings/Fiz1996fig3.png Graphic file (type png)
+ [36]
+<drawings/Fiz1996fig3.jpg, id=913, 387.849pt x 336.7782pt>
+File: drawings/Fiz1996fig3.jpg Graphic file (type jpg)
 
-<use drawings/Fiz1996fig3.png>
-Package pdftex.def Info: drawings/Fiz1996fig3.png used on input line 26.
+<use drawings/Fiz1996fig3.jpg>
+Package pdftex.def Info: drawings/Fiz1996fig3.jpg used on input line 26.
 (pdftex.def)             Requested size: 150.14671pt x 130.37686pt.
 
-<drawings/Fiz1996fig12.jpg, id=895, 724.20563pt x 225.09094pt>
+<drawings/Fiz1996fig12.jpg, id=916, 724.20563pt x 225.09094pt>
 File: drawings/Fiz1996fig12.jpg Graphic file (type jpg)
 
 <use drawings/Fiz1996fig12.jpg>
@@ -1357,7 +1003,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34] <drawings/Perez1993fig8.jpg, id=907, 365.2044pt x 484.52322pt>
+[37] <drawings/Perez1993fig8.jpg, id=928, 365.2044pt x 484.52322pt>
 File: drawings/Perez1993fig8.jpg Graphic file (type jpg)
 
 <use drawings/Perez1993fig8.jpg>
@@ -1367,7 +1013,7 @@ Package pdftex.def Info: drawings/Perez1993fig8.jpg used on input line 48.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35 <./drawings/Fiz1996fig3.png> <./drawings/Fiz1996fig12.jpg>] [36 <./drawings
+[38 <./drawings/Fiz1996fig3.jpg> <./drawings/Fiz1996fig12.jpg>] [39 <./drawings
 /Perez1993fig8.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1393,33 +1039,40 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37] <drawings/ng2008afig1.jpg, id=944, 520.8258pt x 408.5664pt>
+ [40]
+<drawings/ng2008afig1.jpg, id=966, 520.8258pt x 408.5664pt>
 File: drawings/ng2008afig1.jpg Graphic file (type jpg)
 
 <use drawings/ng2008afig1.jpg>
 Package pdftex.def Info: drawings/ng2008afig1.jpg used on input line 97.
 (pdftex.def)             Requested size: 250.24199pt x 196.3029pt.
 
-Overfull \hbox (140.56874pt too wide) in paragraph at lines 103--113
- [][] 
- []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1435,74 +1088,39 @@ Missing character: There is no í in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr8!
 Missing character: There is no à in font cmr8!
 Missing character: There is no í in font cmr8!
-[38 <./drawings/ng2008afig1.jpg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39]
-
-LaTeX Warning: Reference `fig:ng2007fig45' on page 40 undefined on input line 1
-53.
-
-<drawings/ng2007fig45.jpg, id=975, 713.75938pt x 272.6988pt>
+[41] [42 <./drawings/ng2008afig1.jpg>]
+<drawings/ng2007fig45.jpg, id=1002, 713.75938pt x 272.6988pt>
 File: drawings/ng2007fig45.jpg Graphic file (type jpg)
 
 <use drawings/ng2007fig45.jpg>
-Package pdftex.def Info: drawings/ng2007fig45.jpg used on input line 157.
+Package pdftex.def Info: drawings/ng2007fig45.jpg used on input line 158.
 (pdftex.def)             Requested size: 350.33727pt x 133.84827pt.
-
-
-LaTeX Warning: Reference `fig:ng2007fig6' on page 40 undefined on input line 16
-2.
-
-<drawings/ng2007fig6.jpg, id=978, 323.87666pt x 309.22083pt>
-File: drawings/ng2007fig6.jpg Graphic file (type jpg)
-
-<use drawings/ng2007fig6.jpg>
-Package pdftex.def Info: drawings/ng2007fig6.jpg used on input line 166.
-(pdftex.def)             Requested size: 250.24199pt x 238.91704pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<drawings/ng2008bfig5.jpg, id=983, 480.8364pt x 348.8232pt>
+[43] <drawings/ng2007fig6.jpg, id=1016, 323.87666pt x 309.22083pt>
+File: drawings/ng2007fig6.jpg Graphic file (type jpg)
+
+<use drawings/ng2007fig6.jpg>
+Package pdftex.def Info: drawings/ng2007fig6.jpg used on input line 167.
+(pdftex.def)             Requested size: 150.14671pt x 143.3521pt.
+ [44 <./drawings/ng2007fig45.jpg> <./drawings/ng2007fig6.jpg>] <drawings/ng2008
+bfig5.jpg, id=1027, 480.8364pt x 348.8232pt>
 File: drawings/ng2008bfig5.jpg Graphic file (type jpg)
 
 <use drawings/ng2008bfig5.jpg>
-Package pdftex.def Info: drawings/ng2008bfig5.jpg used on input line 179.
+Package pdftex.def Info: drawings/ng2008bfig5.jpg used on input line 180.
 (pdftex.def)             Requested size: 250.24199pt x 181.53813pt.
- [40 <./drawings/ng2007fig45.jpg>] [41 <./drawings/ng2007fig6.jpg> <./drawings/
-ng2008bfig5.jpg>] [42]) [43] (./simple-sachin.tex [44]
+ [45 <./drawings/ng2008bfig5.jpg>]
+Overfull \hbox (9.45811pt too wide) in paragraph at lines 199--220
+ [][] 
+ []
+
+[46]) [47] (./simple-sachin.tex [48]
 Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 53931 bytes
@@ -1513,7 +1131,8 @@ Package epstopdf Info: Source file: <drawings/YRawFreq.eps>
 erted-to.pdf drawings/YRawFreq.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/YRawFreq-eps-converted-to.pdf, id=1031, 562.1pt x 421.575pt>
+
+<drawings/YRawFreq-eps-converted-to.pdf, id=1069, 562.1pt x 421.575pt>
 File: drawings/YRawFreq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawFreq-eps-converted-to.pdf>
@@ -1532,14 +1151,14 @@ ps-converted-to.pdf drawings/YRawPeriodogram.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/YRawPeriodogram-eps-converted-to.pdf, id=1032, 562.1pt x 421.575pt>
+<drawings/YRawPeriodogram-eps-converted-to.pdf, id=1070, 562.1pt x 421.575pt>
 File: drawings/YRawPeriodogram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/YRawPeriodogram-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/YRawPeriodogram-eps-converted-to.pdf used on 
 input line 29.
 (pdftex.def)             Requested size: 250.24199pt x 187.68068pt.
- [45] [46 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogra
+ [49] [50 <./drawings/YRawFreq-eps-converted-to.pdf> <./drawings/YRawPeriodogra
 m-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/simpleResults.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
@@ -1553,15 +1172,15 @@ f>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/simpleResults-eps-converted-to.pdf, id=1062, 562.1pt x 421.575pt>
+<drawings/simpleResults-eps-converted-to.pdf, id=1101, 562.1pt x 421.575pt>
 File: drawings/simpleResults-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/simpleResults-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/simpleResults-eps-converted-to.pdf used on in
 put line 61.
 (pdftex.def)             Requested size: 500.484pt x 375.36137pt.
- [47]) [48 <./drawings/simpleResults-eps-converted-to.pdf>] (./mltheory-ta.tex 
-(./svm-ta.tex [49]
+ [51]) [52 <./drawings/simpleResults-eps-converted-to.pdf>] (./mltheory-ta.tex 
+(./svm-ta.tex [53]
 Package epstopdf Info: Source file: <drawings/svm.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 155908 bytes
@@ -1573,14 +1192,14 @@ Package epstopdf Info: Source file: <drawings/svm.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm-eps-converted-to.pdf, id=1090, 298.11375pt x 262.9825pt>
+<drawings/svm-eps-converted-to.pdf, id=1127, 298.11375pt x 262.9825pt>
 File: drawings/svm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/svm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/svm-eps-converted-to.pdf used on input line 3
 9.
 (pdftex.def)             Requested size: 298.11302pt x 262.98184pt.
- [50] [51 <./drawings/svm-eps-converted-to.pdf>] [52]) (./ssm-ta.tex
+ [54] [55 <./drawings/svm-eps-converted-to.pdf>] [56]) (./ssm-ta.tex
 Package epstopdf Info: Source file: <drawings/pgm.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 64674 bytes
@@ -1592,14 +1211,14 @@ Package epstopdf Info: Source file: <drawings/pgm.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/pgm-eps-converted-to.pdf, id=1179, 226.8475pt x 98.3675pt>
+<drawings/pgm-eps-converted-to.pdf, id=1217, 226.8475pt x 98.3675pt>
 File: drawings/pgm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pgm-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pgm-eps-converted-to.pdf used on input line 5
 .
 (pdftex.def)             Requested size: 226.84694pt x 98.36723pt.
- [53] [54 <./drawings/pgm-eps-converted-to.pdf>]) (./hmm-ta.tex [55]
+ [57] [58 <./drawings/pgm-eps-converted-to.pdf>]) (./hmm-ta.tex [59]
 Overfull \hbox (24.3553pt too wide) in paragraph at lines 12--13
 []\OT1/cmr/m/n/10.95 Find the most prob-a-ble se-quence of hid-den states $[]$ 
 given the ob-ser-va-tions $[]$, $[][] = [][] \OML/cmm/m/it/10.95 P []$\OT1/cmr/
@@ -1608,7 +1227,7 @@ m/n/10.95 .
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 20.
-[56] [57] [58] [59]) (./conditioning-ta.tex [60]
+[60] [61] [62] [63]) (./conditioning-ta.tex [64]
 Package epstopdf Info: Source file: <drawings/spec.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 96489 bytes
@@ -1620,7 +1239,7 @@ d-to.pdf drawings/spec.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spec-eps-converted-to.pdf, id=1308, 474.77374pt x 371.3875pt>
+<drawings/spec-eps-converted-to.pdf, id=1346, 474.77374pt x 371.3875pt>
 File: drawings/spec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/spec-eps-converted-to.pdf>
@@ -1639,7 +1258,7 @@ OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.
 95 g$\OT1/cmr/m/n/10.95 ,
  []
 
-[61]
+[65]
 Package epstopdf Info: Source file: <drawings/pca.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 55703 bytes
@@ -1650,16 +1269,16 @@ Package epstopdf Info: Source file: <drawings/pca.eps>
 -to.pdf drawings/pca.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
- <drawings/pca-eps-converted-to.pdf, id=1328, 258.9675pt x 258.9675pt>
+ <drawings/pca-eps-converted-to.pdf, id=1366, 258.9675pt x 258.9675pt>
 File: drawings/pca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/pca-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/pca-eps-converted-to.pdf used on input line 3
 8.
 (pdftex.def)             Requested size: 258.96684pt x 258.96684pt.
- [62 <./drawings/spec-eps-converted-to.pdf>]) (./mltheory-summary-ta.tex [63 <.
+ [66 <./drawings/spec-eps-converted-to.pdf>]) (./mltheory-summary-ta.tex [67 <.
 /drawings/pca-eps-converted-to.pdf>]))
-[64] (./mlexperiments.tex (./mlExperimentsIntroduction.tex
+[68] (./mlexperiments.tex (./mlExperimentsIntroduction.tex
 Overfull \hbox (0.58322pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10.95 We ob-tained the data from the ECG database from the Phy-s-i
 oNet database lo-cated at []$\OT1/cmtt/m/n/10.95 http : / / physionet .
@@ -1676,7 +1295,7 @@ f>
 -converted-to.pdf drawings/visualiseData.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/visualiseData-eps-converted-to.pdf, id=1372, 497.86pt x 413.545pt>
+<drawings/visualiseData-eps-converted-to.pdf, id=1410, 497.86pt x 413.545pt>
 File: drawings/visualiseData-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualiseData-eps-converted-to.pdf>
@@ -1684,7 +1303,7 @@ Package pdftex.def Info: drawings/visualiseData-eps-converted-to.pdf used on in
 put line 6.
 (pdftex.def)             Requested size: 250.24199pt x 207.86365pt.
 )
-(./readingDataExplCode-sachin.tex [65 <./drawings/visualiseData-eps-converted-t
+(./readingDataExplCode-sachin.tex [69 <./drawings/visualiseData-eps-converted-t
 o.pdf>]) (./conditioningExperiments-ta.tex
 Package epstopdf Info: Source file: <drawings/visualiseSpectrogram.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
@@ -1698,7 +1317,7 @@ ram-eps-converted-to.pdf drawings/visualiseSpectrogram.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=1390, 510.90875pt x 406
+<drawings/visualiseSpectrogram-eps-converted-to.pdf, id=1428, 510.90875pt x 406
 .51875pt>
 File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1706,7 +1325,7 @@ File: drawings/visualiseSpectrogram-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: drawings/visualiseSpectrogram-eps-converted-to.pdf use
 d on input line 17.
 (pdftex.def)             Requested size: 250.24199pt x 199.10909pt.
- [66]
+ [70]
 Package epstopdf Info: Source file: <drawings/visualisePca.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 35807 bytes
@@ -1719,7 +1338,7 @@ converted-to.pdf drawings/visualisePca.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/visualisePca-eps-converted-to.pdf, id=1400, 497.86pt x 404.51125pt>
+<drawings/visualisePca-eps-converted-to.pdf, id=1437, 497.86pt x 404.51125pt>
 File: drawings/visualisePca-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/visualisePca-eps-converted-to.pdf>
@@ -1739,7 +1358,7 @@ sVisualise-eps-converted-to.pdf drawings/spectrogramClassesVisualise.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=1402, 420.57124p
+<drawings/spectrogramClassesVisualise-eps-converted-to.pdf, id=1439, 420.57124p
 t x 316.18124pt>
 File: drawings/spectrogramClassesVisualise-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1749,7 +1368,7 @@ Package pdftex.def Info: drawings/spectrogramClassesVisualise-eps-converted-to.
 pdf used on input line 6.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
 )
-(./svmExperiments-ta.tex [67 <./drawings/visualiseSpectrogram-eps-converted-to.
+(./svmExperiments-ta.tex [71 <./drawings/visualiseSpectrogram-eps-converted-to.
 pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
@@ -1763,7 +1382,7 @@ el11-eps-converted-to.pdf drawings/svm/svmTestNoKernel11.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=1423, 420.57124pt x 31
+<drawings/svm/svmTestNoKernel11-eps-converted-to.pdf, id=1461, 420.57124pt x 31
 6.18124pt>
 File: drawings/svm/svmTestNoKernel11-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1783,7 +1402,7 @@ el12-eps-converted-to.pdf drawings/svm/svmTestNoKernel12.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=1424, 420.57124pt x 31
+<drawings/svm/svmTestNoKernel12-eps-converted-to.pdf, id=1462, 420.57124pt x 31
 6.18124pt>
 File: drawings/svm/svmTestNoKernel12-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1803,7 +1422,7 @@ el13-eps-converted-to.pdf drawings/svm/svmTestNoKernel13.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=1425, 420.57124pt x 31
+<drawings/svm/svmTestNoKernel13-eps-converted-to.pdf, id=1463, 420.57124pt x 31
 6.18124pt>
 File: drawings/svm/svmTestNoKernel13-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1823,7 +1442,7 @@ el14-eps-converted-to.pdf drawings/svm/svmTestNoKernel14.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=1426, 420.57124pt x 31
+<drawings/svm/svmTestNoKernel14-eps-converted-to.pdf, id=1464, 420.57124pt x 31
 6.18124pt>
 File: drawings/svm/svmTestNoKernel14-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1843,7 +1462,7 @@ el15-eps-converted-to.pdf drawings/svm/svmTestNoKernel15.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=1427, 420.57124pt x 31
+<drawings/svm/svmTestNoKernel15-eps-converted-to.pdf, id=1465, 420.57124pt x 31
 6.18124pt>
 File: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1851,7 +1470,7 @@ f)
 Package pdftex.def Info: drawings/svm/svmTestNoKernel15-eps-converted-to.pdf us
 ed on input line 18.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
- [68 <./drawings/visualisePca-eps-converted-to.pdf>]
+ [72 <./drawings/visualisePca-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/svm/svmTestPoly11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 141654 bytes
@@ -1864,7 +1483,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=1438, 420.57124pt x 316.18
+<drawings/svm/svmTestPoly11-eps-converted-to.pdf, id=1477, 420.57124pt x 316.18
 124pt>
 File: drawings/svm/svmTestPoly11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly11-eps-converted-to.pdf>
@@ -1883,7 +1502,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=1439, 420.57124pt x 316.18
+<drawings/svm/svmTestPoly12-eps-converted-to.pdf, id=1478, 420.57124pt x 316.18
 124pt>
 File: drawings/svm/svmTestPoly12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly12-eps-converted-to.pdf>
@@ -1902,7 +1521,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=1440, 420.57124pt x 316.18
+<drawings/svm/svmTestPoly13-eps-converted-to.pdf, id=1479, 420.57124pt x 316.18
 124pt>
 File: drawings/svm/svmTestPoly13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly13-eps-converted-to.pdf>
@@ -1921,7 +1540,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=1441, 420.57124pt x 316.18
+<drawings/svm/svmTestPoly14-eps-converted-to.pdf, id=1480, 420.57124pt x 316.18
 124pt>
 File: drawings/svm/svmTestPoly14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly14-eps-converted-to.pdf>
@@ -1940,7 +1559,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=1442, 420.57124pt x 316.18
+<drawings/svm/svmTestPoly15-eps-converted-to.pdf, id=1481, 420.57124pt x 316.18
 124pt>
 File: drawings/svm/svmTestPoly15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestPoly15-eps-converted-to.pdf>
@@ -1959,7 +1578,7 @@ eps-converted-to.pdf drawings/svm/svmTestRbf11.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1445, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf11-eps-converted-to.pdf, id=1484, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf11-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf11-eps-converted-to.pdf>
@@ -1978,7 +1597,7 @@ eps-converted-to.pdf drawings/svm/svmTestRbf12.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1446, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf12-eps-converted-to.pdf, id=1485, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf12-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf12-eps-converted-to.pdf>
@@ -1997,7 +1616,7 @@ eps-converted-to.pdf drawings/svm/svmTestRbf13.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1447, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf13-eps-converted-to.pdf, id=1486, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf13-eps-converted-to.pdf>
@@ -2016,7 +1635,7 @@ eps-converted-to.pdf drawings/svm/svmTestRbf14.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1448, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf14-eps-converted-to.pdf, id=1487, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf14-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf14-eps-converted-to.pdf>
@@ -2035,7 +1654,7 @@ eps-converted-to.pdf drawings/svm/svmTestRbf15.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1449, 420.57124pt x 316.181
+<drawings/svm/svmTestRbf15-eps-converted-to.pdf, id=1488, 420.57124pt x 316.181
 24pt>
 File: drawings/svm/svmTestRbf15-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/svm/svmTestRbf15-eps-converted-to.pdf>
@@ -2043,29 +1662,26 @@ Package pdftex.def Info: drawings/svm/svmTestRbf15-eps-converted-to.pdf used on
  input line 54.
 (pdftex.def)             Requested size: 165.16063pt x 124.16412pt.
 )
-(./hmmExperiments-sachin.tex [69 <./drawings/spectrogramClassesVisualise-eps-co
+(./hmmExperiments-sachin.tex [73 <./drawings/spectrogramClassesVisualise-eps-co
 nverted-to.pdf>]
 
-LaTeX Warning: Text page 70 contains only floats.
+LaTeX Warning: Text page 74 contains only floats.
 
 
 Overfull \vbox (1.6975pt too high) has occurred while \output is active []
 
 
-[70 <./drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> <./drawings/svm/svm
+[74 <./drawings/svm/svmTestNoKernel11-eps-converted-to.pdf> <./drawings/svm/svm
 TestNoKernel12-eps-converted-to.pdf> <./drawings/svm/svmTestNoKernel13-eps-conv
 erted-to.pdf> <./drawings/svm/svmTestNoKernel14-eps-converted-to.pdf> <./drawin
 gs/svm/svmTestNoKernel15-eps-converted-to.pdf> <./drawings/svm/svmTestPoly11-ep
 s-converted-to.pdf> <./drawings/svm/svmTestPoly12-eps-converted-to.pdf> <./draw
 ings/svm/svmTestPoly13-eps-converted-to.pdf> <./drawings/svm/svmTestPoly14-eps-
-converted-to.pdf> <./drawings/svm/svmTestPoly15-eps-converted-to.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[71 <./drawings/svm/svmTestRbf11-eps-converted-to.pdf> <./drawings/svm/svmTestR
-bf12-eps-converted-to.pdf> <./drawings/svm/svmTestRbf13-eps-converted-to.pdf> <
-./drawings/svm/svmTestRbf14-eps-converted-to.pdf> <./drawings/svm/svmTestRbf15-
-eps-converted-to.pdf>]
+converted-to.pdf> <./drawings/svm/svmTestPoly15-eps-converted-to.pdf>] [75 <./d
+rawings/svm/svmTestRbf11-eps-converted-to.pdf> <./drawings/svm/svmTestRbf12-eps
+-converted-to.pdf> <./drawings/svm/svmTestRbf13-eps-converted-to.pdf> <./drawin
+gs/svm/svmTestRbf14-eps-converted-to.pdf> <./drawings/svm/svmTestRbf15-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <drawings/hmm/hmmTest11.eps>
 (epstopdf)                    date: 2014-04-27 20:45:33
 (epstopdf)                    size: 178041 bytes
@@ -2078,7 +1694,7 @@ f>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1556, 471.7625pt x 395.4775pt>
+<drawings/hmm/hmmTest11-eps-converted-to.pdf, id=1595, 471.7625pt x 395.4775pt>
 File: drawings/hmm/hmmTest11-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest11-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest11-eps-converted-to.pdf used on in
@@ -2096,7 +1712,7 @@ f>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1557, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest12-eps-converted-to.pdf, id=1596, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest12-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest12-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest12-eps-converted-to.pdf used on in
@@ -2114,7 +1730,7 @@ f>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1558, 474.77374pt x 395.4775pt
+<drawings/hmm/hmmTest13-eps-converted-to.pdf, id=1597, 474.77374pt x 395.4775pt
 >
 File: drawings/hmm/hmmTest13-eps-converted-to.pdf Graphic file (type pdf)
  <use drawings/hmm/hmmTest13-eps-converted-to.pdf>
@@ -2133,7 +1749,7 @@ f>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1559, 475.7775pt x 395.4775pt>
+<drawings/hmm/hmmTest14-eps-converted-to.pdf, id=1598, 475.7775pt x 395.4775pt>
 File: drawings/hmm/hmmTest14-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/hmm/hmmTest14-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/hmm/hmmTest14-eps-converted-to.pdf used on in
@@ -2151,7 +1767,7 @@ f>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1560, 481.8pt x 395.4775pt>
+<drawings/hmm/hmmTest15-eps-converted-to.pdf, id=1599, 481.8pt x 395.4775pt>
 File: drawings/hmm/hmmTest15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use drawings/hmm/hmmTest15-eps-converted-to.pdf>
@@ -2159,105 +1775,54 @@ Package pdftex.def Info: drawings/hmm/hmmTest15-eps-converted-to.pdf used on in
 put line 31.
 (pdftex.def)             Requested size: 165.16063pt x 135.56488pt.
 ) (./mlExperimentsSummary.tex
-[72]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)) [73 <./drawings/hmm/hmmTest11-eps-converted-to.pdf> <./drawings/hmm/hmmTest1
-2-eps-converted-to.pdf> <./drawings/hmm/hmmTest13-eps-converted-to.pdf> <./draw
-ings/hmm/hmmTest14-eps-converted-to.pdf> <./drawings/hmm/hmmTest15-eps-converte
-d-to.pdf>] (./mljava.tex
+[76] [77 <./drawings/hmm/hmmTest11-eps-converted-to.pdf> <./drawings/hmm/hmmTes
+t12-eps-converted-to.pdf> <./drawings/hmm/hmmTest13-eps-converted-to.pdf> <./dr
+awings/hmm/hmmTest14-eps-converted-to.pdf> <./drawings/hmm/hmmTest15-eps-conver
+ted-to.pdf>])) [78] (./mljava.tex
 Overfull \hbox (0.87054pt too wide) in paragraph at lines 9--10
 [][]\OT1/cmtt/m/n/10.95 void setObservations(List<ObservationVector> observatio
 ns) \OT1/cmr/m/n/10.95 -- sets the ob-ser-va-tions (sleep-
  []
 
-) [74] (./android-george.tex
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 10.
+) [79] (./android-george.tex [80]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 11.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
- [75]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [76]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-
-<drawings/XML_page.png, id=1638, 558.4062pt x 260.172pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+ [81]
+<drawings/XML_page.png, id=1684, 558.4062pt x 260.172pt>
 File: drawings/XML_page.png Graphic file (type png)
 
 <use drawings/XML_page.png>
-Package pdftex.def Info: drawings/XML_page.png used on input line 34.
+Package pdftex.def Info: drawings/XML_page.png used on input line 35.
 (pdftex.def)             Requested size: 450.43253pt x 209.87271pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [77 <./drawings/XML_page.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+ [82 <./drawings/XML_page.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
 
-<drawings/Data_Structure.png, id=1647, 667.293pt x 472.6458pt>
+<drawings/Data_Structure.png, id=1696, 667.293pt x 472.6458pt>
 File: drawings/Data_Structure.png Graphic file (type png)
 
 <use drawings/Data_Structure.png>
-Package pdftex.def Info: drawings/Data_Structure.png used on input line 48.
+Package pdftex.def Info: drawings/Data_Structure.png used on input line 49.
 (pdftex.def)             Requested size: 450.43253pt x 319.04378pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [78] [79 <./drawings/Data_Structure.png>]
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 57.
+ [83] [84 <./drawings/Data_Structure.png>]
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 61.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [80]
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 79.
+) [85]
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 86.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlpcr.fd
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 79.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 86.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
@@ -2265,112 +1830,106 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 
-<drawings/Loading.png, id=1668, 220.6644pt x 391.7034pt>
+<drawings/Loading.png, id=1721, 220.6644pt x 391.7034pt>
 File: drawings/Loading.png Graphic file (type png)
 
 <use drawings/Loading.png>
-Package pdftex.def Info: drawings/Loading.png used on input line 90.
+Package pdftex.def Info: drawings/Loading.png used on input line 98.
 (pdftex.def)             Requested size: 200.19054pt x 355.36882pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [81] [82 <./drawings/Loading.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [83])) [84]
-[85] [86] [87] [88]
+ [86] [87 <./drawings/Loading.png>]
+<drawings/Band_graph.png, id=1744, 674.52pt x 303.1325pt>
+File: drawings/Band_graph.png Graphic file (type png)
+
+<use drawings/Band_graph.png>
+Package pdftex.def Info: drawings/Band_graph.png used on input line 115.
+(pdftex.def)             Requested size: 500.484pt x 224.9251pt.
+ [88])) [89 <./drawings/Band_graph.png>]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex
+
+(./conclusion.tex
 Chapter 6.
-[89
+[90
 
 
 
-]) [90]
+]) [91]
 \openout2 = `simpleCode.aux'.
 
  (./simpleCode.tex
 Appendix A.
-[91
+[92
 
 
 
-] [92]
+] [93]
 Overfull \hbox (5.13045pt too wide) in paragraph at lines 78--78
  |[]\OT1/cmr/bx/n/14.4 Detecting ap-noea us-ing the `vari-ance' method -- de-te
 c-tAp-neaVar.m| 
  []
 
-[93]) [94]
+[94]) [95]
 \openout2 = `readingDataCode.aux'.
 
  (./readingDataCode.tex
 Appendix B.
-[95
+[96
 
 
 
-]) [96]
+]) [97]
 \openout2 = `dataConditioningCode.aux'.
 
  (./dataConditioningCode.tex
 Appendix C.
-[97
+[98
 
 
 
-] [98]) [99]
+] [99]) [100]
 \openout2 = `SVMCode.aux'.
 
  (./SVMCode.tex
 Appendix D.
-[100
+[101
 
 
 
-]) [101]
+]) [102]
 \openout2 = `HMMCode.aux'.
 
  (./HMMCode.tex
 Appendix E.
-[102
+[103
 
 
 
-] [103] [104]) [105] (./index.bbl
+] [104] [105]) [106] (./index.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Å in font cmr10!
- [106
+ [107
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 6510) in paragraph at lines 67--71
+[]\OT1/cmr/m/n/10.95 Brandon Camp-bell.  Sam-sung galaxy ex-press 4g an-droid p
+hone, 2013.  [On-line;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+\OT1/cmr/m/n/10.95 ac-cessed 1-March-2014 at []$\OT1/cmtt/m/n/10.95 http : / / 
+www . zanda . com / items / things / 73070910000010 /
+ []
+
+[108]
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 \OT1/cmtt/m/n/10.95 www . emarketer . com / Article / Smartphone-[]Users-[]Worl
 dwide-[]Will-[]Total-[]175-[]Billion-[]2014 /
  []
 
-[107] [108]
-Underfull \hbox (badness 5696) in paragraph at lines 191--194
+[109]
+Underfull \hbox (badness 5696) in paragraph at lines 203--206
 []\OT1/cmr/m/n/10.95 British Lung Foun-da-tion.  The osa char-ter, 2014.  []$\O
 T1/cmtt/m/n/10.95 http : / / www . blf . org . uk / Page /
  []
@@ -2381,66 +1940,66 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ß in font cmr10!
-[109] [110]
-Underfull \hbox (badness 10000) in paragraph at lines 319--324
+[110] [111]
+Underfull \hbox (badness 10000) in paragraph at lines 338--343
 []\OT1/cmr/m/n/10.95 MedIndia.  Ma-ni-pal uni-ver-sity and xe-rox in-no-va-tion
  to test remote-sensing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--324
+Underfull \hbox (badness 10000) in paragraph at lines 338--343
 \OT1/cmr/m/n/10.95 health-care tech-nolo-gies, Febru-ary 2014.  []$\OT1/cmtt/m/
 n/10.95 http : / / www . medindia . net / news /
  []
 
 
-Overfull \hbox (120.36552pt too wide) in paragraph at lines 319--324
+Overfull \hbox (120.36552pt too wide) in paragraph at lines 338--343
 \OT1/cmtt/m/n/10.95 manipal-[]university-[]and-[]xerox-[]innovation-[]group-[]t
 o-[]test-[]remote-[]sensing-[]healthcare-[]technologies-[]131546-[]1 .
  []
 
-[111]
-Underfull \hbox (badness 1394) in paragraph at lines 398--402
+[112]
+Underfull \hbox (badness 1394) in paragraph at lines 417--421
 []\OT1/cmr/m/n/10.95 NHS.  Sleep ap-noea, June 2014.  []$\OT1/cmtt/m/n/10.95 ht
 tp : / / www . nhs . uk / conditions / Sleep-[]apnoea / Pages /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--408
+Underfull \hbox (badness 10000) in paragraph at lines 428--432
 []\OT1/cmr/m/n/10.95 Novasom.  Eco-nomics of home sleep test-ing, 2014.  []$\OT
 1/cmtt/m/n/10.95 http : / / www . novasom . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--419
+Underfull \hbox (badness 10000) in paragraph at lines 439--443
 []\OT1/cmr/m/n/10.95 NPR.  Apps for ap-nea? new gad-gets promise to im-prove sl
 eep, Febru-ary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--419
+Underfull \hbox (badness 10000) in paragraph at lines 439--443
 \OT1/cmr/m/n/10.95 2012.  []$\OT1/cmtt/m/n/10.95 http : / / www . npr . org / b
 logs / alltechconsidered / 2012 / 02 / 13 / 146711356 /
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 427--431
+Underfull \hbox (badness 3989) in paragraph at lines 451--455
 []\OT1/cmr/m/n/10.95 Department of Health.  Con-fi-den-tial-ity: Nhs code of pr
 ac-tice, 2003.  []$\OT1/cmtt/m/n/10.95 httphttps :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--431
+Underfull \hbox (badness 10000) in paragraph at lines 451--455
 \OT1/cmtt/m/n/10.95 / / www . gov . uk / government / uploads / system / upload
 s / attachment _ data / file / 200146 /
  []
 
-[112]
+[113]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ç in font cmr10!
- [113] [114] [115])
+ [114] [115] [116])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [116]
+ [117]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./index.aux (./introduction.aux)
 (./medicalInfo.aux) (./rationale.aux) (./app.aux) (./design.aux)
@@ -2449,21 +2008,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 50B06496E9C96A898015FFE2AA10ED44;8027.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 9287B1DE2B1B7C25DC33847F78F0ADB7;7977.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 12276 strings out of 493315
- 187427 string characters out of 6137905
- 346248 words of memory out of 5000000
- 14474 multiletter control sequences out of 15000+600000
+ 12307 strings out of 493315
+ 187835 string characters out of 6137905
+ 346915 words of memory out of 5000000
+ 14488 multiletter control sequences out of 15000+600000
  21490 words of font info for 78 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,17n,49p,1996b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,49p,1996b,1746s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
@@ -2499,10 +2054,10 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm0800.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1095.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/c
 ourier/ucrr8a.pfb>
-Output written on index.pdf (117 pages, 4475087 bytes).
+Output written on index.pdf (118 pages, 4459442 bytes).
 PDF statistics:
- 2494 PDF objects out of 2984 (max. 8388607)
- 2226 compressed objects within 23 object streams
- 835 named destinations out of 1000 (max. 500000)
- 1071 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2539 PDF objects out of 2984 (max. 8388607)
+ 2263 compressed objects within 23 object streams
+ 851 named destinations out of 1000 (max. 500000)
+ 1068 words of extra memory for PDF output out of 10000 (max. 10000000)
 

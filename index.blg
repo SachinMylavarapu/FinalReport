@@ -20,11 +20,6 @@ Illegal end of database file---line 85 of file bibliography/sachin.bib
  :  
 I'm skipping whatever remains of this entry
 Database file #3: bibliography/george.bib
-Illegal end of database file---line 8 of file bibliography/george.bib
- : 
- : 
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Database file #4: bibliography/sophie.bib
 Repeated entry---line 418 of file bibliography/sophie.bib
  : @article{epstein2009clinical
@@ -42,45 +37,45 @@ Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Va
 while executing---line 1090 of file plain.bst
 Warning--empty journal in rechtschaffen1968manual
 Warning--there's a number but no volume in waldron1985we
-You've used 107 entries,
+You've used 111 entries,
             2118 wiz_defined-function locations,
-            1079 strings with 25181 characters,
-and the built_in function-call counts, 37281 in all, are:
-= -- 3576
-> -- 2096
+            1097 strings with 25839 characters,
+and the built_in function-call counts, 38176 in all, are:
+= -- 3659
+> -- 2130
 < -- 8
-+ -- 848
-- -- 726
-* -- 2794
-:= -- 6276
-add.period$ -- 328
-call.type$ -- 107
-change.case$ -- 672
++ -- 862
+- -- 736
+* -- 2828
+:= -- 6429
+add.period$ -- 341
+call.type$ -- 111
+change.case$ -- 688
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1132
-empty$ -- 2764
-format.name$ -- 726
-if$ -- 7574
+cite$ -- 115
+duplicate$ -- 1170
+empty$ -- 2852
+format.name$ -- 736
+if$ -- 7767
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 78
-newline$ -- 538
-num.names$ -- 214
-pop$ -- 756
+int.to.str$ -- 111
+missing$ -- 82
+newline$ -- 559
+num.names$ -- 222
+pop$ -- 790
 preamble$ -- 1
-purify$ -- 569
+purify$ -- 582
 quote$ -- 0
-skip$ -- 843
+skip$ -- 869
 stack$ -- 0
-substring$ -- 2224
-swap$ -- 178
+substring$ -- 2244
+swap$ -- 182
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 420
+type$ -- 432
 warning$ -- 4
-while$ -- 348
-width$ -- 110
-write$ -- 1145
-(There were 7 error messages)
+while$ -- 356
+width$ -- 114
+write$ -- 1188
+(There were 6 error messages)

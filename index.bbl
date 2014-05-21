@@ -13,6 +13,12 @@ Sonia Ancoli-Israel, Daniel~F Kripke, Melville~R Klauber, William~J Mason,
 \newblock Sleep-disordered breathing in community-dwelling elderly.
 \newblock {\em Sleep}, 14(6):486, 1991.
 
+\bibitem{android2014sp}
+Android.
+\newblock Shared preferences: Class overview, 2014.
+\newblock [Online; accessed 15-April-2014 at
+  \url{http://developer.android.com/reference/android/content/SharedPreferences.html}].
+
 \bibitem{apneosotherfactors}
 Apneos.
 \newblock Obstructive sleep apnea : Details, other factors, 2003.
@@ -56,6 +62,12 @@ Nir Ben-Israel, Ariel Tarasiuk, Yaniv Zigel, et~al.
 \newblock Obstructive apnea hypopnea index estimation by analysis of nocturnal
   snoring signals in adults.
 \newblock {\em Sleep}, 35(9):1299--305C, 2012.
+
+\bibitem{samsungphone}
+Brandon Campbell.
+\newblock Samsung galaxy express 4g android phone, 2013.
+\newblock [Online; accessed 1-March-2014 at
+  \url{http://www.zanda.com/items/things/73070910000010/samsung-galaxy-express-4g-android-smart-phone}].
 
 \bibitem{castelo2010patients}
 Camil Castelo-Branco, Santiago Palacios, Javier Ferrer-Barriendos, and Xavier
@@ -214,6 +226,8 @@ Shawn~D Gale and Ramona~O Hopkins.
 \bibitem{gartner2013marketshare}
 Gartner.
 \newblock Market share analysis: Mobile phones, worldwide, 2q13., 2013.
+\newblock [Online; accessed 15-March-2014 at
+  \url{http://www.gartner.com/newsroom/id/2573415}].
 
 \bibitem{gederi2012fusion}
 Elnaz Gederi and Gari~D Clifford.
@@ -294,6 +308,11 @@ Clete~A Kushida, Bradley Efron, and Christian Guilleminault.
 \bibitem{simplevideo}
 leahthegeek.
 \newblock Nick sleep apnea proof 1, 2007.
+
+\bibitem{lee2011beg}
+Wei-Meng Lee.
+\newblock {\em Beginning Android application development}.
+\newblock Indianapolis, Ind. : Wiley, 2011.
 
 \bibitem{leiter1996upper}
 JC~Leiter.
@@ -399,6 +418,11 @@ NHS.
 \newblock Sleep apnoea, June 2014.
 \newblock
   \url{http://www.nhs.uk/conditions/Sleep-apnoea/Pages/Introduction.aspx}.
+
+\bibitem{knudsen2011beg}
+Patrick Niemeyer and Jonathan Knudsen.
+\newblock {\em Learning Java}.
+\newblock Sebastapol, Inc : O'Reilly Media, 3 edition, 2005.
 
 \bibitem{novasom1}
 Novasom.
