@@ -19,15 +19,7 @@
 			"file": "audio-sophie.tex",
 			"settings":
 			{
-				"buffer_size": 29374,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "questionnaire-sophie.tex",
-			"settings":
-			{
-				"buffer_size": 13777,
+				"buffer_size": 29496,
 				"line_ending": "Windows"
 			}
 		}
@@ -64,12 +56,14 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Sophie/Dropbox/FinalReport/android-george.tex",
 		"/C/Users/Sophie/Dropbox/FinalReport/questionnaire-sophie.tex",
-		"/C/Users/Sophie/Dropbox/FinalReport/signsAndSymptoms-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/audio-sophie.tex",
 		"/C/Users/Sophie/Dropbox/FinalReport/diagnosticMethods-sophie.tex",
-		"/C/Users/Sophie/Dropbox/FinalReport/medicalInfo.tex",
 		"/C/Users/Sophie/Dropbox/FinalReport/medicalneed-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/signsAndSymptoms-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/medicalInfo.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/questionnaire-sop",
+		"/C/Users/Sophie/Dropbox/FinalReport/android-george.tex",
 		"/C/Users/Sophie/Dropbox/FinalReport/svm-ta.tex",
 		"/C/Users/Sophie/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/C/Users/Sophie/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
@@ -108,7 +102,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -142,15 +136,15 @@
 					"file": "audio-sophie.tex",
 					"settings":
 					{
-						"buffer_size": 29374,
+						"buffer_size": 29496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29374,
-								29374
+								25861,
+								25861
 							]
 						],
 						"settings":
@@ -158,33 +152,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5257.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "questionnaire-sophie.tex",
-					"settings":
-					{
-						"buffer_size": 13777,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7821,
-								7821
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1177.0,
+						"translation.y": 4612.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
