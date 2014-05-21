@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: index.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: index.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: medicalInfo.aux
 A level-1 auxiliary file: rationale.aux
@@ -37,45 +35,4 @@ Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Va
 while executing---line 1090 of file plain.bst
 Warning--empty journal in rechtschaffen1968manual
 Warning--there's a number but no volume in waldron1985we
-You've used 111 entries,
-            2118 wiz_defined-function locations,
-            1097 strings with 25839 characters,
-and the built_in function-call counts, 38176 in all, are:
-= -- 3659
-> -- 2130
-< -- 8
-+ -- 862
-- -- 736
-* -- 2828
-:= -- 6429
-add.period$ -- 341
-call.type$ -- 111
-change.case$ -- 688
-chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 1170
-empty$ -- 2852
-format.name$ -- 736
-if$ -- 7767
-int.to.chr$ -- 0
-int.to.str$ -- 111
-missing$ -- 82
-newline$ -- 559
-num.names$ -- 222
-pop$ -- 790
-preamble$ -- 1
-purify$ -- 582
-quote$ -- 0
-skip$ -- 869
-stack$ -- 0
-substring$ -- 2244
-swap$ -- 182
-text.length$ -- 8
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 432
-warning$ -- 4
-while$ -- 356
-width$ -- 114
-write$ -- 1188
 (There were 6 error messages)
