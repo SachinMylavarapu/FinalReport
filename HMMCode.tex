@@ -93,9 +93,7 @@ function apneaHMMTest(A, Mu, U, pi, PVec, YMean, YVar, N, testIndex)
         
         accuracy = sum(path == XTest') / length(XTest)
         accuracySum = accuracySum + accuracy;
-        
-        %% Plotting data
-        ...
+        %% Plotting data ...
     end
     avgAccuracy = accuracySum / length(testIndex)
 end
