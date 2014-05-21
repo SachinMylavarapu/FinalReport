@@ -11,31 +11,7 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 1461,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "medicalInfo.tex",
-			"settings":
-			{
-				"buffer_size": 4655,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "medicalneed-sophie.tex",
-			"settings":
-			{
-				"buffer_size": 9457,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "svm-ta.tex",
-			"settings":
-			{
-				"buffer_size": 9727,
+				"buffer_size": 1836,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,23 +19,7 @@
 			"file": "audio-sophie.tex",
 			"settings":
 			{
-				"buffer_size": 28270,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "diagnosticMethods-sophie.tex",
-			"settings":
-			{
-				"buffer_size": 3990,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "signsAndSymptoms-sophie.tex",
-			"settings":
-			{
-				"buffer_size": 10078,
+				"buffer_size": 29374,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,15 +27,7 @@
 			"file": "questionnaire-sophie.tex",
 			"settings":
 			{
-				"buffer_size": 13643,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "android-george.tex",
-			"settings":
-			{
-				"buffer_size": 18516,
+				"buffer_size": 13777,
 				"line_ending": "Windows"
 			}
 		}
@@ -112,12 +64,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Sophie/Dropbox/FinalReport/android-george.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/questionnaire-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/signsAndSymptoms-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/diagnosticMethods-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/medicalInfo.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/medicalneed-sophie.tex",
+		"/C/Users/Sophie/Dropbox/FinalReport/svm-ta.tex",
 		"/C/Users/Sophie/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/C/Users/Sophie/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -131,6 +90,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"HEAD"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -148,7 +108,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -156,15 +116,15 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 1461,
+						"buffer_size": 1836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								971,
+								971
 							]
 						],
 						"settings":
@@ -179,176 +139,44 @@
 				},
 				{
 					"buffer": 1,
-					"file": "medicalInfo.tex",
+					"file": "audio-sophie.tex",
 					"settings":
 					{
-						"buffer_size": 4655,
+						"buffer_size": 29374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4653,
-								4653
+								29374,
+								29374
 							]
 						],
 						"settings":
 						{
-							"forward_sync": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5257.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "medicalneed-sophie.tex",
-					"settings":
-					{
-						"buffer_size": 9457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9457,
-								9457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "svm-ta.tex",
-					"settings":
-					{
-						"buffer_size": 9727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1776,
-								1776
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 297.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "audio-sophie.tex",
-					"settings":
-					{
-						"buffer_size": 28270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28270,
-								28270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4461.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "diagnosticMethods-sophie.tex",
-					"settings":
-					{
-						"buffer_size": 3990,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "signsAndSymptoms-sophie.tex",
-					"settings":
-					{
-						"buffer_size": 10078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5130,
-								5130
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1516.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "questionnaire-sophie.tex",
 					"settings":
 					{
-						"buffer_size": 13643,
+						"buffer_size": 13777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13643,
-								13643
+								7821,
+								7821
 							]
 						],
 						"settings":
@@ -356,33 +184,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2462.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "android-george.tex",
-					"settings":
-					{
-						"buffer_size": 18516,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1016,
-								1016
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1177.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -423,7 +225,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 460.0
+		"height": 90.0
 	},
 	"replace":
 	{

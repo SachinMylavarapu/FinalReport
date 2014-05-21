@@ -120,11 +120,6 @@ eMarketer.com.
 \newblock
   \url{http://www.emarketer.com/Article/Smartphone-Users-Worldwide-Will-Total-175-Billion-2014/1010536}.
 
-\bibitem{adultobesity}
-Public~Health England.
-\newblock Adult obesity, 2014.
-\newblock \url{http://www.noo.org.uk/NOO_about_obesity/adult_obesity}.
-
 \bibitem{engleman1999randomized}
 Heather~M Engleman, Ruth~N Kingshott, Peter~K Wraith, Thomas~W Mackay, Ian~J
   Deary, and Neil~J Douglas.
@@ -234,6 +229,12 @@ Hirotaka Hara, Naoko Murakami, Yuji Miyauchi, and Hiroshi Yamashita.
   program.
 \newblock {\em The Laryngoscope}, 116(3):379--381, 2006.
 
+\bibitem{he1988mortality}
+Jiang He, MH~Kryger, Frank~J Zorick, W~Conway, and TH~Roth.
+\newblock Mortality and apnea index in obstructive sleep apnea. experience in
+  385 male patients.
+\newblock {\em CHEST Journal}, 94(1):9--14, 1988.
+
 \bibitem{hlt}
 A.M. Howatson, P.G. Lund, J.D. Todd, P.D. McFadden, P.J.P. Smith, and
   University of~Oxford. Department~of Engineering~Science.
@@ -303,11 +304,6 @@ Alan~A Lowe, John~A Fleetham, Satoshi Adachi, and C~Francis Ryan.
   sleep apnea severity.
 \newblock {\em American Journal of Orthodontics and Dentofacial Orthopedics},
   107(6):589--595, 1995.
-
-\bibitem{malhotra2002obstructive}
-Atul Malhotra and David~P White.
-\newblock Obstructive sleep apnoea.
-\newblock {\em The lancet}, 360(9328):237--245, 2002.
 
 \bibitem{sagittalface}
 R~Martin.
