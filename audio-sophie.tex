@@ -1,6 +1,6 @@
 \section{Audio (Sophie)}
 \label{sec:audio-sophie}
-\subsection{Scoring of apnoea R\&K vs. AASM}
+\subsection{Scoring of Apnoeas R\&K vs. AASM}
 Audio signals taken during polysomnograms are currently scored by sleep specialists. There are two guidelines as to how to do this. The Rechtschaffen and Kales Manual is long standing, it was the only manual in use between 1968 when it was created and 2007 when the AASM Manual came into use. 
 
 The R\&K manual is based on healthy subjects aged 21 to 86 years and does not actually mention how to recognise apnoeas~\cite{rechtschaffen1968manual}. It has also been criticised for being open to interpretation. The AASM manual has a slight change in terminology and changes distribution of NREM sleep stages, but the main difference is it explains how to classify more sleep abnormalities including apnoeas and arousals ~\cite{moser2009sleep}.
@@ -8,7 +8,7 @@ The R\&K manual is based on healthy subjects aged 21 to 86 years and does not ac
 The AASM scores a signal as an apnoea if: there is a drop in the peak thermal sensor excursion by more than 90\% of baseline, the event lasts at least 10 seconds and at least 90\% of the event’s duration meets the amplitude reduction criteria for apnoea. Obstructive apnoeas are associated with continued or increased inspiratory effort through the period of absent airflow. A minimum desaturation criterion is not required. The basis for scoring arousals is based on EEG and EMG and therefore is not helpful in terms on how to analyse audio signals ~\cite{iber2007aasm}.
 
 Both of these guidelines are used by modern papers and so awareness of both is needed. Given both result in scoring of apnoeas, choking events and snores they are useful as they lead to labelled signals which can be used for training and testing data sets.
-\subsection{Methods of analysis}
+\subsection{Methods of Analysis}
 The aim of the audio analysis is to find and count the apnoea-choking events to directly determine AHI, or use the difference in snoring type between OSA sufferers and simple snorers as an indicator of AHI. The initial process of this in the majority of the analyses is to split the signal down into intervals of time of somewhere between 10 and 30 seconds and assess the features of those intervals independently to determine whether they contain apnoea, choking, snoring, breathing or something else.
 
 The starting point for assessing the intervals will be speech analysis, as snoring and speech are both generated in the vocal tract, although snoring is caused by vibration of the pharyngeal structures during inspiration whereas speech is vibration of the vocal cords during expiration. The digitalisation and filtering of the signals will be mainly performed by inbuilt phone software, so the focus here will be on which feature to extract, how to extract them and classification of the features. 
@@ -118,9 +118,9 @@ C:B&4.6 $\pm$ 3.4&300 ; 100&&&\\ \bottomrule
 \centering
 \begin{tabular}{l l c c}
 \toprule
-Regression&Equations&$$R^{2}$$&Predicted AHI/h\\ \midrule
+Regression&Equations&$R^{2}$&Predicted AHI/h\\ \midrule
 Linear&$$AHI = 0.0738 (F1) - 10.4067$$&0.3449&24.3\\ 
-Quadratic&$$AHI = - 0.0001 (FI)^{2} + 0.1778 (F1) - 39.2095$$&0.3824&26.3\\ 
+Quadratic&$AHI = - 0.0001 (FI)^{2} + 0.1778 (F1) - 39.2095$&0.3824&26.3\\ 
 Logarithmic&$$AHI = - 212.4891 + 89.9464 Log (F1)$$&0.3553&27.9\\ 
 Exponential&$$Log (AHI) = 0.1545 + 0.0018 (F1)$$&0.4602&10.3\\ 
 Power&$$Log (AHI) = - 5.2100 + 2.3565 Log (F1)$$&0.5334&12.2\\ \bottomrule
