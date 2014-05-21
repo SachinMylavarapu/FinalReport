@@ -27,103 +27,103 @@
 \contentsline {subsection}{\numberline {5.2.3}Audio}{27}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Questionnaire}{27}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}Conclusion}{28}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Questionnaire Selection (Sophie)}{29}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Arguments for Using a New vs. Pre-existing Questionnaire}{29}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Using App Based Questionnaires to Increase Patient Truthfulness}{29}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Questionnaires}{30}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Narrowing Down the Studies}{31}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.3}Questionnaire Selection (Sophie)}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Arguments for Using a New vs. Pre-existing Questionnaire}{28}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Using App Based Questionnaires to Increase Patient Truthfulness}{28}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Questionnaires}{29}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Narrowing Down the Studies}{30}{subsection.5.3.4}
 \contentsline {subsection}{\numberline {5.3.5}Artificial Neural Net}{31}{subsection.5.3.5}
 \contentsline {subsection}{\numberline {5.3.6}Upper Airway Physical Examination Protocol}{32}{subsection.5.3.6}
 \contentsline {subsection}{\numberline {5.3.7}STOPbang Questionnaire}{33}{subsection.5.3.7}
-\contentsline {subsection}{\numberline {5.3.8}Epworth Sleepiness Scale}{34}{subsection.5.3.8}
-\contentsline {subsection}{\numberline {5.3.9}Conclusion}{35}{subsection.5.3.9}
-\contentsline {section}{\numberline {5.4}Audio (Sophie)}{36}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Scoring of apnoea R\&K vs. AASM}{36}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Methods of analysis}{36}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Frequency of Prominent Peaks}{37}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Power Ratio}{38}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Sound Intensity}{39}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Formants}{40}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}Sub-band Energy Analysis}{42}{subsection.5.4.7}
-\contentsline {subsection}{\numberline {5.4.8}Bispectral Analysis}{43}{subsection.5.4.8}
-\contentsline {subsection}{\numberline {5.4.9}Wavelet Analysis}{44}{subsection.5.4.9}
-\contentsline {subsection}{\numberline {5.4.10}Multiclass Classification}{45}{subsection.5.4.10}
-\contentsline {subsection}{\numberline {5.4.11}Conclusion}{46}{subsection.5.4.11}
-\contentsline {section}{\numberline {5.5}Signal Analysis -- simple method (Sachin)}{48}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Outline}{48}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Limitations of model}{51}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Machine Learning -- Theory (Tuan Anh)}{53}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Support Vector Machines}{53}{subsection.5.6.1}
-\contentsline {subsubsection}{Notation}{53}{subsubsection*.37}
-\contentsline {subsubsection}{Objectives}{54}{subsubsection*.38}
-\contentsline {subsubsection}{Lagrange duality}{54}{subsubsection*.40}
-\contentsline {subsubsection}{Kernel trick}{56}{subsubsection*.41}
-\contentsline {subsubsection}{Soft margin SVMs}{57}{subsubsection*.42}
-\contentsline {subsubsection}{Our problem}{57}{subsubsection*.43}
-\contentsline {subsection}{\numberline {5.6.2}State-Space Models}{58}{subsection.5.6.2}
-\contentsline {subsubsection}{Our problem}{59}{subsubsection*.45}
-\contentsline {subsection}{\numberline {5.6.3}Hidden Markov Models}{59}{subsection.5.6.3}
-\contentsline {subsubsection}{Discrete observations}{59}{subsubsection*.46}
-\contentsline {paragraph}{Solution to the first problem.}{60}{paragraph*.47}
-\contentsline {paragraph}{Solution to the second problem.}{60}{paragraph*.48}
-\contentsline {paragraph}{Solution to the third problem.}{61}{paragraph*.49}
-\contentsline {paragraph}{Parameters estimation with known hidden states.}{62}{paragraph*.50}
-\contentsline {subsubsection}{Continuous observations}{63}{subsubsection*.51}
-\contentsline {paragraph}{Changes to the algorithms.}{63}{paragraph*.52}
-\contentsline {paragraph}{Different probability density functions.}{64}{paragraph*.53}
-\contentsline {subsubsection}{Our problem}{64}{subsubsection*.54}
-\contentsline {subsection}{\numberline {5.6.4}Conditioning input data}{64}{subsection.5.6.4}
-\contentsline {subsubsection}{Frequency-domain analysis}{65}{subsubsection*.55}
-\contentsline {paragraph}{Discrete Fourier Transform.}{65}{paragraph*.56}
-\contentsline {paragraph}{Power Spectral Density.}{65}{paragraph*.57}
-\contentsline {paragraph}{Spectrograms.}{65}{paragraph*.58}
-\contentsline {subsubsection}{Principal Components Analysis}{66}{subsubsection*.60}
-\contentsline {subsection}{\numberline {5.6.5}Summary}{67}{subsection.5.6.5}
-\contentsline {section}{\numberline {5.7}Machine Learning -- Experiments}{69}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Introduction (Tuan Anh)}{69}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Reading and Conditioning Data in MATLAB (Sachin)}{69}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Conditioning input data (Tuan Anh)}{70}{subsection.5.7.3}
-\contentsline {subsubsection}{Frequency Analysis}{70}{subsubsection*.63}
-\contentsline {subsubsection}{PCA}{71}{subsubsection*.65}
-\contentsline {subsection}{\numberline {5.7.4}Data Visualisation (Tuan Anh)}{72}{subsection.5.7.4}
-\contentsline {subsection}{\numberline {5.7.5}Support Vector Machines (Tuan Anh)}{72}{subsection.5.7.5}
-\contentsline {subsubsection}{No kernels}{73}{subsubsection*.68}
-\contentsline {subsubsection}{Polynomial kernel}{73}{subsubsection*.70}
-\contentsline {subsubsection}{Radial basis function kernel}{73}{subsubsection*.72}
-\contentsline {subsubsection}{Summary}{75}{subsubsection*.74}
-\contentsline {subsection}{\numberline {5.7.6}Hidden Markov Models (Sachin)}{75}{subsection.5.7.6}
-\contentsline {subsection}{\numberline {5.7.7}Summary (Sachin)}{76}{subsection.5.7.7}
-\contentsline {section}{\numberline {5.8}Machine Learning -- Java (Tuan Anh)}{79}{section.5.8}
-\contentsline {section}{\numberline {5.9}Designing an Android App (George)}{80}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}XML and Java sides of ADT}{80}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}XML IDs}{80}{subsection.5.9.2}
-\contentsline {subsection}{\numberline {5.9.3}Methods}{81}{subsection.5.9.3}
-\contentsline {subsection}{\numberline {5.9.4}Java and android libraries}{81}{subsection.5.9.4}
-\contentsline {subsection}{\numberline {5.9.5}Structure of an Activity}{81}{subsection.5.9.5}
-\contentsline {subsection}{\numberline {5.9.6}XML writing}{82}{subsection.5.9.6}
-\contentsline {subsection}{\numberline {5.9.7}XML layouts}{82}{subsection.5.9.7}
-\contentsline {subsection}{\numberline {5.9.8}Further XML details}{83}{subsection.5.9.8}
-\contentsline {subsection}{\numberline {5.9.9}Handling Strings}{83}{subsection.5.9.9}
-\contentsline {subsection}{\numberline {5.9.10}Java Techniques}{83}{subsection.5.9.10}
-\contentsline {subsection}{\numberline {5.9.11}Initialising AudioRecord}{85}{subsection.5.9.11}
-\contentsline {subsection}{\numberline {5.9.12}Progress Wheel}{86}{subsection.5.9.12}
-\contentsline {subsection}{\numberline {5.9.13}Other Platforms}{87}{subsection.5.9.13}
-\contentsline {subsection}{\numberline {5.9.14}Xcode}{87}{subsection.5.9.14}
-\contentsline {subsection}{\numberline {5.9.15}AVAudioRecord Library}{88}{subsection.5.9.15}
-\contentsline {chapter}{\numberline {6}Conclusion (Sachin)}{90}{chapter.6}
-\contentsline {chapter}{\numberline {A}Code for the simple model (Sachin)}{92}{appendix.A}
-\contentsline {section}{\numberline {A.1}Main script -- simple.m}{92}{section.A.1}
-\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{93}{section.A.2}
-\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{94}{section.A.3}
-\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m (Sachin)}{96}{appendix.B}
-\contentsline {chapter}{\numberline {C}Code for data conditioning (Tuan Anh)}{98}{appendix.C}
-\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{98}{section.C.1}
-\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{99}{section.C.2}
-\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{99}{section.C.3}
-\contentsline {chapter}{\numberline {D}Code for Support Vector Machines (Tuan Anh)}{101}{appendix.D}
-\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{101}{section.D.1}
-\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{102}{section.D.2}
-\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models (Sachin)}{103}{appendix.E}
-\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{103}{section.E.1}
-\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{104}{section.E.2}
-\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{105}{section.E.3}
+\contentsline {subsection}{\numberline {5.3.8}Epworth Sleepiness Scale}{33}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Conclusion}{34}{subsection.5.3.9}
+\contentsline {section}{\numberline {5.4}Audio (Sophie)}{34}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Scoring of Apnoeas R\&K vs. AASM}{34}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Methods of Analysis}{35}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Frequency of Prominent Peaks}{35}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Power Ratio}{36}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Sound Intensity}{38}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Formants}{38}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Sub-band Energy Analysis}{41}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.8}Bispectral Analysis}{42}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.9}Wavelet Analysis}{43}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.10}Multiclass Classification}{44}{subsection.5.4.10}
+\contentsline {subsection}{\numberline {5.4.11}Conclusion}{45}{subsection.5.4.11}
+\contentsline {section}{\numberline {5.5}Signal Analysis -- simple method (Sachin)}{46}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Outline}{46}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Limitations of model}{50}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Machine Learning -- Theory (Tuan Anh)}{52}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Support Vector Machines}{52}{subsection.5.6.1}
+\contentsline {subsubsection}{Notation}{52}{subsubsection*.37}
+\contentsline {subsubsection}{Objectives}{53}{subsubsection*.38}
+\contentsline {subsubsection}{Lagrange duality}{53}{subsubsection*.40}
+\contentsline {subsubsection}{Kernel trick}{55}{subsubsection*.41}
+\contentsline {subsubsection}{Soft margin SVMs}{56}{subsubsection*.42}
+\contentsline {subsubsection}{Our problem}{56}{subsubsection*.43}
+\contentsline {subsection}{\numberline {5.6.2}State-Space Models}{57}{subsection.5.6.2}
+\contentsline {subsubsection}{Our problem}{58}{subsubsection*.45}
+\contentsline {subsection}{\numberline {5.6.3}Hidden Markov Models}{58}{subsection.5.6.3}
+\contentsline {subsubsection}{Discrete observations}{58}{subsubsection*.46}
+\contentsline {paragraph}{Solution to the first problem.}{59}{paragraph*.47}
+\contentsline {paragraph}{Solution to the second problem.}{59}{paragraph*.48}
+\contentsline {paragraph}{Solution to the third problem.}{60}{paragraph*.49}
+\contentsline {paragraph}{Parameters estimation with known hidden states.}{61}{paragraph*.50}
+\contentsline {subsubsection}{Continuous observations}{62}{subsubsection*.51}
+\contentsline {paragraph}{Changes to the algorithms.}{62}{paragraph*.52}
+\contentsline {paragraph}{Different probability density functions.}{63}{paragraph*.53}
+\contentsline {subsubsection}{Our problem}{63}{subsubsection*.54}
+\contentsline {subsection}{\numberline {5.6.4}Conditioning input data}{63}{subsection.5.6.4}
+\contentsline {subsubsection}{Frequency-domain analysis}{64}{subsubsection*.55}
+\contentsline {paragraph}{Discrete Fourier Transform.}{64}{paragraph*.56}
+\contentsline {paragraph}{Power Spectral Density.}{64}{paragraph*.57}
+\contentsline {paragraph}{Spectrograms.}{64}{paragraph*.58}
+\contentsline {subsubsection}{Principal Components Analysis}{65}{subsubsection*.60}
+\contentsline {subsection}{\numberline {5.6.5}Summary}{66}{subsection.5.6.5}
+\contentsline {section}{\numberline {5.7}Machine Learning -- Experiments}{68}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Introduction (Tuan Anh)}{68}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Reading and Conditioning Data in MATLAB (Sachin)}{68}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Conditioning input data (Tuan Anh)}{69}{subsection.5.7.3}
+\contentsline {subsubsection}{Frequency Analysis}{69}{subsubsection*.63}
+\contentsline {subsubsection}{PCA}{70}{subsubsection*.65}
+\contentsline {subsection}{\numberline {5.7.4}Data Visualisation (Tuan Anh)}{71}{subsection.5.7.4}
+\contentsline {subsection}{\numberline {5.7.5}Support Vector Machines (Tuan Anh)}{71}{subsection.5.7.5}
+\contentsline {subsubsection}{No kernels}{72}{subsubsection*.68}
+\contentsline {subsubsection}{Polynomial kernel}{72}{subsubsection*.70}
+\contentsline {subsubsection}{Radial basis function kernel}{72}{subsubsection*.72}
+\contentsline {subsubsection}{Summary}{74}{subsubsection*.74}
+\contentsline {subsection}{\numberline {5.7.6}Hidden Markov Models (Sachin)}{74}{subsection.5.7.6}
+\contentsline {subsection}{\numberline {5.7.7}Summary (Sachin)}{75}{subsection.5.7.7}
+\contentsline {section}{\numberline {5.8}Machine Learning -- Java (Tuan Anh)}{78}{section.5.8}
+\contentsline {section}{\numberline {5.9}Designing an Android App (George)}{79}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}XML and Java sides of ADT}{79}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}XML IDs}{79}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Methods}{80}{subsection.5.9.3}
+\contentsline {subsection}{\numberline {5.9.4}Java and android libraries}{80}{subsection.5.9.4}
+\contentsline {subsection}{\numberline {5.9.5}Structure of an Activity}{80}{subsection.5.9.5}
+\contentsline {subsection}{\numberline {5.9.6}XML writing}{81}{subsection.5.9.6}
+\contentsline {subsection}{\numberline {5.9.7}XML layouts}{81}{subsection.5.9.7}
+\contentsline {subsection}{\numberline {5.9.8}Further XML details}{82}{subsection.5.9.8}
+\contentsline {subsection}{\numberline {5.9.9}Handling Strings}{82}{subsection.5.9.9}
+\contentsline {subsection}{\numberline {5.9.10}Java Techniques}{82}{subsection.5.9.10}
+\contentsline {subsection}{\numberline {5.9.11}Initialising AudioRecord}{84}{subsection.5.9.11}
+\contentsline {subsection}{\numberline {5.9.12}Progress Wheel}{85}{subsection.5.9.12}
+\contentsline {subsection}{\numberline {5.9.13}Other Platforms}{86}{subsection.5.9.13}
+\contentsline {subsection}{\numberline {5.9.14}Xcode}{86}{subsection.5.9.14}
+\contentsline {subsection}{\numberline {5.9.15}AVAudioRecord Library}{87}{subsection.5.9.15}
+\contentsline {chapter}{\numberline {6}Conclusion (Sachin)}{89}{chapter.6}
+\contentsline {chapter}{\numberline {A}Code for the simple model (Sachin)}{91}{appendix.A}
+\contentsline {section}{\numberline {A.1}Main script -- simple.m}{91}{section.A.1}
+\contentsline {section}{\numberline {A.2}Detecting apnoea -- detectApnea.m}{92}{section.A.2}
+\contentsline {section}{\numberline {A.3}Detecting apnoea using the `variance' method -- detectApneaVar.m}{93}{section.A.3}
+\contentsline {chapter}{\numberline {B}Code for reading data -- readData.m (Sachin)}{95}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code for data conditioning (Tuan Anh)}{97}{appendix.C}
+\contentsline {section}{\numberline {C.1}Transforming to spectrogram space -- transformSpectrogram.m}{97}{section.C.1}
+\contentsline {section}{\numberline {C.2}Calculating PCA parameters -- pcaCalc.m}{98}{section.C.2}
+\contentsline {section}{\numberline {C.3}Reducing dimensions using PCA -- pcaTransform.m}{98}{section.C.3}
+\contentsline {chapter}{\numberline {D}Code for Support Vector Machines (Tuan Anh)}{100}{appendix.D}
+\contentsline {section}{\numberline {D.1}Main script -- apneaSVM.m}{100}{section.D.1}
+\contentsline {section}{\numberline {D.2}Test script -- apneaSVMTest.m}{101}{section.D.2}
+\contentsline {chapter}{\numberline {E}Code for Hidden Markov Models (Sachin)}{102}{appendix.E}
+\contentsline {section}{\numberline {E.1}Main script -- apneaHMM.m}{102}{section.E.1}
+\contentsline {section}{\numberline {E.2}Training script -- apneaHMMTrain.m}{103}{section.E.2}
+\contentsline {section}{\numberline {E.3}Test script -- apneaHMMTest.m}{104}{section.E.3}

@@ -16,10 +16,34 @@
 			}
 		},
 		{
+			"file": "diagnosticMethods-sophie.tex",
+			"settings":
+			{
+				"buffer_size": 3934,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "medicalInfo.tex",
+			"settings":
+			{
+				"buffer_size": 4657,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "audio-sophie.tex",
 			"settings":
 			{
-				"buffer_size": 29496,
+				"buffer_size": 29493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "design.tex",
+			"settings":
+			{
+				"buffer_size": 322,
 				"line_ending": "Windows"
 			}
 		}
@@ -133,18 +157,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "audio-sophie.tex",
+					"file": "diagnosticMethods-sophie.tex",
 					"settings":
 					{
-						"buffer_size": 29496,
+						"buffer_size": 3934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25861,
-								25861
+								2377,
+								2377
 							]
 						],
 						"settings":
@@ -152,7 +176,85 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4612.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "medicalInfo.tex",
+					"settings":
+					{
+						"buffer_size": 4657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3463,
+								3463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 328.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "audio-sophie.tex",
+					"settings":
+					{
+						"buffer_size": 29493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16010,
+								16010
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2782.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "design.tex",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
