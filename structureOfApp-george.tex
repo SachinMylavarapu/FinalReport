@@ -9,7 +9,7 @@ The app has been designed to have a very simple structure and layout so as to be
 \subsection{Home Activity}
 The app loads into the home activity when it is first turned on. The user is welcomed to the app and given a brief explanation of how to use the app. Below this the user is presented with three buttons to launch the three other activities. 
 \subsection{Questionnaire Activity}
-The first task for the user to complete is the questionnaire, based on the eight STOPBANG criteria questions as detailed later in the ‘Design Process’ section of this report. Pressing the submit button then takes you back to the start page and simply stores the number of ‘yes’ answers the questionnaire received. This number is called during the processing of the overall results, noting that three or more ‘yes’ answers indicates a high risk of Obstructive Sleep Apnea. The default for all of the answers is ‘yes’ which should encourage the user to actively read/change each question (given that statistically the average person would have more ‘no’ answers). It also means that should the user bypass the questionnaire section or ignore the questions before hitting ‘submit’, the app will use the higher risk criteria and results will be more likely to suggest too high a probability of apnea than miss a positive diagnosis altogether. 
+The first task for the user to complete is the questionnaire, based on the eight STOPbang criteria questions, and the Epworth Sleepiness Scale as detailed later in Section \ref{sec:questionnaire-sophie} of this report. Pressing the submit button then takes you back to the start page and stores the results of both questionnaires to be called later by the Results Activity. The algorithms defining the results are straightforward as both have threshold criteria for a high risk chance of OSA: 3 or more `yes' answers for STOPbang, and a score of 8 or more for the Epworth Sleepiness Scale. The default for all of the answers is ‘yes’ and `3' which should encourage the user to actively read/change each question (given that statistically the average person would have a much lower score in both categories). It also means that should the user bypass the questionnaire section or ignore the questions before hitting ‘submit’, the app will use the higher risk criteria and results will be more likely to suggest too high a probability of apnea than miss a positive diagnosis altogether. 
 \subsection{Sound Analysis Activity}
 This activity is indicated as the second task to complete, though it doesn’t require completion of the questionnaire before being executable itself. The user is presented with four simple buttons as seen below. Note the following button restrictions (Figure \ref{fig:recordPages}):
 \begin{itemize}
@@ -25,15 +25,25 @@ This activity is indicated as the second task to complete, though it doesn’t r
 	\end{figure}
 (see Figure \ref{fig:recordPages})
 For this simple prototype of the app, recording is restricted to one file in any instance of the app running.
-\\ The sound data is automatically stored to a file accessible only by the app and is later analyzed by the machine-learning algorithm and overall results algorithm. Clearly the delete button is only included for cases where recordings were accidentally created and as such, it uses a comprehensive ``Are you sure?'' alert upon pressing to avoid deletion of wanted files.
-\\Progress bars are used whilst the sound is being saved and loaded which will reassure the user that the app is still running properly during these otherwise unresponsive stages of high CPU usage. 
+
+The sound data is automatically stored to a file accessible only by the app and is later analyzed by the machine-learning algorithm and overall results algorithm. Clearly the delete button is only included for cases where recordings were accidentally created and as such, it uses a comprehensive ``Are you sure?'' alert upon pressing to avoid deletion of wanted files.
+
+Progress bars are used whilst the sound is being saved and loaded which will reassure the user that the app is still running properly during these otherwise unresponsive stages of high CPU usage. 
 \subsection{Results Activity}
 In this activity, a simple algorithm is used to determine an overall probability that the user has obstructive sleep apnea, and brief medical advice is given accordingly. It combines the results of the questionnaire and the audio recording analysis to do this, and therefore if one of these two parts is not present, it will ask for the user to go back and complete it before full results are displayed. Again, all analysis and loading tasks that takes more than half a second or so utilize a progress bar for improved user interface.
 \subsection{Navigation Around The App}
 The buttons are intended to be as intuitive as possible for navigation of the app. Loading each extra activity can only be done from the home activity, and the activity is exited by pressing the hardware ``back'' button whilst on the home activity (see Figure \ref{fig:nativeButtons}). Each extra activity exits back to the home activity upon pressing this ``back'' button too, though the Questionnaire has the same functionality added in to the ``Submit'' button which helps reassure the user that the button has indeed been pressed.
 \begin{figure}[ht!]
 		\centering
-			\includegraphics[width=.5\textwidth]{drawings/android_buttons.png}
+			\includegraphics[width=0.7\textwidth]{drawings/android_buttons.png}
 		\caption{The hardware buttons are also coded for intuitive navigation}
 		\label{fig:nativeButtons}
+	\end{figure}
+\subsection{Outreach of the App}
+Ideally the app should be available on all main platforms to maximise the userbase and thus maximise the overall success achievable. However, for developing the app and testing the prototype it is unpractical to constantly recode the same functionality in multiple forms. A study by Gartner shows that in by the second quarter in 2013, Google's Android platform had a 79.0\% share in the smartphone market (Figure \ref{fig:marketshareAndroid})\cite{gartner2013marketshare}, a reflection of the platform's overall dominance in total smartphone sales to date. Naturally chosing the most popular platform to develop with allows the best access to testing audiences, and conveniently there are a wide selection of free development resources available too.
+\begin{figure}[ht!]
+		\centering
+			\includegraphics[width=0.7\textwidth]{drawings/Gartner_marketshare.png}
+		\caption{Marketshare of Smartphone Platforms 2Q2013 ~\cite{gartner2013marketshare}}
+		\label{fig:marketshareAndroid}
 	\end{figure}

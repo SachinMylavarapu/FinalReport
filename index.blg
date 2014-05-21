@@ -20,6 +20,11 @@ Illegal end of database file---line 85 of file bibliography/sachin.bib
  :  
 I'm skipping whatever remains of this entry
 Database file #3: bibliography/george.bib
+Illegal end of database file---line 8 of file bibliography/george.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #4: bibliography/sophie.bib
 Repeated entry---line 418 of file bibliography/sophie.bib
  : @article{epstein2009clinical
@@ -37,45 +42,45 @@ Too many commas in name 1 of "Peter Groves, Basel Kayyali, David Knott, Steve Va
 while executing---line 1090 of file plain.bst
 Warning--empty journal in rechtschaffen1968manual
 Warning--there's a number but no volume in waldron1985we
-You've used 106 entries,
+You've used 107 entries,
             2118 wiz_defined-function locations,
-            1076 strings with 25098 characters,
-and the built_in function-call counts, 37084 in all, are:
-= -- 3559
-> -- 2089
+            1079 strings with 25181 characters,
+and the built_in function-call counts, 37281 in all, are:
+= -- 3576
+> -- 2096
 < -- 8
-+ -- 845
-- -- 724
-* -- 2788
-:= -- 6244
-add.period$ -- 326
-call.type$ -- 106
-change.case$ -- 668
++ -- 848
+- -- 726
+* -- 2794
+:= -- 6276
+add.period$ -- 328
+call.type$ -- 107
+change.case$ -- 672
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1125
-empty$ -- 2742
-format.name$ -- 724
-if$ -- 7531
+cite$ -- 111
+duplicate$ -- 1132
+empty$ -- 2764
+format.name$ -- 726
+if$ -- 7574
 int.to.chr$ -- 0
-int.to.str$ -- 106
+int.to.str$ -- 107
 missing$ -- 78
-newline$ -- 534
-num.names$ -- 212
-pop$ -- 747
+newline$ -- 538
+num.names$ -- 214
+pop$ -- 756
 preamble$ -- 1
-purify$ -- 566
+purify$ -- 569
 quote$ -- 0
-skip$ -- 835
+skip$ -- 843
 stack$ -- 0
-substring$ -- 2219
-swap$ -- 177
+substring$ -- 2224
+swap$ -- 178
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 416
+type$ -- 420
 warning$ -- 4
-while$ -- 346
-width$ -- 109
-write$ -- 1137
-(There were 6 error messages)
+while$ -- 348
+width$ -- 110
+write$ -- 1145
+(There were 7 error messages)
